@@ -102,11 +102,17 @@ function foot() {
 }
 // ---------- homepage ----------
 function buildHomepage() {
+  const refStoryMap = {
+    'HN-403': 'hn-403-black-tom.html',
+    'HN-753': 'hn-753-mexico-city.html',
+    'HN-894': 'hn-894-sago-mine.html'
+  };
   const featured = ['HN-403', 'HN-753', 'HN-894'].map(id => records.find(r => r.hn_id === id)).filter(Boolean);
   const featuredHtml = featured.map(r => {
     const status = r.recon_category === 'curated_flag' ? 'Curated flag (' + badgeLabel(r.curated_flag_class) + ')' : 'Indexed';
+    const refFile = refStoryMap[r.hn_id];
     return '<div class="card">\n' +
-      '<h2><a href="stories/' + esc(r.hn_id) + '.html">' + esc(r.hn_id) + ': ' + esc(r.heading) + '</a></h2>\n' +
+      '<h2><a href="stories/' + esc(refFile) + '">' + esc(r.hn_id) + ': ' + esc(r.heading) + '</a></h2>\n' +
       '<div class="meta">' + esc(r.date) + ' &middot; ' + esc(r.taxonomy.root) + '</div>\n' +
       tierBadge(r.evidence_tier) + curBadge(r.curated_class) + '\n' +
       '<p>' + renderMd(r.recorded_finding || r.discovery_body || '') + '</p>\n' +
