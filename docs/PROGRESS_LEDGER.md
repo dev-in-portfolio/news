@@ -15,13 +15,16 @@
 | 1 | Canonical extraction | Complete | 2026-11-08 | `docs/ingestion_ledger.json` (1,056 records), `docs/COVERAGE_SEARCH_LEDGER.csv` (3,599 URLs), `docs/DATA_SCHEMA.md` |
 | 2 | Reconcile quality | Complete | 2026-11-08 | `docs/reconciliation_ledger.json`, `docs/IDENTITY_CANDIDATES.csv` (135 pairs, unmerged), `docs/RECONCILIATION_REPORT.md` |
 | 3 | Original-source feasibility & media architecture gate | Complete | 2026-11-08 | `docs/SOURCE_ACQUISITION_MANIFEST.csv` (1,056 rows), `docs/FEASIBILITY_REPORT.md` |
+| 4 | Three complete reference story slices | Complete | 2026-11-08 | `site/stories/hn-403-black-tom.html`, `site/stories/hn-753-mexico-city.html`, `site/stories/hn-894-sago-mine.html`, `site/index.html`, `docs/REFERENCE_STORIES_REVIEW.md` |
+| 5 | Functional full-catalog website | Complete | 2026-11-08 | `site/{index,search,taxonomy,timeline,comparisons,about}.html` + `site/stories/hn-NNN.html` (1,056), `site/data/*.json`, `site/assets/{style.css,app.js}`, `docs/ARCHITECTURE_DECISION.md`, `docs/CORRECTIONS_POLICY.md`, `README.md` |
 
 ## Current state
 
-- **Last successful verification:** All Milestones 0–3 complete and pushed to `origin/main` (commit `b892e1c`).
+- **Last successful verification:** All Milestones 0–5 complete and pushed to `origin/main` (commit pending).
 - **Working tree:** Clean.
 - **Original source files:** Unchanged and read-only (hash-verified against `SOURCE_CHECKSUMS.sha256`).
-- **Generated data:** All under `docs/`; none mixed with original source data.
+- **Generated data:** All under `site/data/` and `docs/`; none mixed with original source data.
+- **HTML pages:** 1,065 (1,056 detail pages + 6 section pages + 3 reference stories).
 
 ## Counts checkpoint (deterministic, from generated data)
 
@@ -53,10 +56,10 @@
 
 ## Open blockers / next actions
 
-1. **Milestone 4 — Reference stories:** Build Black Tom (HN-403), Mexico City earthquake (HN-753), Sago mine (HN-894) using external links and honest fallbacks where images unavailable.
-2. **Milestone 6 — Media acquisition:** Merge batch-report URLs (2,986) into `SOURCE_ACQUISITION_MANIFEST.csv`; attempt manual/browser-based direct image acquisition from Indiana and LOC.
-3. Open the master tracker Excel workbook (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory.
-4. User review of Milestone 3 feasibility findings before scaling design/acquisition strategy.
+1. **Milestone 6 — Media acquisition:** Merge batch-report URLs (2,986) into `SOURCE_ACQUISITION_MANIFEST.csv`; attempt manual/browser-based direct image acquisition from Indiana and LOC (both currently blocked by bot protection).
+2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
+3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
+4. No deployment authorized; local build and preview remain in scope.
 
 ## Deployment
 

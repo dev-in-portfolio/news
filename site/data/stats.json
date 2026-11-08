@@ -1,0 +1,40 @@
+{
+  "total": 1056,
+  "curated": 84,
+  "heuristic": 105,
+  "indexedOnly": 867,
+  "tiers": {
+    "(blank)": 972,
+    "B": 14,
+    "C": 4,
+    "A": 47,
+    "A+B": 12,
+    "A+retro": 5,
+    "A-direct": 1,
+    "A+index": 1
+  },
+  "classes": {
+    "(none)": 972,
+    "M": 17,
+    "R": 19,
+    "P": 11,
+    "Q": 14,
+    "F": 8,
+    "V": 15
+  },
+  "roots": {
+    "Crime, Law & Justice": 208,
+    "War, Conflict & Security": 173,
+    "Paranormal, Folklore & Curiosities": 27,
+    "Economy, Labor & Industry": 32,
+    "Disasters, Accidents & Emergencies": 192,
+    "Medicine & Public Health": 48,
+    "Civil Rights & Social Change": 112,
+    "Politics, Government & Diplomacy": 83,
+    "Archaeology, History & Exploration": 12,
+    "Transportation & Maritime": 64,
+    "Culture, Religion & Media": 41,
+    "Science, Invention & Technology": 54,
+    "Nature, Wildlife & Environment": 10
+  }
+}

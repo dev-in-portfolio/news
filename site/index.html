@@ -3,79 +3,67 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Historical Newspaper Archives &mdash; Reference Stories (proof of concept)</title>
-<style>
-  :root{--ink:#1a1a1a;--paper:#f7f3e8;--line:#d9d3bd;--muted:#555;}
-  *{box-sizing:border-box}html{line-height:1.5}body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);margin:0;padding:0}
-  .container{max-width:900px;margin:0 auto;padding:24px}
-  header{border-bottom:1px solid var(--line);padding:24px 0;margin-bottom:30px}
-  .brand{font-weight:700;font-size:1.3rem;letter-spacing:.04em}
-  .brand em{font-style:normal;font-weight:400}
-  h1{font-size:1.7rem;line-height:1.2;margin:10px 0 6px}
-  .dek{color:var(--muted);font-size:1.05rem}
-  .poc{border:1px solid var(--line);background:#fff7ee;border-radius:8px;padding:14px 18px;margin:22px 0;font-size:.92rem;color:#7a4a08}
-  .poc b{color:#8a4a00}
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  @media(max-width:768px){.grid{grid-template-columns:1fr}}
-  .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;display:flex;flex-direction:column}
-  .card h2{margin:0 0 10px;font-size:1.1rem}
-  .card .meta{font-size:.82rem;color:var(--muted);margin-bottom:10px}
-  .card p{font-size:.92rem;color:#333;margin:10px 0}
-  .card a{margin-top:auto;color:#1565c0;text-decoration:none;font-weight:600}
-  .card a:hover{text-decoration:underline}
-  .badge{display:inline-block;padding:3px 8px;border-radius:999px;font-size:.75rem;border:1px solid var(--line);margin-right:6px;margin-bottom:6px}
-  .b-a{border-color:#2e7d32;color:#1b5e20}
-  .b-blocked{border-color:#b23b29;color:#8e1c16}
-  .b-link{border-color:#1565c0;color:#0d47a1}
-  .section-title{font-size:1.25rem;margin:34px 0 14px;border-bottom:1px solid var(--line);padding-bottom:6px}
-  .footer{border-top:1px solid var(--line);padding:26px 0;margin-top:40px;color:var(--muted);font-size:.88rem}
-  .footer a{color:#1565c0}
-</style>
+<title>Home — Historical Newspaper Archives</title>
+<link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">Historical Newspaper Archives<em></em></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="search.html">All Stories</a>
+      <a href="taxonomy.html">Categories</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="comparisons.html">Comparisons</a>
+      <a href="about.html">Methodology</a>
+    </nav>
+  </div>
+</header>
 <div class="container">
-  <header>
-    <div class="brand">Historical Newspaper Archives<em> &mdash; Reference Stories</em></div>
-    <h1>Reference stories (proof of concept)</h1>
-    <p class="dek">Black Tom (HN-403), Mexico City earthquake (HN-753), and Sago mine (HN-894). These are technical/editorial integration tests &mdash; not a sample standing in for the full archive.</p>
-    <div class="poc"><b>Proof of concept, not completion:</strong> A working initial preview is not the same as a completely researched archive. These three reference stories precede full-site architectural lock-in (Milestone 3 feasibility gate). They demonstrate genuine sources, accurate source status, OCR/transcription labels, and honest fallbacks where scans are unavailable.</div>
-  </header>
-
-  <div class="grid">
-    <div class="card">
-      <h2>Black Tom explosion (HN-403)</h2>
-      <div class="meta">July 30-31, 1916 &middot; New York Harbor</div>
-      <span class="badge b-a">Tier A-direct</span>
-      <span class="badge b-link">Viewer links</span>
-      <p>Morning Oregonian ("three known dead, at least five missing") vs Eugene Daily Guard ("four killed, eleven to twenty missing"). Both primary issue OCR pages checked.</p>
-      <a href="stories/hn-403-black-tom.html">View story &rarr;</a>
-    </div>
-    <div class="card">
-      <h2>Mexico City earthquake (HN-753)</h2>
-      <div class="meta">September 20, 1985 &middot; Mexico City</div>
-      <span class="badge b-a">Tier A</span>
-      <span class="badge b-blocked">Scans blocked</span>
-      <span class="badge b-link">External links</span>
-      <p>Lawton Morning Press (at least 170) vs Muskogee Daily Phoenix (at least 250 via Channel 13, plus AP's 170 in the same article). Direct scans blocked by archive bot protection; external links only.</p>
-      <a href="stories/hn-753-mexico-city.html">View story &rarr;</a>
-    </div>
-    <div class="card">
-      <h2>Sago mine disaster (HN-894)</h2>
-      <div class="meta">January 2-4, 2006 &middot; Tallmansville, WV</div>
-      <span class="badge b-a">Tier A</span>
-      <span class="badge b-blocked">Wash. Post inaccessible</span>
-      <p>"12 survivors" reversed to 12 dead, one survivor. LA Times (Ronald McCloy) vs Washington Post (Randal McCloy). Washington Post inaccessible this session.</p>
-      <a href="stories/hn-894-sago-mine.html">View story &rarr;</a>
-    </div>
-  </div>
-
-  <div class="section-title">About these reference stories</div>
-  <p>Each story is an independently testable, end-to-end local page with genuine sources and an accurate media-availability record for each appearance. They are part of Milestone 4 (reference-story vertical slices) of the project handoff specification. Source URLs are preserved verbatim from the seed records; no original source files were modified.</p>
-
-  <div class="footer">
-    Historical Newspaper Archives &middot; <a href="/about/">Methodology &amp; evidence standards</a> &middot; <a href="/">Return to archive</a><br>
-    <small>Reference stories are a proof of concept, not a declaration of full-archive completion.</small>
-  </div>
+<h1>Historical Newspaper Archives</h1>
+<p class="lead">An evidence-aware research and discovery archive of unusual, forgotten, consequential, and sometimes disputed newspaper reporting covering 1777&ndash;2026. Newspaper reports record what publications printed &mdash; they do not establish claims as fact.</p>
+<div class="stat-grid">
+  <div class="stat"><div class="val">1056</div><div class="lbl">HN research records indexed</div></div>
+  <div class="stat"><div class="val">84</div><div class="lbl">Curated inconsistency/revision flags</div></div>
+  <div class="stat"><div class="val">105</div><div class="lbl">Heuristic keyword leads</div></div>
+  <div class="stat"><div class="val">867</div><div class="lbl">Indexed records (no discrepancy asserted)</div></div>
 </div>
+<h2 class="section-title">Featured reference stories</h2>
+<p>End-to-end local pages with authentic sources and honest media-availability records. These are technical/editorial integration tests, not a sample standing in for the full archive.</p>
+<div class="card">
+<h2><a href="stories/HN-403.html">HN-403: Black Tom ammunition depot explodes near New York Harbor</a></h2>
+<div class="meta">July 31, 1916 &middot; Disasters, Accidents &amp; Emergencies</div>
+<span class="badge tier-a">Evidence tier A-direct</span><span class="badge cls-v">Curated flag: Printed differences</span>
+<p>Black Tom 31 July 1916: Morning Oregonian THREE known dead and at least FIVE missing versus Eugene Daily Guard FOUR killed and ELEVEN–TWENTY missing.</p>
+<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=EVRP19160731.2.7" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=EVRP19160731.2.7</a></p>
+</div>
+<div class="card">
+<h2><a href="stories/HN-753.html">HN-753: Mexico City earthquake initially reported as 7.8, with 230 confirmed dead</a></h2>
+<div class="meta">September 20, 1985 &middot; Disasters, Accidents &amp; Emergencies</div>
+<span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span>
+<p>Mexico City quake 20 Sept 1985: Lawton Morning Press police count at least 170; seed ~230; Muskogee Daily Phoenix TV estimate at least 250.</p>
+<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=BG19850920.1.2" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=BG19850920.1.2</a></p>
+</div>
+<div class="card">
+<h2><a href="stories/HN-894.html">HN-894: Sago families receive a false announcement of survival</a></h2>
+<div class="meta">February 28, 2006 &middot; Disasters, Accidents &amp; Emergencies</div>
+<span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span>
+<p>Sago mine January 2006: announcement that 12 miners were alive was false; papers corrected to 12 dead/one survivor. LA Times printed survivor's name 'Ronald McCloy'; Washington Post gives Randal McCloy.</p>
+<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=JFBSTR20060228.1.2" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=JFBSTR20060228.1.2</a></p>
+</div><h2 class="section-title">Browse by category</h2>
+<p>Explore the locked taxonomy &mdash; 13 main categories, 100 subcategories, 361 third-level labels.</p>
+<a href="taxonomy.html" class="btn">Open category explorer &rarr;</a>
+<h2 class="section-title">Search the catalog</h2>
+<p>Search by event, newspaper, person, place, year, claim, headline, or HN ID.</p>
+<input type="search" id="search-input" placeholder="Search 1,056 records&hellip;" autofocus>
+<div id="count"><span id="count-label">records in index</span>: <span id="count">1056</span></div>
+<div id="results"></div>
+</div>
+<div class="site-footer">
+  Historical Newspaper Archives &middot; Evidence-aware historical newspaper research.
+  <br><small>Source URLs preserved verbatim from the HN seed queue. No original source files modified.</small>
+</div>
+<script src="../assets/app.js"></script>
 </body>
 </html>

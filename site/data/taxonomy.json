@@ -1,0 +1,3018 @@
+[
+  {
+    "root": "Crime, Law & Justice",
+    "subs": [
+      {
+        "sub": "Murders & Assassinations",
+        "leaves": [
+          {
+            "leaf": "Assassination plots and attempts",
+            "count": 8,
+            "ids": [
+              "HN-001",
+              "HN-006",
+              "HN-017",
+              "HN-034",
+              "HN-546",
+              "HN-727",
+              "HN-922",
+              "HN-1000"
+            ]
+          },
+          {
+            "leaf": "Individual homicides",
+            "count": 34,
+            "ids": [
+              "HN-022",
+              "HN-026",
+              "HN-029",
+              "HN-041",
+              "HN-060",
+              "HN-068",
+              "HN-071",
+              "HN-078",
+              "HN-080",
+              "HN-086",
+              "HN-092",
+              "HN-093",
+              "HN-096",
+              "HN-109",
+              "HN-117",
+              "HN-127",
+              "HN-133",
+              "HN-145",
+              "HN-146",
+              "HN-163",
+              "HN-171",
+              "HN-175",
+              "HN-178",
+              "HN-226",
+              "HN-291",
+              "HN-297",
+              "HN-303",
+              "HN-328",
+              "HN-345",
+              "HN-362",
+              "HN-363",
+              "HN-365",
+              "HN-438",
+              "HN-492"
+            ]
+          },
+          {
+            "leaf": "Political assassinations",
+            "count": 12,
+            "ids": [
+              "HN-036",
+              "HN-197",
+              "HN-392",
+              "HN-567",
+              "HN-568",
+              "HN-644",
+              "HN-645",
+              "HN-651",
+              "HN-668",
+              "HN-669",
+              "HN-726",
+              "HN-744"
+            ]
+          },
+          {
+            "leaf": "Mass killings",
+            "count": 10,
+            "ids": [
+              "HN-381",
+              "HN-462",
+              "HN-657",
+              "HN-844",
+              "HN-864",
+              "HN-931",
+              "HN-959",
+              "HN-960",
+              "HN-969",
+              "HN-986"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Fraud, Forgery & Counterfeiting",
+        "leaves": [
+          {
+            "leaf": "Financial swindles",
+            "count": 7,
+            "ids": [
+              "HN-003",
+              "HN-025",
+              "HN-044",
+              "HN-088",
+              "HN-102",
+              "HN-335",
+              "HN-907"
+            ]
+          },
+          {
+            "leaf": "Forged documents",
+            "count": 15,
+            "ids": [
+              "HN-004",
+              "HN-018",
+              "HN-050",
+              "HN-062",
+              "HN-089",
+              "HN-094",
+              "HN-115",
+              "HN-116",
+              "HN-131",
+              "HN-143",
+              "HN-152",
+              "HN-184",
+              "HN-225",
+              "HN-271",
+              "HN-274"
+            ]
+          },
+          {
+            "leaf": "Counterfeit currency",
+            "count": 8,
+            "ids": [
+              "HN-023",
+              "HN-030",
+              "HN-054",
+              "HN-073",
+              "HN-083",
+              "HN-112",
+              "HN-130",
+              "HN-234"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Kidnappings & Disappearances",
+        "leaves": [
+          {
+            "leaf": "Forced detention",
+            "count": 1,
+            "ids": [
+              "HN-005"
+            ]
+          },
+          {
+            "leaf": "Ransom abductions",
+            "count": 5,
+            "ids": [
+              "HN-081",
+              "HN-215",
+              "HN-447",
+              "HN-476",
+              "HN-477"
+            ]
+          },
+          {
+            "leaf": "Human trafficking",
+            "count": 1,
+            "ids": [
+              "HN-177"
+            ]
+          },
+          {
+            "leaf": "Missing persons",
+            "count": 8,
+            "ids": [
+              "HN-204",
+              "HN-206",
+              "HN-207",
+              "HN-211",
+              "HN-270",
+              "HN-312",
+              "HN-344",
+              "HN-446"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Trials, Convictions & Acquittals",
+        "leaves": [
+          {
+            "leaf": "Appeals",
+            "count": 4,
+            "ids": [
+              "HN-010",
+              "HN-076",
+              "HN-169",
+              "HN-425"
+            ]
+          },
+          {
+            "leaf": "Criminal trials",
+            "count": 15,
+            "ids": [
+              "HN-090",
+              "HN-105",
+              "HN-113",
+              "HN-120",
+              "HN-135",
+              "HN-252",
+              "HN-293",
+              "HN-300",
+              "HN-327",
+              "HN-395",
+              "HN-428",
+              "HN-443",
+              "HN-471",
+              "HN-483",
+              "HN-583"
+            ]
+          },
+          {
+            "leaf": "Contested evidence",
+            "count": 3,
+            "ids": [
+              "HN-128",
+              "HN-140",
+              "HN-272"
+            ]
+          },
+          {
+            "leaf": "Acquittals",
+            "count": 2,
+            "ids": [
+              "HN-186",
+              "HN-259"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Organized Crime & Criminal Networks",
+        "leaves": [
+          {
+            "leaf": "Piracy and maritime criminal networks",
+            "count": 1,
+            "ids": [
+              "HN-031"
+            ]
+          },
+          {
+            "leaf": "Gangs",
+            "count": 2,
+            "ids": [
+              "HN-339",
+              "HN-463"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Executions, Sentencing & Wrongful Convictions",
+        "leaves": [
+          {
+            "leaf": "Capital punishment",
+            "count": 8,
+            "ids": [
+              "HN-038",
+              "HN-058",
+              "HN-174",
+              "HN-408",
+              "HN-455",
+              "HN-499",
+              "HN-534",
+              "HN-595"
+            ]
+          },
+          {
+            "leaf": "Reprieves",
+            "count": 2,
+            "ids": [
+              "HN-059",
+              "HN-173"
+            ]
+          },
+          {
+            "leaf": "Sentencing",
+            "count": 8,
+            "ids": [
+              "HN-170",
+              "HN-258",
+              "HN-304",
+              "HN-369",
+              "HN-420",
+              "HN-439",
+              "HN-445",
+              "HN-474"
+            ]
+          },
+          {
+            "leaf": "Extrajudicial mob executions and vigilantism",
+            "count": 10,
+            "ids": [
+              "HN-228",
+              "HN-236",
+              "HN-245",
+              "HN-256",
+              "HN-261",
+              "HN-264",
+              "HN-281",
+              "HN-299",
+              "HN-311",
+              "HN-373"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Law Enforcement, Prisons & Investigations",
+        "leaves": [
+          {
+            "leaf": "Policing practices",
+            "count": 10,
+            "ids": [
+              "HN-046",
+              "HN-110",
+              "HN-329",
+              "HN-486",
+              "HN-488",
+              "HN-798",
+              "HN-926",
+              "HN-1012",
+              "HN-1015",
+              "HN-1017"
+            ]
+          },
+          {
+            "leaf": "Custodial deaths and prisoner welfare",
+            "count": 1,
+            "ids": [
+              "HN-134"
+            ]
+          },
+          {
+            "leaf": "Prison escapes",
+            "count": 1,
+            "ids": [
+              "HN-308"
+            ]
+          },
+          {
+            "leaf": "Criminal investigations",
+            "count": 2,
+            "ids": [
+              "HN-442",
+              "HN-650"
+            ]
+          },
+          {
+            "leaf": "Official misconduct",
+            "count": 4,
+            "ids": [
+              "HN-683",
+              "HN-684",
+              "HN-685",
+              "HN-878"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Robberies, Burglaries & Theft",
+        "leaves": [
+          {
+            "leaf": "Bank robberies",
+            "count": 2,
+            "ids": [
+              "HN-103",
+              "HN-279"
+            ]
+          },
+          {
+            "leaf": "Major thefts",
+            "count": 18,
+            "ids": [
+              "HN-104",
+              "HN-121",
+              "HN-137",
+              "HN-159",
+              "HN-168",
+              "HN-185",
+              "HN-237",
+              "HN-238",
+              "HN-240",
+              "HN-275",
+              "HN-315",
+              "HN-317",
+              "HN-318",
+              "HN-324",
+              "HN-331",
+              "HN-342",
+              "HN-349",
+              "HN-712"
+            ]
+          },
+          {
+            "leaf": "Train and stagecoach robberies",
+            "count": 6,
+            "ids": [
+              "HN-210",
+              "HN-250",
+              "HN-251",
+              "HN-294",
+              "HN-326",
+              "HN-334"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "War, Conflict & Security",
+    "subs": [
+      {
+        "sub": "Mutinies & Military Rebellions",
+        "leaves": [
+          {
+            "leaf": "Naval mutinies",
+            "count": 26,
+            "ids": [
+              "HN-002",
+              "HN-007",
+              "HN-008",
+              "HN-009",
+              "HN-069",
+              "HN-084",
+              "HN-111",
+              "HN-118",
+              "HN-132",
+              "HN-139",
+              "HN-141",
+              "HN-147",
+              "HN-153",
+              "HN-160",
+              "HN-176",
+              "HN-182",
+              "HN-193",
+              "HN-202",
+              "HN-212",
+              "HN-217",
+              "HN-243",
+              "HN-255",
+              "HN-347",
+              "HN-348",
+              "HN-350",
+              "HN-354"
+            ]
+          },
+          {
+            "leaf": "Army revolts",
+            "count": 7,
+            "ids": [
+              "HN-056",
+              "HN-063",
+              "HN-087",
+              "HN-097",
+              "HN-148",
+              "HN-149",
+              "HN-406"
+            ]
+          },
+          {
+            "leaf": "Courts-martial",
+            "count": 2,
+            "ids": [
+              "HN-101",
+              "HN-150"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Wars, Battles & Campaigns",
+        "leaves": [
+          {
+            "leaf": "Naval battles",
+            "count": 6,
+            "ids": [
+              "HN-021",
+              "HN-195",
+              "HN-528",
+              "HN-532",
+              "HN-648",
+              "HN-766"
+            ]
+          },
+          {
+            "leaf": "Land battles",
+            "count": 13,
+            "ids": [
+              "HN-196",
+              "HN-389",
+              "HN-473",
+              "HN-517",
+              "HN-520",
+              "HN-526",
+              "HN-543",
+              "HN-579",
+              "HN-613",
+              "HN-786",
+              "HN-980",
+              "HN-984",
+              "HN-996"
+            ]
+          },
+          {
+            "leaf": "Air campaigns",
+            "count": 11,
+            "ids": [
+              "HN-523",
+              "HN-541",
+              "HN-551",
+              "HN-552",
+              "HN-741",
+              "HN-805",
+              "HN-869",
+              "HN-898",
+              "HN-1018",
+              "HN-1019",
+              "HN-1031"
+            ]
+          },
+          {
+            "leaf": "Sieges",
+            "count": 1,
+            "ids": [
+              "HN-527"
+            ]
+          },
+          {
+            "leaf": "Declarations of war, ceasefires and surrender",
+            "count": 6,
+            "ids": [
+              "HN-529",
+              "HN-549",
+              "HN-553",
+              "HN-554",
+              "HN-695",
+              "HN-1025"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Espionage, Sabotage & Intelligence",
+        "leaves": [
+          {
+            "leaf": "Sabotage",
+            "count": 4,
+            "ids": [
+              "HN-027",
+              "HN-065",
+              "HN-260",
+              "HN-533"
+            ]
+          },
+          {
+            "leaf": "Covert operations",
+            "count": 2,
+            "ids": [
+              "HN-037",
+              "HN-042"
+            ]
+          },
+          {
+            "leaf": "Spying",
+            "count": 3,
+            "ids": [
+              "HN-190",
+              "HN-404",
+              "HN-630"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Terrorism & Political Violence",
+        "leaves": [
+          {
+            "leaf": "Bombings",
+            "count": 19,
+            "ids": [
+              "HN-028",
+              "HN-208",
+              "HN-266",
+              "HN-276",
+              "HN-375",
+              "HN-378",
+              "HN-402",
+              "HN-423",
+              "HN-424",
+              "HN-452",
+              "HN-453",
+              "HN-740",
+              "HN-776",
+              "HN-802",
+              "HN-816",
+              "HN-835",
+              "HN-853",
+              "HN-883",
+              "HN-933"
+            ]
+          },
+          {
+            "leaf": "Political militancy",
+            "count": 4,
+            "ids": [
+              "HN-596",
+              "HN-658",
+              "HN-814",
+              "HN-941"
+            ]
+          },
+          {
+            "leaf": "Hostage attacks",
+            "count": 5,
+            "ids": [
+              "HN-687",
+              "HN-721",
+              "HN-722",
+              "HN-750",
+              "HN-854"
+            ]
+          },
+          {
+            "leaf": "Attacks involving civilian aircraft",
+            "count": 6,
+            "ids": [
+              "HN-737",
+              "HN-738",
+              "HN-769",
+              "HN-770",
+              "HN-855",
+              "HN-856"
+            ]
+          },
+          {
+            "leaf": "Terrorist shootings and coordinated attacks",
+            "count": 4,
+            "ids": [
+              "HN-943",
+              "HN-947",
+              "HN-948",
+              "HN-952"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Revolutions & Armed Uprisings",
+        "leaves": [
+          {
+            "leaf": "Insurrections",
+            "count": 5,
+            "ids": [
+              "HN-047",
+              "HN-400",
+              "HN-693",
+              "HN-793",
+              "HN-977"
+            ]
+          },
+          {
+            "leaf": "Civil wars",
+            "count": 1,
+            "ids": [
+              "HN-501"
+            ]
+          },
+          {
+            "leaf": "Armed resistance",
+            "count": 3,
+            "ids": [
+              "HN-538",
+              "HN-634",
+              "HN-702"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "War Crimes, Massacres & Genocide",
+        "leaves": [
+          {
+            "leaf": "Civilian massacres",
+            "count": 7,
+            "ids": [
+              "HN-052",
+              "HN-399",
+              "HN-694",
+              "HN-732",
+              "HN-735",
+              "HN-745",
+              "HN-847"
+            ]
+          },
+          {
+            "leaf": "Systematic persecution",
+            "count": 6,
+            "ids": [
+              "HN-503",
+              "HN-510",
+              "HN-515",
+              "HN-537",
+              "HN-550",
+              "HN-879"
+            ]
+          },
+          {
+            "leaf": "POW killings and battlefield atrocities",
+            "count": 1,
+            "ids": [
+              "HN-547"
+            ]
+          },
+          {
+            "leaf": "War-crimes prosecutions",
+            "count": 2,
+            "ids": [
+              "HN-556",
+              "HN-559"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Occupation, Blockades & Prisoners of War",
+        "leaves": [
+          {
+            "leaf": "Occupations",
+            "count": 2,
+            "ids": [
+              "HN-066",
+              "HN-636"
+            ]
+          },
+          {
+            "leaf": "Blockades",
+            "count": 2,
+            "ids": [
+              "HN-569",
+              "HN-1020"
+            ]
+          },
+          {
+            "leaf": "Captivity and POW treatment",
+            "count": 1,
+            "ids": [
+              "HN-877"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Military Operations & Mobilization",
+        "leaves": [
+          {
+            "leaf": "Strategic operations",
+            "count": 14,
+            "ids": [
+              "HN-521",
+              "HN-706",
+              "HN-707",
+              "HN-708",
+              "HN-743",
+              "HN-787",
+              "HN-833",
+              "HN-857",
+              "HN-863",
+              "HN-866",
+              "HN-923",
+              "HN-924",
+              "HN-1011",
+              "HN-1056"
+            ]
+          },
+          {
+            "leaf": "Military deployments",
+            "count": 9,
+            "ids": [
+              "HN-614",
+              "HN-670",
+              "HN-699",
+              "HN-704",
+              "HN-789",
+              "HN-806",
+              "HN-819",
+              "HN-936",
+              "HN-937"
+            ]
+          },
+          {
+            "leaf": "Troop movements",
+            "count": 1,
+            "ids": [
+              "HN-983"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Paranormal, Folklore & Curiosities",
+    "subs": [
+      {
+        "sub": "Folklore, Legends & Extraordinary Tales",
+        "leaves": [
+          {
+            "leaf": "Moral tales",
+            "count": 2,
+            "ids": [
+              "HN-011",
+              "HN-035"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Bizarre Claims, Curiosities & Alleged Miracles",
+        "leaves": [
+          {
+            "leaf": "Unusual public curiosities",
+            "count": 3,
+            "ids": [
+              "HN-013",
+              "HN-020",
+              "HN-227"
+            ]
+          },
+          {
+            "leaf": "Extraordinary claims",
+            "count": 4,
+            "ids": [
+              "HN-014",
+              "HN-016",
+              "HN-108",
+              "HN-285"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Prophecies, Premonitions & Unusual Dreams",
+        "leaves": [
+          {
+            "leaf": "Premonitions",
+            "count": 2,
+            "ids": [
+              "HN-024",
+              "HN-172"
+            ]
+          },
+          {
+            "leaf": "Prophetic dreams",
+            "count": 1,
+            "ids": [
+              "HN-183"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Ghosts, Hauntings & Apparitions",
+        "leaves": [
+          {
+            "leaf": "Alleged ghost encounters",
+            "count": 5,
+            "ids": [
+              "HN-032",
+              "HN-043",
+              "HN-166",
+              "HN-205",
+              "HN-241"
+            ]
+          },
+          {
+            "leaf": "Haunted places",
+            "count": 1,
+            "ids": [
+              "HN-125"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Séances, Spiritualism & Psychic Claims",
+        "leaves": [
+          {
+            "leaf": "Spirit communication",
+            "count": 2,
+            "ids": [
+              "HN-154",
+              "HN-156"
+            ]
+          },
+          {
+            "leaf": "Mediums",
+            "count": 1,
+            "ids": [
+              "HN-162"
+            ]
+          },
+          {
+            "leaf": "Psychic demonstrations",
+            "count": 1,
+            "ids": [
+              "HN-213"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "UFOs & Unidentified Sightings",
+        "leaves": [
+          {
+            "leaf": "UFO reports",
+            "count": 3,
+            "ids": [
+              "HN-564",
+              "HN-565",
+              "HN-578"
+            ]
+          },
+          {
+            "leaf": "Unidentified aerial sightings",
+            "count": 2,
+            "ids": [
+              "HN-589",
+              "HN-590"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Economy, Labor & Industry",
+    "subs": [
+      {
+        "sub": "Economic Policy, Taxes & Public Finance",
+        "leaves": [
+          {
+            "leaf": "Taxation",
+            "count": 1,
+            "ids": [
+              "HN-012"
+            ]
+          },
+          {
+            "leaf": "Government budgets",
+            "count": 4,
+            "ids": [
+              "HN-387",
+              "HN-908",
+              "HN-918",
+              "HN-934"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Banking, Finance & Currency",
+        "leaves": [
+          {
+            "leaf": "Banking systems",
+            "count": 3,
+            "ids": [
+              "HN-045",
+              "HN-085",
+              "HN-480"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Market Panics, Crashes & Financial Crises",
+        "leaves": [
+          {
+            "leaf": "Bank runs",
+            "count": 3,
+            "ids": [
+              "HN-263",
+              "HN-268",
+              "HN-358"
+            ]
+          },
+          {
+            "leaf": "Market collapses",
+            "count": 5,
+            "ids": [
+              "HN-464",
+              "HN-465",
+              "HN-767",
+              "HN-768",
+              "HN-909"
+            ]
+          },
+          {
+            "leaf": "Economic depressions",
+            "count": 1,
+            "ids": [
+              "HN-912"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Labor Unions, Strikes & Workplace Conflict",
+        "leaves": [
+          {
+            "leaf": "Strikes",
+            "count": 8,
+            "ids": [
+              "HN-380",
+              "HN-390",
+              "HN-414",
+              "HN-417",
+              "HN-429",
+              "HN-487",
+              "HN-489",
+              "HN-627"
+            ]
+          },
+          {
+            "leaf": "Strike violence and labor confrontations",
+            "count": 1,
+            "ids": [
+              "HN-432"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Business, Corporations & Industrial Expansion",
+        "leaves": [
+          {
+            "leaf": "Corporate crises",
+            "count": 4,
+            "ids": [
+              "HN-749",
+              "HN-752",
+              "HN-862",
+              "HN-989"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Agriculture, Food Supply & Commodity Markets",
+        "leaves": [
+          {
+            "leaf": "Commodity prices",
+            "count": 1,
+            "ids": [
+              "HN-995"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Energy, Mining & Manufacturing",
+        "leaves": [
+          {
+            "leaf": "Coal and oil",
+            "count": 1,
+            "ids": [
+              "HN-1030"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Disasters, Accidents & Emergencies",
+    "subs": [
+      {
+        "sub": "Explosions, Industrial & Workplace Disasters",
+        "leaves": [
+          {
+            "leaf": "Explosives depots and munition blasts",
+            "count": 21,
+            "ids": [
+              "HN-015",
+              "HN-165",
+              "HN-180",
+              "HN-192",
+              "HN-198",
+              "HN-199",
+              "HN-216",
+              "HN-233",
+              "HN-287",
+              "HN-292",
+              "HN-296",
+              "HN-301",
+              "HN-305",
+              "HN-306",
+              "HN-338",
+              "HN-357",
+              "HN-403",
+              "HN-407",
+              "HN-562",
+              "HN-622",
+              "HN-973"
+            ]
+          },
+          {
+            "leaf": "Steam boilers and pressure-vessel explosions",
+            "count": 15,
+            "ids": [
+              "HN-107",
+              "HN-114",
+              "HN-126",
+              "HN-136",
+              "HN-138",
+              "HN-155",
+              "HN-158",
+              "HN-187",
+              "HN-201",
+              "HN-214",
+              "HN-218",
+              "HN-219",
+              "HN-232",
+              "HN-246",
+              "HN-283"
+            ]
+          },
+          {
+            "leaf": "Factory explosions",
+            "count": 6,
+            "ids": [
+              "HN-157",
+              "HN-179",
+              "HN-181",
+              "HN-194",
+              "HN-230",
+              "HN-288"
+            ]
+          },
+          {
+            "leaf": "Mine disasters",
+            "count": 18,
+            "ids": [
+              "HN-167",
+              "HN-262",
+              "HN-269",
+              "HN-277",
+              "HN-286",
+              "HN-290",
+              "HN-310",
+              "HN-320",
+              "HN-321",
+              "HN-322",
+              "HN-330",
+              "HN-332",
+              "HN-337",
+              "HN-341",
+              "HN-346",
+              "HN-352",
+              "HN-359",
+              "HN-360"
+            ]
+          },
+          {
+            "leaf": "Industrial fires and combustible-fluid incidents",
+            "count": 1,
+            "ids": [
+              "HN-189"
+            ]
+          },
+          {
+            "leaf": "Chemical accidents",
+            "count": 3,
+            "ids": [
+              "HN-307",
+              "HN-747",
+              "HN-748"
+            ]
+          },
+          {
+            "leaf": "Industrial storage failures and material releases",
+            "count": 1,
+            "ids": [
+              "HN-413"
+            ]
+          },
+          {
+            "leaf": "Nonindustrial gas and building explosions",
+            "count": 1,
+            "ids": [
+              "HN-506"
+            ]
+          },
+          {
+            "leaf": "Nuclear and radiological facility accidents",
+            "count": 2,
+            "ids": [
+              "HN-761",
+              "HN-762"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Earthquakes & Volcanic Disasters",
+        "leaves": [
+          {
+            "leaf": "Earthquakes",
+            "count": 22,
+            "ids": [
+              "HN-040",
+              "HN-053",
+              "HN-098",
+              "HN-124",
+              "HN-353",
+              "HN-355",
+              "HN-366",
+              "HN-394",
+              "HN-435",
+              "HN-646",
+              "HN-753",
+              "HN-754",
+              "HN-772",
+              "HN-780",
+              "HN-781",
+              "HN-846",
+              "HN-889",
+              "HN-917",
+              "HN-990",
+              "HN-1032",
+              "HN-1038",
+              "HN-1039"
+            ]
+          },
+          {
+            "leaf": "Seismic and volcanic hazards",
+            "count": 4,
+            "ids": [
+              "HN-723",
+              "HN-724",
+              "HN-756",
+              "HN-792"
+            ]
+          },
+          {
+            "leaf": "Eruptions",
+            "count": 2,
+            "ids": [
+              "HN-755",
+              "HN-791"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Urban, Forest & Structural Fires",
+        "leaves": [
+          {
+            "leaf": "City fires",
+            "count": 4,
+            "ids": [
+              "HN-057",
+              "HN-074",
+              "HN-144",
+              "HN-280"
+            ]
+          },
+          {
+            "leaf": "Building and venue fires",
+            "count": 17,
+            "ids": [
+              "HN-072",
+              "HN-095",
+              "HN-253",
+              "HN-278",
+              "HN-340",
+              "HN-361",
+              "HN-376",
+              "HN-466",
+              "HN-535",
+              "HN-536",
+              "HN-544",
+              "HN-545",
+              "HN-560",
+              "HN-624",
+              "HN-725",
+              "HN-803",
+              "HN-967"
+            ]
+          },
+          {
+            "leaf": "Wildfires",
+            "count": 5,
+            "ids": [
+              "HN-411",
+              "HN-771",
+              "HN-965",
+              "HN-994",
+              "HN-1003"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Building & Infrastructure Collapses",
+        "leaves": [
+          {
+            "leaf": "Buildings",
+            "count": 3,
+            "ids": [
+              "HN-061",
+              "HN-430",
+              "HN-979"
+            ]
+          },
+          {
+            "leaf": "Walkways and public structures",
+            "count": 2,
+            "ids": [
+              "HN-456",
+              "HN-728"
+            ]
+          },
+          {
+            "leaf": "Bridges",
+            "count": 2,
+            "ids": [
+              "HN-666",
+              "HN-998"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Hurricanes, Tornadoes, Dust & Severe Storms",
+        "leaves": [
+          {
+            "leaf": "Blizzards",
+            "count": 1,
+            "ids": [
+              "HN-075"
+            ]
+          },
+          {
+            "leaf": "Tornadoes",
+            "count": 8,
+            "ids": [
+              "HN-229",
+              "HN-441",
+              "HN-561",
+              "HN-593",
+              "HN-594",
+              "HN-697",
+              "HN-698",
+              "HN-904"
+            ]
+          },
+          {
+            "leaf": "Hurricanes",
+            "count": 13,
+            "ids": [
+              "HN-314",
+              "HN-319",
+              "HN-323",
+              "HN-448",
+              "HN-449",
+              "HN-459",
+              "HN-495",
+              "HN-497",
+              "HN-511",
+              "HN-839",
+              "HN-887",
+              "HN-1040",
+              "HN-1053"
+            ]
+          },
+          {
+            "leaf": "Dust storms and soil erosion emergencies",
+            "count": 2,
+            "ids": [
+              "HN-493",
+              "HN-494"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Landslides, Avalanches & Ground Failures",
+        "leaves": [
+          {
+            "leaf": "Sinkholes and subsidence failures",
+            "count": 1,
+            "ids": [
+              "HN-209"
+            ]
+          },
+          {
+            "leaf": "Landslides, avalanches and spoil-heap failures",
+            "count": 4,
+            "ids": [
+              "HN-336",
+              "HN-371",
+              "HN-659",
+              "HN-660"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Rescues, Evacuations & Emergency Response",
+        "leaves": [
+          {
+            "leaf": "Search and rescue",
+            "count": 6,
+            "ids": [
+              "HN-368",
+              "HN-385",
+              "HN-573",
+              "HN-574",
+              "HN-894",
+              "HN-963"
+            ]
+          },
+          {
+            "leaf": "Emergency relief",
+            "count": 7,
+            "ids": [
+              "HN-676",
+              "HN-773",
+              "HN-813",
+              "HN-884",
+              "HN-893",
+              "HN-905",
+              "HN-935"
+            ]
+          },
+          {
+            "leaf": "Evacuations",
+            "count": 2,
+            "ids": [
+              "HN-757",
+              "HN-886"
+            ]
+          },
+          {
+            "leaf": "Long-term community recovery and reconstruction",
+            "count": 2,
+            "ids": [
+              "HN-799",
+              "HN-906"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Floods, Tsunamis & Extreme Weather",
+        "leaves": [
+          {
+            "leaf": "River floods",
+            "count": 5,
+            "ids": [
+              "HN-384",
+              "HN-451",
+              "HN-457",
+              "HN-505",
+              "HN-585"
+            ]
+          },
+          {
+            "leaf": "Flash floods",
+            "count": 5,
+            "ids": [
+              "HN-458",
+              "HN-804",
+              "HN-957",
+              "HN-1001",
+              "HN-1010"
+            ]
+          },
+          {
+            "leaf": "Heat emergencies",
+            "count": 3,
+            "ids": [
+              "HN-500",
+              "HN-817",
+              "HN-1036"
+            ]
+          },
+          {
+            "leaf": "Tsunamis",
+            "count": 4,
+            "ids": [
+              "HN-623",
+              "HN-632",
+              "HN-881",
+              "HN-882"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Medicine & Public Health",
+    "subs": [
+      {
+        "sub": "Medical Discoveries & Research",
+        "leaves": [
+          {
+            "leaf": "Biomedical research",
+            "count": 2,
+            "ids": [
+              "HN-019",
+              "HN-1051"
+            ]
+          },
+          {
+            "leaf": "Unusual clinical cases and presentations",
+            "count": 2,
+            "ids": [
+              "HN-235",
+              "HN-265"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Hospitals, Healthcare Systems & Public Health",
+        "leaves": [
+          {
+            "leaf": "Mortality and public-health statistics",
+            "count": 1,
+            "ids": [
+              "HN-039"
+            ]
+          },
+          {
+            "leaf": "Hospital conditions",
+            "count": 1,
+            "ids": [
+              "HN-848"
+            ]
+          },
+          {
+            "leaf": "Healthcare access",
+            "count": 1,
+            "ids": [
+              "HN-919"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Poisoning, Toxicology & Contamination",
+        "leaves": [
+          {
+            "leaf": "Toxic substances",
+            "count": 4,
+            "ids": [
+              "HN-129",
+              "HN-151",
+              "HN-224",
+              "HN-247"
+            ]
+          },
+          {
+            "leaf": "Foodborne hazards",
+            "count": 2,
+            "ids": [
+              "HN-249",
+              "HN-298"
+            ]
+          },
+          {
+            "leaf": "Accidental exposures",
+            "count": 3,
+            "ids": [
+              "HN-555",
+              "HN-597",
+              "HN-601"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Mental Health & Historical Medical Practices",
+        "leaves": [
+          {
+            "leaf": "Historical treatments",
+            "count": 1,
+            "ids": [
+              "HN-161"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Epidemics, Pandemics & Infectious Diseases",
+        "leaves": [
+          {
+            "leaf": "Cholera and other epidemics",
+            "count": 5,
+            "ids": [
+              "HN-316",
+              "HN-588",
+              "HN-911",
+              "HN-939",
+              "HN-1005"
+            ]
+          },
+          {
+            "leaf": "Influenza",
+            "count": 6,
+            "ids": [
+              "HN-410",
+              "HN-412",
+              "HN-618",
+              "HN-890",
+              "HN-913",
+              "HN-914"
+            ]
+          },
+          {
+            "leaf": "Emerging diseases",
+            "count": 10,
+            "ids": [
+              "HN-709",
+              "HN-739",
+              "HN-859",
+              "HN-860",
+              "HN-874",
+              "HN-940",
+              "HN-950",
+              "HN-971",
+              "HN-975",
+              "HN-982"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Medical Fraud, Unproven Cures & Controversies",
+        "leaves": [
+          {
+            "leaf": "Medical deception",
+            "count": 1,
+            "ids": [
+              "HN-333"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Pharmaceuticals, Vaccines & Drug Safety",
+        "leaves": [
+          {
+            "leaf": "Vaccines",
+            "count": 4,
+            "ids": [
+              "HN-602",
+              "HN-604",
+              "HN-892",
+              "HN-915"
+            ]
+          },
+          {
+            "leaf": "Product safety and recalls",
+            "count": 4,
+            "ids": [
+              "HN-639",
+              "HN-733",
+              "HN-734",
+              "HN-830"
+            ]
+          },
+          {
+            "leaf": "Medicines",
+            "count": 1,
+            "ids": [
+              "HN-764"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Civil Rights & Social Change",
+    "subs": [
+      {
+        "sub": "Indigenous Peoples & Rights",
+        "leaves": [
+          {
+            "leaf": "Sovereignty",
+            "count": 3,
+            "ids": [
+              "HN-033",
+              "HN-077",
+              "HN-691"
+            ]
+          },
+          {
+            "leaf": "Land rights",
+            "count": 3,
+            "ids": [
+              "HN-070",
+              "HN-122",
+              "HN-692"
+            ]
+          },
+          {
+            "leaf": "Indigenous criminal jurisdiction and legal equality",
+            "count": 2,
+            "ids": [
+              "HN-099",
+              "HN-106"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Poverty, Inequality & Humanitarian Issues",
+        "leaves": [
+          {
+            "leaf": "Food insecurity",
+            "count": 3,
+            "ids": [
+              "HN-064",
+              "HN-746",
+              "HN-800"
+            ]
+          },
+          {
+            "leaf": "Housing",
+            "count": 3,
+            "ids": [
+              "HN-479",
+              "HN-888",
+              "HN-901"
+            ]
+          },
+          {
+            "leaf": "Relief and social welfare",
+            "count": 5,
+            "ids": [
+              "HN-686",
+              "HN-815",
+              "HN-841",
+              "HN-895",
+              "HN-896"
+            ]
+          },
+          {
+            "leaf": "Employment disparities and economic inequality",
+            "count": 1,
+            "ids": [
+              "HN-916"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Racial, Ethnic & Religious Justice",
+        "leaves": [
+          {
+            "leaf": "Slavery, abolition and emancipation",
+            "count": 2,
+            "ids": [
+              "HN-082",
+              "HN-091"
+            ]
+          },
+          {
+            "leaf": "Lynching and racial violence",
+            "count": 32,
+            "ids": [
+              "HN-254",
+              "HN-267",
+              "HN-282",
+              "HN-295",
+              "HN-325",
+              "HN-356",
+              "HN-364",
+              "HN-398",
+              "HN-405",
+              "HN-415",
+              "HN-416",
+              "HN-426",
+              "HN-427",
+              "HN-433",
+              "HN-467",
+              "HN-469",
+              "HN-539",
+              "HN-540",
+              "HN-605",
+              "HN-606",
+              "HN-615",
+              "HN-629",
+              "HN-643",
+              "HN-649",
+              "HN-654",
+              "HN-665",
+              "HN-678",
+              "HN-679",
+              "HN-796",
+              "HN-822",
+              "HN-899",
+              "HN-956"
+            ]
+          },
+          {
+            "leaf": "Discriminatory prosecutions and criminal justice",
+            "count": 3,
+            "ids": [
+              "HN-470",
+              "HN-472",
+              "HN-607"
+            ]
+          },
+          {
+            "leaf": "Equality campaigns",
+            "count": 4,
+            "ids": [
+              "HN-635",
+              "HN-647",
+              "HN-783",
+              "HN-809"
+            ]
+          },
+          {
+            "leaf": "Ethnic and religious discrimination and hate incidents",
+            "count": 3,
+            "ids": [
+              "HN-790",
+              "HN-858",
+              "HN-865"
+            ]
+          },
+          {
+            "leaf": "Segregation",
+            "count": 1,
+            "ids": [
+              "HN-891"
+            ]
+          },
+          {
+            "leaf": "Discriminatory lending, housing and economic exclusion",
+            "count": 1,
+            "ids": [
+              "HN-903"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Immigration, Refugees & Displacement",
+        "leaves": [
+          {
+            "leaf": "Deportation",
+            "count": 2,
+            "ids": [
+              "HN-393",
+              "HN-849"
+            ]
+          },
+          {
+            "leaf": "Wartime internment and compulsory relocation",
+            "count": 2,
+            "ids": [
+              "HN-530",
+              "HN-531"
+            ]
+          },
+          {
+            "leaf": "Refugee crises",
+            "count": 5,
+            "ids": [
+              "HN-703",
+              "HN-810",
+              "HN-811",
+              "HN-843",
+              "HN-946"
+            ]
+          },
+          {
+            "leaf": "Migration",
+            "count": 2,
+            "ids": [
+              "HN-801",
+              "HN-962"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Women's Rights & Suffrage",
+        "leaves": [
+          {
+            "leaf": "Voting rights",
+            "count": 3,
+            "ids": [
+              "HN-421",
+              "HN-422",
+              "HN-653"
+            ]
+          },
+          {
+            "leaf": "Workplace equality",
+            "count": 1,
+            "ids": [
+              "HN-626"
+            ]
+          },
+          {
+            "leaf": "Reproductive rights",
+            "count": 1,
+            "ids": [
+              "HN-987"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Civil Rights Movements & Protests",
+        "leaves": [
+          {
+            "leaf": "Protest crackdowns",
+            "count": 5,
+            "ids": [
+              "HN-478",
+              "HN-652",
+              "HN-671",
+              "HN-968",
+              "HN-1052"
+            ]
+          },
+          {
+            "leaf": "Civil disobedience",
+            "count": 3,
+            "ids": [
+              "HN-608",
+              "HN-609",
+              "HN-610"
+            ]
+          },
+          {
+            "leaf": "Marches",
+            "count": 10,
+            "ids": [
+              "HN-642",
+              "HN-742",
+              "HN-925",
+              "HN-938",
+              "HN-942",
+              "HN-961",
+              "HN-972",
+              "HN-974",
+              "HN-988",
+              "HN-1013"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Education, Equality & School Policy",
+        "leaves": [
+          {
+            "leaf": "School integration",
+            "count": 3,
+            "ids": [
+              "HN-599",
+              "HN-616",
+              "HN-617"
+            ]
+          },
+          {
+            "leaf": "School security and institutional responses",
+            "count": 2,
+            "ids": [
+              "HN-845",
+              "HN-932"
+            ]
+          },
+          {
+            "leaf": "Social reform movements",
+            "count": 1,
+            "ids": [
+              "HN-897"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "LGBTQ+ Rights",
+        "leaves": [
+          {
+            "leaf": "Discrimination",
+            "count": 3,
+            "ids": [
+              "HN-837",
+              "HN-838",
+              "HN-944"
+            ]
+          },
+          {
+            "leaf": "Marriage equality",
+            "count": 2,
+            "ids": [
+              "HN-875",
+              "HN-876"
+            ]
+          },
+          {
+            "leaf": "Gender identity",
+            "count": 1,
+            "ids": [
+              "HN-1055"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Politics, Government & Diplomacy",
+    "subs": [
+      {
+        "sub": "Diplomacy, Treaties & International Relations",
+        "leaves": [
+          {
+            "leaf": "Diplomatic crises",
+            "count": 10,
+            "ids": [
+              "HN-048",
+              "HN-313",
+              "HN-631",
+              "HN-640",
+              "HN-641",
+              "HN-663",
+              "HN-682",
+              "HN-696",
+              "HN-795",
+              "HN-949"
+            ]
+          },
+          {
+            "leaf": "Territorial disputes",
+            "count": 2,
+            "ids": [
+              "HN-475",
+              "HN-1014"
+            ]
+          },
+          {
+            "leaf": "Treaties",
+            "count": 4,
+            "ids": [
+              "HN-512",
+              "HN-522",
+              "HN-705",
+              "HN-818"
+            ]
+          },
+          {
+            "leaf": "International partition and mandates",
+            "count": 1,
+            "ids": [
+              "HN-566"
+            ]
+          },
+          {
+            "leaf": "State visits and diplomatic outreach",
+            "count": 1,
+            "ids": [
+              "HN-812"
+            ]
+          },
+          {
+            "leaf": "Economic sanctions and coercive diplomacy",
+            "count": 1,
+            "ids": [
+              "HN-985"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Government Investigations & Abuse of Power",
+        "leaves": [
+          {
+            "leaf": "Agency misconduct",
+            "count": 4,
+            "ids": [
+              "HN-100",
+              "HN-123",
+              "HN-664",
+              "HN-885"
+            ]
+          },
+          {
+            "leaf": "Oversight",
+            "count": 10,
+            "ids": [
+              "HN-203",
+              "HN-431",
+              "HN-496",
+              "HN-598",
+              "HN-600",
+              "HN-680",
+              "HN-690",
+              "HN-765",
+              "HN-870",
+              "HN-970"
+            ]
+          },
+          {
+            "leaf": "Political repression, raids and emergency-state powers",
+            "count": 3,
+            "ids": [
+              "HN-418",
+              "HN-481",
+              "HN-729"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Political Corruption & Scandals",
+        "leaves": [
+          {
+            "leaf": "Influence scandals",
+            "count": 5,
+            "ids": [
+              "HN-220",
+              "HN-419",
+              "HN-689",
+              "HN-763",
+              "HN-840"
+            ]
+          },
+          {
+            "leaf": "Misuse of office",
+            "count": 2,
+            "ids": [
+              "HN-436",
+              "HN-902"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Elections & Political Campaigns",
+        "leaves": [
+          {
+            "leaf": "Voting controversies",
+            "count": 4,
+            "ids": [
+              "HN-248",
+              "HN-388",
+              "HN-850",
+              "HN-928"
+            ]
+          },
+          {
+            "leaf": "Election results",
+            "count": 9,
+            "ids": [
+              "HN-484",
+              "HN-524",
+              "HN-910",
+              "HN-929",
+              "HN-953",
+              "HN-954",
+              "HN-976",
+              "HN-1002",
+              "HN-1027"
+            ]
+          },
+          {
+            "leaf": "Campaigns",
+            "count": 2,
+            "ids": [
+              "HN-570",
+              "HN-927"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Presidents, Monarchs & Leadership Changes",
+        "leaves": [
+          {
+            "leaf": "Transfers of power",
+            "count": 7,
+            "ids": [
+              "HN-434",
+              "HN-576",
+              "HN-592",
+              "HN-760",
+              "HN-779",
+              "HN-808",
+              "HN-981"
+            ]
+          },
+          {
+            "leaf": "Resignations",
+            "count": 3,
+            "ids": [
+              "HN-504",
+              "HN-584",
+              "HN-700"
+            ]
+          },
+          {
+            "leaf": "Succession",
+            "count": 2,
+            "ids": [
+              "HN-548",
+              "HN-591"
+            ]
+          },
+          {
+            "leaf": "Deaths in office",
+            "count": 1,
+            "ids": [
+              "HN-587"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Legislation & Government Policy",
+        "leaves": [
+          {
+            "leaf": "New laws",
+            "count": 3,
+            "ids": [
+              "HN-437",
+              "HN-498",
+              "HN-525"
+            ]
+          },
+          {
+            "leaf": "Policy debates and public response",
+            "count": 1,
+            "ids": [
+              "HN-577"
+            ]
+          },
+          {
+            "leaf": "Executive actions",
+            "count": 1,
+            "ids": [
+              "HN-701"
+            ]
+          },
+          {
+            "leaf": "Regulations",
+            "count": 1,
+            "ids": [
+              "HN-945"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Constitutional & Institutional Changes",
+        "leaves": [
+          {
+            "leaf": "Amendments",
+            "count": 2,
+            "ids": [
+              "HN-482",
+              "HN-485"
+            ]
+          },
+          {
+            "leaf": "Statehood, reunification and sovereignty transitions",
+            "count": 2,
+            "ids": [
+              "HN-625",
+              "HN-788"
+            ]
+          },
+          {
+            "leaf": "Institutional reforms",
+            "count": 2,
+            "ids": [
+              "HN-782",
+              "HN-794"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Archaeology, History & Exploration",
+    "subs": [
+      {
+        "sub": "Geographic Expeditions & Exploration",
+        "leaves": [
+          {
+            "leaf": "Land expeditions",
+            "count": 1,
+            "ids": [
+              "HN-049"
+            ]
+          },
+          {
+            "leaf": "Polar exploration",
+            "count": 3,
+            "ids": [
+              "HN-222",
+              "HN-367",
+              "HN-370"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Paleontology & Human Origins",
+        "leaves": [
+          {
+            "leaf": "Prehistoric sites",
+            "count": 1,
+            "ids": [
+              "HN-1022"
+            ]
+          },
+          {
+            "leaf": "Early humans",
+            "count": 1,
+            "ids": [
+              "HN-1046"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Marine Archaeology & Ancient Shipwrecks",
+        "leaves": [
+          {
+            "leaf": "Underwater excavations",
+            "count": 1,
+            "ids": [
+              "HN-1028"
+            ]
+          },
+          {
+            "leaf": "Recovered cargo",
+            "count": 1,
+            "ids": [
+              "HN-1041"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Historical Identification & Rediscovery",
+        "leaves": [
+          {
+            "leaf": "Repatriation",
+            "count": 1,
+            "ids": [
+              "HN-1029"
+            ]
+          },
+          {
+            "leaf": "Historical mysteries resolved",
+            "count": 1,
+            "ids": [
+              "HN-1054"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Archaeological Excavations & Ancient Sites",
+        "leaves": [
+          {
+            "leaf": "Monuments",
+            "count": 2,
+            "ids": [
+              "HN-1033",
+              "HN-1049"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Transportation & Maritime",
+    "subs": [
+      {
+        "sub": "Shipwrecks, Maritime Accidents & Losses",
+        "leaves": [
+          {
+            "leaf": "Groundings",
+            "count": 4,
+            "ids": [
+              "HN-051",
+              "HN-231",
+              "HN-351",
+              "HN-978"
+            ]
+          },
+          {
+            "leaf": "Collisions",
+            "count": 4,
+            "ids": [
+              "HN-164",
+              "HN-257",
+              "HN-391",
+              "HN-612"
+            ]
+          },
+          {
+            "leaf": "Stranded and icebound vessels",
+            "count": 1,
+            "ids": [
+              "HN-223"
+            ]
+          },
+          {
+            "leaf": "Shipboard fires and onboard emergencies",
+            "count": 2,
+            "ids": [
+              "HN-343",
+              "HN-491"
+            ]
+          },
+          {
+            "leaf": "Sinkings, capsizings and foundering",
+            "count": 9,
+            "ids": [
+              "HN-382",
+              "HN-383",
+              "HN-386",
+              "HN-396",
+              "HN-397",
+              "HN-460",
+              "HN-461",
+              "HN-490",
+              "HN-518"
+            ]
+          },
+          {
+            "leaf": "Submersible and deep-sea incidents",
+            "count": 1,
+            "ids": [
+              "HN-993"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Aviation & Aerospace Transportation",
+        "leaves": [
+          {
+            "leaf": "Early aviation",
+            "count": 2,
+            "ids": [
+              "HN-188",
+              "HN-454"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Transportation Accidents & Safety Investigations",
+        "leaves": [
+          {
+            "leaf": "Train derailments and hazardous freight incidents",
+            "count": 5,
+            "ids": [
+              "HN-221",
+              "HN-302",
+              "HN-930",
+              "HN-991",
+              "HN-992"
+            ]
+          },
+          {
+            "leaf": "Train collisions",
+            "count": 9,
+            "ids": [
+              "HN-273",
+              "HN-284",
+              "HN-289",
+              "HN-372",
+              "HN-379",
+              "HN-409",
+              "HN-450",
+              "HN-580",
+              "HN-581"
+            ]
+          },
+          {
+            "leaf": "Aircraft crashes",
+            "count": 22,
+            "ids": [
+              "HN-374",
+              "HN-377",
+              "HN-444",
+              "HN-468",
+              "HN-507",
+              "HN-611",
+              "HN-710",
+              "HN-711",
+              "HN-730",
+              "HN-731",
+              "HN-751",
+              "HN-774",
+              "HN-775",
+              "HN-820",
+              "HN-821",
+              "HN-824",
+              "HN-836",
+              "HN-868",
+              "HN-964",
+              "HN-966",
+              "HN-1004",
+              "HN-1009"
+            ]
+          },
+          {
+            "leaf": "Missing aircraft and aviation searches",
+            "count": 2,
+            "ids": [
+              "HN-508",
+              "HN-509"
+            ]
+          },
+          {
+            "leaf": "Road accidents",
+            "count": 2,
+            "ids": [
+              "HN-603",
+              "HN-831"
+            ]
+          },
+          {
+            "leaf": "In-flight failures and aviation near misses",
+            "count": 1,
+            "ids": [
+              "HN-997"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Culture, Religion & Media",
+    "subs": [
+      {
+        "sub": "Newspapers, Journalism & Publishing",
+        "leaves": [
+          {
+            "leaf": "Press criticism and editorial disputes",
+            "count": 3,
+            "ids": [
+              "HN-055",
+              "HN-713",
+              "HN-880"
+            ]
+          },
+          {
+            "leaf": "Press freedom",
+            "count": 3,
+            "ids": [
+              "HN-516",
+              "HN-542",
+              "HN-778"
+            ]
+          },
+          {
+            "leaf": "Propaganda and disinformation",
+            "count": 1,
+            "ids": [
+              "HN-519"
+            ]
+          },
+          {
+            "leaf": "Investigative reporting",
+            "count": 3,
+            "ids": [
+              "HN-681",
+              "HN-797",
+              "HN-842"
+            ]
+          },
+          {
+            "leaf": "Media ethics and intrusive reporting",
+            "count": 1,
+            "ids": [
+              "HN-832"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Religion, Faith & Spiritual Movements",
+        "leaves": [
+          {
+            "leaf": "Religious controversies",
+            "count": 1,
+            "ids": [
+              "HN-079"
+            ]
+          },
+          {
+            "leaf": "Religious communities",
+            "count": 3,
+            "ids": [
+              "HN-688",
+              "HN-807",
+              "HN-828"
+            ]
+          },
+          {
+            "leaf": "New movements",
+            "count": 5,
+            "ids": [
+              "HN-714",
+              "HN-716",
+              "HN-717",
+              "HN-718",
+              "HN-827"
+            ]
+          },
+          {
+            "leaf": "Papal elections and religious succession",
+            "count": 2,
+            "ids": [
+              "HN-1007",
+              "HN-1008"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Media Hoaxes, Retractions & Fabricated Reporting",
+        "leaves": [
+          {
+            "leaf": "Fabricated articles",
+            "count": 1,
+            "ids": [
+              "HN-142"
+            ]
+          },
+          {
+            "leaf": "Published retractions",
+            "count": 2,
+            "ids": [
+              "HN-239",
+              "HN-309"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Social Customs, Celebrations & Public Spectacles",
+        "leaves": [
+          {
+            "leaf": "Public exhibitions",
+            "count": 2,
+            "ids": [
+              "HN-200",
+              "HN-1045"
+            ]
+          },
+          {
+            "leaf": "Traditions",
+            "count": 1,
+            "ids": [
+              "HN-852"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Public Figures, Celebrities & Cultural Icons",
+        "leaves": [
+          {
+            "leaf": "Obituaries",
+            "count": 4,
+            "ids": [
+              "HN-244",
+              "HN-667",
+              "HN-834",
+              "HN-867"
+            ]
+          },
+          {
+            "leaf": "Public careers",
+            "count": 1,
+            "ids": [
+              "HN-675"
+            ]
+          },
+          {
+            "leaf": "Biographies",
+            "count": 1,
+            "ids": [
+              "HN-715"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Sports, Competitions & Recreation",
+        "leaves": [
+          {
+            "leaf": "International tournaments",
+            "count": 4,
+            "ids": [
+              "HN-502",
+              "HN-823",
+              "HN-861",
+              "HN-1037"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Film, Radio, Television & Entertainment",
+        "leaves": [
+          {
+            "leaf": "Broadcasting",
+            "count": 3,
+            "ids": [
+              "HN-513",
+              "HN-514",
+              "HN-851"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Science, Invention & Technology",
+    "subs": [
+      {
+        "sub": "Inventions, Patents & Engineering",
+        "leaves": [
+          {
+            "leaf": "Engineering advances",
+            "count": 2,
+            "ids": [
+              "HN-067",
+              "HN-191"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Physics, Chemistry & Material Sciences",
+        "leaves": [
+          {
+            "leaf": "Chemical discoveries",
+            "count": 2,
+            "ids": [
+              "HN-242",
+              "HN-563"
+            ]
+          },
+          {
+            "leaf": "Nuclear science",
+            "count": 6,
+            "ids": [
+              "HN-557",
+              "HN-558",
+              "HN-575",
+              "HN-582",
+              "HN-586",
+              "HN-900"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Astronomy & Space Exploration",
+        "leaves": [
+          {
+            "leaf": "Robotic exploration",
+            "count": 7,
+            "ids": [
+              "HN-619",
+              "HN-620",
+              "HN-621",
+              "HN-628",
+              "HN-829",
+              "HN-1006",
+              "HN-1035"
+            ]
+          },
+          {
+            "leaf": "Human spaceflight",
+            "count": 16,
+            "ids": [
+              "HN-633",
+              "HN-637",
+              "HN-656",
+              "HN-661",
+              "HN-662",
+              "HN-672",
+              "HN-673",
+              "HN-674",
+              "HN-677",
+              "HN-736",
+              "HN-758",
+              "HN-759",
+              "HN-1016",
+              "HN-1023",
+              "HN-1024",
+              "HN-1026"
+            ]
+          },
+          {
+            "leaf": "Satellites, space stations and reentries",
+            "count": 2,
+            "ids": [
+              "HN-719",
+              "HN-720"
+            ]
+          },
+          {
+            "leaf": "Space telescopes and orbital observatories",
+            "count": 3,
+            "ids": [
+              "HN-784",
+              "HN-785",
+              "HN-1044"
+            ]
+          },
+          {
+            "leaf": "Celestial observations",
+            "count": 7,
+            "ids": [
+              "HN-826",
+              "HN-999",
+              "HN-1034",
+              "HN-1042",
+              "HN-1043",
+              "HN-1047",
+              "HN-1048"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Computing, Electronics & Communications",
+        "leaves": [
+          {
+            "leaf": "Digital networks",
+            "count": 1,
+            "ids": [
+              "HN-638"
+            ]
+          },
+          {
+            "leaf": "Cyberattacks and digital service outages",
+            "count": 1,
+            "ids": [
+              "HN-955"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Energy & Critical Infrastructure",
+        "leaves": [
+          {
+            "leaf": "Electrical grid failures and blackouts",
+            "count": 3,
+            "ids": [
+              "HN-655",
+              "HN-958",
+              "HN-1021"
+            ]
+          },
+          {
+            "leaf": "Electricity",
+            "count": 2,
+            "ids": [
+              "HN-872",
+              "HN-873"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Biology, Genetics & Cloning",
+        "leaves": [
+          {
+            "leaf": "Cloning",
+            "count": 1,
+            "ids": [
+              "HN-825"
+            ]
+          },
+          {
+            "leaf": "Microbiology",
+            "count": 1,
+            "ids": [
+              "HN-1050"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "Nature, Wildlife & Environment",
+    "subs": [
+      {
+        "sub": "Rare, Unusual & Newly Identified Species",
+        "leaves": [
+          {
+            "leaf": "Rare sightings",
+            "count": 1,
+            "ids": [
+              "HN-119"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Animal Attacks & Human–Wildlife Encounters",
+        "leaves": [
+          {
+            "leaf": "Dangerous encounters",
+            "count": 1,
+            "ids": [
+              "HN-401"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Wildlife & Animal Behavior",
+        "leaves": [
+          {
+            "leaf": "Mammals",
+            "count": 1,
+            "ids": [
+              "HN-440"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Pollution, Contamination & Environmental Damage",
+        "leaves": [
+          {
+            "leaf": "Air pollution",
+            "count": 2,
+            "ids": [
+              "HN-571",
+              "HN-572"
+            ]
+          },
+          {
+            "leaf": "Water contamination",
+            "count": 3,
+            "ids": [
+              "HN-777",
+              "HN-920",
+              "HN-951"
+            ]
+          },
+          {
+            "leaf": "Environmental harm",
+            "count": 1,
+            "ids": [
+              "HN-921"
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Climate & Long-Term Environmental Change",
+        "leaves": [
+          {
+            "leaf": "Environmental change",
+            "count": 1,
+            "ids": [
+              "HN-871"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
