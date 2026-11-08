@@ -1,0 +1,113 @@
+# 01 Crime, Law & Justice
+Murders & Assassinations :: Individual homicides | Mass killings | Political assassinations | Assassination plots and attempts
+Kidnappings & Disappearances :: Ransom abductions | Missing persons | Forced detention | Human trafficking
+Robberies, Burglaries & Theft :: Bank robberies | Train and stagecoach robberies | Residential burglaries | Major thefts
+Fraud, Forgery & Counterfeiting :: Counterfeit currency | Forged documents | Identity deception | Financial swindles
+Organized Crime & Criminal Networks :: Gangs | Smuggling organizations | Racketeering | Criminal syndicates | Piracy and maritime criminal networks
+Trials, Convictions & Acquittals :: Criminal trials | Appeals | Acquittals | Contested evidence
+Executions, Sentencing & Wrongful Convictions :: Capital punishment | Reprieves | Sentencing | Exonerations | Extrajudicial mob executions and vigilantism
+Law Enforcement, Prisons & Investigations :: Criminal investigations | Policing practices | Prison escapes | Official misconduct | Custodial deaths and prisoner welfare
+# 02 War, Conflict & Security
+Wars, Battles & Campaigns :: Land battles | Naval battles | Air campaigns | Sieges | Declarations of war, ceasefires and surrender
+Revolutions & Armed Uprisings :: Insurrections | Civil wars | Armed resistance
+Military Operations & Mobilization :: Troop movements | Strategic operations | Military deployments
+Espionage, Sabotage & Intelligence :: Spying | Counterintelligence | Covert operations | Sabotage
+Mutinies & Military Rebellions :: Naval mutinies | Army revolts | Courts-martial
+Terrorism & Political Violence :: Bombings | Hostage attacks | Political militancy | Attacks involving civilian aircraft | Terrorist shootings and coordinated attacks
+War Crimes, Massacres & Genocide :: Civilian massacres | Systematic persecution | War-crimes prosecutions | POW killings and battlefield atrocities
+Occupation, Blockades & Prisoners of War :: Occupations | Blockades | Captivity and POW treatment
+# 03 Politics, Government & Diplomacy
+Elections & Political Campaigns :: Campaigns | Voting controversies | Election results
+Presidents, Monarchs & Leadership Changes :: Succession | Resignations | Deaths in office | Transfers of power
+Legislation & Government Policy :: New laws | Regulations | Repeals | Executive actions | Policy debates and public response
+Diplomacy, Treaties & International Relations :: Treaties | Diplomatic crises | Territorial disputes | International partition and mandates | State visits and diplomatic outreach | Economic sanctions and coercive diplomacy
+Political Corruption & Scandals :: Bribery | Misuse of office | Influence scandals
+Constitutional & Institutional Changes :: Amendments | Institutional reforms | Constitutional rulings | Statehood, reunification and sovereignty transitions
+Government Investigations & Abuse of Power :: Oversight | Surveillance | Agency misconduct | Political repression, raids and emergency-state powers
+# 04 Civil Rights & Social Change
+Racial, Ethnic & Religious Justice :: Segregation | Lynching and racial violence | Equality campaigns | Slavery, abolition and emancipation | Discriminatory prosecutions and criminal justice | Ethnic and religious discrimination and hate incidents | Discriminatory lending, housing and economic exclusion
+Women's Rights & Suffrage :: Voting rights | Workplace equality | Reproductive rights
+LGBTQ+ Rights :: Marriage equality | Gender identity | Discrimination
+Indigenous Peoples & Rights :: Sovereignty | Land rights | Forced relocation | Indigenous criminal jurisdiction and legal equality
+Immigration, Refugees & Displacement :: Migration | Asylum | Deportation | Refugee crises | Wartime internment and compulsory relocation
+Civil Rights Movements & Protests :: Marches | Civil disobedience | Protest crackdowns
+Poverty, Inequality & Humanitarian Issues :: Housing | Food insecurity | Relief and social welfare | Employment disparities and economic inequality
+Education, Equality & School Policy :: School integration | Educational access | Social reform movements | School security and institutional responses
+# 05 Disasters, Accidents & Emergencies
+Earthquakes & Volcanic Disasters :: Earthquakes | Eruptions | Seismic and volcanic hazards
+Hurricanes, Tornadoes, Dust & Severe Storms :: Hurricanes | Tornadoes | Blizzards | Dust storms and soil erosion emergencies
+Floods, Tsunamis & Extreme Weather :: River floods | Flash floods | Tsunamis | Heat emergencies
+Urban, Forest & Structural Fires :: City fires | Wildfires | Building and venue fires
+Explosions, Industrial & Workplace Disasters :: Mine disasters | Factory explosions | Chemical accidents | Explosives depots and munition blasts | Steam boilers and pressure-vessel explosions | Industrial fires and combustible-fluid incidents | Industrial storage failures and material releases | Nonindustrial gas and building explosions | Nuclear and radiological facility accidents
+Building & Infrastructure Collapses :: Buildings | Bridges | Walkways and public structures
+Crowd Disasters & Mass-Casualty Events :: Stampedes | Venue emergencies | Other mass-casualty accidents
+Rescues, Evacuations & Emergency Response :: Search and rescue | Evacuations | Emergency relief | Long-term community recovery and reconstruction
+Landslides, Avalanches & Ground Failures :: Landslides, avalanches and spoil-heap failures | Sinkholes and subsidence failures
+# 06 Science, Invention & Technology
+Astronomy & Space Exploration :: Celestial observations | Human spaceflight | Robotic exploration | Satellites, space stations and reentries | Space telescopes and orbital observatories
+Physics, Chemistry & Material Sciences :: Nuclear science | Chemical discoveries | Advanced materials
+Biology, Genetics & Cloning :: Evolution | Genetics | Cloning | Microbiology
+Inventions, Patents & Engineering :: Mechanical inventions | Engineering advances | Patent milestones
+Computing, Electronics & Communications :: Telegraph and telephone | Computing | Digital networks | Cyberattacks and digital service outages
+Energy & Critical Infrastructure :: Electricity | Nuclear technology | Research facilities | Electrical grid failures and blackouts
+# 07 Medicine & Public Health
+Epidemics, Pandemics & Infectious Diseases :: Influenza | Cholera and other epidemics | Emerging diseases
+Medical Discoveries & Research :: Diagnosis | Disease mechanisms | Biomedical research | Unusual clinical cases and presentations
+Treatments, Surgery & Medical Technology :: Surgery | Therapeutic techniques | Diagnostic equipment
+Pharmaceuticals, Vaccines & Drug Safety :: Vaccines | Medicines | Product safety and recalls
+Poisoning, Toxicology & Contamination :: Accidental exposures | Foodborne hazards | Toxic substances
+Hospitals, Healthcare Systems & Public Health :: Hospital conditions | Sanitation | Healthcare access | Mortality and public-health statistics
+Mental Health & Historical Medical Practices :: Psychiatry | Asylum care | Historical treatments
+Medical Fraud, Unproven Cures & Controversies :: Miracle-cure claims | Unethical experiments | Medical deception
+# 08 Archaeology, History & Exploration
+Archaeological Excavations & Ancient Sites :: Tombs | Settlements | Monuments
+Ancient Civilizations & Lost Settlements :: Lost cities | Ancient societies | Ruins
+Historical Artifacts & Documents :: Manuscripts | Inscriptions | Recovered objects
+Marine Archaeology & Ancient Shipwrecks :: Underwater excavations | Ancient vessels | Recovered cargo
+Geographic Expeditions & Exploration :: Polar exploration | Ocean expeditions | Land expeditions
+Paleontology & Human Origins :: Fossils | Early humans | Prehistoric sites
+Historical Identification & Rediscovery :: Artifact identification | Historical mysteries resolved | Repatriation
+# 09 Economy, Labor & Industry
+Banking, Finance & Currency :: Banking systems | Currency | Credit
+Market Panics, Crashes & Financial Crises :: Bank runs | Market collapses | Economic depressions
+Commerce, Shipping Trade & International Markets :: Imports and exports | Trade routes | Global commerce
+Business, Corporations & Industrial Expansion :: Company formation | Corporate crises | Industrial growth
+Labor Unions, Strikes & Workplace Conflict :: Strikes | Union organizing | Labor negotiations | Strike violence and labor confrontations
+Agriculture, Food Supply & Commodity Markets :: Harvests | Food shortages | Commodity prices
+Energy, Mining & Manufacturing :: Coal and oil | Mining industries | Factories
+Economic Policy, Taxes & Public Finance :: Tariffs | Taxation | Government budgets
+# 10 Culture, Religion & Media
+Religion, Faith & Spiritual Movements :: Religious communities | New movements | Religious controversies | Papal elections and religious succession
+Arts, Literature, Music & Theater :: Books | Visual arts | Music | Stage performances
+Film, Radio, Television & Entertainment :: Cinema | Broadcasting | Popular entertainment
+Sports, Competitions & Recreation :: International tournaments | Sporting records | Recreational events
+Newspapers, Journalism & Publishing :: Press criticism and editorial disputes | Investigative reporting | Press freedom | Propaganda and disinformation | Media ethics and intrusive reporting
+Media Hoaxes, Retractions & Fabricated Reporting :: Fabricated articles | Published retractions | Deliberate press deception
+Public Figures, Celebrities & Cultural Icons :: Biographies | Public careers | Obituaries
+Social Customs, Celebrations & Public Spectacles :: Festivals | Traditions | Public exhibitions
+# 11 Nature, Wildlife & Environment
+Wildlife & Animal Behavior :: Mammals | Birds | Aquatic life | Insects
+Rare, Unusual & Newly Identified Species :: Rare sightings | Biological abnormalities | Newly identified organisms
+Animal Attacks & Human–Wildlife Encounters :: Predator attacks | Dangerous encounters | Wildlife conflicts
+Ecology, Habitats & Conservation :: Habitats | Species protection | Ecosystem change
+Climate & Long-Term Environmental Change :: Climate trends | Long-term weather patterns | Environmental change
+Pollution, Contamination & Environmental Damage :: Air pollution | Water contamination | Environmental harm
+Natural Resources & Environmental Discoveries :: Forests | Water resources | Geological resources
+# 12 Transportation & Maritime
+Ships, Shipping & Maritime History :: Passenger liners | Merchant vessels | Maritime operations
+Shipwrecks, Maritime Accidents & Losses :: Collisions | Groundings | Sinkings, capsizings and foundering | Stranded and icebound vessels | Shipboard fires and onboard emergencies | Submersible and deep-sea incidents
+Aviation & Aerospace Transportation :: Early aviation | Commercial aviation | Aircraft development
+Railways & Train Operations :: Rail networks | Locomotives | Passenger and freight services
+Automobiles, Roads & Motor Vehicles :: Early automobiles | Highways | Road transport
+Bridges, Ports & Transit Infrastructure :: Bridges | Harbors | Stations and transit systems
+Transportation Accidents & Safety Investigations :: Aircraft crashes | Train collisions | Road accidents | Train derailments and hazardous freight incidents | Missing aircraft and aviation searches | In-flight failures and aviation near misses
+Navigation, Routes & Transportation Development :: Navigation | New routes | Transportation services
+# 13 Paranormal, Folklore & Curiosities
+Ghosts, Hauntings & Apparitions :: Haunted places | Apparition reports | Alleged ghost encounters
+Séances, Spiritualism & Psychic Claims :: Mediums | Spirit communication | Psychic demonstrations
+UFOs & Unidentified Sightings :: Unidentified aerial sightings | UFO reports | Claimed encounters
+Prophecies, Premonitions & Unusual Dreams :: Prophetic dreams | Premonitions | Fortune-telling claims
+Cryptids, Legendary Creatures & Strange Beasts :: Sea monsters | Cryptids | Legendary animals
+Folklore, Legends & Extraordinary Tales :: Moral tales | Urban legends | Regional folklore
+Unexplained Incidents & Historical Mysteries :: Unexplained events | Lost expeditions | Unresolved historical incidents
+Bizarre Claims, Curiosities & Alleged Miracles :: Extraordinary claims | Alleged miracles | Unusual public curiosities
