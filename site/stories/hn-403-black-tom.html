@@ -55,6 +55,13 @@
   .footer a{color:#1565c0}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
   .notes{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-top:16px}
+  .scan{margin:0}
+  .scan-frame{max-height:640px;overflow-y:auto;border:1px solid var(--line);border-radius:6px;background:#fff}
+  .scan-frame img{display:block;width:100%;height:auto}
+  .scan figcaption{font-size:.78rem;color:#666;margin-top:8px;line-height:1.45}
+  .scan figcaption a{color:#1565c0}
+  .scan-frame::-webkit-scrollbar{width:10px}
+  .scan-frame::-webkit-scrollbar-thumb{background:#c9c2b2;border-radius:5px}
 </style>
 </head>
 <body>
@@ -90,6 +97,38 @@
       <li><strong>Eugene Daily Guard</strong> (Eugene, OR), July 31, 1916 — reported <strong>four killed and eleven to twenty missing</strong>, with property damage estimates ranging from <strong>$25 million to $45 million</strong>.</li>
     </ul>
     <p class="notes">These are different <em>dispatch snapshots</em>, not a proven deliberate contradiction. The Oregonian's dispatch is dated July 30, which helps explain why the next day's figures changed. No website language should imply deliberate deception or state a final casualty toll.</p>
+  </div>
+
+  <div class="comparison">
+    <h3>Original page scans (retrieved from the archive)</h3>
+    <p class="ocr-caption">These are the actual scanned newspaper pages, retrieved from Historic Oregon Newspapers (University of Oregon) through the archive's IIIF image service. Article crops are cut using the archive's own ALTO OCR word coordinates, so each crop matches the transcribed article text exactly. No images were generated, mocked, or retouched. Scroll inside each frame to read; click through for full resolution.</p>
+    <div class="grid">
+      <figure class="scan">
+        <div class="scan-frame">
+          <img src="../assets/images/hn-403-oregonian-1916-07-31-article.jpg" alt="Morning Oregonian, July 31, 1916, page 1 article headlined $25,000,000 Loss Due to Explosion" loading="lazy">
+        </div>
+        <figcaption><strong>Morning Oregonian</strong> (Portland, Or.), July 31, 1916, p. 1 &mdash; headline and opening paragraphs.
+          <br><a href="../assets/images/hn-403-oregonian-1916-07-31-article.jpg" target="_blank" rel="noopener">Open article crop at full resolution</a> &middot; <a href="../assets/images/hn-403-oregonian-1916-07-31-page.jpg" target="_blank" rel="noopener">Full page</a></figcaption>
+      </figure>
+      <figure class="scan">
+        <div class="scan-frame">
+          <img src="../assets/images/hn-403-eugene-guard-1916-07-31-article.jpg" alt="Eugene Daily Guard, July 31, 1916, page 1 article headlined Blazing Ammunition Barges Adrift" loading="lazy">
+        </div>
+        <figcaption><strong>Eugene Daily Guard</strong> (Eugene, Or.), July 31, 1916, p. 1 &mdash; complete first-page article.
+          <br><a href="../assets/images/hn-403-eugene-guard-1916-07-31-article.jpg" target="_blank" rel="noopener">Open article crop at full resolution</a> &middot; <a href="../assets/images/hn-403-eugene-guard-1916-07-31-page.jpg" target="_blank" rel="noopener">Full page</a></figcaption>
+      </figure>
+    </div>
+    <div class="grid" style="margin-top:16px">
+      <figure class="scan">
+        <img src="../assets/images/hn-403-oregonian-1916-07-31-page.jpg" alt="Complete scanned page one of the Morning Oregonian for July 31, 1916" loading="lazy">
+        <figcaption><strong>Morning Oregonian</strong> &mdash; complete page 1 (source scan 5,392 &times; 6,667 px). The article runs in the right-hand column.</figcaption>
+      </figure>
+      <figure class="scan">
+        <img src="../assets/images/hn-403-eugene-guard-1916-07-31-page.jpg" alt="Complete scanned page one of the Eugene Daily Guard for July 31, 1916" loading="lazy">
+        <figcaption><strong>Eugene Daily Guard</strong> &mdash; complete page 1. The article occupies the left-hand column.</figcaption>
+      </figure>
+    </div>
+    <div class="side-note"><strong>Provenance:</strong> Page images come from the University of Oregon's Historic Oregon Newspapers IIIF endpoint for LCCN sn83025138 (Morning Oregonian) and sn96088107 (Eugene Daily Guard), issue 1916-07-31, sequence 1. Crop boxes were computed from each page's ALTO OCR word coordinates (measurement unit inch/1200, scaled 0.25 to the 300&nbsp;dpi scan).</div>
   </div>
 
   <div class="comparison">
@@ -129,8 +168,9 @@
     <h3>Source acquisition</h3>
     <p><strong>Provider:</strong> Historic Oregon Newspapers (University of Oregon)</p>
     <p><strong>Status:</strong> <span class="badge status-verified">Source identity verified</span></p>
-    <p>Both primary issue OCR pages checked this turn (Evidence tier A-direct). Article crops not separately extracted; full-page viewer links provided via the archive.</p>
-    <p><strong>Next action:</strong> Attempt direct crop extraction via Veridian IIIF/image endpoints in a manual/browser-based session.</p>
+    <p>Both primary issue OCR pages checked (Evidence tier A-direct). <strong>Full-page scans and article crops have now been retrieved</strong> from the archive's IIIF image service and are displayed above &mdash; two full pages and two article crops.</p>
+    <p><strong>Status detail:</strong> page images downloaded directly from <code>oregonnews.uoregon.edu/images/iiif/</code>; crop coordinates derived from each page's ALTO OCR file. Images are stored locally under <code>site/assets/images/</code> and are unmodified archive derivatives (JPEG renditions of the archive's JP2 scans).</p>
+    <p><strong>Next action:</strong> Extend the same IIIF + ALTO procedure to the other accessible Historic Oregon Newspapers records (942 source URLs in the manifest).</p>
   </div>
 
   <div class="notes">

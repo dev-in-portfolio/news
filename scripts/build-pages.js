@@ -21,6 +21,10 @@ const comparisons = readJson(path.join(DATA, 'comparisons.json'));
 const stats = readJson(path.join(DATA, 'stats.json'));
 const taxonomy = readJson(path.join(DATA, 'taxonomy.json'));
 
+// Optional: acquired original page scans
+let imagesByHn = {};
+try { imagesByHn = readJson(path.join(DATA, 'images.json')); } catch (e) { imagesByHn = {}; }
+
 // Read acquisition manifest (keyed by seed_url)
 let manifestByUrl = {};
 try {
@@ -150,6 +154,30 @@ fs.writeFileSync(path.join(SITE, 'index.html'), buildHomepage());
 const storiesDir = path.join(SITE, 'stories');
 fs.mkdirSync(storiesDir, { recursive: true });
 
+function imagesCard(hn) {
+  const imgs = imagesByHn[hn];
+  if (!imgs || !imgs.length) return '';
+  const figures = imgs.map(im => {
+    const label = im.newspaper || im.lccn || 'Newspaper';
+    const isCrop = !!im.crop;
+    const src = isCrop ? im.crop : im.full_page;
+    return '<figure class="scan">\n' +
+      '<div class="scan-frame"><img src="../' + esc(src) + '" alt="' + esc(label + ', ' + im.issue_date + (isCrop ? ' - article crop' : ' - page scan')) + '" loading="lazy"></div>\n' +
+      '<figcaption><strong>' + esc(label) + '</strong> &middot; ' + esc(im.issue_date) + ' &middot; image ' + im.sequence +
+      (isCrop ? ' &mdash; article crop' : ' &mdash; page scan (1,200&nbsp;px rendition)') +
+      '<br><a href="../' + esc(src) + '" target="_blank" rel="noopener">' + (isCrop ? 'Open full-resolution crop' : 'Open larger view') + '</a> &middot; ' +
+      (isCrop ? '<a href="../' + esc(im.full_page) + '" target="_blank" rel="noopener">Page scan</a> &middot; ' : '') +
+      '<a href="' + esc(im.page_url) + '" target="_blank" rel="noopener">Archive viewer (full resolution)</a></figcaption>\n' +
+      '</figure>';
+  }).join('\n');
+  return '<div class="card">\n' +
+    '<h3>Original page scans (' + imgs.length + ')</h3>\n' +
+    '<p class="note">Authentic scans retrieved from ' + esc(imgs[0].provider || 'the archive') +
+    '. Article crops are located using the archive\'s own ALTO OCR word coordinates and rendered at native crop resolution; page scans are 1,200-pixel-wide renditions. No images were generated, mocked, or retouched.</p>\n' +
+    '<div class="scan-grid">' + figures + '</div>\n' +
+    '</div>\n';
+}
+
 function buildDetail(r) {
   const m = manifestByUrl[r.url] || {};
   const acquisition = m.acquisition_status || 'untried';
@@ -207,6 +235,7 @@ function buildDetail(r) {
     peersHtml +
     '</div>\n' +
     auditHtml +
+    imagesCard(r.hn_id) +
     acquisitionHtml +
     '<div class="card">\n' +
     '<h3>Original seed</h3>\n' +
