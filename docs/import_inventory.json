@@ -1,0 +1,581 @@
+﻿{
+    "package":  "Newspaper_Archives_OpenCode_Handoff_v2_2026-11-08",
+    "research_path":  "D:\\news",
+    "milestone":  "0",
+    "status":  "complete",
+    "source_files_verified":  63,
+    "hash_mismatches":  0,
+    "original_files_modified":  false,
+    "manifest_entries":  66,
+    "hn_records":  1056,
+    "hn_ids":  "HN-001 to HN-1056",
+    "missing_hn_ids":  0,
+    "duplicate_hn_ids":  0,
+    "nonempty_seed_urls":  1056,
+    "distinct_seed_urls":  1018,
+    "curated_flags":  84,
+    "curated_classes":  {
+                            "M":  17,
+                            "P":  11,
+                            "Q":  14,
+                            "F":  8,
+                            "V":  15,
+                            "(blank)":  972,
+                            "R":  19
+                        },
+    "screening_leads":  105,
+    "candidate_identity_pairs":  140,
+    "batch_reports":  44,
+    "batch_distinct_intervals":  43,
+    "hn_403_427_duplicate":  true,
+    "evidence_tiers":  {
+                           "A-direct":  1,
+                           "B":  14,
+                           "A+B":  12,
+                           "A+retro":  5,
+                           "A+index":  1,
+                           "(blank)":  972,
+                           "C":  4,
+                           "A":  47
+                       },
+    "taxonomy":  {
+                     "roots":  13,
+                     "subcategories":  100,
+                     "third_level":  361,
+                     "classified_rows":  1056,
+                     "missing_ids":  0,
+                     "duplicate_ids":  0,
+                     "populated_leaves":  245,
+                     "empty_leaves":  116
+                 },
+    "files":  [
+                  {
+                      "relative_path":  "Historical_Newspaper_Article_Inconsistencies_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  50064,
+                      "sha256":  "b0c5712b2e8ac226832bdbcc37ed83c70ceba10a8ce6b4af01dc5355ad91855e",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "Historical_Newspaper_Inconsistency_Screening_1056_2026-10-23.csv",
+                      "role":  "historical_source",
+                      "size_bytes":  336919,
+                      "sha256":  "cd00b996c1955715b53eba46c3cdd0a350ca6a4658dc101047c25b555c36fa88",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Classification_DRAFT.csv",
+                      "role":  "historical_source",
+                      "size_bytes":  361752,
+                      "sha256":  "dde99e9021df7f7e5f8f84eaf788830f130c15a28ead906a9f8b2e20da98567a",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Classification_LOCK_CANDIDATE.csv",
+                      "role":  "historical_source",
+                      "size_bytes":  418485,
+                      "sha256":  "a8754e921e08b7471b1ca872e3e3e424565bb4adcc5233c712eeb6ee8ec3ad02",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Classification_v1_LOCKED.csv",
+                      "role":  "historical_source",
+                      "size_bytes":  418485,
+                      "sha256":  "a8754e921e08b7471b1ca872e3e3e424565bb4adcc5233c712eeb6ee8ec3ad02",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Cross_Thread_Reconciliation_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  25015,
+                      "sha256":  "93915c803cad60f44a945222ef2d5bd46214678b985c972ead4ef8b7529a7529",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Discoveries_1777-2026.md",
+                      "role":  "historical_source",
+                      "size_bytes":  967559,
+                      "sha256":  "c353b059e042985b0f0954289d62ac87adea30de8d20eeb2ccc30d6a1bca89eb",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_001-025_screening_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  17451,
+                      "sha256":  "32648869df1ca3f3cf14634dc8192694030af95595ae3292bf41128aadfcf876",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_026-052_Consolidated_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  49356,
+                      "sha256":  "c6be81378e18ee14daaca4172011a03fb63e5975289c6079f7493f76d0684c3e",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_053-077_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  12591,
+                      "sha256":  "6f72e25142c1d4d63119dc1da5684b31d18c9cd68bcec851ce348c80192440d7",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_078-102_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  20934,
+                      "sha256":  "60868f5c81b78743efd5e704882c53634de5bd1837de4c44bb5a5f463526e8c0",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_1003-1027_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  28585,
+                      "sha256":  "b3572bcd801847c938bc6c9d728d48effc73d5be4fb5779e984d10f3ccfaa55c",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_1028-1052_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26711,
+                      "sha256":  "a24ff3c9eaad6d05f396f5ca7450607fea9fee4e42398f4a574db7dde6586ea3",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_103-127_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  14660,
+                      "sha256":  "fbb8af2b85bc9e24b2d9881afe13483963c1bc5f5a43985005f6263b6b356b86",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_1053-1056_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  17401,
+                      "sha256":  "81d621b797ce5def05bf4aab30db6d7edf43db2a74b30d9c8c57d3186d3103e3",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_128-152_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  15352,
+                      "sha256":  "94891b73237778c7df6e462cbeb9cc9130a816151201747b1bf8e64a1781fd03",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_153-177_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  19265,
+                      "sha256":  "9e4ad005c8f7af4f550a5057de636dee1e85a4a804126ea973d2877dc6c33528",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_178-202_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26167,
+                      "sha256":  "60ebef35136474b138ddc63e0d479d20d51bf3eaa72d950d3be5a73a7567bd6e",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_203-227_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26541,
+                      "sha256":  "01cae04e5965bf82be558fe1f4b9fb00657aa25dcb3fc91c0234991702a092c8",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_228-252_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  33678,
+                      "sha256":  "e984ab7257e2905e93b36326cceb01c316a2a209bf33e993ba68063ae08486e6",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_253-277_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  34528,
+                      "sha256":  "65e994268a264e5da0811230caa8e1d0d126a02aec764f739505cc64a431c050",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_278-302_2026-10-22.md",
+                      "role":  "historical_source",
+                      "size_bytes":  31141,
+                      "sha256":  "9776184cef5619fe9c8f97a2ae82953b6b5691fc6d3e927b596d3d53e6134364",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_303-327_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  31002,
+                      "sha256":  "fbfa513d0e9b4bccdecb924fa4af6ff0372af9ab2d5b669a46a9a177185daaf4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_328-352_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  35919,
+                      "sha256":  "073116d3acc18a49e4730886d30b481c7799db0df76ad938a6dfc836b9215237",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_353-377_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  36515,
+                      "sha256":  "0a24141f978e5dc90e4a97391cfd5bcbf3d9615ac438c1449d208d9942e3724b",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_378-402_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  34713,
+                      "sha256":  "f9f10e4d9b1f5f942c36cf7ca808f7e50663c138eb7553d11b8dee775bf5a971",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_403-427_2026-10-23(1).md",
+                      "role":  "historical_source",
+                      "size_bytes":  22335,
+                      "sha256":  "b75b492f9f784702e7fe71de940f9e78f81aa4c84d2db7ab1cef6560a7fc51f2",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_403-427_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30760,
+                      "sha256":  "3f1792d481ab094091e04ea681c00f47866aaf1edcf7fc47466e801d28ed3ab9",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_428-452_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  21698,
+                      "sha256":  "d63092c1f5468345dcd7e50b11393d7bf48d0c948a7f9f99cd0b389e41b7ab0e",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_453-477_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  25590,
+                      "sha256":  "aa8676dea90cc514b70158a79e05fd79cfa8354e7155aeae23043a96861247df",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_478-502_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  27190,
+                      "sha256":  "855e8c770fbd5eb903aa19cea9c53ed29be6632ea706ae8149de84a00c61dcb6",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_503-527_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  33401,
+                      "sha256":  "705b8a24d1355c6bb7b57271cb937443ba8c3464557ddcb9e7628dd7908d41f8",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_528-552_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  23011,
+                      "sha256":  "712cd80b75d39747be3b374f3644e0e49b79eaf2868ce43a446bfeb685b9fbbe",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_553-577_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30009,
+                      "sha256":  "31621cca9033b32984635a9f1837f6f35527886d5151d5191cce054cbce279c4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_578-602_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30889,
+                      "sha256":  "593696bdf6e9f098bd34382d48953d43d80a115a1a227758c84878e20931e4d4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_603-627_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26029,
+                      "sha256":  "505a3d359eb6336426134bad54ff1ade7c570336cbc04d5cd5d4761c4a8bab6f",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_628-652_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  28940,
+                      "sha256":  "346005640f1ebe288f9d02662b370d0bc99cb0ac5edff9681e18e8a70e78f5a0",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_653-677_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26484,
+                      "sha256":  "b5dbf75cad1964d155cdfef33cd2743893fecde8ed18c3f0069863df98a97da9",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_678-702_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  28683,
+                      "sha256":  "db2315ed3ba59b117e291f4c79d003bad48b70ef13f168328f08a7a7ce9aba79",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_703-727_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30698,
+                      "sha256":  "8c48200f64f5524144a6d20635b1a51c79cdb3a9fc4e49d1abe7892f16cc990c",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_728-752_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30213,
+                      "sha256":  "cea605390f5df50f6ad9ea2ffabc3d1bf4e6bb8ddbecee0b530973c9f49d1e43",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_753-777_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  32635,
+                      "sha256":  "2f28273d128c8648472953e49dbc6c7cb1b96d4818fb2d44690260fb6c575047",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_778-802_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  23195,
+                      "sha256":  "f8cf360fd9a875832f37341e7f9ebceea382a55c6cd3c3491f3cfcb482414481",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_803-827_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  32558,
+                      "sha256":  "0a7c298ae5725d43521d3bf46bff7d3a8b7627dbf51df55576ef52436bea6fd7",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_828-852_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  26716,
+                      "sha256":  "644afd4c3594df85de04b625041dd76478f06e0eefccb0d34b39f7f49dc28d28",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_853-877_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30306,
+                      "sha256":  "57a22c858deb457ea485b98ca58cd3cdd51dae8e26d318d4942c254718aa71d4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_878-902_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  32091,
+                      "sha256":  "6434be180c95c6d4ded3b0eb22eefc46e11584874faed3b560cd31e8a29d5510",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_903-927_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  29893,
+                      "sha256":  "e4ca0c9b6a1bcd4590ebed53a19afb5a80898f309ffb3b16a0bbc9810411e751",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_928-952_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  32433,
+                      "sha256":  "62cda25902bd4b15b0dfbb4b4ec8d9661d5a4ec1424957328b109b5c6a4296ce",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_953-977_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  30131,
+                      "sha256":  "167359a5a24cf519a6719646da0c9ea15b68c425aa725a23b03829ebc7260711",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_978-1002_2026-10-23.md",
+                      "role":  "historical_source",
+                      "size_bytes":  27235,
+                      "sha256":  "cf0c1be63cdffc0a9e39a2164bf40103388d4a261a7e760f3524fc1e02484abc",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx",
+                      "role":  "historical_source",
+                      "size_bytes":  191276,
+                      "sha256":  "8681fa6322587a1da6bc7bc566551087953046dec39b56b184ccc7707999356c",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Singleton_Final_Review.md",
+                      "role":  "historical_source",
+                      "size_bytes":  8739,
+                      "sha256":  "2cef54bd98d804cb519beb03295841daa1ab3c115791e11cfa9427bedda39244",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Taxonomy_Audit_DRAFT.md",
+                      "role":  "historical_source",
+                      "size_bytes":  42640,
+                      "sha256":  "48c53e087a8bbffdd1ef329489ec866918b8077d4cbf5a3520b71ee613956daf",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Taxonomy_Audit_Data.json",
+                      "role":  "historical_source",
+                      "size_bytes":  2161369,
+                      "sha256":  "c48f7e7e505cebc021226ce4f8beec4844f05759dc780d694793b743973433fd",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Taxonomy_Decisions_LOCK_CANDIDATE.md",
+                      "role":  "historical_source",
+                      "size_bytes":  24673,
+                      "sha256":  "bb8c4bd13c51a54c437b470242b3e553fcc8951bdae9ccda19898cd9403a209c",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/Historical_Newspaper_Taxonomy_v1_LOCK_RECORD.md",
+                      "role":  "historical_source",
+                      "size_bytes":  3911,
+                      "sha256":  "e55aef06d5bf09e7fd745a109923d5ad19d99a7767a959a3372a4dc761cf627f",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/audit_historical_taxonomy.mjs",
+                      "role":  "historical_source",
+                      "size_bytes":  70373,
+                      "sha256":  "46a21baff61cefb884f820f934732ecf1086015f2794f750da05c2046f4f5643",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/historical_taxonomy_LOCK_CANDIDATE.txt",
+                      "role":  "historical_source",
+                      "size_bytes":  12182,
+                      "sha256":  "5b8b7a65d2c390e4387b27e25f558e662b5807e0d7a7a07b31c0d254d58679d4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/historical_taxonomy_manual_review.txt",
+                      "role":  "historical_source",
+                      "size_bytes":  25117,
+                      "sha256":  "ea7146be9db1f8c12f839f17940be518557f6150d513c1a4cc01157d164b7b8a",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/historical_taxonomy_proposed_revision.txt",
+                      "role":  "historical_source",
+                      "size_bytes":  11818,
+                      "sha256":  "1bfa74b95e06e9f9597d841787a1b695e7c6ec2d227d98adc5b67d1eb07aeb4e",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/historical_taxonomy_v1_LOCKED.txt",
+                      "role":  "historical_source",
+                      "size_bytes":  12182,
+                      "sha256":  "5b8b7a65d2c390e4387b27e25f558e662b5807e0d7a7a07b31c0d254d58679d4",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "old stuff/reconcile_historical_taxonomy.mjs",
+                      "role":  "historical_source",
+                      "size_bytes":  31024,
+                      "sha256":  "5caf86acd2ae73cf9081e701da62535d097cef08cad1a8ba86ba933bf8c6af1c",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "Newspaper_Archives_OpenCode_Handoff_v2.md",
+                      "role":  "handoff_spec",
+                      "size_bytes":  48958,
+                      "sha256":  "98100a91a031868ec56adb49ec3021905a304ad3158f2b2c78587fb7b2d5c0ed",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "SOURCE_CHECKSUMS.sha256",
+                      "role":  "integrity_file",
+                      "size_bytes":  8315,
+                      "sha256":  "c39beaf7084768fb1c65f027ff3497dba89dbd3bcbc1a1621afa955531965a6f",
+                      "verified":  true,
+                      "status":  "ok"
+                  },
+                  {
+                      "relative_path":  "START_HERE.md",
+                      "role":  "startup_instructions",
+                      "size_bytes":  5808,
+                      "sha256":  "15fb2e0e3ab76d9017dd33552738551b38094a6bc32bc9d025ded1bfd41c35d4",
+                      "verified":  true,
+                      "status":  "ok"
+                  }
+              ]
+}
