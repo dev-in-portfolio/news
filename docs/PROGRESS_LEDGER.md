@@ -119,3 +119,68 @@ rows shifted by an unquoted comma in `issue_date` and 24 rows carrying a stray
 0 non-URL `original_url_exact`, and a clean status distribution
 (`blocked_access` 4, `untried` 4,012, `link_checked` 3,
 `source_identity_verified` 23).
+
+## Expanded page-scan acquisition (LOC, South Carolina, Oklahoma, Texas)
+
+The earlier note that LOC and Oklahoma were blocked was superseded. Both expose
+machine-readable image services that answer a browser User-Agent even while
+their human-facing HTML pages reject automation.
+
+| Provider | Records | Pages acquired | Crops | Method |
+|----------|---------|----------------|-------|--------|
+| Historic Oregon Newspapers | 192 | 412 | 29 | IIIF + ALTO OCR |
+| Library of Congress / Chronicling America | 22 | 81 | 2 | `?fo=json` + IIIF + word-coordinates |
+| Gateway to Oklahoma History | 43 | 53 | 0 | IIIF (`full/full`) + UNTL metadata |
+| The Portal to Texas History | 19 | 22 | 0 | IIIF + UNTL metadata |
+| South Carolina Historic Newspapers | 16 | 16 | 6 | JP2 + word-coordinates + ffmpeg |
+| **Total** | **293** | **584** | **37** | |
+
+**Provider notes**
+
+- **Library of Congress.** `www.loc.gov/resource/...` returns 403 HTML to
+  automation, but `?fo=json` returns the IIIF `info.json` URL, the
+  `word-coordinates-service` URL, and page dimensions. `tile.loc.gov` serves the
+  images and coordinates directly. The JSON API is rate-limited per IP (HTTP
+  429), so the pipeline uses a slow drip with exponential backoff and an
+  incremental ledger. All 80 queued pages were eventually acquired.
+- **South Carolina.** Each page links a full-resolution `.jp2` plus a
+  `coordinates/` endpoint returning word boxes in a 3x pixel space. `ffmpeg`
+  decodes the JP2 locally; page and crop JPEGs are rendered from the original
+  scan. This is the only new provider that supports confident crops.
+- **Oklahoma / Texas.** The UNT portals expose a public IIIF Image API capped at
+  a 1,500-px access rendition and an OCR text endpoint, but no coordinate
+  service. Only full pages are stored; no crops are guessed. Oklahoma's server
+  rejects width-based IIIF sizes, so the pipeline falls back to `full/full`.
+- **Blocked and not automated:** Indiana (`newspapers.library.in.gov`, Cloudflare
+  challenge), Papers Past (Incapsula JS challenge), British Newspaper Archive
+  (subscription paywall), NewspaperArchive and RareNewspapers (commercial
+  licensing). Modern paywalled titles (Washington Post, LA Times, Guardian) are
+  not scraped and are never republished.
+
+**Honesty constraints preserved**
+
+- Every stored JPEG is a rendition of the archive's own scan; none is generated
+  or retouched.
+- Crops exist only where a quoted batch-report headline matches OCR text at
+  score >= 0.6. All other pages show the full scan alone.
+- Full pages are 1,200-px-wide renditions; article crops are native-resolution.
+  The archive viewer is linked from every card.
+- LOC and Oklahoma/Texas pages carry no crops because those services expose no
+  word coordinates (or no headline metadata for the page).
+
+**Verification (this run)**
+
+- `scripts/verify_images.js`: 293 records, 584 scans, 37 crops, 0 missing files,
+  0 broken references.
+- `scripts/verify_milestone7.js`: 40/40.
+- `scripts/coverage_report.js`: 293/1,056 records (27.7%) have scans;
+  31 records (2.9%) have a verified crop; 210 records link only to
+  blocked/paywalled providers.
+
+**New scripts**
+
+- `scripts/acquire_loc_images.js` — LOC JSON + IIIF + word coordinates.
+- `scripts/acquire_sc_images.js` — South Carolina JP2 + coordinates + ffmpeg.
+- `scripts/acquire_portal_images.js` — Oklahoma and Texas IIIF.
+- `scripts/lib_image_merge.js` — merges all provider ledgers into
+  `site/data/images.json`.

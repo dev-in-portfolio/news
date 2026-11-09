@@ -29,6 +29,20 @@
    "iiif_id": "batch_oru_auklet_ver01%2Fdata%2Fsn99063957%2F00200298615%2F1912020601%2F0094.jp2"
   },
   {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Yorkville Enquirer",
+   "headline": "",
+   "lccn": "sn84026925",
+   "issue_date": "1912-02-16",
+   "sequence": 2,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn84026925/1912-02-16/ed-1/seq-2/",
+   "full_page": "assets/images/hn-380-sc-sn84026925-1912-02-16-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7547x10363",
+   "iiif_id": null
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Eugene Daily Guard",
    "headline": "",
@@ -87,6 +101,34 @@
    "crop_coordinates": null,
    "dimensions": "3988x5321",
    "iiif_id": "batch_oru_20260819disk16a05_ver01%2Fdata%2Fsn96088107%2F15031700095%2F1912012201%2F0220.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Cairo Bulletin",
+   "headline": "",
+   "lccn": "sn93055779",
+   "issue_date": "1912-01-23",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn93055779/1912-01-23/ed-1/?sp=1",
+   "full_page": "assets/images/hn-379-loc-sn93055779-1912-01-23-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5226x6952",
+   "iiif_id": "service:ndnp:iune:batch_iune_kerning_ver01:data:sn93055779:00295872664:1912012301:0150"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Keowee Courier",
+   "headline": "Horror on Panama Limited",
+   "lccn": "sn84026912",
+   "issue_date": "1912-01-24",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn84026912/1912-01-24/ed-1/seq-1/",
+   "full_page": "assets/images/hn-379-sc-sn84026912-1912-01-24-seq1-page.jpg",
+   "crop": "assets/images/hn-379-sc-sn84026912-1912-01-24-seq1-article.jpg",
+   "crop_coordinates": "315,3118,880,3075",
+   "dimensions": "5811x8079",
+   "iiif_id": null
   }
  ],
  "HN-403": [
@@ -175,6 +217,20 @@
    "crop_coordinates": null,
    "dimensions": "4136x5545",
    "iiif_id": "batch_oru_20260112disk09a01_ver01%2Fdata%2F2003260226%2F15020700190%2F1912031601%2F0815.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Yorkville Enquirer",
+   "headline": "",
+   "lccn": "sn84026925",
+   "issue_date": "1912-03-29",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn84026925/1912-03-29/ed-1/seq-1/",
+   "full_page": "assets/images/hn-381-sc-sn84026925-1912-03-29-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7540x10435",
+   "iiif_id": null
   }
  ],
  "HN-382": [
@@ -265,6 +321,20 @@
    "crop_coordinates": null,
    "dimensions": "4064x5333",
    "iiif_id": "batch_oru_20260819disk16a03_ver01%2Fdata%2Fsn96088115%2F15031700155%2F1913032801%2F0694.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "The Barnwell People",
+   "headline": "Scenes of Horror",
+   "lccn": "sn86063789",
+   "issue_date": "1913-04-03",
+   "sequence": 2,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063789/1913-04-03/ed-1/seq-2/",
+   "full_page": "assets/images/hn-385-sc-sn86063789-1913-04-03-seq2-page.jpg",
+   "crop": "assets/images/hn-385-sc-sn86063789-1913-04-03-seq2-article.jpg",
+   "crop_coordinates": "412,682,954,2338",
+   "dimensions": "5887x8943",
+   "iiif_id": null
   }
  ],
  "HN-384": [
@@ -325,6 +395,20 @@
    "crop_coordinates": null,
    "dimensions": "5284x7111",
    "iiif_id": "batch_oru_20190823Foo_ver01%2Fdata%2Fsn85042444%2F14063001055%2F1913111701%2F0074.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Manning Times",
+   "headline": "Cast Up Bodies,",
+   "lccn": "sn86063760",
+   "issue_date": "1913-11-19",
+   "sequence": 8,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063760/1913-11-19/ed-1/seq-8/",
+   "full_page": "assets/images/hn-386-sc-sn86063760-1913-11-19-seq8-page.jpg",
+   "crop": "assets/images/hn-386-sc-sn86063760-1913-11-19-seq8-article.jpg",
+   "crop_coordinates": "2653,506,877,3097",
+   "dimensions": "7006x9821",
+   "iiif_id": null
   }
  ],
  "HN-387": [
@@ -385,9 +469,37 @@
    "crop_coordinates": null,
    "dimensions": "4684x6343",
    "iiif_id": "batch_oru_bobolink_ver01%2Fdata%2Fsn99063957%2F00200294427%2F1914042301%2F0111.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Manning Times",
+   "headline": "Miners Fight,",
+   "lccn": "sn86063760",
+   "issue_date": "1914-04-29",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063760/1914-04-29/ed-1/seq-1/",
+   "full_page": "assets/images/hn-390-sc-sn86063760-1914-04-29-seq1-page.jpg",
+   "crop": "assets/images/hn-390-sc-sn86063760-1914-04-29-seq1-article.jpg",
+   "crop_coordinates": "1060,6893,796,2794",
+   "dimensions": "7039x9821",
+   "iiif_id": null
   }
  ],
  "HN-389": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "loc",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/loc//ed-1/?sp=1",
+   "full_page": "assets/images/hn-389-loc-loc--seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5908x7041",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_hawaiian_ver01:data:sn84026749:00294557854:1914042201:0295"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Oregon Daily Journal",
@@ -401,6 +513,34 @@
    "crop_coordinates": null,
    "dimensions": "6552x7375",
    "iiif_id": "batch_oru_20190823Foo_ver01%2Fdata%2Fsn85042444%2F14063001059%2F1914042201%2F0547.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Ocala Evening Star",
+   "headline": "",
+   "lccn": "sn84027621",
+   "issue_date": "1914-04-22",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn84027621/1914-04-22/ed-1/?sp=1",
+   "full_page": "assets/images/hn-389-loc-sn84027621-1914-04-22-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6877x9069",
+   "iiif_id": "service:ndnp:fu:batch_fu_beaty_ver01:data:sn84027621:0029586591A:1914042201:0042"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Washington Times",
+   "headline": "",
+   "lccn": "sn84026749",
+   "issue_date": "1914-04-22",
+   "sequence": 295,
+   "page_url": "https://www.loc.gov/resource/sn84026749/1914-04-22/ed-1/?sp=295",
+   "full_page": "assets/images/hn-389-loc-sn84026749-1914-04-22-seq295-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5908x7041",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_hawaiian_ver01:data:sn84026749:00294557854:1914042201:0295"
   }
  ],
  "HN-391": [
@@ -431,6 +571,20 @@
    "crop_coordinates": null,
    "dimensions": "6632x7483",
    "iiif_id": "batch_oru_20190823Foo_ver01%2Fdata%2Fsn85042444%2F14063001060%2F1914053001%2F0751.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Manning Times",
+   "headline": "",
+   "lccn": "sn86063760",
+   "issue_date": "1914-06-03",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063760/1914-06-03/ed-1/seq-1/",
+   "full_page": "assets/images/hn-391-sc-sn86063760-1914-06-03-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7026x9911",
+   "iiif_id": null
   }
  ],
  "HN-392": [
@@ -507,6 +661,20 @@
    "crop_coordinates": null,
    "dimensions": "4328x5891",
    "iiif_id": "batch_oru_bobolink_ver01%2Fdata%2Fsn99063957%2F00200294439%2F1915011501%2F1017.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Anderson Intelligencer",
+   "headline": "",
+   "lccn": "sn93067658",
+   "issue_date": "1915-01-15",
+   "sequence": 2,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn93067658/1915-01-15/ed-1/seq-2/",
+   "full_page": "assets/images/hn-394-sc-sn93067658-1915-01-15-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6105x7325",
+   "iiif_id": null
   }
  ],
  "HN-395": [
@@ -537,6 +705,20 @@
    "crop_coordinates": null,
    "dimensions": "6668x7383",
    "iiif_id": "batch_oru_20190823Foo_ver01%2Fdata%2Fsn85042444%2F14063001071%2F1915041201%2F0276.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Keowee Courier",
+   "headline": "",
+   "lccn": "sn84026912",
+   "issue_date": "1915-04-21",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn84026912/1915-04-21/ed-1/seq-1/",
+   "full_page": "assets/images/hn-395-sc-sn84026912-1915-04-21-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5912x8109",
+   "iiif_id": null
   }
  ],
  "HN-396": [
@@ -613,6 +795,20 @@
    "iiif_id": "batch_oru_20260819disk16a06_ver01%2Fdata%2Fsn96088107%2F15031700104%2F1915072401%2F0077.jp2"
   },
   {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Pageland Journal",
+   "headline": "",
+   "lccn": "sn86063754",
+   "issue_date": "1915-07-28",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063754/1915-07-28/ed-1/seq-1/",
+   "full_page": "assets/images/hn-397-sc-sn86063754-1915-07-28-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5901x8121",
+   "iiif_id": null
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Morning Oregonian",
    "headline": "",
@@ -625,6 +821,20 @@
    "crop_coordinates": null,
    "dimensions": "5708x6868",
    "iiif_id": "batch_oru_hood_ver01%2Fdata%2Fsn83025138%2F00147193105%2F1915072901%2F0335.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Jamestown Weekly Alert",
+   "headline": "",
+   "lccn": "sn85042405",
+   "issue_date": "1915-07-29",
+   "sequence": 238,
+   "page_url": "https://www.loc.gov/resource/sn85042405/1915-07-29/ed-1/?sp=238",
+   "full_page": "assets/images/hn-397-loc-sn85042405-1915-07-29-seq238-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5697x6978",
+   "iiif_id": "service:ndnp:ndhi:batch_ndhi_iodine_ver02:data:sn85042405:00271740657:1915072901:0238"
   }
  ],
  "HN-398": [
@@ -713,6 +923,20 @@
    "crop_coordinates": null,
    "dimensions": "5620x6932",
    "iiif_id": "batch_oru_hood_ver01%2Fdata%2Fsn83025138%2F00147193781%2F1915092501%2F0245.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Keowee Courier",
+   "headline": "",
+   "lccn": "sn84026912",
+   "issue_date": "1915-09-29",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn84026912/1915-09-29/ed-1/seq-1/",
+   "full_page": "assets/images/hn-399-sc-sn84026912-1915-09-29-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5716x7982",
+   "iiif_id": null
   }
  ],
  "HN-400": [
@@ -907,6 +1131,34 @@
    "iiif_id": "batch_oru_20251107disk10a02_ver01%2Fdata%2F2006260039%2F15020900107%2F1917070301%2F0549.jp2"
   },
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Daily Kennebec Journal",
+   "headline": "",
+   "lccn": "sn82014248",
+   "issue_date": "1917-07-04",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn82014248/1917-07-04/ed-1/?sp=1",
+   "full_page": "assets/images/hn-405-loc-sn82014248-1917-07-04-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5401x7536",
+   "iiif_id": "service:ndnp:me:batch_me_forestcity_ver02:data:sn82014248:00513683121:1917070401:0030"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "La Prensa",
+   "headline": "",
+   "lccn": "sn83045395",
+   "issue_date": "1917-07-04",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83045395/1917-07-04/ed-1/?sp=1",
+   "full_page": "assets/images/hn-405-loc-sn83045395-1917-07-04-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5828x7678",
+   "iiif_id": "service:ndnp:txdn:batch_txdn_andrews_ver01:data:sn83045395:00279520075:1917070401:0462"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Sherman County Observer",
    "headline": "",
@@ -919,6 +1171,20 @@
    "crop_coordinates": null,
    "dimensions": "7652x10153",
    "iiif_id": "batch_shermancountyhistoricalmuseum_20251007H5TeakUnicornBehindBamboo_ver01%2Fdata%2Fsn96088415%2Fprint%2F1917070601%2F0001.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "The Appeal",
+   "headline": "",
+   "lccn": "sn83016810",
+   "issue_date": "1917-09-01",
+   "sequence": 619,
+   "page_url": "https://www.loc.gov/resource/sn83016810/1917-09-01/ed-1/?sp=619",
+   "full_page": "assets/images/hn-405-loc-sn83016810-1917-09-01-seq619-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7350x10277",
+   "iiif_id": "service:ndnp:mnhi:batch_mnhi_funkley_ver02:data:sn83016810:00280768054:1917090101:0619"
   }
  ],
  "HN-406": [
@@ -1053,6 +1319,20 @@
    "iiif_id": "batch_oru_20260711disk14a05_ver01%2Fdata%2Fsn97071090%2F15021200112%2F1917121101%2F0281.jp2"
   },
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Milwaukee Leader",
+   "headline": "",
+   "lccn": "sn83045293",
+   "issue_date": "1917-12-11",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83045293/1917-12-11/ed-1/?sp=1",
+   "full_page": "assets/images/hn-408-loc-sn83045293-1917-12-11-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7343x9992",
+   "iiif_id": "service:ndnp:whi:batch_whi_dubliner_ver02:data:sn83045293:00517012919:1917121101:0267"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Oregon Daily Journal",
    "headline": "",
@@ -1065,6 +1345,20 @@
    "crop_coordinates": null,
    "dimensions": "6612x7280",
    "iiif_id": "batch_oru_20190823Foo_ver01%2Fdata%2Fsn85042444%2F14063001103%2F1917121101%2F0255.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Watchman and Southron",
+   "headline": "Hanged at Sunrise,",
+   "lccn": "sn93067846",
+   "issue_date": "1917-12-15",
+   "sequence": 4,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn93067846/1917-12-15/ed-1/seq-4/",
+   "full_page": "assets/images/hn-408-sc-sn93067846-1917-12-15-seq4-page.jpg",
+   "crop": "assets/images/hn-408-sc-sn93067846-1917-12-15-seq4-article.jpg",
+   "crop_coordinates": "1270,370,1198,3047",
+   "dimensions": "7070x10748",
+   "iiif_id": null
   }
  ],
  "HN-409": [
@@ -1573,6 +1867,20 @@
    "crop_coordinates": "115,916,559,4188",
    "dimensions": "4068x5293",
    "iiif_id": "batch_oru_20260819disk16a05_ver01%2Fdata%2Fsn96088115%2F15031700171%2F1919110801%2F0625.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Capital Journal",
+   "headline": "",
+   "lccn": "sn90066132",
+   "issue_date": "1919-11-08",
+   "sequence": 659,
+   "page_url": "https://www.loc.gov/resource/sn90066132/1919-11-08/ed-1/?sp=659",
+   "full_page": "assets/images/hn-418-loc-sn90066132-1919-11-08-seq659-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4728x6405",
+   "iiif_id": "service:ndnp:oru:batch_oru_jefferson_ver01:data:sn90066132:00295867619:1919110801:0659"
   }
  ],
  "HN-419": [
@@ -1941,6 +2249,34 @@
  ],
  "HN-426": [
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Evening Public Ledger",
+   "headline": "56 Slain in Race Riot in Streets of Tulsa Okla.",
+   "lccn": "sn83045211",
+   "issue_date": "1921-06-01",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83045211/1921-06-01/ed-1/?sp=1",
+   "full_page": "assets/images/hn-426-loc-sn83045211-1921-06-01-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5823x7278",
+   "iiif_id": "service:ndnp:pst:batch_pst_holuba_ver02:data:sn83045211:00237280301:1921060101:0437"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Evening Herald",
+   "headline": "Bitter Race War Rages in Oklahoma — 75 Dead.",
+   "lccn": "sn99063812",
+   "issue_date": "1921-06-01",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn99063812/1921-06-01/ed-1/?sp=1",
+   "full_page": "assets/images/hn-426-loc-sn99063812-1921-06-01-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4194x6028",
+   "iiif_id": "service:ndnp:oru:batch_oru_belladonna_ver01:data:sn99063812:00280760122:1921060101:1234"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "East Oregonian",
    "headline": "",
@@ -1969,6 +2305,48 @@
    "iiif_id": "batch_oru_20251107disk10a02_ver01%2Fdata%2F2006260039%2F15020900114%2F1921060201%2F0902.jp2"
   },
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Morning Tulsa Daily World",
+   "headline": "Dead Estimated at 100: City Is Quiet.",
+   "lccn": "sn85042345",
+   "issue_date": "1921-06-02",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn85042345/1921-06-02/ed-1/?sp=1",
+   "full_page": "assets/images/hn-426-loc-sn85042345-1921-06-02-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5205x6041",
+   "iiif_id": "service:ndnp:okhi:batch_okhi_idabel_ver01:data:sn85042345:00237284306:1921060201:0496"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Daily Kennebec Journal",
+   "headline": "",
+   "lccn": "sn82014248",
+   "issue_date": "1921-06-02",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn82014248/1921-06-02/ed-1/?sp=1",
+   "full_page": "assets/images/hn-426-loc-sn82014248-1921-06-02-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6109x7701",
+   "iiif_id": "service:ndnp:me:batch_me_gilbertville_ver01:data:sn82014248:00513682992:1921060201:0638"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "County Record",
+   "headline": "Eighty Killed in Race Riot,",
+   "lccn": "sn93067841",
+   "issue_date": "1921-06-02",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn93067841/1921-06-02/ed-1/seq-1/",
+   "full_page": "assets/images/hn-426-sc-sn93067841-1921-06-02-seq1-page.jpg",
+   "crop": "assets/images/hn-426-sc-sn93067841-1921-06-02-seq1-article.jpg",
+   "crop_coordinates": "4364,1048,1140,3043",
+   "dimensions": "5609x8771",
+   "iiif_id": null
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Eugene Daily Guard",
    "headline": "",
@@ -1981,9 +2359,51 @@
    "crop_coordinates": null,
    "dimensions": "3872x5519",
    "iiif_id": "batch_oru_20260819disk16a08_ver01%2Fdata%2Fsn96088107%2F15031700114%2F1921060301%2F0221.jp2"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "The Black Dispatch",
+   "headline": "",
+   "lccn": "sn83025214",
+   "issue_date": "1921-06-03",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc152335/m1/1/",
+   "full_page": "assets/images/hn-426-ok-metadc152335-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2354",
+   "iiif_id": "ark:/67531/metadc152335/m1/1"
   }
  ],
  "HN-427": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "Wichita Daily Times",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1875431/m1/1/",
+   "full_page": "assets/images/hn-427-tx-metapth1875431-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1979",
+   "iiif_id": "ark:/67531/metapth1875431/m1/1"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "New York Herald",
+   "headline": "",
+   "lccn": "sn83045774",
+   "issue_date": "1921-06-03",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83045774/1921-06-03/ed-1/?sp=1",
+   "full_page": "assets/images/hn-427-loc-sn83045774-1921-06-03-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6469x8069",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_crowfoot_ver01:data:sn83045774:00271744171:1921060301:0060"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Morning Oregonian",
@@ -1999,6 +2419,20 @@
    "iiif_id": "batch_oru_mckenzie_ver01%2Fdata%2Fsn83025138%2F00147193031%2F1921060401%2F0080.jp2"
   },
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "New-York Tribune",
+   "headline": "US Inquiry in Tulsa Race Riots Ordered.",
+   "lccn": "sn83030214",
+   "issue_date": "1921-06-04",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83030214/1921-06-04/ed-1/?sp=4",
+   "full_page": "assets/images/hn-427-loc-sn83030214-1921-06-04-seq4-page.jpg",
+   "crop": "assets/images/hn-427-loc-sn83030214-1921-06-04-seq4-article.jpg",
+   "crop_coordinates": "33,129,1074,3096",
+   "dimensions": "6743x8455",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_haskins_ver01:data:sn83030214:00206532658:1921060401:0074"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "Hood River Glacier",
    "headline": "Two National Disasters",
@@ -2011,6 +2445,48 @@
    "crop_coordinates": "621,4830,690,2618",
    "dimensions": "5888x7945",
    "iiif_id": "batch_oru_fort_ver01%2Fdata%2Fsn97071110%2F00295868260%2F1921060901%2F0683.jp2"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "The Black Dispatch",
+   "headline": "",
+   "lccn": "sn83025214",
+   "issue_date": "1921-06-10",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc152336/m1/1/",
+   "full_page": "assets/images/hn-427-ok-metadc152336-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2340",
+   "iiif_id": "ark:/67531/metadc152336/m1/1"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Broad Ax",
+   "headline": "That Riot at Tulsa, Oklahoma.",
+   "lccn": "sn84024055",
+   "issue_date": "1921-06-11",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn84024055/1921-06-11/ed-1/?sp=1",
+   "full_page": "assets/images/hn-427-loc-sn84024055-1921-06-11-seq1-page.jpg",
+   "crop": "assets/images/hn-427-loc-sn84024055-1921-06-11-seq1-article.jpg",
+   "crop_coordinates": "3115,5365,656,2107",
+   "dimensions": "5679x7849",
+   "iiif_id": "service:ndnp:iune:batch_iune_charlie_ver01:data:sn84024055:00280761096:1921061101:0480"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Broad Ax",
+   "headline": "",
+   "lccn": "sn84024055",
+   "issue_date": "1921-06-18",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn84024055/1921-06-18/ed-1/?sp=1",
+   "full_page": "assets/images/hn-427-loc-sn84024055-1921-06-18-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5693x7917",
+   "iiif_id": "service:ndnp:iune:batch_iune_charlie_ver01:data:sn84024055:00280761096:1921061801:0484"
   }
  ],
  "HN-429": [
@@ -2045,6 +2521,20 @@
  ],
  "HN-430": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1596660/m1/1/",
+   "full_page": "assets/images/hn-430-tx-metapth1596660-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1868",
+   "iiif_id": "ark:/67531/metapth1596660/m1/1"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A —",
    "headline": "",
@@ -2057,9 +2547,37 @@
    "crop_coordinates": null,
    "dimensions": "3936x5506",
    "iiif_id": "batch_oru_20251210disk10a04_ver01%2Fdata%2Fsn96088107%2F15020900055%2F1922013001%2F1052.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83030214",
+   "issue_date": "1922-01-30",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83030214/1922-01-30/ed-1/?sp=1",
+   "full_page": "assets/images/hn-430-loc-sn83030214-1922-01-30-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6650x8389",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_haskins_ver01:data:sn83030214:00206532725:1922013001:0929"
   }
  ],
  "HN-431": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1596745/m1/1/",
+   "full_page": "assets/images/hn-431-tx-metapth1596745-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1913",
+   "iiif_id": "ark:/67531/metapth1596745/m1/1"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A —",
@@ -2073,6 +2591,20 @@
    "crop_coordinates": null,
    "dimensions": "4064x5483",
    "iiif_id": "batch_oru_20251210disk10a04_ver01%2Fdata%2Fsn96088107%2F15020900056%2F1922042101%2F0504.jp2"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042303",
+   "issue_date": "1922-05-14",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc159303/m1/1/",
+   "full_page": "assets/images/hn-431-ok-metadc159303-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2214",
+   "iiif_id": "ark:/67531/metadc159303/m1/1"
   }
  ],
  "HN-432": [
@@ -2117,6 +2649,20 @@
    "crop_coordinates": null,
    "dimensions": "4140x5663",
    "iiif_id": "batch_oru_20251210disk10a04_ver01%2Fdata%2Fsn96088107%2F15020900056%2F1922062301%2F1063.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86071063",
+   "issue_date": "1922-06-24",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86071063/1922-06-24/ed-1/seq-1/",
+   "full_page": "assets/images/hn-432-sc-sn86071063-1922-06-24-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6977x8975",
+   "iiif_id": null
   }
  ],
  "HN-433": [
@@ -2507,6 +3053,20 @@
  ],
  "HN-444": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1830501/m1/1/",
+   "full_page": "assets/images/hn-444-tx-metapth1830501-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1944",
+   "iiif_id": "ark:/67531/metapth1830501/m1/1"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A —",
    "headline": "",
@@ -2774,20 +3334,6 @@
   },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
-   "newspaper": "A2.",
-   "headline": "",
-   "lccn": "sn90066132",
-   "issue_date": "1927-08-23",
-   "sequence": 10,
-   "page_url": "https://oregonnews.uoregon.edu/lccn/sn90066132/1927-08-23/ed-1/seq-10/",
-   "full_page": "assets/images/hn-455-sn90066132-1927-08-23-seq10-page.jpg",
-   "crop": null,
-   "crop_coordinates": null,
-   "dimensions": "3812x4870",
-   "iiif_id": "batch_oru_20260129disk09a02_ver01%2Fdata%2Fsn90066132%2F15020700214%2F1927082301%2F1058.jp2"
-  },
-  {
-   "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A6.",
    "headline": "",
    "lccn": "sn99063815",
@@ -2799,6 +3345,20 @@
    "crop_coordinates": null,
    "dimensions": "4008x5229",
    "iiif_id": "batch_oru_20210901Foo12_ver01%2Fdata%2Fsn99063815%2F15021200098%2F1927082301%2F0667.jp2"
+  },
+  {
+   "provider": "Historic Oregon Newspapers (University of Oregon)",
+   "newspaper": "A2.",
+   "headline": "",
+   "lccn": "sn90066132",
+   "issue_date": "1927-08-23",
+   "sequence": 10,
+   "page_url": "https://oregonnews.uoregon.edu/lccn/sn90066132/1927-08-23/ed-1/seq-10/",
+   "full_page": "assets/images/hn-455-sn90066132-1927-08-23-seq10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3812x4870",
+   "iiif_id": "batch_oru_20260129disk09a02_ver01%2Fdata%2Fsn90066132%2F15020700214%2F1927082301%2F1058.jp2"
   }
  ],
  "HN-457": [
@@ -2922,6 +3482,34 @@
   }
  ],
  "HN-464": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A1.",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1140575/m1/1/",
+   "full_page": "assets/images/hn-464-tx-metapth1140575-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1901",
+   "iiif_id": "ark:/67531/metapth1140575/m1/1"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A2.",
+   "headline": "",
+   "lccn": "sn83045462",
+   "issue_date": "1929-10-29",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83045462/1929-10-29/ed-1/?sp=1",
+   "full_page": "assets/images/hn-464-loc-sn83045462-1929-10-29-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6625x8431",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_morton_ver01:data:sn83045462:00280659976:1929102901:0456"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "B1.",
@@ -3089,6 +3677,20 @@
    "crop_coordinates": null,
    "dimensions": "3996x5047",
    "iiif_id": "batch_oru_20210802Foo07_ver01%2Fdata%2Fsn90066132%2F14111410204%2F1932073001%2F0438.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A2 — [",
+   "headline": "",
+   "lccn": "sn82014085",
+   "issue_date": "1932-07-30",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn82014085/1932-07-30/ed-1/?sp=1",
+   "full_page": "assets/images/hn-479-loc-sn82014085-1932-07-30-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5232x7137",
+   "iiif_id": "service:ndnp:ct:batch_ct_colt_ver01:data:sn82014085:00393347703:1932073001:0373"
   }
  ],
  "HN-486": [
@@ -3303,6 +3905,20 @@
  ],
  "HN-494": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A2 — [",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 2,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1315010/m1/2/",
+   "full_page": "assets/images/hn-494-tx-metapth1315010-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1830",
+   "iiif_id": "ark:/67531/metapth1315010/m1/2"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 — [",
    "headline": "",
@@ -3348,6 +3964,34 @@
   }
  ],
  "HN-493": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A2 — [",
+   "headline": "",
+   "lccn": "sn78001180",
+   "issue_date": "1935-04-11",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1796003/m1/1/",
+   "full_page": "assets/images/hn-493-ok-metadc1796003-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2020",
+   "iiif_id": "ark:/67531/metadc1796003/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A3 — [",
+   "headline": "",
+   "lccn": "sn97064747",
+   "issue_date": "1935-04-11",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2291625/m1/1/",
+   "full_page": "assets/images/hn-493-ok-metadc2291625-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2344",
+   "iiif_id": "ark:/67531/metadc2291625/m1/1"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 — [",
@@ -3437,6 +4081,20 @@
    "crop_coordinates": null,
    "dimensions": "4120x5031",
    "iiif_id": "batch_oru_20260429disk09a08_ver01%2Fdata%2F2003260227%2F15020700149%2F1936071401%2F0173.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A3 — [",
+   "headline": "",
+   "lccn": "sn86063730",
+   "issue_date": "1936-07-14",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn86063730/1936-07-14/ed-1/?sp=1",
+   "full_page": "assets/images/hn-500-loc-sn86063730-1936-07-14-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6849x9274",
+   "iiif_id": "service:ndnp:txdn:batch_txdn_ivins_ver03:data:sn86063730:00332893695:1936071401:0233"
   },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
@@ -3641,6 +4299,20 @@
  ],
  "HN-520": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A2 — [",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 8,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1685364/m1/8/",
+   "full_page": "assets/images/hn-520-tx-metapth1685364-m1p8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1959",
+   "iiif_id": "ark:/67531/metapth1685364/m1/8"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 — [",
    "headline": "",
@@ -3729,6 +4401,20 @@
    "crop_coordinates": null,
    "dimensions": "4160x5497",
    "iiif_id": "batch_oru_20210405Foo05_ver01%2Fdata%2Fsn99063812%2F14111410053%2F1940110601%2F0491.jp2"
+  },
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "A3 — [",
+   "headline": "",
+   "lccn": "sn86063780",
+   "issue_date": "1940-11-07",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063780/1940-11-07/ed-1/seq-1/",
+   "full_page": "assets/images/hn-524-sc-sn86063780-1940-11-07-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5550x8388",
+   "iiif_id": null
   }
  ],
  "HN-519": [
@@ -4775,6 +5461,20 @@
  ],
  "HN-562": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A2 —",
+   "headline": "May Reach 700",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth577266/m1/1/",
+   "full_page": "assets/images/hn-562-tx-metapth577266-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2235",
+   "iiif_id": "ark:/67531/metapth577266/m1/1"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 —",
    "headline": "",
@@ -4925,6 +5625,20 @@
  ],
  "HN-566": [
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A4 —",
+   "headline": "",
+   "lccn": "sn78002169",
+   "issue_date": "1947-11-30",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn78002169/1947-11-30/ed-1/?sp=1",
+   "full_page": "assets/images/hn-566-loc-sn78002169-1947-11-30-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5071x7447",
+   "iiif_id": "service:ndnp:ncu:batch_ncu_iris_ver01:data:sn78002169:00279558339:1947113001:0433"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 —",
    "headline": "",
@@ -5009,6 +5723,20 @@
    "crop_coordinates": null,
    "dimensions": "4024x5515",
    "iiif_id": "batch_oru_20260429disk09a09_ver01%2Fdata%2F2003260229%2F15020700159%2F1948070901%2F0034.jp2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Related / hold —",
+   "headline": "",
+   "lccn": "sn83045462",
+   "issue_date": "1948-07-31",
+   "sequence": 96,
+   "page_url": "https://www.loc.gov/resource/sn83045462/1948-07-31/ed-1/?sp=96",
+   "full_page": "assets/images/hn-569-loc-sn83045462-1948-07-31-seq96-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5589x7871",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_2feininger_ver01:data:sn83045462:00280605025:1948073101:0096"
   }
  ],
  "HN-570": [
@@ -5653,6 +6381,20 @@
  ],
  "HN-619": [
   {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A5 —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1834673/m1/1/",
+   "full_page": "assets/images/hn-619-tx-metapth1834673-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1952",
+   "iiif_id": "ark:/67531/metapth1834673/m1/1"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A3 —",
    "headline": "",
@@ -5740,6 +6482,34 @@
   }
  ],
  "HN-621": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A3 —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1369187/m1/1/",
+   "full_page": "assets/images/hn-621-tx-metapth1369187-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2095",
+   "iiif_id": "ark:/67531/metapth1369187/m1/1"
+  },
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A2 —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1556686/m1/1/",
+   "full_page": "assets/images/hn-621-tx-metapth1556686-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1881",
+   "iiif_id": "ark:/67531/metapth1556686/m1/1"
+  },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A1 —",
@@ -5909,6 +6679,20 @@
  ],
  "HN-630": [
   {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A",
+   "headline": "",
+   "lccn": "sn83045462",
+   "issue_date": "1960-05-11",
+   "sequence": 1036,
+   "page_url": "https://www.loc.gov/resource/sn83045462/1960-05-11/ed-1/?sp=1036",
+   "full_page": "assets/images/hn-630-loc-sn83045462-1960-05-11-seq1036-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4785x7528",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bergman_ver01:data:sn83045462:00280608373:1960051101:1036"
+  },
+  {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
    "newspaper": "A",
    "headline": "",
@@ -5937,6 +6721,20 @@
    "crop_coordinates": null,
    "dimensions": "4196x5516",
    "iiif_id": "batch_oru_20260330disk11a07_ver01%2Fdata%2Fsn97071090%2F15020900207%2F1960052401%2F0618.jp2"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1960-05-24",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2003932/m1/1/",
+   "full_page": "assets/images/hn-632-ok-metadc2003932-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2512",
+   "iiif_id": "ark:/67531/metadc2003932/m1/1"
   },
   {
    "provider": "Historic Oregon Newspapers (University of Oregon)",
@@ -6149,6 +6947,1818 @@
    "crop_coordinates": null,
    "dimensions": "5892x7849",
    "iiif_id": "batch_oru_20260624disk13a09_ver01%2Fdata%2Fsn85042470%2F14063001513%2F1963112301%2F0593.jp2"
+  }
+ ],
+ "HN-001": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83021126",
+   "issue_date": "1777-07-22",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83021126/1777-07-22/ed-1/?sp=2",
+   "full_page": "assets/images/hn-001-loc-sn83021126-1777-07-22-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4169x6482",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021126:print:1777072201:0002"
+  }
+ ],
+ "HN-003": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83021127",
+   "issue_date": "1779-04-22",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83021127/1779-04-22/ed-1/?sp=3",
+   "full_page": "assets/images/hn-003-loc-sn83021127-1779-04-22-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4117x6488",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021127:print:1779042201:0003"
+  }
+ ],
+ "HN-004": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83030493",
+   "issue_date": "1779-09-06",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83030493/1779-09-06/ed-1/?sp=2",
+   "full_page": "assets/images/hn-004-loc-sn83030493-1779-09-06-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4876x7720",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83030493:print:1779090601:0002"
+  }
+ ],
+ "HN-005": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84024739",
+   "issue_date": "1780-05-16",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn84024739/1780-05-16/ed-1/?sp=1",
+   "full_page": "assets/images/hn-005-loc-sn84024739-1780-05-16-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "2603x3420",
+   "iiif_id": "service:ndnp:vi:batch_vi_invicta_ver01:data:sn84024739:print:1780051601:0063"
+  }
+ ],
+ "HN-006": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1780-10-11",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1780-10-11/ed-1/?sp=4",
+   "full_page": "assets/images/hn-006-loc-sn83025471-1780-10-11-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3702x5680",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1780101101:0004"
+  }
+ ],
+ "HN-007": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025584",
+   "issue_date": "1781-06-18",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025584/1781-06-18/ed-1/?sp=2",
+   "full_page": "assets/images/hn-007-loc-sn83025584-1781-06-18-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4720x7309",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025584:00517015106:1781061801:0507"
+  }
+ ],
+ "HN-008": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1781-08-08",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1781-08-08/ed-1/?sp=1",
+   "full_page": "assets/images/hn-008-loc-sn83025471-1781-08-08-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3647x5784",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1781080801:0001"
+  }
+ ],
+ "HN-009": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83021127",
+   "issue_date": "1781-09-11",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83021127/1781-09-11/ed-1/?sp=2",
+   "full_page": "assets/images/hn-009-loc-sn83021127-1781-09-11-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4033x6469",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83021127:print:1781091101:0002"
+  }
+ ],
+ "HN-010": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83021127",
+   "issue_date": "1781-09-11",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83021127/1781-09-11/ed-1/?sp=2",
+   "full_page": "assets/images/hn-010-loc-sn83021127-1781-09-11-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4033x6469",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83021127:print:1781091101:0002"
+  }
+ ],
+ "HN-011": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025585",
+   "issue_date": "1782-10-26",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83025585/1782-10-26/ed-1/?sp=1",
+   "full_page": "assets/images/hn-011-loc-sn83025585-1782-10-26-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6120x9691",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025585:00517015118:1782102601:0239"
+  }
+ ],
+ "HN-012": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84026945",
+   "issue_date": "1783-12-04",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84026945/1783-12-04/ed-1/?sp=2",
+   "full_page": "assets/images/hn-012-loc-sn84026945-1783-12-04-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4277x6683",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn84026945:print:1783120401:0002"
+  }
+ ],
+ "HN-013": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84026945",
+   "issue_date": "1783-12-04",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84026945/1783-12-04/ed-1/?sp=2",
+   "full_page": "assets/images/hn-013-loc-sn84026945-1783-12-04-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4277x6683",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn84026945:print:1783120401:0002"
+  }
+ ],
+ "HN-014": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1784-08-02",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1784-08-02/ed-1/?sp=3",
+   "full_page": "assets/images/hn-014-loc-sn83025471-1784-08-02-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4082x6524",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784080201:0003"
+  }
+ ],
+ "HN-016": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1784-11-08",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1784-11-08/ed-1/?sp=4",
+   "full_page": "assets/images/hn-016-loc-sn83025471-1784-11-08-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4205x6559",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784110801:0004"
+  }
+ ],
+ "HN-015": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1784-11-08",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1784-11-08/ed-1/?sp=4",
+   "full_page": "assets/images/hn-015-loc-sn83025471-1784-11-08-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4205x6559",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784110801:0004"
+  }
+ ],
+ "HN-018": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1785-06-06",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1785-06-06/ed-1/?sp=3",
+   "full_page": "assets/images/hn-018-loc-sn83025471-1785-06-06-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4135x6402",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1785060601:0003"
+  }
+ ],
+ "HN-017": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025586",
+   "issue_date": "1785-03-25",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025586/1785-03-25/ed-1/?sp=3",
+   "full_page": "assets/images/hn-017-loc-sn83025586-1785-03-25-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3992x5762",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1785032501:0055"
+  }
+ ],
+ "HN-020": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025586",
+   "issue_date": "1786-05-25",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025586/1786-05-25/ed-1/?sp=2",
+   "full_page": "assets/images/hn-020-loc-sn83025586-1786-05-25-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4411x6680",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786052501:0294"
+  }
+ ],
+ "HN-002": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83021127",
+   "issue_date": "1778-01-07",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83021127/1778-01-07/ed-1/?sp=3",
+   "full_page": "assets/images/hn-002-loc-sn83021127-1778-01-07-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3906x6176",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021127:print:1778010701:0003"
+  }
+ ],
+ "HN-022": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025586",
+   "issue_date": "1786-09-21",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025586/1786-09-21/ed-1/?sp=2",
+   "full_page": "assets/images/hn-022-loc-sn83025586-1786-09-21-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4409x6669",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786092101:0362"
+  }
+ ],
+ "HN-021": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025586",
+   "issue_date": "1786-07-20",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025586/1786-07-20/ed-1/?sp=2",
+   "full_page": "assets/images/hn-021-loc-sn83025586-1786-07-20-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4542x6649",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786072001:0326"
+  }
+ ],
+ "HN-024": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1787-07-07",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1787-07-07/ed-1/?sp=2",
+   "full_page": "assets/images/hn-024-loc-sn83025587-1787-07-07-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4269x6391",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1787070701:0018"
+  }
+ ],
+ "HN-019": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025471",
+   "issue_date": "1785-06-20",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83025471/1785-06-20/ed-1/?sp=1",
+   "full_page": "assets/images/hn-019-loc-sn83025471-1785-06-20-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4181x6436",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1785062001:0001"
+  }
+ ],
+ "HN-025": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83030007",
+   "issue_date": "1788-04-14",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83030007/1788-04-14/ed-1/?sp=2",
+   "full_page": "assets/images/hn-025-loc-sn83030007-1788-04-14-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4603x7638",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_armoire_ver02:data:sn83030007:print:1788041401:0002"
+  }
+ ],
+ "HN-023": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83030137",
+   "issue_date": "1787-06-29",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83030137/1787-06-29/ed-1/?sp=3",
+   "full_page": "assets/images/hn-023-loc-sn83030137-1787-06-29-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4608x7337",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bureau_ver02:data:sn83030137:print:1787062901:0003"
+  }
+ ],
+ "HN-026": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83030566",
+   "issue_date": "1788-06-17",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83030566/1788-06-17/ed-1/?sp=3",
+   "full_page": "assets/images/hn-026-loc-sn83030566-1788-06-17-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4726x7395",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_bureau_ver02:data:sn83030566:print:1788061701:0003"
+  }
+ ],
+ "HN-027": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023133",
+   "issue_date": "1789-10-17",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84023133/1789-10-17/ed-1/?sp=3",
+   "full_page": "assets/images/hn-027-loc-sn84023133-1789-10-17-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4365x6241",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023133:00517015891:1789101701:0035"
+  }
+ ],
+ "HN-028": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1790-02-03",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1790-02-03/ed-1/?sp=4",
+   "full_page": "assets/images/hn-028-loc-sn83025587-1790-02-03-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4408x7020",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1790020301:0536"
+  }
+ ],
+ "HN-029": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1790-02-03",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1790-02-03/ed-1/?sp=4",
+   "full_page": "assets/images/hn-029-loc-sn83025587-1790-02-03-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4408x7020",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1790020301:0536"
+  }
+ ],
+ "HN-031": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1792-07-26",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1792-07-26/ed-1/?sp=3",
+   "full_page": "assets/images/hn-031-loc-sn83025587-1792-07-26-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4161x6222",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1792072601:1053"
+  }
+ ],
+ "HN-030": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1791-02-26",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1791-02-26/ed-1/?sp=3",
+   "full_page": "assets/images/hn-030-loc-sn83025587-1791-02-26-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4109x6224",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1791022601:0757"
+  }
+ ],
+ "HN-032": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83030483",
+   "issue_date": "1792-11-07",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83030483/1792-11-07/ed-1/?sp=4",
+   "full_page": "assets/images/hn-032-loc-sn83030483-1792-11-07-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3096x5181",
+   "iiif_id": "service:sgp:sgpbatches:batch_dlc_himalayan_ver02:data:sn83030483:print:1792110701:0004"
+  }
+ ],
+ "HN-034": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84038410",
+   "issue_date": "1792-12-24",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84038410/1792-12-24/ed-1/?sp=2",
+   "full_page": "assets/images/hn-034-loc-sn84038410-1792-12-24-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3792x6051",
+   "iiif_id": "service:ndnp:wvu:batch_wvu_kerr_ver01:data:sn84038410:print:1792122401:0412"
+  }
+ ],
+ "HN-033": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025587",
+   "issue_date": "1792-12-19",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025587/1792-12-19/ed-1/?sp=3",
+   "full_page": "assets/images/hn-033-loc-sn83025587-1792-12-19-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4014x5961",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1792121901:1137"
+  }
+ ],
+ "HN-036": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023134",
+   "issue_date": "1793-10-01",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84023134/1793-10-01/ed-1/?sp=3",
+   "full_page": "assets/images/hn-036-loc-sn84023134-1793-10-01-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4983x7904",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023134:00517015908:1793100101:0083"
+  }
+ ],
+ "HN-037": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023134",
+   "issue_date": "1794-03-11",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn84023134/1794-03-11/ed-1/?sp=1",
+   "full_page": "assets/images/hn-037-loc-sn84023134-1794-03-11-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4638x7048",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023134:00517015908:1794031101:0173"
+  }
+ ],
+ "HN-039": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84026271",
+   "issue_date": "1795-01-08",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84026271/1795-01-08/ed-1/?sp=3",
+   "full_page": "assets/images/hn-039-loc-sn84026271-1795-01-08-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4042x6236",
+   "iiif_id": "service:sgp:sgpbatches:batch_dlc_korat_ver01:data:sn84026271:print:1795010801:0003"
+  }
+ ],
+ "HN-038": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84026271",
+   "issue_date": "1794-10-15",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84026271/1794-10-15/ed-1/?sp=3",
+   "full_page": "assets/images/hn-038-loc-sn84026271-1794-10-15-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3847x6114",
+   "iiif_id": "service:sgp:sgpbatches:batch_dlc_korat_ver01:data:sn84026271:print:1794101501:0003"
+  }
+ ],
+ "HN-040": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84038410",
+   "issue_date": "1796-04-21",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84038410/1796-04-21/ed-1/?sp=3",
+   "full_page": "assets/images/hn-040-loc-sn84038410-1796-04-21-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "2542x3957",
+   "iiif_id": "service:ndnp:wvu:batch_wvu_zarley_ver02:data:sn84038410:01000424529:1796042101:0115"
+  }
+ ],
+ "HN-035": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn82014782",
+   "issue_date": "1793-01-12",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn82014782/1793-01-12/ed-1/?sp=2",
+   "full_page": "assets/images/hn-035-loc-sn82014782-1793-01-12-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3351x5393",
+   "iiif_id": "service:ndnp:kyu:batch_kyu_dachshund_ver04:data:sn82014782:print:1793011201:0436"
+  }
+ ],
+ "HN-041": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn82014782",
+   "issue_date": "1797-01-11",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn82014782/1797-01-11/ed-1/?sp=2",
+   "full_page": "assets/images/hn-041-loc-sn82014782-1797-01-11-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3244x5352",
+   "iiif_id": "service:ndnp:kyu:batch_kyu_dachshund_ver04:data:sn82014782:print:1797011101:0618"
+  }
+ ],
+ "HN-042": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025588",
+   "issue_date": "1798-01-10",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025588/1798-01-10/ed-1/?sp=3",
+   "full_page": "assets/images/hn-042-loc-sn83025588-1798-01-10-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6372x10044",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010765:1798011001:0425"
+  }
+ ],
+ "HN-043": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84024710",
+   "issue_date": "1798-01-30",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84024710/1798-01-30/ed-1/?sp=2",
+   "full_page": "assets/images/hn-043-loc-sn84024710-1798-01-30-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5076x7676",
+   "iiif_id": "service:ndnp:vi:batch_vi_otters_ver02:data:sn84024710:00414184169:1798013001:0017"
+  }
+ ],
+ "HN-044": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025881",
+   "issue_date": "1799-01-08",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn83025881/1799-01-08/ed-1/?sp=2",
+   "full_page": "assets/images/hn-044-loc-sn83025881-1799-01-08-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "3970x6473",
+   "iiif_id": "service:sgp:sgpbatches:batch_dlc_laperm_ver01:data:sn83025881:print:1799010801:0002"
+  }
+ ],
+ "HN-045": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023378",
+   "issue_date": "1801-01-13",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn84023378/1801-01-13/ed-1/?sp=3",
+   "full_page": "assets/images/hn-045-loc-sn84023378-1801-01-13-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4701x7707",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023378:00541315858:1801011301:0250"
+  }
+ ],
+ "HN-046": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025544",
+   "issue_date": "1801-01-17",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025544/1801-01-17/ed-1/?sp=3",
+   "full_page": "assets/images/hn-046-loc-sn83025544-1801-01-17-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5003x7852",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn83025544:00541315871:1801011701:0227"
+  }
+ ],
+ "HN-047": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025588",
+   "issue_date": "1802-01-19",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83025588/1802-01-19/ed-1/?sp=3",
+   "full_page": "assets/images/hn-047-loc-sn83025588-1802-01-19-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6548x10140",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010789:1802011901:0011"
+  }
+ ],
+ "HN-048": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84024011",
+   "issue_date": "1803-01-05",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84024011/1803-01-05/ed-1/?sp=2",
+   "full_page": "assets/images/hn-048-loc-sn84024011-1803-01-05-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6550x11179",
+   "iiif_id": "service:ndnp:vi:batch_vi_flyingsquirrels_ver03:data:sn84024011:00414216006:1803010501:0016"
+  }
+ ],
+ "HN-049": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023351",
+   "issue_date": "1804-01-10",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84023351/1804-01-10/ed-1/?sp=2",
+   "full_page": "assets/images/hn-049-loc-sn84023351-1804-01-10-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4926x8026",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046"
+  }
+ ],
+ "HN-050": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023351",
+   "issue_date": "1804-01-10",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84023351/1804-01-10/ed-1/?sp=2",
+   "full_page": "assets/images/hn-050-loc-sn84023351-1804-01-10-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4926x8026",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046"
+  }
+ ],
+ "HN-051": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn84023351",
+   "issue_date": "1804-01-10",
+   "sequence": 2,
+   "page_url": "https://www.loc.gov/resource/sn84023351/1804-01-10/ed-1/?sp=2",
+   "full_page": "assets/images/hn-051-loc-sn84023351-1804-01-10-seq2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4926x8026",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046"
+  }
+ ],
+ "HN-052": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83045242",
+   "issue_date": "1804-01-13",
+   "sequence": 3,
+   "page_url": "https://www.loc.gov/resource/sn83045242/1804-01-13/ed-1/?sp=3",
+   "full_page": "assets/images/hn-052-loc-sn83045242-1804-01-13-seq3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4939x7539",
+   "iiif_id": "service:sgp:sgpbatches:batch_dlc_chartreux_ver01:data:sn83045242:print:1804011301:0003"
+  }
+ ],
+ "HN-053": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "lccn": "sn83025588",
+   "issue_date": "1805-01-01",
+   "sequence": 4,
+   "page_url": "https://www.loc.gov/resource/sn83025588/1805-01-01/ed-1/?sp=4",
+   "full_page": "assets/images/hn-053-loc-sn83025588-1805-01-01-seq4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "6441x10409",
+   "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010790:1805010101:0004"
+  }
+ ],
+ "HN-454": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A1.",
+   "headline": "",
+   "lccn": "sn85042243",
+   "issue_date": "1927-05-23",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn85042243/1927-05-23/ed-1/?sp=1",
+   "full_page": "assets/images/hn-454-loc-sn85042243-1927-05-23-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7603x9548",
+   "iiif_id": "service:ndnp:ndhi:batch_ndhi_denobulan_ver01:data:sn85042243:00199918667:1927052301:0169"
+  }
+ ],
+ "HN-491": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A2 — [",
+   "headline": "",
+   "lccn": "sn91068401",
+   "issue_date": "1934-09-10",
+   "sequence": 441,
+   "page_url": "https://www.loc.gov/resource/sn91068401/1934-09-10/ed-1/?sp=441",
+   "full_page": "assets/images/hn-491-loc-sn91068401-1934-09-10-seq441-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "7022x9269",
+   "iiif_id": "service:ndnp:ncu:batch_ncu_isner_ver01:data:sn91068401:00332892939:1934091001:0441"
+  }
+ ],
+ "HN-540": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A1 — Dallas Express",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 2,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1760039/m1/2/",
+   "full_page": "assets/images/hn-540-tx-metapth1760039-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1975",
+   "iiif_id": "ark:/67531/metapth1760039/m1/2"
+  },
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "A2 — Southern News",
+   "headline": "",
+   "lccn": "sn98058951",
+   "issue_date": "1943-07-10",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn98058951/1943-07-10/ed-1/?sp=1",
+   "full_page": "assets/images/hn-540-loc-sn98058951-1943-07-10-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "4701x6244",
+   "iiif_id": "service:ndnp:ncu:batch_ncu_isner_ver01:data:sn98058951:00332892435:1943071001:0035"
+  }
+ ],
+ "HN-542": [
+  {
+   "provider": "South Carolina Historic Newspapers (University of South Carolina)",
+   "newspaper": "Explicit false positive excluded:",
+   "headline": "",
+   "lccn": "sn86063780",
+   "issue_date": "1943-12-30",
+   "sequence": 1,
+   "page_url": "https://historicnewspapers.sc.edu/lccn/sn86063780/1943-12-30/ed-1/seq-1/",
+   "full_page": "assets/images/hn-542-sc-sn86063780-1943-12-30-seq1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "5605x8330",
+   "iiif_id": null
+  }
+ ],
+ "HN-442": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1378973/m1/1/",
+   "full_page": "assets/images/hn-442-tx-metapth1378973-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1911",
+   "iiif_id": "ark:/67531/metapth1378973/m1/1"
+  },
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 2,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1445140/m1/2/",
+   "full_page": "assets/images/hn-442-tx-metapth1445140-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1926",
+   "iiif_id": "ark:/67531/metapth1445140/m1/2"
+  }
+ ],
+ "HN-451": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1379703/m1/1/",
+   "full_page": "assets/images/hn-451-tx-metapth1379703-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1928",
+   "iiif_id": "ark:/67531/metapth1379703/m1/1"
+  }
+ ],
+ "HN-506": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A3 — [",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1036228/m1/1/",
+   "full_page": "assets/images/hn-506-tx-metapth1036228-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1893",
+   "iiif_id": "ark:/67531/metapth1036228/m1/1"
+  },
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A1 — [",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth826542/m1/1/",
+   "full_page": "assets/images/hn-506-tx-metapth826542-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2113",
+   "iiif_id": "ark:/67531/metapth826542/m1/1"
+  }
+ ],
+ "HN-600": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A2 —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth134823/m1/1/",
+   "full_page": "assets/images/hn-600-tx-metapth134823-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1823",
+   "iiif_id": "ark:/67531/metapth134823/m1/1"
+  }
+ ],
+ "HN-616": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "Count: A0 / B0.",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1957-09-14",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1995985/m1/1/",
+   "full_page": "assets/images/hn-616-ok-metadc1995985-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2329",
+   "iiif_id": "ark:/67531/metadc1995985/m1/1"
+  }
+ ],
+ "HN-648": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A",
+   "headline": "",
+   "lccn": "sn83005981",
+   "issue_date": "1964-08-03",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2245705/m1/1/",
+   "full_page": "assets/images/hn-648-ok-metadc2245705-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2246",
+   "iiif_id": "ark:/67531/metadc2245705/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A",
+   "headline": "unprovoked attack",
+   "lccn": "sn85042347",
+   "issue_date": "1964-08-04",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2557398/m1/1/",
+   "full_page": "assets/images/hn-648-ok-metadc2557398-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2109",
+   "iiif_id": "ark:/67531/metadc2557398/m1/1"
+  }
+ ],
+ "HN-654": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "Negroes Say Riots Not Over,",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth143116/m1/1/",
+   "full_page": "assets/images/hn-654-tx-metapth143116-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1934",
+   "iiif_id": "ark:/67531/metapth143116/m1/1"
+  }
+ ],
+ "HN-656": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "Astronauts Head for Cape Kennedy,",
+   "lccn": "sn83002602",
+   "issue_date": "1966-03-18",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2406590/m1/1/",
+   "full_page": "assets/images/hn-656-ok-metadc2406590-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2265",
+   "iiif_id": "ark:/67531/metadc2406590/m1/1"
+  }
+ ],
+ "HN-657": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1880061/m1/1/",
+   "full_page": "assets/images/hn-657-tx-metapth1880061-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2268",
+   "iiif_id": "ark:/67531/metapth1880061/m1/1"
+  }
+ ],
+ "HN-661": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042347",
+   "issue_date": "1967-01-28",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2558174/m1/1/",
+   "full_page": "assets/images/hn-661-ok-metadc2558174-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2063",
+   "iiif_id": "ark:/67531/metadc2558174/m1/1"
+  }
+ ],
+ "HN-679": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn96087501",
+   "issue_date": "1970-05-15",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1487532/m1/1/",
+   "full_page": "assets/images/hn-679-ok-metadc1487532-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x1924",
+   "iiif_id": "ark:/67531/metadc1487532/m1/1"
+  }
+ ],
+ "HN-691": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1973-03-01",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2547016/m1/1/",
+   "full_page": "assets/images/hn-691-ok-metadc2547016-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2220",
+   "iiif_id": "ark:/67531/metadc2547016/m1/1"
+  }
+ ],
+ "HN-692": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1973-03-01",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2547016/m1/1/",
+   "full_page": "assets/images/hn-692-ok-metadc2547016-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2220",
+   "iiif_id": "ark:/67531/metadc2547016/m1/1"
+  }
+ ],
+ "HN-693": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83002602",
+   "issue_date": "1973-09-13",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2408675/m1/1/",
+   "full_page": "assets/images/hn-693-ok-metadc2408675-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2188",
+   "iiif_id": "ark:/67531/metadc2408675/m1/1"
+  }
+ ],
+ "HN-697": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86090527",
+   "issue_date": "1974-04-04",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2121486/m1/1/",
+   "full_page": "assets/images/hn-697-ok-metadc2121486-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2449",
+   "iiif_id": "ark:/67531/metadc2121486/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1974-04-04",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2547162/m1/1/",
+   "full_page": "assets/images/hn-697-ok-metadc2547162-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2213",
+   "iiif_id": "ark:/67531/metadc2547162/m1/1"
+  }
+ ],
+ "HN-700": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "Nixon Poised to Resign,",
+   "lccn": "sn85042349",
+   "issue_date": "1974-08-08",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2038061/m1/1/",
+   "full_page": "assets/images/hn-700-ok-metadc2038061-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2365",
+   "iiif_id": "ark:/67531/metadc2038061/m1/1"
+  }
+ ],
+ "HN-703": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "Hold:",
+   "headline": "",
+   "lccn": "sn86090528",
+   "issue_date": "1975-03-27",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1867342/m1/1/",
+   "full_page": "assets/images/hn-703-ok-metadc1867342-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2243",
+   "iiif_id": "ark:/67531/metadc1867342/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "Thieu Vows Fight to Death for Da Nang.",
+   "lccn": "sn83002602",
+   "issue_date": "1975-03-27",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2547028/m1/1/",
+   "full_page": "assets/images/hn-703-ok-metadc2547028-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2219",
+   "iiif_id": "ark:/67531/metadc2547028/m1/1"
+  }
+ ],
+ "HN-706": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn96087501",
+   "issue_date": "1976-07-04",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1495232/m1/1/",
+   "full_page": "assets/images/hn-706-ok-metadc1495232-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2274",
+   "iiif_id": "ark:/67531/metadc1495232/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042349",
+   "issue_date": "1976-07-04",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2038603/m1/1/",
+   "full_page": "assets/images/hn-706-ok-metadc2038603-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2429",
+   "iiif_id": "ark:/67531/metadc2038603/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1976-07-08",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1797343/m1/1/",
+   "full_page": "assets/images/hn-706-ok-metadc1797343-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2315",
+   "iiif_id": "ark:/67531/metadc1797343/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "B —",
+   "headline": "",
+   "lccn": "sn83000748",
+   "issue_date": "1976-07-08",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1805815/m1/1/",
+   "full_page": "assets/images/hn-706-ok-metadc1805815-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2508",
+   "iiif_id": "ark:/67531/metadc1805815/m1/1"
+  }
+ ],
+ "HN-707": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1976-07-08",
+   "sequence": 2,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1797343/m1/2/",
+   "full_page": "assets/images/hn-707-ok-metadc1797343-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2330",
+   "iiif_id": "ark:/67531/metadc1797343/m1/2"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "Context not counted:",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1976-07-11",
+   "sequence": 5,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2550541/m1/5/",
+   "full_page": "assets/images/hn-707-ok-metadc2550541-m1p5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2222",
+   "iiif_id": "ark:/67531/metadc2550541/m1/5"
+  }
+ ],
+ "HN-708": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "B —",
+   "headline": "",
+   "lccn": "sn83000748",
+   "issue_date": "1976-07-08",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1805815/m1/1/",
+   "full_page": "assets/images/hn-708-ok-metadc1805815-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2508",
+   "iiif_id": "ark:/67531/metadc1805815/m1/1"
+  }
+ ],
+ "HN-712": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn96087501",
+   "issue_date": "1977-07-14",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1494398/m1/1/",
+   "full_page": "assets/images/hn-712-ok-metadc1494398-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2195",
+   "iiif_id": "ark:/67531/metadc1494398/m1/1"
+  }
+ ],
+ "HN-719": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83005981",
+   "issue_date": "1979-07-12",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2252565/m1/1/",
+   "full_page": "assets/images/hn-719-ok-metadc2252565-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2068",
+   "iiif_id": "ark:/67531/metadc2252565/m1/1"
+  }
+ ],
+ "HN-720": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83005981",
+   "issue_date": "1979-07-12",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2252565/m1/1/",
+   "full_page": "assets/images/hn-720-ok-metadc2252565-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2068",
+   "iiif_id": "ark:/67531/metadc2252565/m1/1"
+  }
+ ],
+ "HN-721": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1979-11-07",
+   "sequence": 2,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1802599/m1/2/",
+   "full_page": "assets/images/hn-721-ok-metadc1802599-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2472",
+   "iiif_id": "ark:/67531/metadc1802599/m1/2"
+  }
+ ],
+ "HN-722": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1979-12-24",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1802840/m1/1/",
+   "full_page": "assets/images/hn-722-ok-metadc1802840-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2299",
+   "iiif_id": "ark:/67531/metadc1802840/m1/1"
+  }
+ ],
+ "HN-725": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1980-11-24",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2550036/m1/1/",
+   "full_page": "assets/images/hn-725-ok-metadc2550036-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2333",
+   "iiif_id": "ark:/67531/metadc2550036/m1/1"
+  }
+ ],
+ "HN-726": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83005981",
+   "issue_date": "1981-03-31",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2253097/m1/1/",
+   "full_page": "assets/images/hn-726-ok-metadc2253097-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2063",
+   "iiif_id": "ark:/67531/metadc2253097/m1/1"
+  }
+ ],
+ "HN-727": [
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "B —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1059910/m1/1/",
+   "full_page": "assets/images/hn-727-tx-metapth1059910-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2085",
+   "iiif_id": "ark:/67531/metapth1059910/m1/1"
+  },
+  {
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth816044/m1/1/",
+   "full_page": "assets/images/hn-727-tx-metapth816044-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2400",
+   "iiif_id": "ark:/67531/metapth816044/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn86064187",
+   "issue_date": "1981-05-14",
+   "sequence": 2,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1847899/m1/2/",
+   "full_page": "assets/images/hn-727-ok-metadc1847899-m1p2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2317",
+   "iiif_id": "ark:/67531/metadc1847899/m1/2"
+  }
+ ],
+ "HN-730": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn83002602",
+   "issue_date": "1982-01-14",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2568355/m1/1/",
+   "full_page": "assets/images/hn-730-ok-metadc2568355-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2239",
+   "iiif_id": "ark:/67531/metadc2568355/m1/1"
+  }
+ ],
+ "HN-731": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042349",
+   "issue_date": "1982-01-15",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2039349/m1/1/",
+   "full_page": "assets/images/hn-731-ok-metadc2039349-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2469",
+   "iiif_id": "ark:/67531/metadc2039349/m1/1"
+  }
+ ],
+ "HN-744": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A —",
+   "headline": "",
+   "lccn": "sn85042349",
+   "issue_date": "1984-10-31",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2406233/m1/1/",
+   "full_page": "assets/images/hn-744-ok-metadc2406233-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2417",
+   "iiif_id": "ark:/67531/metadc2406233/m1/1"
+  }
+ ],
+ "HN-753": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Lawton Morning Press — Lawton, Oklahoma — September 20, 1985, p. 1.",
+   "headline": "Major Earthquake Hits Mexico",
+   "lccn": "sn83002602",
+   "issue_date": "1985-09-20",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2568378/m1/1/",
+   "full_page": "assets/images/hn-753-ok-metadc2568378-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2399",
+   "iiif_id": "ark:/67531/metadc2568378/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — September 20, 1985, p. 1.",
+   "headline": "Quake jolts Mexico City",
+   "lccn": "sn85042348",
+   "issue_date": "1985-09-20",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2641966/m1/1/",
+   "full_page": "assets/images/hn-753-ok-metadc2641966-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2403",
+   "iiif_id": "ark:/67531/metadc2641966/m1/1"
+  }
+ ],
+ "HN-754": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Lawton Morning Press — Lawton, Oklahoma — September 21, 1985, p. 1.",
+   "headline": "",
+   "lccn": "sn83002602",
+   "issue_date": "1985-09-21",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2568380/m1/1/",
+   "full_page": "assets/images/hn-754-ok-metadc2568380-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2424",
+   "iiif_id": "ark:/67531/metadc2568380/m1/1"
+  }
+ ],
+ "HN-755": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Lawton Constitution / Morning Press-Constitution — Lawton, Oklahoma — November 14, 1985, p. 1.",
+   "headline": "Toll in disaster may hit 20,000.",
+   "lccn": "sn85042349",
+   "issue_date": "1985-11-14",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2406780/m1/1/",
+   "full_page": "assets/images/hn-755-ok-metadc2406780-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2428",
+   "iiif_id": "ark:/67531/metadc2406780/m1/1"
+  }
+ ],
+ "HN-756": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — November 15, 1985, pp. 1–2.",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1985-11-15",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2642021/m1/1/",
+   "full_page": "assets/images/hn-756-ok-metadc2642021-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2373",
+   "iiif_id": "ark:/67531/metadc2642021/m1/1"
+  }
+ ],
+ "HN-758": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Perry Daily Journal — Perry, Oklahoma — January 28, 1986, p. 1.",
+   "headline": "Apparently None Survive Shuttle Explosion,",
+   "lccn": "sn83005981",
+   "issue_date": "1986-01-28",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2254588/m1/1/",
+   "full_page": "assets/images/hn-758-ok-metadc2254588-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2091",
+   "iiif_id": "ark:/67531/metadc2254588/m1/1"
+  }
+ ],
+ "HN-759": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — January 31, 1986, p. 5.",
+   "headline": "Special report: Challenger.",
+   "lccn": "sn85042348",
+   "issue_date": "1986-01-31",
+   "sequence": 5,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2642096/m1/5/",
+   "full_page": "assets/images/hn-759-ok-metadc2642096-m1p5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2412",
+   "iiif_id": "ark:/67531/metadc2642096/m1/5"
+  }
+ ],
+ "HN-760": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Perry Daily Journal — Perry, Oklahoma — February 25, 1986, p. 1.",
+   "headline": "U.S. Recognizes Aquino As Philippine President",
+   "lccn": "sn83005981",
+   "issue_date": "1986-02-25",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2254612/m1/1/",
+   "full_page": "assets/images/hn-760-ok-metadc2254612-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2103",
+   "iiif_id": "ark:/67531/metadc2254612/m1/1"
+  }
+ ],
+ "HN-763": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — November 26, 1986, p. 1.",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1986-11-26",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2642389/m1/1/",
+   "full_page": "assets/images/hn-763-ok-metadc2642389-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2416",
+   "iiif_id": "ark:/67531/metadc2642389/m1/1"
+  }
+ ],
+ "HN-764": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — March 21, 1987, p. 1.",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1987-03-21",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2642504/m1/1/",
+   "full_page": "assets/images/hn-764-ok-metadc2642504-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2384",
+   "iiif_id": "ark:/67531/metadc2642504/m1/1"
+  }
+ ],
+ "HN-766": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — May 19, 1987, p. 1.",
+   "headline": "U.S. ships on alert; 28 dead,",
+   "lccn": "sn85042348",
+   "issue_date": "1987-05-19",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2642563/m1/1/",
+   "full_page": "assets/images/hn-766-ok-metadc2642563-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2440",
+   "iiif_id": "ark:/67531/metadc2642563/m1/1"
+  }
+ ],
+ "HN-767": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Pawhuska Daily Journal-Capital — Pawhuska, Oklahoma — October 20, 1987, p. 1.",
+   "headline": "",
+   "lccn": "sn93066003",
+   "issue_date": "1987-10-20",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2286982/m1/1/",
+   "full_page": "assets/images/hn-767-ok-metadc2286982-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2355",
+   "iiif_id": "ark:/67531/metadc2286982/m1/1"
+  },
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Elk City Daily News — Elk City, Oklahoma — October 20, 1987, p. 1.",
+   "headline": "After Monday's Crash / Street Trading Heavy",
+   "lccn": "sn97064780",
+   "issue_date": "1987-10-20",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2374660/m1/1/",
+   "full_page": "assets/images/hn-767-ok-metadc2374660-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2285",
+   "iiif_id": "ark:/67531/metadc2374660/m1/1"
+  }
+ ],
+ "HN-774": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "[A] Muskogee Daily Phoenix and Times-Democrat — Muskogee, Oklahoma — December 22, 1988, p. 1.",
+   "headline": "",
+   "lccn": "sn85042348",
+   "issue_date": "1988-12-22",
+   "sequence": 1,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc2643142/m1/1/",
+   "full_page": "assets/images/hn-774-ok-metadc2643142-m1p1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2520",
+   "iiif_id": "ark:/67531/metadc2643142/m1/1"
+  }
+ ],
+ "HN-814": [
+  {
+   "provider": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+   "newspaper": "A · DIRECT — Sapulpa Daily Herald",
+   "headline": "",
+   "lccn": "sn96087501",
+   "issue_date": "1995-05-02",
+   "sequence": 4,
+   "page_url": "https://gateway.okhistory.org/ark:/67531/metadc1498101/m1/4/",
+   "full_page": "assets/images/hn-814-ok-metadc1498101-m1p4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "dimensions": "1500x2516",
+   "iiif_id": "ark:/67531/metadc1498101/m1/4"
   }
  ]
 }

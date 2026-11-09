@@ -313,30 +313,9 @@ async function run() {
   ledger.generated_at = new Date().toISOString();
   fs.writeFileSync(ledgerPath, JSON.stringify(ledger, null, 1));
 
-  // ---------- build images.json for the site ----------
-  const images = {};
-  for (const e of Object.values(ledger.items)) {
-    if (e.status !== 'full_page_acquired' && e.status !== 'crop_acquired') continue;
-    if (!images[e.hn_id]) images[e.hn_id] = [];
-    images[e.hn_id].push({
-      provider: e.provider,
-      newspaper: e.newspaper || '',
-      headline: e.headline || '',
-      lccn: e.lccn,
-      issue_date: e.issue_date,
-      sequence: e.sequence,
-      page_url: e.page_url,
-      full_page: e.full_page_asset,
-      crop: e.crop_asset,
-      crop_coordinates: e.crop_coordinates || null,
-      dimensions: e.source_dimensions,
-      iiif_id: e.iiif_id,
-    });
-  }
-  for (const k of Object.keys(images)) {
-    images[k].sort((a, b) => (a.issue_date + a.sequence).localeCompare(b.issue_date + b.sequence));
-  }
-  fs.writeFileSync(path.join(DATA, 'images.json'), JSON.stringify(images, null, 1));
+  // ---------- build images.json for the site (merges all ledgers) ----------
+  const { buildImages } = require('./lib_image_merge');
+  const images = buildImages();
 
   const ok = results.filter(r => r.status === 'full_page_acquired' || r.status === 'crop_acquired').length;
   const failed = results.filter(r => r.status === 'failed').length;

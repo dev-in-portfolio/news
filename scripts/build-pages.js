@@ -157,6 +157,10 @@ fs.mkdirSync(storiesDir, { recursive: true });
 function imagesCard(hn) {
   const imgs = imagesByHn[hn];
   if (!imgs || !imgs.length) return '';
+  const providers = [...new Set(imgs.map(i => i.provider).filter(Boolean))];
+  const providerText = providers.length > 1
+    ? providers.slice(0, -1).join(', ') + ' and ' + providers[providers.length - 1]
+    : (providers[0] || 'the archive');
   const figures = imgs.map(im => {
     const label = im.newspaper || im.lccn || 'Newspaper';
     const isCrop = !!im.crop;
@@ -164,16 +168,17 @@ function imagesCard(hn) {
     return '<figure class="scan">\n' +
       '<div class="scan-frame"><img src="../' + esc(src) + '" alt="' + esc(label + ', ' + im.issue_date + (isCrop ? ' - article crop' : ' - page scan')) + '" loading="lazy"></div>\n' +
       '<figcaption><strong>' + esc(label) + '</strong> &middot; ' + esc(im.issue_date) + ' &middot; image ' + im.sequence +
-      (isCrop ? ' &mdash; article crop' : ' &mdash; page scan (1,200&nbsp;px rendition)') +
-      '<br><a href="../' + esc(src) + '" target="_blank" rel="noopener">' + (isCrop ? 'Open full-resolution crop' : 'Open larger view') + '</a> &middot; ' +
+      (isCrop ? ' &mdash; article crop' : ' &mdash; page scan') +
+      '<br><span class="scan-provider">' + esc(im.provider || '') + '</span><br>' +
+      '<a href="../' + esc(src) + '" target="_blank" rel="noopener">' + (isCrop ? 'Open full-resolution crop' : 'Open larger view') + '</a> &middot; ' +
       (isCrop ? '<a href="../' + esc(im.full_page) + '" target="_blank" rel="noopener">Page scan</a> &middot; ' : '') +
       '<a href="' + esc(im.page_url) + '" target="_blank" rel="noopener">Archive viewer (full resolution)</a></figcaption>\n' +
       '</figure>';
   }).join('\n');
   return '<div class="card">\n' +
     '<h3>Original page scans (' + imgs.length + ')</h3>\n' +
-    '<p class="note">Authentic scans retrieved from ' + esc(imgs[0].provider || 'the archive') +
-    '. Article crops are located using the archive\'s own ALTO OCR word coordinates and rendered at native crop resolution; page scans are 1,200-pixel-wide renditions. No images were generated, mocked, or retouched.</p>\n' +
+    '<p class="note">Authentic scans retrieved from ' + esc(providerText) +
+    '. Article crops are located using the archive\'s own OCR word coordinates and rendered at native crop resolution; page scans are reduced-size access renditions. No images were generated, mocked, or retouched.</p>\n' +
     '<div class="scan-grid">' + figures + '</div>\n' +
     '</div>\n';
 }
