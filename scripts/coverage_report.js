@@ -32,14 +32,15 @@ function prov(u) {
 
 // Providers that block automated retrieval (bot challenge, paywall, or
 // commercial image licensing). Everything else is attempted.
-const BLOCKED = new Set(['indiana', 'paperspast', 'british', 'newspaperarchive', 'rarenewspapers', 'washingtonpost', 'latimes', 'guardian']);
+const BLOCKED = new Set(['paperspast', 'british', 'newspaperarchive', 'rarenewspapers', 'washingtonpost', 'latimes', 'guardian']);
 
 const all = records.map(r => r.hn_id);
 const total = all.length;
 const withAnyUrl = all.filter(h => (hnUrls[h] || []).length > 0);
 const withOregon = all.filter(h => (hnUrls[h] || []).some(u => prov(u) === 'oregon'));
 const withImages = Object.keys(images);
-const withCrop = Object.keys(images).filter(h => images[h].some(i => i.crop));
+const withCrop = Object.keys(images).filter(h => images[h].some(i => i.crop && i.crop_coordinates));
+const withClip = Object.keys(images).filter(h => images[h].some(i => i.crop_method === 'archive_article_blocks_native'));
 const noUrl = all.filter(h => (hnUrls[h] || []).length === 0);
 
 // records whose ONLY urls are on blocked providers
@@ -55,12 +56,17 @@ for (const h of all) {
   for (const p of ps) (hnByProv[p] = hnByProv[p] || []).push(h);
 }
 
-// acquired scans per provider (items, not records)
-const itemsByProv = {};
+// acquired images per provider (items, not records), split by kind
+const fullByProv = {};
+const clipByProv = {};
 for (const arr of Object.values(images)) {
   for (const i of arr) {
     const p = i.provider || 'unknown';
-    itemsByProv[p] = (itemsByProv[p] || 0) + 1;
+    if (i.crop_method === 'archive_article_blocks_native') {
+      clipByProv[p] = (clipByProv[p] || 0) + 1;
+    } else if (i.full_page) {
+      fullByProv[p] = (fullByProv[p] || 0) + 1;
+    }
   }
 }
 
@@ -70,14 +76,19 @@ console.log('Records with >=1 batch-report URL: ' + withAnyUrl.length + ' (' + p
 console.log('Records with >=1 Oregon URL: ' + withOregon.length + ' (' + pct(withOregon.length) + ')');
 console.log('Records with acquired images: ' + withImages.length + ' (' + pct(withImages.length) + ')');
 console.log('Records with a word-coordinate-verified article crop: ' + withCrop.length + ' (' + pct(withCrop.length) + ')');
+console.log('Records with an archive article clip: ' + withClip.length + ' (' + pct(withClip.length) + ')');
 console.log('Records with NO batch-report URL at all: ' + noUrl.length + ' (' + pct(noUrl.length) + ')');
 console.log('Records whose only URLs are blocked/paywalled providers: ' + blockedOnly.length);
 console.log('\nUnique HN records by provider (a record can have several):');
 for (const [p, arr] of Object.entries(hnByProv).sort((a, b) => b[1].length - a[1].length)) {
   console.log('  ' + p.padEnd(16) + arr.length);
 }
-console.log('\nAcquired page scans by provider:');
-for (const [p, n] of Object.entries(itemsByProv).sort((a, b) => b[1] - a[1])) {
+console.log('\nAcquired full-page scans by provider:');
+for (const [p, n] of Object.entries(fullByProv).sort((a, b) => b[1] - a[1])) {
+  console.log('  ' + p.padEnd(60) + n);
+}
+console.log('\nAcquired archive article clips by provider:');
+for (const [p, n] of Object.entries(clipByProv).sort((a, b) => b[1] - a[1])) {
   console.log('  ' + p.padEnd(60) + n);
 }
 console.log('\nTotal distinct batch URLs: ' + [...new Set(Object.values(hnUrls).flat())].length);

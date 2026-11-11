@@ -19,19 +19,17 @@ paywalled/commercial sources that should only be cited.
 
 | Category | Records | Source links |
 |----------|---------|--------------|
-| Public-domain archive scans worth retrieving | 173 | 177 |
-| Modern / commercial — cite only | 410 | 713 |
+| Public-domain archive scans worth retrieving | 171 | 174 |
+| Modern / commercial — cite only | 409 | 711 |
 
 ## A. Public-domain archive scans to retrieve manually
 
-### Indiana — newspapers.library.in.gov — 147 records
+### Indiana — newspapers.library.in.gov — 145 records
 
 _Cloudflare bot challenge. Open in a normal browser, let the viewer load, then save the page image from the viewer._
 
 | HN | Date | Heading | Source |
 |----|------|---------|--------|
-| HN-388 | January 21, 1914 | Newly inaugurated Terre Haute mayor charged with election manipulation | <https://newspapers.library.in.gov/?a=d&d=JCDC19140121.2.12> |
-| HN-412 | December 27, 1918 | Mexican influenza tragedy filtered through border travelers' accounts | <https://newspapers.library.in.gov/?a=d&d=EVRP19181227.2.28> |
 | HN-428 | July 15, 1921 | Sacco and Vanzetti found guilty of Massachusetts murders | <https://newspapers.library.in.gov/?a=d&d=SBNT19210715.1.1> |
 | HN-704 | March 31, 1975 | Americans begin leaving Saigon ahead of its final fall | <https://newspapers.library.in.gov/?a=d&d=BG19750331.1.5> |
 | HN-705 | September 11, 1975 | Helsinki rights promises meet doubts about Soviet-bloc compliance | <https://newspapers.library.in.gov/?a=d&d=NAN19750911.1.2> |
@@ -178,15 +176,6 @@ _Cloudflare bot challenge. Open in a normal browser, let the viewer load, then s
 | HN-992 | March 20, 2023 | Student report captures East Palestine's early technical theory | <https://newspapers.library.in.gov/?a=d&d=JFBSTR20230320.1.5> |
 | HN-995 | September 7, 2023 | Student article links Canadian fires to U.S. lumber prices | <https://newspapers.library.in.gov/?a=d&d=JFBSTR20230907.1.5> |
 
-### Hudson River Valley Heritage — 2 records
-
-_Server returns 403 to automated requests. Open in a browser and save the page image._
-
-| HN | Date | Heading | Source |
-|----|------|---------|--------|
-| HN-412 | December 27, 1918 | Mexican influenza tragedy filtered through border travelers' accounts | <https://news.hrvh.org/veridian/cgi-bin/senylrc-larc?a=d&d=jaaggbbf19181223.1.8> |
-| HN-529 | December 11, 1941 | Germany and Italy declare war on United States | <https://news.hrvh.org/veridian/?a=d&d=ieadbehj19411211.1.1> |
-
 ### NewspaperSG (National Library Board Singapore) — 5 records
 
 _JavaScript challenge (HTTP 202). Open in a browser and use the article / page download control._
@@ -223,6 +212,14 @@ _Incapsula JavaScript challenge. Open in a browser and use the page's own Downlo
 | HN-567 | January 30, 1948 | Gandhi's assassination reported in breaking bulletins | <https://paperspast.natlib.govt.nz/newspapers/NA19480131.2.48><br><https://paperspast.natlib.govt.nz/newspapers/RMPOST19480131.2.22.1><br><https://paperspast.natlib.govt.nz/newspapers/AG19480131.2.43><br><https://paperspast.natlib.govt.nz/newspapers/WH19480131.2.54.2> |
 | HN-568 | February 3, 1948 | Hundreds arrested after assassination; implication is not conviction | <https://paperspast.natlib.govt.nz/newspapers/CHRONL19480204.2.23> |
 | HN-581 | November 23, 1950 | Thanksgiving Eve commuter collision kills 78 | <https://paperspast.natlib.govt.nz/newspapers/WC19501124.2.53> |
+
+### Hudson River Valley Heritage — 1 record
+
+_Server returns 403 to automated requests. Open in a browser and save the page image._
+
+| HN | Date | Heading | Source |
+|----|------|---------|--------|
+| HN-529 | December 11, 1941 | Germany and Italy declare war on United States | <https://news.hrvh.org/veridian/?a=d&d=ieadbehj19411211.1.1> |
 
 ### Virginia Chronicle — 2 records
 
@@ -294,13 +291,12 @@ _DSpace bitstream download. Open in a browser and save the file._
 
 ## B. Modern / commercial sources — cite only, do not download
 
-### Other web sources (modern news, encyclopedias, PDFs) — 201 records
+### Other web sources (modern news, encyclopedias, PDFs) — 200 records
 
 _Not a digitized newspaper archive we can retrieve automatically. Cite the URL only; do not republish article text or images._
 
 | HN | Date | Heading | Source |
 |----|------|---------|--------|
-| HN-388 | January 21, 1914 | Newly inaugurated Terre Haute mayor charged with election manipulation | <https://www.historyworm.com/gazete/evening_star/1914-01-18/1> |
 | HN-428 | July 15, 1921 | Sacco and Vanzetti found guilty of Massachusetts murders | <https://en.wikipedia.org/wiki/July_1921> |
 | HN-453 | May 19, 1927 | Bath death toll reported as 43 | <https://cdnc.ucr.edu/?a=d&d=DNLA19270520.1.3> |
 | HN-456 | March 13, 1928 | St. Francis Dam collapse inundates California valley | <https://stfrancisdammemorial.org/newspapers-of-the-st-francis-dam-disaster/><br><https://scvhistory.com/scvhistory/sfc031328.htm><br><https://scvhistory.com/scvhistory/al2040.htm><br><https://scvhistory.com/scvhistory/al2035.htm><br><https://scvhistory.com/scvhistory/al2038.htm><br><https://scvhistory.com/scvhistory/al2045.htm><br><https://scvhistory.com/scvhistory/al2041.htm><br><https://scvhistory.com/scvhistory/al2034.htm><br><https://scvhistory.com/scvhistory/al2039.htm><br><https://scvhistory.com/scvhistory/edh031328.htm><br><https://scvhistory.com/scvhistory/nled031328.htm><br><https://scvhistory.com/scvhistory/al2043.htm><br><https://scvhistory.com/scvhistory/fs031328a.htm><br><https://scvhistory.com/scvhistory/aen031328.htm><br><https://scvhistory.com/scvhistory/al2042.htm><br><https://scvhistory.com/scvhistory/al2044.htm><br><https://scvhistory.com/scvhistory/al3035.htm> |
@@ -502,13 +498,12 @@ _Not a digitized newspaper archive we can retrieve automatically. Cite the URL o
 | HN-1055 | October 21, 2026 | US Supreme Court temporarily blocks a transgender-prisoner care restriction | <https://www.washingtonblade.com/2026/10/21/supreme-court-blocks-white-house-anti-trans-prison-policy/> |
 | HN-1056 | October 22, 2026 | Iran warns of attacks on Gulf oil and AI facilities if war resumes | <https://www.arabtimesonline.com/news/iranian-regime-threatens-to-cut-undersea-internet-cables-strike-gulf-data-centres-and-ai-facilities/><br><https://elpais.com/internacional/2026-10-23/iran-amenaza-con-atacar-la-infraestructura-petrolera-y-de-inteligencia-artificial-del-golfo-si-ee-uu-e-israel-reanudan-los-bombardeos.html><br><https://www.aljazeera.com/news/2026/10/13/iran-threatens-gulf-data-centres-how-exposed-is-the-regions-internet><br><https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/> |
 
-### NewspaperArchive.com — 47 records
+### NewspaperArchive.com — 46 records
 
 _Commercial subscription paywall. Cite only unless you hold a licence._
 
 | HN | Date | Heading | Source |
 |----|------|---------|--------|
-| HN-388 | January 21, 1914 | Newly inaugurated Terre Haute mayor charged with election manipulation | <https://newspaperarchive.com/cincinnati-commercial-tribune-jan-18-1914-p-1/> |
 | HN-428 | July 15, 1921 | Sacco and Vanzetti found guilty of Massachusetts murders | <https://newspaperarchive.com/barre-daily-times-jul-15-1921-p-1/> |
 | HN-459 | September 24, 1928 | Newspaper estimates 2,200 Okeechobee deaths | <https://newspaperarchive.com/us/maine/biddeford/biddeford-daily-journal/1928/09-24/page-4/> |
 | HN-467 | August 8, 1930 | Marion lynching report merges mob violence with accusations | <https://newspaperarchive.com/logansport-pharos-tribune-aug-08-1930-p-1/> |

@@ -133,7 +133,8 @@ their human-facing HTML pages reject automation.
 | Gateway to Oklahoma History | 43 | 53 | 0 | IIIF (`full/full`) + UNTL metadata |
 | The Portal to Texas History | 19 | 22 | 0 | IIIF + UNTL metadata |
 | South Carolina Historic Newspapers | 16 | 16 | 6 | JP2 + word-coordinates + ffmpeg |
-| **Total** | **293** | **584** | **37** | |
+| Hoosier State Chronicles (Indiana) | 21 | 0 | 21 | article clip view + native `blockimage` blocks |
+| **Total (distinct records)** | **295** | **584** | **58** | |
 
 **Provider notes**
 
@@ -151,18 +152,30 @@ their human-facing HTML pages reject automation.
   a 1,500-px access rendition and an OCR text endpoint, but no coordinate
   service. Only full pages are stored; no crops are guessed. Oklahoma's server
   rejects width-based IIIF sizes, so the pipeline falls back to `full/full`.
-- **Blocked and not automated:** Indiana (`newspapers.library.in.gov`, Cloudflare
-  challenge), Papers Past (Incapsula JS challenge), British Newspaper Archive
-  (subscription paywall), NewspaperArchive and RareNewspapers (commercial
-  licensing). Modern paywalled titles (Washington Post, LA Times, Guardian) are
-  not scraped and are never republished.
+- **Blocked and not automated:** Papers Past (Incapsula JS challenge), British
+  Newspaper Archive (subscription paywall), NewspaperArchive and RareNewspapers
+  (commercial licensing). Modern paywalled titles (Washington Post, LA Times,
+  Guardian) are not scraped and are never republished.
+- **Indiana (partial).** The site sits behind a Cloudflare managed challenge.
+  A real Chrome session passes it in roughly 9–40 seconds; the resulting
+  `cf_clearance` cookie then allows plain HTTP requests. Full-page downloads
+  (`type=jpg2000/jpg/pdf/staticpdf`) require a free account login, and the
+  OpenSeadragon tile service caps tiles at 256x256. The public "Clip this
+  article" view (`&dliv=none`) does expose each article block through
+  `type=blockimage&area=N`, which returns a native-resolution crop of the
+  archive's own scan without login. We download those blocks and stack them in
+  the archive's own clip order. 21 records have article clips; the other 142
+  Indiana citations are page-level (the research itself cites "p. 1"), and the
+  archive offers no unauthenticated full-page rendition, so those cards link to
+  the archive viewer instead. No Indiana full-page scan is stored.
 
 **Honesty constraints preserved**
 
 - Every stored JPEG is a rendition of the archive's own scan; none is generated
   or retouched.
 - Crops exist only where a quoted batch-report headline matches OCR text at
-  score >= 0.6. All other pages show the full scan alone.
+  score >= 0.6. All other pages show the full scan alone. Indiana article clips
+  are the archive's own clip-view blocks, not guessed crops.
 - Full pages are 1,200-px-wide renditions; article crops are native-resolution.
   The archive viewer is linked from every card.
 - LOC and Oklahoma/Texas pages carry no crops because those services expose no
@@ -170,17 +183,23 @@ their human-facing HTML pages reject automation.
 
 **Verification (this run)**
 
-- `scripts/verify_images.js`: 293 records, 584 scans, 37 crops, 0 missing files,
-  0 broken references.
+- `scripts/verify_images.js`: 295 records, 584 page scans + 21 article clips,
+  58 crops, 0 missing files, 0 broken references.
 - `scripts/verify_milestone7.js`: 40/40.
-- `scripts/coverage_report.js`: 293/1,056 records (27.7%) have scans;
-  31 records (2.9%) have a verified crop; 210 records link only to
-  blocked/paywalled providers.
+- `scripts/coverage_report.js`: 295/1,056 records (27.9%) have images;
+  31 records (2.9%) have a word-coordinate-verified crop; 21 records (2.0%) have
+  an archive article clip; 104 records link only to blocked/paywalled providers.
 
 **New scripts**
 
 - `scripts/acquire_loc_images.js` — LOC JSON + IIIF + word coordinates.
 - `scripts/acquire_sc_images.js` — South Carolina JP2 + coordinates + ffmpeg.
 - `scripts/acquire_portal_images.js` — Oklahoma and Texas IIIF.
+- `scripts/indiana_session.js` — refreshes the Cloudflare clearance session in a
+  real Chrome and writes the cookie header for plain HTTP requests.
+- `scripts/build_indiana_metadata.js` — parses issue/page metadata for the 157
+  unique Indiana pages into `docs/INDIANA_PAGE_METADATA.json`.
+- `scripts/acquire_indiana_images.js` — Indiana article clips from the archive's
+  `blockimage` article blocks, stacked with ffmpeg.
 - `scripts/lib_image_merge.js` — merges all provider ledgers into
   `site/data/images.json`.

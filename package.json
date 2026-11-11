@@ -1,0 +1,27 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "An evidence-aware research and discovery archive of newspaper reporting covering 1777–2026.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-in-portfolio/news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dev-in-portfolio/news/issues"
+  },
+  "homepage": "https://github.com/dev-in-portfolio/news#readme",
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}

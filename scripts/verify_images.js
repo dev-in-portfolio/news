@@ -43,7 +43,7 @@ for (const hn of sample) {
   const p = path.join(STORIES, hn + '.html');
   if (!fs.existsSync(p)) { console.log(hn + ': page MISSING'); continue; }
   const html = fs.readFileSync(p, 'utf8');
-  const hasCard = html.includes('Original page scans');
+  const hasCard = html.includes('Original archive images') || html.includes('Original page scans');
   const imgSrcs = [...html.matchAll(/src="(\.\.\/assets\/images\/[^"]+)"/g)].map(m => m[1]);
   const bad = [];
   for (const src of imgSrcs) {

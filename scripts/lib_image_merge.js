@@ -26,6 +26,7 @@ function normalise(e, fallbackProvider) {
     full_page: e.full_page_asset || null,
     crop: e.crop_asset || null,
     crop_coordinates: e.crop_coordinates || null,
+    crop_method: e.crop_method || null,
     dimensions: e.source_dimensions || null,
     iiif_id: e.iiif_id || null,
   };
@@ -39,16 +40,18 @@ function buildImages() {
     { file: path.join(ROOT, 'docs', 'LOC_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Library of Congress / Chronicling America' },
     { file: path.join(ROOT, 'docs', 'SC_IMAGE_ACQUISITION_LEDGER.json'), provider: 'South Carolina Historic Newspapers (University of South Carolina)' },
     { file: path.join(ROOT, 'docs', 'PORTAL_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Gateway to Oklahoma History / The Portal to Texas History' },
+    { file: path.join(ROOT, 'docs', 'INDIANA_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Hoosier State Chronicles (Indiana State Library)' },
   ];
   for (const src of sources) {
     const ledger = readJsonIf(src.file);
     if (!ledger || !ledger.items) continue;
     for (const e of Object.values(ledger.items)) {
-      if (!e || !e.full_page_asset) continue;
-      if (e.status !== 'full_page_acquired' && e.status !== 'crop_acquired') continue;
+      if (!e) continue;
+      if (!e.full_page_asset && !e.crop_asset) continue;
+      if (e.status !== 'full_page_acquired' && e.status !== 'crop_acquired' && e.status !== 'article_clip_acquired') continue;
       const hn = e.hn_id;
       if (!hn) continue;
-      const key = hn + '|' + (e.page_url || e.full_page_asset);
+      const key = hn + '|' + (e.page_url || e.full_page_asset || e.crop_asset);
       if (seen.has(key)) continue;
       seen.add(key);
       if (!images[hn]) images[hn] = [];

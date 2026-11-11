@@ -164,21 +164,27 @@ function imagesCard(hn) {
   const figures = imgs.map(im => {
     const label = im.newspaper || im.lccn || 'Newspaper';
     const isCrop = !!im.crop;
+    const isArticleClip = isCrop && im.crop_method === 'archive_article_blocks_native';
     const src = isCrop ? im.crop : im.full_page;
+    const kindText = isArticleClip ? 'article clip' : (isCrop ? 'article crop' : 'page scan');
+    const linkText = isCrop ? 'Open full-resolution ' + (isArticleClip ? 'clip' : 'crop') : 'Open larger view';
+    const pageLink = (isCrop && im.full_page)
+      ? '<a href="../' + esc(im.full_page) + '" target="_blank" rel="noopener">Page scan</a> &middot; '
+      : '';
     return '<figure class="scan">\n' +
-      '<div class="scan-frame"><img src="../' + esc(src) + '" alt="' + esc(label + ', ' + im.issue_date + (isCrop ? ' - article crop' : ' - page scan')) + '" loading="lazy"></div>\n' +
+      '<div class="scan-frame"><img src="../' + esc(src) + '" alt="' + esc(label + ', ' + im.issue_date + ' - ' + kindText) + '" loading="lazy"></div>\n' +
       '<figcaption><strong>' + esc(label) + '</strong> &middot; ' + esc(im.issue_date) + ' &middot; image ' + im.sequence +
-      (isCrop ? ' &mdash; article crop' : ' &mdash; page scan') +
+      ' &mdash; ' + kindText +
       '<br><span class="scan-provider">' + esc(im.provider || '') + '</span><br>' +
-      '<a href="../' + esc(src) + '" target="_blank" rel="noopener">' + (isCrop ? 'Open full-resolution crop' : 'Open larger view') + '</a> &middot; ' +
-      (isCrop ? '<a href="../' + esc(im.full_page) + '" target="_blank" rel="noopener">Page scan</a> &middot; ' : '') +
+      '<a href="../' + esc(src) + '" target="_blank" rel="noopener">' + linkText + '</a> &middot; ' +
+      pageLink +
       '<a href="' + esc(im.page_url) + '" target="_blank" rel="noopener">Archive viewer (full resolution)</a></figcaption>\n' +
       '</figure>';
   }).join('\n');
   return '<div class="card">\n' +
-    '<h3>Original page scans (' + imgs.length + ')</h3>\n' +
-    '<p class="note">Authentic scans retrieved from ' + esc(providerText) +
-    '. Article crops are located using the archive\'s own OCR word coordinates and rendered at native crop resolution; page scans are reduced-size access renditions. No images were generated, mocked, or retouched.</p>\n' +
+    '<h3>Original archive images (' + imgs.length + ')</h3>\n' +
+    '<p class="note">Authentic images retrieved from ' + esc(providerText) +
+    '. Article crops are located using the archive\'s own OCR word coordinates and rendered at native crop resolution; article clips are assembled from the archive\'s own article-block images; page scans are reduced-size access renditions. No images were generated, mocked, or retouched.</p>\n' +
     '<div class="scan-grid">' + figures + '</div>\n' +
     '</div>\n';
 }
