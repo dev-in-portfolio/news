@@ -77,9 +77,12 @@
      Indiana batch (215/567 documents processed so far). Run
      `node scripts/lib_image_merge.js` after stopping it, then rebuild pages.
    - **Unresolved `DMST*` pages:** 25 Indiana documents cite section-2 pages
-     (e.g. `2.24`) that the viewer does not expose. A probe
-     (`probe_dmst.js`) lists the viewer's real page keys; do not guess a mapping.
-     If the cited page is genuinely absent, record it as an honest gap.
+     (e.g. `?a=d&d=DMST18801203.2.9`) that the viewer does not expose. Verified
+     directly: fetching the cited URL returns HTTP 200, but `pageImageSizes`
+     lists only section-1 pages (`1.1`–`1.4` for that document; `1.1`–`1.8` for
+     `DMST18830914`), and no `2.x` key exists. The cited page is genuinely absent
+     from the digital object, so these are recorded as `page_unavailable`
+     (honest gaps); no page mapping is invented.
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
 3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
 4. No deployment authorized; local build and preview remain in scope.
