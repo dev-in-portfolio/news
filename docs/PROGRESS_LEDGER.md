@@ -347,6 +347,12 @@ are always retried, completed mosaics are skipped. Ledger:
 - **Papers Past, Virginia Chronicle, NewspaperSG, Georgia, Texas A&M, HRVH,
   Cornell**: unchanged — JS challenge, 403, or HTTP 202.
 - **`scholar.lib.vt.edu`**: HTTP 410 Gone.
+- **`lib-dspace1.ttu.edu`**: TCP connection timeout (curl error 28) on both
+  issue PDFs (Daily National Intelligencer 1836-03-26, Clarendon News
+  1935-09-19); no bytes retrievable.
+- **`historyworm.com`**: Cloudflare "Just a moment…" 403 on all three cited
+  issue pages (New York Herald 1853-07-18, Evening Star 1914-01-18, New Britain
+  Herald 1917-12-07).
 - **CMU IIIF** (`iiif.library.cmu.edu`): 500 "Invalid URI host: null"; the
   Henry Ford artifact pages are JS applications with no usable image metadata;
   `archindy.org` Criterion PDF returns 403; `dailyiowan.lib.uiowa.edu` PDF fetch
