@@ -165,9 +165,20 @@ function imagesCard(hn) {
     const label = im.newspaper || im.lccn || 'Newspaper';
     const isCrop = !!im.crop;
     const isArticleClip = isCrop && im.crop_method === 'archive_article_blocks_native';
+    const isClipping = isCrop && im.crop_method === 'archive_clipping_image';
+    const isMosaic = !isCrop && im.mosaic_method === 'openseadragon_tiles_256';
+    const isPageImage = !isCrop && im.mosaic_method === 'archive_page_rendition';
+    const isPdfPage = !isCrop && im.mosaic_method === 'archive_pdf_page_rendition';
     const src = isCrop ? im.crop : im.full_page;
-    const kindText = isArticleClip ? 'article clip' : (isCrop ? 'article crop' : 'page scan');
-    const linkText = isCrop ? 'Open full-resolution ' + (isArticleClip ? 'clip' : 'crop') : 'Open larger view';
+    const kindText = isArticleClip ? 'article clip'
+      : (isClipping ? 'archive clipping'
+        : (isCrop ? 'article crop'
+          : (isMosaic ? 'page image (archive tiles)'
+            : (isPdfPage ? 'page image (issue PDF)'
+              : (isPageImage ? 'page image' : 'page scan')))));
+    const linkText = isCrop
+      ? 'Open full-resolution ' + (isArticleClip ? 'clip' : (isClipping ? 'clipping' : 'crop'))
+      : 'Open larger view';
     const pageLink = (isCrop && im.full_page)
       ? '<a href="../' + esc(im.full_page) + '" target="_blank" rel="noopener">Page scan</a> &middot; '
       : '';
@@ -184,7 +195,7 @@ function imagesCard(hn) {
   return '<div class="card">\n' +
     '<h3>Original archive images (' + imgs.length + ')</h3>\n' +
     '<p class="note">Authentic images retrieved from ' + esc(providerText) +
-    '. Article crops are located using the archive\'s own OCR word coordinates and rendered at native crop resolution; article clips are assembled from the archive\'s own article-block images; page scans are reduced-size access renditions. No images were generated, mocked, or retouched.</p>\n' +
+    '. Article crops are located using the archive\'s own OCR word coordinates and rendered at native crop resolution; article clips are assembled from the archive\'s own article-block images; page images marked "archive tiles" are stitched from the archive\'s own tiled page service at its 256-px tile cap; page images marked "issue PDF" are single pages rasterised from the archive\'s own issue PDF, with the page chosen by matching the headline against the PDF\'s text layer; page scans are reduced-size access renditions. No images were generated, mocked, or retouched.</p>\n' +
     '<div class="scan-grid">' + figures + '</div>\n' +
     '</div>\n';
 }

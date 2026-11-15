@@ -20,8 +20,8 @@
 
 ## Current state
 
-- **Last successful verification:** All Milestones 0–5 complete and pushed to `origin/main` (commit pending).
-- **Working tree:** Clean.
+- **Last successful verification:** Milestones 0–8 complete; `verify_milestone7.js` 40/40, `verify_images.js` 0 broken assets.
+- **Working tree:** Phase-2 image acquisition is uncommitted as of this checkpoint (checkpointed together with this ledger).
 - **Original source files:** Unchanged and read-only (hash-verified against `SOURCE_CHECKSUMS.sha256`).
 - **Generated data:** All under `site/data/` and `docs/`; none mixed with original source data.
 - **HTML pages:** 1,065 (1,056 detail pages + 6 section pages + 3 reference stories).
@@ -40,6 +40,18 @@
 | Candidate identity pairs | 135 | deduped from seed peer column (authoritative 140 in workbook) |
 | Source-acquisition manifest rows | 1,056 | one per seed URL |
 | Manifest rows with live test results | 9 | 4 blocked_access, 3 verified, 2 link_checked |
+| Records with ≥1 resolved source URL | 1,025 | `scripts/hn_urls.json` (batch reports ∪ record text) |
+| Distinct resolved source URLs | 3,141 | `scripts/hn_urls.json` |
+| Records with no source URL at all | 27 | honest gaps, no invented links |
+| Records with ≥1 stored image | 505 | `site/data/images.json` |
+| Stored image renditions (entries) | 844 | 820 full-page + 61 crops (overlap where both exist) |
+| Full-page scans | 820 | Oregon 420, Indiana 188, LOC 85, OK 53, TX 25, SC 20, SCVHistory 16, other 13 |
+| Word-coordinate-verified article crops | 31 | score ≥ 0.6 against quoted headline |
+| Archive article clips | 21 | Indiana block-level crops (no OCR verification available) |
+| Indiana tile mosaics | 188 pages / 175 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (28 page-unavailable, 25 failed) |
+| PDF-rendered page images | 11 | 9 records, `archive_pdf_page_rendition` |
+| Other-archive page renditions | 18 | Quartex / CONTENTdm / SCVHistory |
+| Image files on disk | 887 | 497 MB under `site/assets/images/` |
 
 ## Milestone 3 feasibility results (summary)
 
@@ -56,7 +68,18 @@
 
 ## Open blockers / next actions
 
-1. **Milestone 6 — Media acquisition:** Merge batch-report URLs (2,986) into `SOURCE_ACQUISITION_MANIFEST.csv`; attempt manual/browser-based direct image acquisition from Indiana and LOC (both currently blocked by bot protection).
+1. **Milestone 6 — Media acquisition:** largely complete. Batch-report URLs are
+   merged into the URL index, and every provider that exposes a public image
+   service has been harvested. What remains is listed in
+   `docs/IMAGE_GAP_REPORT.md` and is almost entirely paywalled, bot-protected, or
+   not a newspaper scan at all.
+   - **Resumable:** `node scripts/acquire_indiana_mosaics.js` continues the
+     Indiana batch (215/567 documents processed so far). Run
+     `node scripts/lib_image_merge.js` after stopping it, then rebuild pages.
+   - **Unresolved `DMST*` pages:** 25 Indiana documents cite section-2 pages
+     (e.g. `2.24`) that the viewer does not expose. A probe
+     (`probe_dmst.js`) lists the viewer's real page keys; do not guess a mapping.
+     If the cited page is genuinely absent, record it as an honest gap.
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
 3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
 4. No deployment authorized; local build and preview remain in scope.
@@ -203,3 +226,125 @@ their human-facing HTML pages reject automation.
   `blockimage` article blocks, stacked with ffmpeg.
 - `scripts/lib_image_merge.js` — merges all provider ledgers into
   `site/data/images.json`.
+
+---
+
+## Image acquisition, phase 2 (other archives, issue PDFs, Indiana tile mosaics)
+
+### URL index correction
+
+`scripts/hn_urls.json` was originally built only from `### HN-…` blocks in the
+batch-report markdown, which left 395 records with an empty URL list. Those
+records are not source-less: 368 of them cite a source URL inside the canonical
+record text (`discovery_body`, `audit_links`, `recorded_finding`).
+
+`scripts/augment_hn_urls.js` unions the two sources without removing or
+rewriting anything. Result:
+
+| | before | after |
+|---|---:|---:|
+| Records with ≥1 URL | 661 | 1,025 |
+| Unique URLs | 3,599 (with duplicates) | 3,141 unique |
+| Records with no URL at all | 395 | 27 |
+
+The 27 genuinely source-less records are listed in `docs/IMAGE_GAP_REPORT.md`.
+Everything downstream (gap report, every acquisition pipeline) now reads the
+corrected index.
+
+### Other archives (Quartex, CONTENTdm, SCVHistory)
+
+`scripts/acquire_other_images.js` handles three families of small archives:
+
+- **Quartex** (`*.quartexcollections.com`, `*.newspapers.com`-style viewers):
+  IIIF manifest → best page canvas → IIIF Image API rendition.
+- **CONTENTdm** (`digital*.library.*`, `cdm*.contentdm.oclc.org`): the
+  `digital/api/singleitem/collection/<c>/id/<n>` JSON gives the compound-object
+  page list; images come from the `iiif` or `utils/ajax/helpers/getfileinfo`
+  endpoint at the archive's own maximum size.
+- **SCVHistory** and similar flat-file archives: the page JPEG is linked
+  directly from the citation page and is downloaded as served.
+
+Result: 21 images across 4 records (HN-456 ×16, HN-607 ×1 Bermuda Recorder
+5352×8064, HN-643 ×3 Birmingham, HN-672 ×1 Waco 2465×3380). Ledger:
+`docs/OTHER_IMAGE_ACQUISITION_LEDGER.json`.
+
+### Issue-PDF pipeline
+
+Several historical societies and university archives publish a whole issue as a
+PDF (`rijha.org`, `archives.nd.edu`, `cdn.manchesterhistory.org`,
+`ecms.newportbeachca.gov`, `the.militant.com`, `marxists.org`,
+`richesmi.cah.ucf.edu`). `scripts/acquire_pdf_images.js`:
+
+1. downloads the issue PDF (cached by URL hash under the temp PDF cache);
+2. reads its **text layer** with `pdfjs-dist` and scores every page against the
+   record heading;
+3. renders **only the chosen page** with `pdf-to-img` at ~1,500 px width
+   (landscape issues keep their native orientation, e.g. 2900×2052);
+4. records `pdf_page`, `pdf_pages`, `page_selection` (`text_match` or
+   `first_page_fallback`) and `match_score` in the ledger.
+
+The stored JPEG is a single rasterisation of the archive's own scan — no crop,
+no retouching. Result: 11 page images across 9 records (HN-472, HN-510, HN-622,
+HN-683 ×2, HN-701, HN-704, HN-743, HN-757, HN-841).
+
+PDFs that are academic papers, books, or finding aids were deliberately **not**
+used as newspaper images: two DRUM dissertations (435 and 289 pages), the
+`archon` finding aid for the Frederick J. Ruegsegger papers (71 pages of
+inventory text), and `nytimes_1965_crop.pdf` (a cropped article reprint, not a
+newspaper page).
+
+### Indiana tile mosaics
+
+The 142 Indiana page-level citations previously had no stored image because the
+archive requires a login for full-page downloads. The OpenSeadragon tile
+endpoint is public **once the Cloudflare Turnstile check issues a per-document
+access code**:
+
+```
+?a=is&type=pagetileimage&crth=…&vac=…&oid=<doc>.<page>&width=256&crop=x,y,w,h
+```
+
+`scripts/acquire_indiana_mosaics.js` therefore:
+
+- launches real Chrome once at `about:blank`, then opens **one fresh tab per
+  document** — this is what reliably yields a Turnstile response; reusing or
+  reloading an existing tab does not;
+- captures `crth`/`vac` from both the `getViewerAccessCode` response and the
+  first tile request (tokens are bound to one document; they are rejected for
+  any other document with a blank 1×1 GIF);
+- reads page dimensions from the viewer's `pageImageSizes` JSON;
+- partitions each page into a 4-column grid with **exact** column/row edges
+  (`round(c*W/COLS)`, `round(r*H/rows)`), so no cell is degenerate — a naive
+  `ceil(H/cell)` left a 1-px final row on some pages;
+- stitches the archive's own 256-px tiles with `ffmpeg` into a ~1024-px-wide
+  white-padded page rendition;
+- caches tiles per page, but invalidates the cache whenever the grid signature
+  changes so tiles from two different partitions are never mixed;
+- closes the tab and moves on, writing the ledger after every page.
+
+Result: 188 mosaic pages across 175 documents stored before a deliberate
+checkpoint stop at 215/567 candidate documents. 28 pages reported
+`UNAVAILABLE (not in viewer)`; 25 entries are marked failed, of which 23 are the
+pre-fix `hstack` rounding bug (fixed and re-verified offline against the cached
+tiles for HN-698, HN-923, HN-924) and 2 are per-document Cloudflare challenges.
+The batch resumes with `node scripts/acquire_indiana_mosaics.js`; failed pages
+are always retried, completed mosaics are skipped. Ledger:
+`docs/INDIANA_MOSAIC_LEDGER.json`.
+
+### Blocked, with the reason established
+
+- **British Library IRO** (`bl.iro.bl.uk`): the product page for *The Statesman*
+  exposes two ZIP bitstreams (0.55 MB and 207 MB). Both contain only
+  ALTO/METS **XML**, no page images. The page images are on the British
+  Newspaper Archive, which is subscription-gated. HN-054/HN-055 stay without an
+  image.
+- **California Digital Newspaper Collection** (`cdnc.ucr.edu`): same Veridian
+  platform as Indiana but behind a Cloudflare "Just a moment…" challenge with no
+  public tile token path; 403 to plain HTTP. One record affected.
+- **Papers Past, Virginia Chronicle, NewspaperSG, Georgia, Texas A&M, HRVH,
+  Cornell**: unchanged — JS challenge, 403, or HTTP 202.
+- **`scholar.lib.vt.edu`**: HTTP 410 Gone.
+- **CMU IIIF** (`iiif.library.cmu.edu`): 500 "Invalid URI host: null"; the
+  Henry Ford artifact pages are JS applications with no usable image metadata;
+  `archindy.org` Criterion PDF returns 403; `dailyiowan.lib.uiowa.edu` PDF fetch
+  fails.

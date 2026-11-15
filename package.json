@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/dev-in-portfolio/news#readme",
   "dependencies": {
+    "pdf-to-img": "^7.0.2",
+    "pdfjs-dist": "^6.4.299",
     "playwright-core": "^1.65.0"
   }
 }

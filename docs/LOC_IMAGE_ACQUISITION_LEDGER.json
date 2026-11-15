@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T01:13:46.510Z",
+ "generated_at": "2026-11-15T16:34:15.683Z",
  "items": {
   "HN-389|https://www.loc.gov/resource/loc//ed-1/?sp=1|service:ndnp:dlc:batch_dlc_hawaiian_ver01:data:sn84026749:00294557854:1914042201:0295": {
    "hn_id": "HN-389",
@@ -37,7 +37,7 @@
    "source_dimensions": "4169x6482",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021126:print:1777072201:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:16.589Z",
+   "acquired_at": "2026-11-15T15:30:05.817Z",
    "full_page_bytes": 440967,
    "crop_status": "no_headline"
   },
@@ -246,7 +246,7 @@
    "source_dimensions": "4117x6488",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021127:print:1779042201:0003",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:22.077Z",
+   "acquired_at": "2026-11-15T15:30:12.439Z",
    "full_page_bytes": 487899,
    "crop_status": "no_headline"
   },
@@ -266,7 +266,7 @@
    "source_dimensions": "4876x7720",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83030493:print:1779090601:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:22.267Z",
+   "acquired_at": "2026-11-15T15:30:16.031Z",
    "full_page_bytes": 440932,
    "crop_status": "no_headline"
   },
@@ -286,7 +286,7 @@
    "source_dimensions": "2603x3420",
    "iiif_id": "service:ndnp:vi:batch_vi_invicta_ver01:data:sn84024739:print:1780051601:0063",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:24.950Z",
+   "acquired_at": "2026-11-15T15:30:19.210Z",
    "full_page_bytes": 345491,
    "crop_status": "no_headline"
   },
@@ -306,7 +306,7 @@
    "source_dimensions": "3702x5680",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1780101101:0004",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:27.094Z",
+   "acquired_at": "2026-11-15T15:30:22.193Z",
    "full_page_bytes": 416088,
    "crop_status": "no_headline"
   },
@@ -326,7 +326,7 @@
    "source_dimensions": "4720x7309",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025584:00517015106:1781061801:0507",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:29.035Z",
+   "acquired_at": "2026-11-15T15:30:24.856Z",
    "full_page_bytes": 604000,
    "crop_status": "no_headline"
   },
@@ -346,7 +346,7 @@
    "source_dimensions": "3647x5784",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1781080801:0001",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:31.682Z",
+   "acquired_at": "2026-11-15T15:30:28.370Z",
    "full_page_bytes": 417635,
    "crop_status": "no_headline"
   },
@@ -366,7 +366,7 @@
    "source_dimensions": "4033x6469",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83021127:print:1781091101:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:33.618Z",
+   "acquired_at": "2026-11-15T15:30:32.136Z",
    "full_page_bytes": 525638,
    "crop_status": "no_headline"
   },
@@ -386,7 +386,7 @@
    "source_dimensions": "4033x6469",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83021127:print:1781091101:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:33.683Z",
+   "acquired_at": "2026-11-15T15:30:33.437Z",
    "full_page_bytes": 525638,
    "crop_status": "no_headline"
   },
@@ -406,7 +406,7 @@
    "source_dimensions": "6120x9691",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025585:00517015118:1782102601:0239",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:42.607Z",
+   "acquired_at": "2026-11-15T15:30:36.769Z",
    "full_page_bytes": 498314,
    "crop_status": "no_headline"
   },
@@ -426,7 +426,7 @@
    "source_dimensions": "4277x6683",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn84026945:print:1783120401:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:47.571Z",
+   "acquired_at": "2026-11-15T15:30:41.916Z",
    "full_page_bytes": 451610,
    "crop_status": "no_headline"
   },
@@ -446,7 +446,7 @@
    "source_dimensions": "4277x6683",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn84026945:print:1783120401:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:47.608Z",
+   "acquired_at": "2026-11-15T15:30:43.218Z",
    "full_page_bytes": 451610,
    "crop_status": "no_headline"
   },
@@ -466,7 +466,7 @@
    "source_dimensions": "4082x6524",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784080201:0003",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:51.681Z",
+   "acquired_at": "2026-11-15T15:30:49.321Z",
    "full_page_bytes": 451326,
    "crop_status": "no_headline"
   },
@@ -486,7 +486,7 @@
    "source_dimensions": "4205x6559",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784110801:0004",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:55.112Z",
+   "acquired_at": "2026-11-15T15:30:56.169Z",
    "full_page_bytes": 387088,
    "crop_status": "no_headline"
   },
@@ -506,7 +506,7 @@
    "source_dimensions": "4205x6559",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784110801:0004",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:55.298Z",
+   "acquired_at": "2026-11-15T15:30:54.870Z",
    "full_page_bytes": 387088,
    "crop_status": "no_headline"
   },
@@ -526,7 +526,7 @@
    "source_dimensions": "4135x6402",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1785060601:0003",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:59.296Z",
+   "acquired_at": "2026-11-15T15:31:00.956Z",
    "full_page_bytes": 422144,
    "crop_status": "no_headline"
   },
@@ -546,7 +546,7 @@
    "source_dimensions": "3992x5762",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1785032501:0055",
    "error": null,
-   "acquired_at": "2026-11-08T21:33:59.382Z",
+   "acquired_at": "2026-11-15T15:30:58.416Z",
    "full_page_bytes": 484058,
    "crop_status": "no_headline"
   },
@@ -566,7 +566,7 @@
    "source_dimensions": "4411x6680",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786052501:0294",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:06.337Z",
+   "acquired_at": "2026-11-15T15:31:06.641Z",
    "full_page_bytes": 591974,
    "crop_status": "no_headline"
   },
@@ -586,7 +586,7 @@
    "source_dimensions": "3906x6176",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021127:print:1778010701:0003",
    "error": null,
-   "acquired_at": "2026-11-09T01:13:27.002Z",
+   "acquired_at": "2026-11-15T15:30:08.861Z",
    "full_page_bytes": 461329,
    "crop_status": "no_headline"
   },
@@ -606,7 +606,7 @@
    "source_dimensions": "4409x6669",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786092101:0362",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:11.116Z",
+   "acquired_at": "2026-11-15T15:31:11.213Z",
    "full_page_bytes": 511624,
    "crop_status": "no_headline"
   },
@@ -626,7 +626,7 @@
    "source_dimensions": "4542x6649",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025586:0051701512A:1786072001:0326",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:12.733Z",
+   "acquired_at": "2026-11-15T15:31:08.950Z",
    "full_page_bytes": 556199,
    "crop_status": "no_headline"
   },
@@ -646,7 +646,7 @@
    "source_dimensions": "4269x6391",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1787070701:0018",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:24.485Z",
+   "acquired_at": "2026-11-15T15:31:15.479Z",
    "full_page_bytes": 497267,
    "crop_status": "no_headline"
   },
@@ -666,7 +666,7 @@
    "source_dimensions": "4181x6436",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83025471:print:1785062001:0001",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:25.295Z",
+   "acquired_at": "2026-11-15T15:31:03.170Z",
    "full_page_bytes": 395365,
    "crop_status": "no_headline"
   },
@@ -686,7 +686,7 @@
    "source_dimensions": "4603x7638",
    "iiif_id": "service:ndnp:dlc:batch_dlc_armoire_ver02:data:sn83030007:print:1788041401:0002",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:29.968Z",
+   "acquired_at": "2026-11-15T15:31:17.761Z",
    "full_page_bytes": 547028,
    "crop_status": "no_headline"
   },
@@ -706,7 +706,7 @@
    "source_dimensions": "4608x7337",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bureau_ver02:data:sn83030137:print:1787062901:0003",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:30.231Z",
+   "acquired_at": "2026-11-15T15:31:13.484Z",
    "full_page_bytes": 470372,
    "crop_status": "no_headline"
   },
@@ -726,7 +726,7 @@
    "source_dimensions": "4726x7395",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bureau_ver02:data:sn83030566:print:1788061701:0003",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:33.267Z",
+   "acquired_at": "2026-11-15T15:31:20.303Z",
    "full_page_bytes": 447420,
    "crop_status": "no_headline"
   },
@@ -746,7 +746,7 @@
    "source_dimensions": "4365x6241",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023133:00517015891:1789101701:0035",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:33.316Z",
+   "acquired_at": "2026-11-15T15:31:22.618Z",
    "full_page_bytes": 472622,
    "crop_status": "no_headline"
   },
@@ -766,7 +766,7 @@
    "source_dimensions": "4408x7020",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1790020301:0536",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:33.949Z",
+   "acquired_at": "2026-11-15T15:31:24.687Z",
    "full_page_bytes": 536973,
    "crop_status": "no_headline"
   },
@@ -786,7 +786,7 @@
    "source_dimensions": "4408x7020",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1790020301:0536",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:34.096Z",
+   "acquired_at": "2026-11-15T15:31:25.984Z",
    "full_page_bytes": 536973,
    "crop_status": "no_headline"
   },
@@ -806,7 +806,7 @@
    "source_dimensions": "4161x6222",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1792072601:1053",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:38.549Z",
+   "acquired_at": "2026-11-15T15:31:33.520Z",
    "full_page_bytes": 513522,
    "crop_status": "no_headline"
   },
@@ -826,7 +826,7 @@
    "source_dimensions": "4109x6224",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1791022601:0757",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:38.699Z",
+   "acquired_at": "2026-11-15T15:31:30.170Z",
    "full_page_bytes": 545581,
    "crop_status": "no_headline"
   },
@@ -846,7 +846,7 @@
    "source_dimensions": "3096x5181",
    "iiif_id": "service:sgp:sgpbatches:batch_dlc_himalayan_ver02:data:sn83030483:print:1792110701:0004",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:41.524Z",
+   "acquired_at": "2026-11-15T15:31:36.599Z",
    "full_page_bytes": 390045,
    "crop_status": "no_headline"
   },
@@ -866,7 +866,7 @@
    "source_dimensions": "3792x6051",
    "iiif_id": "service:ndnp:wvu:batch_wvu_kerr_ver01:data:sn84038410:print:1792122401:0412",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:44.356Z",
+   "acquired_at": "2026-11-15T15:31:43.773Z",
    "full_page_bytes": 599788,
    "crop_status": "no_headline"
   },
@@ -886,7 +886,7 @@
    "source_dimensions": "4014x5961",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1792121901:1137",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:44.801Z",
+   "acquired_at": "2026-11-15T15:31:38.505Z",
    "full_page_bytes": 537458,
    "crop_status": "no_headline"
   },
@@ -906,7 +906,7 @@
    "source_dimensions": "4983x7904",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023134:00517015908:1793100101:0083",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:47.616Z",
+   "acquired_at": "2026-11-15T15:31:48.969Z",
    "full_page_bytes": 514654,
    "crop_status": "no_headline"
   },
@@ -926,7 +926,7 @@
    "source_dimensions": "4638x7048",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avocet_ver01:data:sn84023134:00517015908:1794031101:0173",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:48.483Z",
+   "acquired_at": "2026-11-15T15:31:51.527Z",
    "full_page_bytes": 507115,
    "crop_status": "no_headline"
   },
@@ -945,7 +945,7 @@
    "crop_asset": null,
    "source_dimensions": "4042x6236",
    "iiif_id": "service:sgp:sgpbatches:batch_dlc_korat_ver01:data:sn84026271:print:1795010801:0003",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn84026271/1795-01-08/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T21:34:52.392Z",
    "full_page_bytes": 435874,
    "crop_status": "no_headline"
@@ -965,7 +965,7 @@
    "crop_asset": null,
    "source_dimensions": "3847x6114",
    "iiif_id": "service:sgp:sgpbatches:batch_dlc_korat_ver01:data:sn84026271:print:1794101501:0003",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn84026271/1794-10-15/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T21:34:53.618Z",
    "full_page_bytes": 404393,
    "crop_status": "no_headline"
@@ -985,7 +985,7 @@
    "crop_asset": null,
    "source_dimensions": "2542x3957",
    "iiif_id": "service:ndnp:wvu:batch_wvu_zarley_ver02:data:sn84038410:01000424529:1796042101:0115",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn84038410/1796-04-21/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T21:34:58.043Z",
    "full_page_bytes": 568887,
    "crop_status": "no_headline"
@@ -1006,7 +1006,7 @@
    "source_dimensions": "3351x5393",
    "iiif_id": "service:ndnp:kyu:batch_kyu_dachshund_ver04:data:sn82014782:print:1793011201:0436",
    "error": null,
-   "acquired_at": "2026-11-08T21:34:59.030Z",
+   "acquired_at": "2026-11-15T15:31:46.908Z",
    "full_page_bytes": 363413,
    "crop_status": "no_headline"
   },
@@ -1025,7 +1025,7 @@
    "crop_asset": null,
    "source_dimensions": "3244x5352",
    "iiif_id": "service:ndnp:kyu:batch_kyu_dachshund_ver04:data:sn82014782:print:1797011101:0618",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn82014782/1797-01-11/ed-1/?sp=2&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T21:34:59.213Z",
    "full_page_bytes": 515679,
    "crop_status": "no_headline"
@@ -1045,7 +1045,7 @@
    "crop_asset": null,
    "source_dimensions": "6372x10044",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010765:1798011001:0425",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn83025588/1798-01-10/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-09T01:13:46.498Z",
    "full_page_bytes": 654037,
    "crop_status": "no_headline"
@@ -1065,7 +1065,7 @@
    "crop_asset": null,
    "source_dimensions": "5076x7676",
    "iiif_id": "service:ndnp:vi:batch_vi_otters_ver02:data:sn84024710:00414184169:1798013001:0017",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:35:12.133Z",
    "full_page_bytes": 438328,
    "crop_status": "no_headline"
@@ -1085,7 +1085,7 @@
    "crop_asset": null,
    "source_dimensions": "3970x6473",
    "iiif_id": "service:sgp:sgpbatches:batch_dlc_laperm_ver01:data:sn83025881:print:1799010801:0002",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:36:32.259Z",
    "full_page_bytes": 432071,
    "crop_status": "no_headline"
@@ -1105,7 +1105,7 @@
    "crop_asset": null,
    "source_dimensions": "4701x7707",
    "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023378:00541315858:1801011301:0250",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:39:03.352Z",
    "full_page_bytes": 621640,
    "crop_status": "no_headline"
@@ -1125,7 +1125,7 @@
    "crop_asset": null,
    "source_dimensions": "5003x7852",
    "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn83025544:00541315871:1801011701:0227",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:40:24.800Z",
    "full_page_bytes": 544395,
    "crop_status": "no_headline"
@@ -1145,7 +1145,7 @@
    "crop_asset": null,
    "source_dimensions": "6548x10140",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010789:1802011901:0011",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn83025588/1802-01-19/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:41:51.935Z",
    "full_page_bytes": 596353,
    "crop_status": "no_headline"
@@ -1165,7 +1165,7 @@
    "crop_asset": null,
    "source_dimensions": "6550x11179",
    "iiif_id": "service:ndnp:vi:batch_vi_flyingsquirrels_ver03:data:sn84024011:00414216006:1803010501:0016",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn84024011/1803-01-05/ed-1/?sp=2&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:43:10.878Z",
    "full_page_bytes": 676229,
    "crop_status": "no_headline"
@@ -1185,7 +1185,7 @@
    "crop_asset": null,
    "source_dimensions": "4926x8026",
    "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:44:30.282Z",
    "full_page_bytes": 577357,
    "crop_status": "no_headline"
@@ -1205,7 +1205,7 @@
    "crop_asset": null,
    "source_dimensions": "4926x8026",
    "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046",
-   "error": null,
+   "error": "fetch failed (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:45:46.054Z",
    "full_page_bytes": 577357,
    "crop_status": "no_headline"
@@ -1225,7 +1225,7 @@
    "crop_asset": null,
    "source_dimensions": "4926x8026",
    "iiif_id": "service:ndnp:nhd:batch_nhd_eider_ver01:data:sn84023351:00541315755:1804011001:0046",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn84023351/1804-01-10/ed-1/?sp=2&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:47:01.735Z",
    "full_page_bytes": 577357,
    "crop_status": "no_headline"
@@ -1245,7 +1245,7 @@
    "crop_asset": null,
    "source_dimensions": "4939x7539",
    "iiif_id": "service:sgp:sgpbatches:batch_dlc_chartreux_ver01:data:sn83045242:print:1804011301:0003",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn83045242/1804-01-13/ed-1/?sp=3&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:48:19.625Z",
    "full_page_bytes": 451023,
    "crop_status": "no_headline"
@@ -1265,7 +1265,7 @@
    "crop_asset": null,
    "source_dimensions": "6441x10409",
    "iiif_id": "service:ndnp:nhd:batch_nhd_avalon_ver02:data:sn83025588:00517010790:1805010101:0004",
-   "error": null,
+   "error": "HTTP 429 https://www.loc.gov/resource/sn83025588/1805-01-01/ed-1/?sp=4&fo=json (previous acquisition retained)",
    "acquired_at": "2026-11-08T22:49:38.333Z",
    "full_page_bytes": 591067,
    "crop_status": "no_headline"
@@ -1628,6 +1628,86 @@
    "error": null,
    "acquired_at": "2026-11-08T21:37:25.579Z",
    "full_page_bytes": 538351,
+   "crop_status": "no_headline"
+  },
+  "HN-224|https://www.loc.gov/resource/sn83030313/1873-09-21/ed-1/?sp=5|": {
+   "hn_id": "HN-224",
+   "lccn": "sn83030313",
+   "issue_date": "1873-09-21",
+   "edition": "1",
+   "sequence": 5,
+   "page_url": "https://www.loc.gov/resource/sn83030313/1873-09-21/ed-1/?sp=5",
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-224-loc-sn83030313-1873-09-21-seq5-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "6146x8857",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_itchweed_ver01:data:sn83030313:0027174383A:1873092101:0995",
+   "error": null,
+   "acquired_at": "2026-11-15T16:33:09.568Z",
+   "full_page_bytes": 658812,
+   "crop_status": "no_headline"
+  },
+  "HN-253|https://www.loc.gov/resource/sn83030214/1881-12-10/ed-1/?sp=1|": {
+   "hn_id": "HN-253",
+   "lccn": "sn83030214",
+   "issue_date": "1881-12-10",
+   "edition": "1",
+   "sequence": 1,
+   "page_url": "https://www.loc.gov/resource/sn83030214/1881-12-10/ed-1/?sp=1",
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-253-loc-sn83030214-1881-12-10-seq1-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "8513x11922",
+   "iiif_id": "service:ndnp:dlc:batch_dlc_rolls_ver02:data:sn83030214:00175039879:1881121001:0609",
+   "error": null,
+   "acquired_at": "2026-11-15T16:34:15.676Z",
+   "full_page_bytes": 569067,
+   "crop_status": "no_headline"
+  },
+  "HN-279|https://www.loc.gov/resource/sn85042588/1889-04-05/ed-1/?sp=541|service:ndnp:ndhi:batch_ndhi_alamo_ver01:data:sn85042588:00212470879:1889040501:0541": {
+   "hn_id": "HN-279",
+   "lccn": "sn85042588",
+   "issue_date": "1889-04-05",
+   "edition": "1",
+   "sequence": 541,
+   "page_url": "https://www.loc.gov/resource/sn85042588/1889-04-05/ed-1/?sp=541",
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-279-loc-sn85042588-1889-04-05-seq541-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "5212x7494",
+   "iiif_id": "service:ndnp:ndhi:batch_ndhi_alamo_ver01:data:sn85042588:00212470879:1889040501:0541",
+   "error": null,
+   "acquired_at": "2026-11-15T16:28:17.508Z",
+   "full_page_bytes": 773910,
+   "crop_status": "no_headline"
+  },
+  "HN-363|https://www.loc.gov/resource/sn92051126/1908-05-09/ed-1/?sp=415|service:ndnp:ct:batch_ct_hartford_ver01:data:sn92051126:00517174117:1908050901:0415": {
+   "hn_id": "HN-363",
+   "lccn": "sn92051126",
+   "issue_date": "1908-05-09",
+   "edition": "1",
+   "sequence": 415,
+   "page_url": "https://www.loc.gov/resource/sn92051126/1908-05-09/ed-1/?sp=415",
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-363-loc-sn92051126-1908-05-09-seq415-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "5000x6330",
+   "iiif_id": "service:ndnp:ct:batch_ct_hartford_ver01:data:sn92051126:00517174117:1908050901:0415",
+   "error": null,
+   "acquired_at": "2026-11-15T16:28:20.809Z",
+   "full_page_bytes": 599425,
    "crop_status": "no_headline"
   }
  }

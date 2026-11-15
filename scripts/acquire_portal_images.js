@@ -148,7 +148,19 @@ for (let i = 1; i < mlines.length; i++) {
 }
 
 work.sort((a, b) => a.hn.localeCompare(b.hn) || a.host.localeCompare(b.host) || a.id.localeCompare(b.id) || a.seq - b.seq);
-const target = work.slice(0, LIMIT === Infinity ? work.length : LIMIT);
+
+let ledger = readJsonIf(LEDGER_PATH) || { generated_at: null, items: {} };
+if (!ledger.items) ledger.items = {};
+
+// Resume: skip pages already stored, so a re-run does not refetch the whole
+// Oklahoma/Texas set.
+const pending = work.filter(w => {
+  const e = ledger.items[w.hn + '|' + w.pageUrl];
+  return !(e && (e.status === 'full_page_acquired' || e.status === 'crop_acquired'));
+});
+console.log(`Already stored: ${work.length - pending.length} of ${work.length} portal pages`);
+
+const target = pending.slice(0, LIMIT === Infinity ? pending.length : LIMIT);
 const byHost = {};
 for (const w of target) byHost[w.host] = (byHost[w.host] || 0) + 1;
 console.log(`Portal work items: ${target.length} (from ${work.length})  hosts=${JSON.stringify(byHost)}  records=${new Set(target.map(w => w.hn)).size}`);
@@ -156,9 +168,6 @@ if (DRY) {
   target.slice(0, 40).forEach(w => console.log(`  ${w.hn}  ${w.host}  ${w.ark}  seq${w.seq}`));
   process.exit(0);
 }
-
-let ledger = readJsonIf(LEDGER_PATH) || { generated_at: null, items: {} };
-if (!ledger.items) ledger.items = {};
 
 const PROVIDER = {
   'gateway.okhistory.org': 'Gateway to Oklahoma History (Oklahoma Historical Society)',

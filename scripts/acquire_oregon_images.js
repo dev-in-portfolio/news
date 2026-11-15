@@ -181,13 +181,22 @@ for (const [hn, urls] of Object.entries(hnUrls)) {
   }
 }
 work.sort((a, b) => a.hn.localeCompare(b.hn) || a.seq - b.seq);
-const target = work.slice(0, LIMIT === Infinity ? work.length : LIMIT);
-console.log(`Work items: ${target.length} (from ${work.length} Oregon page URLs across ${Object.keys(hnUrls).length} records)`);
 
 // ---------- ledger ----------
 const ledgerPath = path.join(DOCS, 'IMAGE_ACQUISITION_LEDGER.json');
 let ledger = fs.existsSync(ledgerPath) ? readJson(ledgerPath) : { generated_at: null, items: {} };
 if (!ledger.items) ledger.items = {};
+
+// Resume: skip pages already stored. Without this a re-run refetches all 400+
+// Oregon pages even though nothing has changed.
+const pending = work.filter(it => {
+  const e = ledger.items[it.hn + '|' + it.pageUrl];
+  return !(e && (e.status === 'full_page_acquired' || e.status === 'crop_acquired'));
+});
+console.log(`Already stored: ${work.length - pending.length} of ${work.length} Oregon pages`);
+
+const target = pending.slice(0, LIMIT === Infinity ? pending.length : LIMIT);
+console.log(`Work items: ${target.length} (from ${work.length} Oregon page URLs across ${Object.keys(hnUrls).length} records)`);
 
 // ---------- worker ----------
 async function processItem(item, idx) {

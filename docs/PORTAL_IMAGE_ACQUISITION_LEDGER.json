@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T01:11:55.036Z",
+ "generated_at": "2026-11-15T15:29:54.229Z",
  "items": {
   "HN-426|https://gateway.okhistory.org/ark:/67531/metadc152335/m1/1/": {
    "hn_id": "HN-426",
@@ -17,7 +17,7 @@
    "source_dimensions": "1500x2354",
    "iiif_id": "ark:/67531/metadc152335/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:12.457Z",
+   "acquired_at": "2026-11-15T15:28:54.685Z",
    "full_page_bytes": 940912,
    "rights": "pd",
    "crop_status": "no_coordinates"
@@ -38,7 +38,7 @@
    "source_dimensions": "1500x2340",
    "iiif_id": "ark:/67531/metadc152336/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:13.239Z",
+   "acquired_at": "2026-11-15T15:28:55.294Z",
    "full_page_bytes": 968320,
    "rights": "pd",
    "crop_status": "no_coordinates"
@@ -59,7 +59,7 @@
    "source_dimensions": "1500x1979",
    "iiif_id": "ark:/67531/metapth1875431/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:14.236Z",
+   "acquired_at": "2026-11-15T15:28:56.019Z",
    "full_page_bytes": 549159,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -80,7 +80,7 @@
    "source_dimensions": "1500x1868",
    "iiif_id": "ark:/67531/metapth1596660/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:14.977Z",
+   "acquired_at": "2026-11-15T15:28:56.924Z",
    "full_page_bytes": 404590,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -101,7 +101,7 @@
    "source_dimensions": "1500x2214",
    "iiif_id": "ark:/67531/metadc159303/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:19.027Z",
+   "acquired_at": "2026-11-15T15:28:57.536Z",
    "full_page_bytes": 797431,
    "rights": "pd",
    "crop_status": "no_coordinates"
@@ -122,7 +122,7 @@
    "source_dimensions": "1500x1913",
    "iiif_id": "ark:/67531/metapth1596745/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:21.679Z",
+   "acquired_at": "2026-11-15T15:28:58.341Z",
    "full_page_bytes": 616277,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -143,7 +143,7 @@
    "source_dimensions": "1500x1911",
    "iiif_id": "ark:/67531/metapth1378973/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:24.760Z",
+   "acquired_at": "2026-11-15T15:28:59.206Z",
    "full_page_bytes": 735797,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -164,7 +164,7 @@
    "source_dimensions": "1500x1926",
    "iiif_id": "ark:/67531/metapth1445140/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:28.211Z",
+   "acquired_at": "2026-11-15T15:29:00.397Z",
    "full_page_bytes": 769073,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -185,7 +185,7 @@
    "source_dimensions": "1500x1944",
    "iiif_id": "ark:/67531/metapth1830501/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:44.477Z",
+   "acquired_at": "2026-11-15T15:29:01.088Z",
    "full_page_bytes": 626606,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -206,7 +206,7 @@
    "source_dimensions": "1500x1928",
    "iiif_id": "ark:/67531/metapth1379703/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:47.194Z",
+   "acquired_at": "2026-11-15T15:29:01.887Z",
    "full_page_bytes": 568050,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -227,7 +227,7 @@
    "source_dimensions": "1500x1901",
    "iiif_id": "ark:/67531/metapth1140575/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:49.156Z",
+   "acquired_at": "2026-11-15T15:29:02.750Z",
    "full_page_bytes": 777874,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -248,7 +248,7 @@
    "source_dimensions": "1500x2020",
    "iiif_id": "ark:/67531/metadc1796003/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:51.344Z",
+   "acquired_at": "2026-11-15T15:29:03.530Z",
    "full_page_bytes": 629549,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -269,7 +269,7 @@
    "source_dimensions": "1500x2344",
    "iiif_id": "ark:/67531/metadc2291625/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:53.174Z",
+   "acquired_at": "2026-11-15T15:29:04.245Z",
    "full_page_bytes": 593390,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -290,7 +290,7 @@
    "source_dimensions": "1500x1830",
    "iiif_id": "ark:/67531/metapth1315010/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:08:58.106Z",
+   "acquired_at": "2026-11-15T15:29:05.072Z",
    "full_page_bytes": 571161,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -311,7 +311,7 @@
    "source_dimensions": "1500x1893",
    "iiif_id": "ark:/67531/metapth1036228/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:00.354Z",
+   "acquired_at": "2026-11-15T15:29:05.844Z",
    "full_page_bytes": 484226,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -332,7 +332,7 @@
    "source_dimensions": "1500x2113",
    "iiif_id": "ark:/67531/metapth826542/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:06.127Z",
+   "acquired_at": "2026-11-15T15:29:06.657Z",
    "full_page_bytes": 704765,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -353,7 +353,7 @@
    "source_dimensions": "1500x1959",
    "iiif_id": "ark:/67531/metapth1685364/m1/8",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:15.508Z",
+   "acquired_at": "2026-11-15T15:29:07.470Z",
    "full_page_bytes": 509879,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -374,7 +374,7 @@
    "source_dimensions": "1500x1975",
    "iiif_id": "ark:/67531/metapth1760039/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:17.824Z",
+   "acquired_at": "2026-11-15T15:29:08.211Z",
    "full_page_bytes": 659025,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -395,7 +395,7 @@
    "source_dimensions": "1500x2235",
    "iiif_id": "ark:/67531/metapth577266/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:20.135Z",
+   "acquired_at": "2026-11-15T15:29:08.942Z",
    "full_page_bytes": 840256,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -416,7 +416,7 @@
    "source_dimensions": "1500x1823",
    "iiif_id": "ark:/67531/metapth134823/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:28.247Z",
+   "acquired_at": "2026-11-15T15:29:09.957Z",
    "full_page_bytes": 665911,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -437,7 +437,7 @@
    "source_dimensions": "1500x2329",
    "iiif_id": "ark:/67531/metadc1995985/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:34.482Z",
+   "acquired_at": "2026-11-15T15:29:10.811Z",
    "full_page_bytes": 829954,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -458,7 +458,7 @@
    "source_dimensions": "1500x1952",
    "iiif_id": "ark:/67531/metapth1834673/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:36.883Z",
+   "acquired_at": "2026-11-15T15:29:11.562Z",
    "full_page_bytes": 667493,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -479,7 +479,7 @@
    "source_dimensions": "1500x2095",
    "iiif_id": "ark:/67531/metapth1369187/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:38.861Z",
+   "acquired_at": "2026-11-15T15:29:12.510Z",
    "full_page_bytes": 750986,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -500,7 +500,7 @@
    "source_dimensions": "1500x1881",
    "iiif_id": "ark:/67531/metapth1556686/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:40.843Z",
+   "acquired_at": "2026-11-15T15:29:13.410Z",
    "full_page_bytes": 606729,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -521,7 +521,7 @@
    "source_dimensions": "1500x2512",
    "iiif_id": "ark:/67531/metadc2003932/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:43.335Z",
+   "acquired_at": "2026-11-15T15:29:14.264Z",
    "full_page_bytes": 860821,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -542,7 +542,7 @@
    "source_dimensions": "1500x2246",
    "iiif_id": "ark:/67531/metadc2245705/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:45.408Z",
+   "acquired_at": "2026-11-15T15:29:15.538Z",
    "full_page_bytes": 836600,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -563,7 +563,7 @@
    "source_dimensions": "1500x2109",
    "iiif_id": "ark:/67531/metadc2557398/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:47.112Z",
+   "acquired_at": "2026-11-15T15:29:16.810Z",
    "full_page_bytes": 702866,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -584,7 +584,7 @@
    "source_dimensions": "1500x1934",
    "iiif_id": "ark:/67531/metapth143116/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:49.649Z",
+   "acquired_at": "2026-11-15T15:29:17.847Z",
    "full_page_bytes": 907411,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -605,7 +605,7 @@
    "source_dimensions": "1500x2265",
    "iiif_id": "ark:/67531/metadc2406590/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:52.956Z",
+   "acquired_at": "2026-11-15T15:29:18.838Z",
    "full_page_bytes": 844797,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -626,7 +626,7 @@
    "source_dimensions": "1500x2268",
    "iiif_id": "ark:/67531/metapth1880061/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:55.682Z",
+   "acquired_at": "2026-11-15T15:29:19.583Z",
    "full_page_bytes": 786009,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -647,7 +647,7 @@
    "source_dimensions": "1500x2063",
    "iiif_id": "ark:/67531/metadc2558174/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:09:58.625Z",
+   "acquired_at": "2026-11-15T15:29:20.432Z",
    "full_page_bytes": 671620,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -668,7 +668,7 @@
    "source_dimensions": "1500x1924",
    "iiif_id": "ark:/67531/metadc1487532/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:01.622Z",
+   "acquired_at": "2026-11-15T15:29:21.157Z",
    "full_page_bytes": 680542,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -689,7 +689,7 @@
    "source_dimensions": "1500x2220",
    "iiif_id": "ark:/67531/metadc2547016/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:03.810Z",
+   "acquired_at": "2026-11-15T15:29:21.844Z",
    "full_page_bytes": 650656,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -710,7 +710,7 @@
    "source_dimensions": "1500x2220",
    "iiif_id": "ark:/67531/metadc2547016/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:08.081Z",
+   "acquired_at": "2026-11-15T15:29:22.446Z",
    "full_page_bytes": 650656,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -731,7 +731,7 @@
    "source_dimensions": "1500x2188",
    "iiif_id": "ark:/67531/metadc2408675/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:11.277Z",
+   "acquired_at": "2026-11-15T15:29:23.132Z",
    "full_page_bytes": 639756,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -752,7 +752,7 @@
    "source_dimensions": "1500x2449",
    "iiif_id": "ark:/67531/metadc2121486/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:14.225Z",
+   "acquired_at": "2026-11-15T15:29:23.808Z",
    "full_page_bytes": 480795,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -773,7 +773,7 @@
    "source_dimensions": "1500x2213",
    "iiif_id": "ark:/67531/metadc2547162/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:17.212Z",
+   "acquired_at": "2026-11-15T15:29:24.575Z",
    "full_page_bytes": 500591,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -794,7 +794,7 @@
    "source_dimensions": "1500x2365",
    "iiif_id": "ark:/67531/metadc2038061/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:20.281Z",
+   "acquired_at": "2026-11-15T15:29:25.283Z",
    "full_page_bytes": 518678,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -815,7 +815,7 @@
    "source_dimensions": "1500x2243",
    "iiif_id": "ark:/67531/metadc1867342/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:22.432Z",
+   "acquired_at": "2026-11-15T15:29:26.035Z",
    "full_page_bytes": 688537,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -836,7 +836,7 @@
    "source_dimensions": "1500x2219",
    "iiif_id": "ark:/67531/metadc2547028/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:25.461Z",
+   "acquired_at": "2026-11-15T15:29:26.698Z",
    "full_page_bytes": 630672,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -857,7 +857,7 @@
    "source_dimensions": "1500x2274",
    "iiif_id": "ark:/67531/metadc1495232/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:27.283Z",
+   "acquired_at": "2026-11-15T15:29:27.504Z",
    "full_page_bytes": 737506,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -878,7 +878,7 @@
    "source_dimensions": "1500x2315",
    "iiif_id": "ark:/67531/metadc1797343/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:35.621Z",
+   "acquired_at": "2026-11-15T15:29:28.187Z",
    "full_page_bytes": 543338,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -899,7 +899,7 @@
    "source_dimensions": "1500x2508",
    "iiif_id": "ark:/67531/metadc1805815/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:37.361Z",
+   "acquired_at": "2026-11-15T15:29:28.800Z",
    "full_page_bytes": 585989,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -920,7 +920,7 @@
    "source_dimensions": "1500x2429",
    "iiif_id": "ark:/67531/metadc2038603/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:40.783Z",
+   "acquired_at": "2026-11-15T15:29:29.671Z",
    "full_page_bytes": 656193,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -941,7 +941,7 @@
    "source_dimensions": "1500x2330",
    "iiif_id": "ark:/67531/metadc1797343/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:43.187Z",
+   "acquired_at": "2026-11-15T15:29:30.263Z",
    "full_page_bytes": 537903,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -962,7 +962,7 @@
    "source_dimensions": "1500x2222",
    "iiif_id": "ark:/67531/metadc2550541/m1/5",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:47.246Z",
+   "acquired_at": "2026-11-15T15:29:30.948Z",
    "full_page_bytes": 572910,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -983,7 +983,7 @@
    "source_dimensions": "1500x2508",
    "iiif_id": "ark:/67531/metadc1805815/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:49.607Z",
+   "acquired_at": "2026-11-15T15:29:31.539Z",
    "full_page_bytes": 585989,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1004,7 +1004,7 @@
    "source_dimensions": "1500x2195",
    "iiif_id": "ark:/67531/metadc1494398/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:51.094Z",
+   "acquired_at": "2026-11-15T15:29:32.304Z",
    "full_page_bytes": 431022,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1025,7 +1025,7 @@
    "source_dimensions": "1500x2068",
    "iiif_id": "ark:/67531/metadc2252565/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:54.949Z",
+   "acquired_at": "2026-11-15T15:29:33.002Z",
    "full_page_bytes": 643791,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1046,7 +1046,7 @@
    "source_dimensions": "1500x2068",
    "iiif_id": "ark:/67531/metadc2252565/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:56.406Z",
+   "acquired_at": "2026-11-15T15:29:33.568Z",
    "full_page_bytes": 643791,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1067,7 +1067,7 @@
    "source_dimensions": "1500x2472",
    "iiif_id": "ark:/67531/metadc1802599/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:10:59.122Z",
+   "acquired_at": "2026-11-15T15:29:34.261Z",
    "full_page_bytes": 718900,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1088,7 +1088,7 @@
    "source_dimensions": "1500x2299",
    "iiif_id": "ark:/67531/metadc1802840/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:01.056Z",
+   "acquired_at": "2026-11-15T15:29:35.207Z",
    "full_page_bytes": 576325,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1109,7 +1109,7 @@
    "source_dimensions": "1500x2333",
    "iiif_id": "ark:/67531/metadc2550036/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:02.964Z",
+   "acquired_at": "2026-11-15T15:29:35.964Z",
    "full_page_bytes": 692478,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1130,7 +1130,7 @@
    "source_dimensions": "1500x2063",
    "iiif_id": "ark:/67531/metadc2253097/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:06.301Z",
+   "acquired_at": "2026-11-15T15:29:37.183Z",
    "full_page_bytes": 685242,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1151,7 +1151,7 @@
    "source_dimensions": "1500x2317",
    "iiif_id": "ark:/67531/metadc1847899/m1/2",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:10.770Z",
+   "acquired_at": "2026-11-15T15:29:38.549Z",
    "full_page_bytes": 602537,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1172,7 +1172,7 @@
    "source_dimensions": "1500x2085",
    "iiif_id": "ark:/67531/metapth1059910/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:14.713Z",
+   "acquired_at": "2026-11-15T15:29:39.689Z",
    "full_page_bytes": 595439,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -1193,7 +1193,7 @@
    "source_dimensions": "1500x2400",
    "iiif_id": "ark:/67531/metapth816044/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:16.924Z",
+   "acquired_at": "2026-11-15T15:29:40.405Z",
    "full_page_bytes": 709459,
    "rights": "",
    "crop_status": "no_coordinates"
@@ -1214,7 +1214,7 @@
    "source_dimensions": "1500x2239",
    "iiif_id": "ark:/67531/metadc2568355/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:19.453Z",
+   "acquired_at": "2026-11-15T15:29:41.058Z",
    "full_page_bytes": 629557,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1235,7 +1235,7 @@
    "source_dimensions": "1500x2469",
    "iiif_id": "ark:/67531/metadc2039349/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:21.710Z",
+   "acquired_at": "2026-11-15T15:29:41.732Z",
    "full_page_bytes": 740249,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1256,7 +1256,7 @@
    "source_dimensions": "1500x2417",
    "iiif_id": "ark:/67531/metadc2406233/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:24.009Z",
+   "acquired_at": "2026-11-15T15:29:42.430Z",
    "full_page_bytes": 325461,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1277,7 +1277,7 @@
    "source_dimensions": "1500x2399",
    "iiif_id": "ark:/67531/metadc2568378/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:25.213Z",
+   "acquired_at": "2026-11-15T15:29:43.173Z",
    "full_page_bytes": 462431,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1298,7 +1298,7 @@
    "source_dimensions": "1500x2403",
    "iiif_id": "ark:/67531/metadc2641966/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:27.226Z",
+   "acquired_at": "2026-11-15T15:29:43.874Z",
    "full_page_bytes": 729122,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1319,7 +1319,7 @@
    "source_dimensions": "1500x2424",
    "iiif_id": "ark:/67531/metadc2568380/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:29.020Z",
+   "acquired_at": "2026-11-15T15:29:44.488Z",
    "full_page_bytes": 554424,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1340,7 +1340,7 @@
    "source_dimensions": "1500x2428",
    "iiif_id": "ark:/67531/metadc2406780/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:31.672Z",
+   "acquired_at": "2026-11-15T15:29:45.203Z",
    "full_page_bytes": 772881,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1361,7 +1361,7 @@
    "source_dimensions": "1500x2373",
    "iiif_id": "ark:/67531/metadc2642021/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:33.831Z",
+   "acquired_at": "2026-11-15T15:29:45.878Z",
    "full_page_bytes": 793955,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1382,7 +1382,7 @@
    "source_dimensions": "1500x2091",
    "iiif_id": "ark:/67531/metadc2254588/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:35.626Z",
+   "acquired_at": "2026-11-15T15:29:46.569Z",
    "full_page_bytes": 694064,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1403,7 +1403,7 @@
    "source_dimensions": "1500x2412",
    "iiif_id": "ark:/67531/metadc2642096/m1/5",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:38.226Z",
+   "acquired_at": "2026-11-15T15:29:47.246Z",
    "full_page_bytes": 698941,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1424,7 +1424,7 @@
    "source_dimensions": "1500x2103",
    "iiif_id": "ark:/67531/metadc2254612/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:40.211Z",
+   "acquired_at": "2026-11-15T15:29:47.967Z",
    "full_page_bytes": 719047,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1445,7 +1445,7 @@
    "source_dimensions": "1500x2416",
    "iiif_id": "ark:/67531/metadc2642389/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:42.631Z",
+   "acquired_at": "2026-11-15T15:29:48.687Z",
    "full_page_bytes": 721975,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1466,7 +1466,7 @@
    "source_dimensions": "1500x2384",
    "iiif_id": "ark:/67531/metadc2642504/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:44.832Z",
+   "acquired_at": "2026-11-15T15:29:49.920Z",
    "full_page_bytes": 718666,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1487,7 +1487,7 @@
    "source_dimensions": "1500x2440",
    "iiif_id": "ark:/67531/metadc2642563/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:48.260Z",
+   "acquired_at": "2026-11-15T15:29:51.232Z",
    "full_page_bytes": 740071,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1508,7 +1508,7 @@
    "source_dimensions": "1500x2355",
    "iiif_id": "ark:/67531/metadc2286982/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:50.410Z",
+   "acquired_at": "2026-11-15T15:29:51.893Z",
    "full_page_bytes": 718596,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1529,7 +1529,7 @@
    "source_dimensions": "1500x2285",
    "iiif_id": "ark:/67531/metadc2374660/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:51.814Z",
+   "acquired_at": "2026-11-15T15:29:52.831Z",
    "full_page_bytes": 595676,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1550,7 +1550,7 @@
    "source_dimensions": "1500x2520",
    "iiif_id": "ark:/67531/metadc2643142/m1/1",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:53.959Z",
+   "acquired_at": "2026-11-15T15:29:53.522Z",
    "full_page_bytes": 732019,
    "rights": "copyright",
    "crop_status": "no_coordinates"
@@ -1571,9 +1571,72 @@
    "source_dimensions": "1500x2516",
    "iiif_id": "ark:/67531/metadc1498101/m1/4",
    "error": null,
-   "acquired_at": "2026-11-09T01:11:55.036Z",
+   "acquired_at": "2026-11-15T15:29:54.229Z",
    "full_page_bytes": 403767,
    "rights": "copyright",
+   "crop_status": "no_coordinates"
+  },
+  "HN-239|https://texashistory.unt.edu/ark:/67531/metapth177494/m1/1/": {
+   "hn_id": "HN-239",
+   "lccn": "",
+   "issue_date": "",
+   "edition": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth177494/m1/1/",
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "DAM",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-239-tx-metapth177494-m1p1-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "1500x1867",
+   "iiif_id": "ark:/67531/metapth177494/m1/1",
+   "error": null,
+   "acquired_at": "2026-11-15T15:28:50.369Z",
+   "full_page_bytes": 497970,
+   "rights": "",
+   "crop_status": "no_coordinates"
+  },
+  "HN-283|https://texashistory.unt.edu/ark:/67531/metapth467761/m1/1/": {
+   "hn_id": "HN-283",
+   "lccn": "",
+   "issue_date": "",
+   "edition": "",
+   "sequence": 1,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth467761/m1/1/",
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "DAM",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-283-tx-metapth467761-m1p1-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "1500x2144",
+   "iiif_id": "ark:/67531/metapth467761/m1/1",
+   "error": null,
+   "acquired_at": "2026-11-15T15:28:52.707Z",
+   "full_page_bytes": 818711,
+   "rights": "",
+   "crop_status": "no_coordinates"
+  },
+  "HN-323|https://texashistory.unt.edu/ark:/67531/metapth1220534/m1/4/": {
+   "hn_id": "HN-323",
+   "lccn": "",
+   "issue_date": "",
+   "edition": "",
+   "sequence": 4,
+   "page_url": "https://texashistory.unt.edu/ark:/67531/metapth1220534/m1/4/",
+   "provider": "The Portal to Texas History (University of North Texas)",
+   "newspaper": "DAM",
+   "headline": "",
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-323-tx-metapth1220534-m1p4-page.jpg",
+   "crop_asset": null,
+   "source_dimensions": "1500x1883",
+   "iiif_id": "ark:/67531/metapth1220534/m1/4",
+   "error": null,
+   "acquired_at": "2026-11-15T15:28:53.766Z",
+   "full_page_bytes": 276327,
+   "rights": "",
    "crop_status": "no_coordinates"
   }
  }
