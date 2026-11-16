@@ -43,15 +43,16 @@
 | Records with ≥1 resolved source URL | 1,025 | `scripts/hn_urls.json` (batch reports ∪ record text) |
 | Distinct resolved source URLs | 3,141 | `scripts/hn_urls.json` |
 | Records with no source URL at all | 27 | honest gaps, no invented links |
-| Records with ≥1 stored image | 505 | `site/data/images.json` |
-| Stored image renditions (entries) | 844 | 820 full-page + 61 crops (overlap where both exist) |
-| Full-page scans | 820 | Oregon 420, Indiana 188, LOC 85, OK 53, TX 25, SC 20, SCVHistory 16, other 13 |
+| Records with ≥1 stored image | 798 | `site/data/images.json` |
+| Stored image renditions (entries) | 1,141 | 1,117 full-page + 61 crops (overlap where both exist) |
+| Full-page scans | 1,117 | Oregon 420, Indiana 485, LOC 85, OK 53, TX 25, SC 20, SCVHistory 16, other 13 |
 | Word-coordinate-verified article crops | 31 | score ≥ 0.6 against quoted headline |
 | Archive article clips | 21 | Indiana block-level crops (no OCR verification available) |
-| Indiana tile mosaics | 188 pages / 175 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (28 page-unavailable, 25 failed) |
+| Indiana tile mosaics | 485 pages / 441 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (134 page-unavailable, 1 residual failed) |
 | PDF-rendered page images | 11 | 9 records, `archive_pdf_page_rendition` |
 | Other-archive page renditions | 18 | Quartex / CONTENTdm / SCVHistory |
-| Image files on disk | 887 | 497 MB under `site/assets/images/` |
+| Image files on disk | 1,184 | 627 MB under `site/assets/images/` |
+| Records still without an image | 258 | 27 with no source URL, 231 with only blocked/paywalled/non-newspaper URLs |
 
 ## Milestone 3 feasibility results (summary)
 
@@ -73,16 +74,19 @@
    service has been harvested. What remains is listed in
    `docs/IMAGE_GAP_REPORT.md` and is almost entirely paywalled, bot-protected, or
    not a newspaper scan at all.
-   - **Resumable:** `node scripts/acquire_indiana_mosaics.js` continues the
-     Indiana batch (215/567 documents processed so far). Run
-     `node scripts/lib_image_merge.js` after stopping it, then rebuild pages.
-   - **Unresolved `DMST*` pages:** 25 Indiana documents cite section-2 pages
-     (e.g. `?a=d&d=DMST18801203.2.9`) that the viewer does not expose. Verified
-     directly: fetching the cited URL returns HTTP 200, but `pageImageSizes`
-     lists only section-1 pages (`1.1`–`1.4` for that document; `1.1`–`1.8` for
-     `DMST18830914`), and no `2.x` key exists. The cited page is genuinely absent
-     from the digital object, so these are recorded as `page_unavailable`
-     (honest gaps); no page mapping is invented.
+   - **Indiana batch complete:** 485 mosaic pages across 441 documents.
+     `node scripts/acquire_indiana_mosaics.js --retry-failed` retries only
+     ledger entries marked failed (currently just HN-704, whose Indiana citation
+     is superseded by its Newport Beach issue-PDF page) without re-walking the
+     134 pages the viewer reports as unavailable. After any acquisition run,
+     run `node scripts/lib_image_merge.js`, then `build-pages.js`.
+   - **Unavailable section-2 pages (134):** several Indiana titles cite
+     section-2 pages (e.g. `?a=d&d=JCDC19000505.2.89`) that the viewer does not
+     expose. Verified directly on four titles: fetching the cited URL returns
+     HTTP 200, but `pageImageSizes` lists only 4–8 `1.x` pages and zero `2.x`
+     keys. The cited page is genuinely absent from the digital object, so these
+     are recorded as `page_unavailable` (honest gaps); no page mapping is
+     invented.
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
 3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
 4. No deployment authorized; local build and preview remain in scope.
@@ -325,14 +329,18 @@ access code**:
   changes so tiles from two different partitions are never mixed;
 - closes the tab and moves on, writing the ledger after every page.
 
-Result: 188 mosaic pages across 175 documents stored before a deliberate
-checkpoint stop at 215/567 candidate documents. 28 pages reported
-`UNAVAILABLE (not in viewer)`; 25 entries are marked failed, of which 23 are the
-pre-fix `hstack` rounding bug (fixed and re-verified offline against the cached
-tiles for HN-698, HN-923, HN-924) and 2 are per-document Cloudflare challenges.
-The batch resumes with `node scripts/acquire_indiana_mosaics.js`; failed pages
-are always retried, completed mosaics are skipped. Ledger:
+Result: 485 mosaic pages across 441 documents stored. 134 cited pages report
+`UNAVAILABLE (not in viewer)`; this is a genuine archive gap, not a token issue:
+the cited section-2 keys (e.g. `JCDC19000505.2.89`, `RLRP18860429.2.61`) do not
+exist in the viewer's `pageImageSizes`, which exposes only 4–8 `1.x` pages for
+those issues. The batch initially left 9 retryable failures; all 9 succeeded on
+a `--retry-failed` pass. One residual ledger entry (HN-704) is superseded by the
+record's issue-PDF page image from Newport Beach. Ledger:
 `docs/INDIANA_MOSAIC_LEDGER.json`.
+
+Structural audit of all 485 mosaics (64×64 gray sampling): **0 blank or
+degenerate** — minimum standard deviation 6.1, median 39.7, and every page has
+at least one pixel at luma ≤ 191, so none is a blank white or black tile.
 
 ### Blocked, with the reason established
 

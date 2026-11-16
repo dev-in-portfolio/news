@@ -103,10 +103,16 @@ const recTotal = new Set([...docs.values()].flatMap(d => [...d.pages.values()].f
 console.log(`Missing records with Indiana page URLs: ${recTotal}`);
 console.log(`Documents to load: ${docList.length}   pages to render: ${pageTotal}`);
 
-// skip already-done pages; failed or pending pages are always retried
+// Skip already-done pages. By default failed and unavailable pages are both
+// retried (unavailable may become available after an archive re-scan). With
+// --retry-failed only ledger entries explicitly marked failed are retried, so
+// a quick retry does not re-walk every page the viewer reports as absent.
 function alreadyDone(hn, url) {
   const e = ledger.items[hn + '|' + url];
-  return e && e.status === 'page_mosaic_acquired';
+  if (!e) return false;
+  if (e.status === 'page_mosaic_acquired') return true;
+  if (RETRY) return e.status !== 'failed';
+  return false;
 }
 for (const d of docList) {
   for (const [pk, list] of d.pages) {

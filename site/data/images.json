@@ -11011,6 +11011,24 @@
    "iiif_id": null
   }
  ],
+ "HN-912": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Muncie Times 12 March 2009",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2009-03-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BALLMT20090312-01.1.9",
+   "full_page": "assets/images/hn-912-in-BALLMT20090312-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4469x5449",
+   "iiif_id": null
+  }
+ ],
  "HN-913": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11044,6 +11062,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "4582x5378",
+   "iiif_id": null
+  }
+ ],
+ "HN-918": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Muncie Times 18 March 2010",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2010-03-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BALLMT20100318-01.1.14",
+   "full_page": "assets/images/hn-918-in-BALLMT20100318-01-p1-14-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3444x4197",
    "iiif_id": null
   }
  ],
@@ -11101,6 +11137,42 @@
    "iiif_id": null
   }
  ],
+ "HN-923": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Muncie Times 5 May 2011",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2011-05-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BALLMT20110505-01.1.1",
+   "full_page": "assets/images/hn-923-in-BALLMT20110505-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4534x5472",
+   "iiif_id": null
+  }
+ ],
+ "HN-924": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Muncie Times 5 May 2011",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2011-05-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BALLMT20110505-01.1.3",
+   "full_page": "assets/images/hn-924-in-BALLMT20110505-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4463x5472",
+   "iiif_id": null
+  }
+ ],
  "HN-694": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11152,6 +11224,42 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "5515x8227",
+   "iiif_id": null
+  }
+ ],
+ "HN-698": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 10 April 1974",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1974-04-10",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19740410-01.1.10",
+   "full_page": "assets/images/hn-698-in-BG19740410-01-p1-10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5459x8222",
+   "iiif_id": null
+  }
+ ],
+ "HN-699": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 22 July 1974",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1974-07-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19740722-01.1.3",
+   "full_page": "assets/images/hn-699-in-BG19740722-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5394x7996",
    "iiif_id": null
   }
  ],
@@ -11497,6 +11605,24 @@
    "iiif_id": null
   }
  ],
+ "HN-751": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 24 June 1985",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1985-06-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19850624.1.2",
+   "full_page": "assets/images/hn-751-in-BG19850624-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5405x8263",
+   "iiif_id": null
+  }
+ ],
  "HN-761": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11749,6 +11875,60 @@
    "iiif_id": null
   }
  ],
+ "HN-781": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 20 October 1989",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1989-10-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19891020.1.2",
+   "full_page": "assets/images/hn-781-in-BG19891020-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4843x7739",
+   "iiif_id": null
+  }
+ ],
+ "HN-782": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 10 November 1989",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1989-11-10",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19891110.1.2",
+   "full_page": "assets/images/hn-782-in-BG19891110-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4850x7754",
+   "iiif_id": null
+  }
+ ],
+ "HN-783": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 12 February 1990",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1990-02-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19900212.1.2",
+   "full_page": "assets/images/hn-783-in-BG19900212-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4206x6885",
+   "iiif_id": null
+  }
+ ],
  "HN-784": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11764,6 +11944,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "4239x6893",
+   "iiif_id": null
+  }
+ ],
+ "HN-785": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 28 June 1990",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1990-06-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19900628.1.2",
+   "full_page": "assets/images/hn-785-in-BG19900628-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4265x6871",
    "iiif_id": null
   }
  ],
@@ -11839,6 +12037,24 @@
    "iiif_id": null
   }
  ],
+ "HN-792": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 24 June 1991",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1991-06-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19910624.1.2",
+   "full_page": "assets/images/hn-792-in-BG19910624-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5397x8452",
+   "iiif_id": null
+  }
+ ],
  "HN-793": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11857,6 +12073,24 @@
    "iiif_id": null
   }
  ],
+ "HN-794": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 26 December 1991",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1991-12-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19911226.1.2",
+   "full_page": "assets/images/hn-794-in-BG19911226-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5312x8402",
+   "iiif_id": null
+  }
+ ],
  "HN-795": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11872,6 +12106,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "5345x8441",
+   "iiif_id": null
+  }
+ ],
+ "HN-796": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Banner Graphic 30 April 1992",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1992-04-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=BG19920430.1.2",
+   "full_page": "assets/images/hn-796-in-BG19920430-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5313x8373",
    "iiif_id": null
   }
  ],
@@ -11911,6 +12163,24 @@
    "iiif_id": null
   }
  ],
+ "HN-188": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Crawfordsville Review 30 March 1861",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1861-03-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=CVR18610330.1.2",
+   "full_page": "assets/images/hn-188-in-CVR18610330-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6715x8683",
+   "iiif_id": null
+  }
+ ],
  "HN-204": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -11944,6 +12214,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "7176x9327",
+   "iiif_id": null
+  }
+ ],
+ "HN-163": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Crawfordsville Weekly Journal 18 August 1853",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1853-08-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=CWJ18530818.1.2",
+   "full_page": "assets/images/hn-163-in-CWJ18530818-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7186x9164",
    "iiif_id": null
   }
  ],
@@ -12307,6 +12595,24 @@
    "iiif_id": null
   }
  ],
+ "HN-636": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Decatur Daily Democrat 8 November 1961",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1961-11-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=DCDD19611108.1.4",
+   "full_page": "assets/images/hn-636-in-DCDD19611108-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5715x7344",
+   "iiif_id": null
+  }
+ ],
  "HN-637": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -12572,6 +12878,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "7012x9508",
+   "iiif_id": null
+  }
+ ],
+ "HN-185": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Evansville Daily Journal 9 March 1860",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1860-03-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=EDJ18600309.1.2",
+   "full_page": "assets/images/hn-185-in-EDJ18600309-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6020x7468",
    "iiif_id": null
   }
  ],
@@ -13221,6 +13545,24 @@
    "iiif_id": null
   }
  ],
+ "HN-258": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Journal 11 September 1883",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1883-09-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IJ18830911.1.8",
+   "full_page": "assets/images/hn-258-in-IJ18830911-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4911x6639",
+   "iiif_id": null
+  }
+ ],
  "HN-263": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -13597,6 +13939,24 @@
    "iiif_id": null
   }
  ],
+ "HN-647": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 4 July 1964",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1964-07-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19640704-01.1.1",
+   "full_page": "assets/images/hn-647-in-INR19640704-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7241x9722",
+   "iiif_id": null
+  }
+ ],
  "HN-649": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -13831,6 +14191,42 @@
    "iiif_id": null
   }
  ],
+ "HN-714": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 2 December 1978",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1978-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19781202-01.1.1",
+   "full_page": "assets/images/hn-714-in-INR19781202-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6286x9296",
+   "iiif_id": null
+  }
+ ],
+ "HN-715": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 2 December 1978",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1978-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19781202-01.1.7",
+   "full_page": "assets/images/hn-715-in-INR19781202-01-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6328x9324",
+   "iiif_id": null
+  }
+ ],
  "HN-717": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -13864,6 +14260,24 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "6130x9002",
+   "iiif_id": null
+  }
+ ],
+ "HN-739": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 24 September 1983",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1983-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19830924-01.1.15",
+   "full_page": "assets/images/hn-739-in-INR19830924-01-p1-15-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6294x9334",
    "iiif_id": null
   }
  ],
@@ -13957,6 +14371,24 @@
    "iiif_id": null
   }
  ],
+ "HN-798": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 29 August 1992",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1992-08-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19920829-01.1.1",
+   "full_page": "assets/images/hn-798-in-INR19920829-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4334x7265",
+   "iiif_id": null
+  }
+ ],
  "HN-800": [
   {
    "provider": "Hoosier State Chronicles (Indiana State Library)",
@@ -13972,6 +14404,4912 @@
    "crop_method": null,
    "mosaic_method": "openseadragon_tiles_256",
    "dimensions": "4128x7107",
+   "iiif_id": null
+  }
+ ],
+ "HN-801": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 19 December 1992",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1992-12-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19921219-01.1.1",
+   "full_page": "assets/images/hn-801-in-INR19921219-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4137x7143",
+   "iiif_id": null
+  }
+ ],
+ "HN-805": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 25 September 1993",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1993-09-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19930925-01.1.4",
+   "full_page": "assets/images/hn-805-in-INR19930925-01-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4088x7029",
+   "iiif_id": null
+  }
+ ],
+ "HN-808": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 7 May 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-05-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19940507-01.1.1",
+   "full_page": "assets/images/hn-808-in-INR19940507-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4248x7176",
+   "iiif_id": null
+  }
+ ],
+ "HN-810": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 16 July 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-07-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19940716-01.1.17",
+   "full_page": "assets/images/hn-810-in-INR19940716-01-p1-17-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4153x7228",
+   "iiif_id": null
+  }
+ ],
+ "HN-811": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 30 July 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-07-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19940730-01.1.6",
+   "full_page": "assets/images/hn-811-in-INR19940730-01-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4123x7163",
+   "iiif_id": null
+  }
+ ],
+ "HN-812": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 5 November 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-11-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19941105-01.1.2",
+   "full_page": "assets/images/hn-812-in-INR19941105-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4117x7033",
+   "iiif_id": null
+  }
+ ],
+ "HN-817": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 22 July 1995",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1995-07-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19950722-01.1.4",
+   "full_page": "assets/images/hn-817-in-INR19950722-01-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4066x6982",
+   "iiif_id": null
+  }
+ ],
+ "HN-823": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 7 September 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-09-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19960907-01.1.3",
+   "full_page": "assets/images/hn-823-in-INR19960907-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4056x7118",
+   "iiif_id": null
+  }
+ ],
+ "HN-829": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 19 July 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-07-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19970719-01.1.2",
+   "full_page": "assets/images/hn-829-in-INR19970719-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4098x7010",
+   "iiif_id": null
+  }
+ ],
+ "HN-830": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 16 August 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-08-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19970816-01.1.21",
+   "full_page": "assets/images/hn-830-in-INR19970816-01-p1-21-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4109x7029",
+   "iiif_id": null
+  }
+ ],
+ "HN-833": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 12 June 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-06-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19980612-01.1.5",
+   "full_page": "assets/images/hn-833-in-INR19980612-01-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4156x7127",
+   "iiif_id": null
+  }
+ ],
+ "HN-834": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 21 August 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-08-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19980821-01.1.2",
+   "full_page": "assets/images/hn-834-in-INR19980821-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4203x7170",
+   "iiif_id": null
+  }
+ ],
+ "HN-835": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 21 August 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-08-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19980821-01.1.12",
+   "full_page": "assets/images/hn-835-in-INR19980821-01-p1-12-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4173x7130",
+   "iiif_id": null
+  }
+ ],
+ "HN-840": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 18 December 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-12-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19981218-01.1.7",
+   "full_page": "assets/images/hn-840-in-INR19981218-01-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4116x7130",
+   "iiif_id": null
+  }
+ ],
+ "HN-842": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 12 March 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-03-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19990312-01.1.13",
+   "full_page": "assets/images/hn-842-in-INR19990312-01-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4173x7132",
+   "iiif_id": null
+  }
+ ],
+ "HN-848": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 24 December 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-12-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19991224-01.1.18",
+   "full_page": "assets/images/hn-848-in-INR19991224-01-p1-18-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4071x7167",
+   "iiif_id": null
+  }
+ ],
+ "HN-850": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 10 November 2000",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2000-11-10",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20001110-01.1.1",
+   "full_page": "assets/images/hn-850-in-INR20001110-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4083x7168",
+   "iiif_id": null
+  }
+ ],
+ "HN-852": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 15 December 2000",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2000-12-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20001215-01.1.1",
+   "full_page": "assets/images/hn-852-in-INR20001215-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4055x7184",
+   "iiif_id": null
+  }
+ ],
+ "HN-854": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 14 September 2001",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2001-09-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20010914-01.1.1",
+   "full_page": "assets/images/hn-854-in-INR20010914-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4051x7136",
+   "iiif_id": null
+  }
+ ],
+ "HN-855": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 14 September 2001",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2001-09-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20010914-01.1.6",
+   "full_page": "assets/images/hn-855-in-INR20010914-01-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4047x7132",
+   "iiif_id": null
+  }
+ ],
+ "HN-857": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 12 October 2001",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2001-10-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20011012-01.1.7",
+   "full_page": "assets/images/hn-857-in-INR20011012-01-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4063x7161",
+   "iiif_id": null
+  }
+ ],
+ "HN-861": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 11 January 2002",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2002-01-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20020111-01.1.20",
+   "full_page": "assets/images/hn-861-in-INR20020111-01-p1-20-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4128x7140",
+   "iiif_id": null
+  }
+ ],
+ "HN-865": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 1 November 2002",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2002-11-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20021101-01.1.13",
+   "full_page": "assets/images/hn-865-in-INR20021101-01-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4128x7133",
+   "iiif_id": null
+  }
+ ],
+ "HN-867": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 7 February 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-02-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20030207-01.1.1",
+   "full_page": "assets/images/hn-867-in-INR20030207-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4105x7022",
+   "iiif_id": null
+  }
+ ],
+ "HN-869": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 28 March 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-03-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20030328-01.1.1",
+   "full_page": "assets/images/hn-869-in-INR20030328-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4136x7024",
+   "iiif_id": null
+  }
+ ],
+ "HN-870": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 30 May 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-05-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20030530-01.1.9",
+   "full_page": "assets/images/hn-870-in-INR20030530-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4081x7146",
+   "iiif_id": null
+  }
+ ],
+ "HN-872": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 22 August 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-08-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20030822-01.1.11",
+   "full_page": "assets/images/hn-872-in-INR20030822-01-p1-11-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4141x7167",
+   "iiif_id": null
+  }
+ ],
+ "HN-874": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 14 November 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-11-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20031114-01.1.18",
+   "full_page": "assets/images/hn-874-in-INR20031114-01-p1-18-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4146x7043",
+   "iiif_id": null
+  }
+ ],
+ "HN-875": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 5 March 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-03-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20040305-01.1.15",
+   "full_page": "assets/images/hn-875-in-INR20040305-01-p1-15-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4246x7444",
+   "iiif_id": null
+  }
+ ],
+ "HN-877": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 4 June 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-06-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20040604-01.1.9",
+   "full_page": "assets/images/hn-877-in-INR20040604-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4215x7367",
+   "iiif_id": null
+  }
+ ],
+ "HN-879": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 18 June 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-06-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20040618-01.1.11",
+   "full_page": "assets/images/hn-879-in-INR20040618-01-p1-11-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4213x7361",
+   "iiif_id": null
+  }
+ ],
+ "HN-881": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 31 December 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-12-31",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20041231-01.1.6",
+   "full_page": "assets/images/hn-881-in-INR20041231-01-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4194x7374",
+   "iiif_id": null
+  }
+ ],
+ "HN-884": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 9 September 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-09-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20050909-01.1.1",
+   "full_page": "assets/images/hn-884-in-INR20050909-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3765x6614",
+   "iiif_id": null
+  }
+ ],
+ "HN-885": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 9 September 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-09-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20050909-01.1.2",
+   "full_page": "assets/images/hn-885-in-INR20050909-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3572x6612",
+   "iiif_id": null
+  }
+ ],
+ "HN-887": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 30 September 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-09-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20050930-01.1.1",
+   "full_page": "assets/images/hn-887-in-INR20050930-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3659x6614",
+   "iiif_id": null
+  }
+ ],
+ "HN-890": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 28 October 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-10-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20051028-01.1.1",
+   "full_page": "assets/images/hn-890-in-INR20051028-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3645x6614",
+   "iiif_id": null
+  }
+ ],
+ "HN-891": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 28 October 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-10-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20051028-01.1.5",
+   "full_page": "assets/images/hn-891-in-INR20051028-01-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3597x6611",
+   "iiif_id": null
+  }
+ ],
+ "HN-892": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 4 November 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-11-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20051104-01.1.17",
+   "full_page": "assets/images/hn-892-in-INR20051104-01-p1-17-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3682x6643",
+   "iiif_id": null
+  }
+ ],
+ "HN-893": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 23 December 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-12-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR20051223-01.1.2",
+   "full_page": "assets/images/hn-893-in-INR20051223-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3581x6617",
+   "iiif_id": null
+  }
+ ],
+ "HN-102": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 20 June 1829",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1829-06-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18290620.1.3",
+   "full_page": "assets/images/hn-102-in-IP18290620-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6636x10033",
+   "iiif_id": null
+  }
+ ],
+ "HN-106": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 29 May 1830",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1830-05-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18300529.1.2",
+   "full_page": "assets/images/hn-106-in-IP18300529-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6644x10079",
+   "iiif_id": null
+  }
+ ],
+ "HN-107": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 23 October 1830",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1830-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18301023.1.1",
+   "full_page": "assets/images/hn-107-in-IP18301023-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6488x10120",
+   "iiif_id": null
+  }
+ ],
+ "HN-108": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 23 October 1830",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1830-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18301023.1.1",
+   "full_page": "assets/images/hn-108-in-IP18301023-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6488x10120",
+   "iiif_id": null
+  }
+ ],
+ "HN-111": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 21 May 1831",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1831-05-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18310521.1.4",
+   "full_page": "assets/images/hn-111-in-IP18310521-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6568x10071",
+   "iiif_id": null
+  }
+ ],
+ "HN-113": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 5 November 1831",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1831-11-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18311105.1.1",
+   "full_page": "assets/images/hn-113-in-IP18311105-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6636x10087",
+   "iiif_id": null
+  }
+ ],
+ "HN-115": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 18 August 1832",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1832-08-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18320818.1.3",
+   "full_page": "assets/images/hn-115-in-IP18320818-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6360x9952",
+   "iiif_id": null
+  }
+ ],
+ "HN-117": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 7 December 1833",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1833-12-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18331207.1.4",
+   "full_page": "assets/images/hn-117-in-IP18331207-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7428x9998",
+   "iiif_id": null
+  },
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Rising Sun Times 7 December 1833",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1833-12-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=RST18331207.1.2",
+   "full_page": "assets/images/hn-117-in-RST18331207-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4616x7361",
+   "iiif_id": null
+  }
+ ],
+ "HN-119": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 17 May 1834",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1834-05-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18340517.1.3",
+   "full_page": "assets/images/hn-119-in-IP18340517-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7476x9934",
+   "iiif_id": null
+  }
+ ],
+ "HN-120": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 17 May 1834",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1834-05-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18340517.1.3",
+   "full_page": "assets/images/hn-120-in-IP18340517-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7476x9934",
+   "iiif_id": null
+  }
+ ],
+ "HN-121": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 17 May 1834",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1834-05-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18340517.1.3",
+   "full_page": "assets/images/hn-121-in-IP18340517-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7476x9934",
+   "iiif_id": null
+  }
+ ],
+ "HN-465": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 15 November 1929",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1929-11-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19291115.1.3",
+   "full_page": "assets/images/hn-465-in-IPT19291115-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6417x8494",
+   "iiif_id": null
+  }
+ ],
+ "HN-467": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 8 August 1930",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1930-08-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19300808.1.1",
+   "full_page": "assets/images/hn-467-in-IPT19300808-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6361x8814",
+   "iiif_id": null
+  }
+ ],
+ "HN-471": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 5 June 1931",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1931-06-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19310605.1.1",
+   "full_page": "assets/images/hn-471-in-IPT19310605-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7098x9600",
+   "iiif_id": null
+  }
+ ],
+ "HN-474": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 24 October 1931",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1931-10-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19311024.1.1",
+   "full_page": "assets/images/hn-474-in-IPT19311024-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6769x9254",
+   "iiif_id": null
+  }
+ ],
+ "HN-483": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 21 September 1933",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1933-09-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19330921.1.20",
+   "full_page": "assets/images/hn-483-in-IPT19330921-p1-20-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6498x8948",
+   "iiif_id": null
+  }
+ ],
+ "HN-484": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 8 November 1933",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1933-11-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19331108.1.1",
+   "full_page": "assets/images/hn-484-in-IPT19331108-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6438x8795",
+   "iiif_id": null
+  }
+ ],
+ "HN-498": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 23 December 1935",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1935-12-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19351223.1.15",
+   "full_page": "assets/images/hn-498-in-IPT19351223-p1-15-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6594x9043",
+   "iiif_id": null
+  }
+ ],
+ "HN-505": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 26 January 1937",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1937-01-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19370126.1.1",
+   "full_page": "assets/images/hn-505-in-IPT19370126-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6659x8670",
+   "iiif_id": null
+  }
+ ],
+ "HN-508": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 5 July 1937",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1937-07-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19370705.1.1",
+   "full_page": "assets/images/hn-508-in-IPT19370705-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6541x8806",
+   "iiif_id": null
+  }
+ ],
+ "HN-511": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 22 September 1938",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1938-09-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19380922.1.1",
+   "full_page": "assets/images/hn-511-in-IPT19380922-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6596x8784",
+   "iiif_id": null
+  }
+ ],
+ "HN-522": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 19 June 1940",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1940-06-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19400619.1.1",
+   "full_page": "assets/images/hn-522-in-IPT19400619-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6405x8679",
+   "iiif_id": null
+  }
+ ],
+ "HN-529": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 11 December 1941",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1941-12-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19411211.1.1",
+   "full_page": "assets/images/hn-529-in-IPT19411211-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6278x8660",
+   "iiif_id": null
+  }
+ ],
+ "HN-573": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 9 April 1949",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1949-04-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19490409.1.1",
+   "full_page": "assets/images/hn-573-in-IPT19490409-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5292x7202",
+   "iiif_id": null
+  }
+ ],
+ "HN-581": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 23 November 1950",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1950-11-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19501123.1.1",
+   "full_page": "assets/images/hn-581-in-IPT19501123-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5412x7344",
+   "iiif_id": null
+  }
+ ],
+ "HN-587": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 6 February 1952",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1952-02-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19520206.1.1",
+   "full_page": "assets/images/hn-587-in-IPT19520206-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5590x7601",
+   "iiif_id": null
+  }
+ ],
+ "HN-076": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Republican 11 October 1817",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1817-10-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IRE18171011.1.3",
+   "full_page": "assets/images/hn-076-in-IRE18171011-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4112x7126",
+   "iiif_id": null
+  }
+ ],
+ "HN-079": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Republican 7 November 1818",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1818-11-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IRE18181107.1.2",
+   "full_page": "assets/images/hn-079-in-IRE18181107-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4176x7260",
+   "iiif_id": null
+  }
+ ],
+ "HN-080": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Republican 21 November 1818",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1818-11-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IRE18181121.1.1",
+   "full_page": "assets/images/hn-080-in-IRE18181121-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4236x7162",
+   "iiif_id": null
+  }
+ ],
+ "HN-082": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Republican 19 June 1819",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1819-06-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IRE18190619.1.1",
+   "full_page": "assets/images/hn-082-in-IRE18190619-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5680x8575",
+   "iiif_id": null
+  }
+ ],
+ "HN-084": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Republican 27 July 1820",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1820-07-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IRE18200727.1.1",
+   "full_page": "assets/images/hn-084-in-IRE18200727-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5428x8187",
+   "iiif_id": null
+  }
+ ],
+ "HN-096": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Spectator 6 May 1825",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1825-05-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISP18250506.1.3",
+   "full_page": "assets/images/hn-096-in-ISP18250506-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3156x5682",
+   "iiif_id": null
+  }
+ ],
+ "HN-151": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 24 March 1849",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1849-03-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISS18490324.1.2",
+   "full_page": "assets/images/hn-151-in-ISS18490324-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "9160x12120",
+   "iiif_id": null
+  }
+ ],
+ "HN-148": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 22 October 1846",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1846-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISSN18461022.1.1",
+   "full_page": "assets/images/hn-148-in-ISSN18461022-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7448x9624",
+   "iiif_id": null
+  }
+ ],
+ "HN-230": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 23 March 1875",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1875-03-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISST18750323.1.3",
+   "full_page": "assets/images/hn-230-in-ISST18750323-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6584x8929",
+   "iiif_id": null
+  }
+ ],
+ "HN-238": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 28 March 1877",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1877-03-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISST18770328.1.3",
+   "full_page": "assets/images/hn-238-in-ISST18770328-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6232x8344",
+   "iiif_id": null
+  }
+ ],
+ "HN-816": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 18 May 1995",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1995-05-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19950518.1.10",
+   "full_page": "assets/images/hn-816-in-JFBSTR19950518-p1-10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3672x4339",
+   "iiif_id": null
+  }
+ ],
+ "HN-824": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 26 September 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-09-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19960926.1.14",
+   "full_page": "assets/images/hn-824-in-JFBSTR19960926-p1-14-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3639x4355",
+   "iiif_id": null
+  }
+ ],
+ "HN-825": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 March 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-03-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19970320.1.7",
+   "full_page": "assets/images/hn-825-in-JFBSTR19970320-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3579x4333",
+   "iiif_id": null
+  }
+ ],
+ "HN-826": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 24 April 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-04-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19970424.1.8",
+   "full_page": "assets/images/hn-826-in-JFBSTR19970424-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3587x4335",
+   "iiif_id": null
+  }
+ ],
+ "HN-831": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 25 September 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-09-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19970925.1.2",
+   "full_page": "assets/images/hn-831-in-JFBSTR19970925-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3557x4267",
+   "iiif_id": null
+  }
+ ],
+ "HN-832": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 25 September 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-09-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19970925.1.7",
+   "full_page": "assets/images/hn-832-in-JFBSTR19970925-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3569x4307",
+   "iiif_id": null
+  }
+ ],
+ "HN-844": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 May 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-05-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19990520.1.3",
+   "full_page": "assets/images/hn-844-in-JFBSTR19990520-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3661x4241",
+   "iiif_id": null
+  }
+ ],
+ "HN-845": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 May 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-05-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19990520.1.1",
+   "full_page": "assets/images/hn-845-in-JFBSTR19990520-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3659x4246",
+   "iiif_id": null
+  }
+ ],
+ "HN-847": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 24 September 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR19990924.1.4",
+   "full_page": "assets/images/hn-847-in-JFBSTR19990924-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3670x4246",
+   "iiif_id": null
+  }
+ ],
+ "HN-851": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 21 November 2000",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2000-11-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20001121.1.12",
+   "full_page": "assets/images/hn-851-in-JFBSTR20001121-p1-12-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3647x4296",
+   "iiif_id": null
+  }
+ ],
+ "HN-860": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 November 2001",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2001-11-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20011120.1.7",
+   "full_page": "assets/images/hn-860-in-JFBSTR20011120-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2867x5153",
+   "iiif_id": null
+  }
+ ],
+ "HN-864": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 23 October 2002",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2002-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20021023.1.3",
+   "full_page": "assets/images/hn-864-in-JFBSTR20021023-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2859x5144",
+   "iiif_id": null
+  }
+ ],
+ "HN-866": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 25 November 2002",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2002-11-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20021125.1.3",
+   "full_page": "assets/images/hn-866-in-JFBSTR20021125-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2882x5151",
+   "iiif_id": null
+  }
+ ],
+ "HN-868": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 12 February 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-02-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20030212.1.1",
+   "full_page": "assets/images/hn-868-in-JFBSTR20030212-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2863x5152",
+   "iiif_id": null
+  }
+ ],
+ "HN-873": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 24 September 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20030924.1.2",
+   "full_page": "assets/images/hn-873-in-JFBSTR20030924-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2867x5143",
+   "iiif_id": null
+  }
+ ],
+ "HN-876": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 26 March 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-03-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20040326.1.3",
+   "full_page": "assets/images/hn-876-in-JFBSTR20040326-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2839x5161",
+   "iiif_id": null
+  }
+ ],
+ "HN-882": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 15 February 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-02-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20050215.1.3",
+   "full_page": "assets/images/hn-882-in-JFBSTR20050215-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2855x5159",
+   "iiif_id": null
+  }
+ ],
+ "HN-889": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 26 October 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-10-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20051026.1.3",
+   "full_page": "assets/images/hn-889-in-JFBSTR20051026-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2824x5145",
+   "iiif_id": null
+  }
+ ],
+ "HN-894": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 28 February 2006",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2006-02-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20060228.1.2",
+   "full_page": "assets/images/hn-894-in-JFBSTR20060228-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "2843x5141",
+   "iiif_id": null
+  }
+ ],
+ "HN-900": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 6 November 2006",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2006-11-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20061106.1.4",
+   "full_page": "assets/images/hn-900-in-JFBSTR20061106-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3260x6099",
+   "iiif_id": null
+  }
+ ],
+ "HN-914": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 30 September 2009",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2009-09-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20090930.1.1",
+   "full_page": "assets/images/hn-914-in-JFBSTR20090930-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3391x6092",
+   "iiif_id": null
+  },
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 30 September 2009",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2009-09-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20090930.1.3",
+   "full_page": "assets/images/hn-914-in-JFBSTR20090930-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3389x6087",
+   "iiif_id": null
+  }
+ ],
+ "HN-917": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 5 February 2010",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2010-02-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20100205.1.2",
+   "full_page": "assets/images/hn-917-in-JFBSTR20100205-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3389x6070",
+   "iiif_id": null
+  }
+ ],
+ "HN-922": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 28 February 2011",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2011-02-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20110228.1.2",
+   "full_page": "assets/images/hn-922-in-JFBSTR20110228-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3376x6089",
+   "iiif_id": null
+  }
+ ],
+ "HN-925": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 3 November 2011",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2011-11-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20111103.1.2",
+   "full_page": "assets/images/hn-925-in-JFBSTR20111103-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3404x6061",
+   "iiif_id": null
+  }
+ ],
+ "HN-926": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 7 February 2012",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2012-02-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20120207.1.5",
+   "full_page": "assets/images/hn-926-in-JFBSTR20120207-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3406x6067",
+   "iiif_id": null
+  }
+ ],
+ "HN-927": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 2 November 2012",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2012-11-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20121102.1.1",
+   "full_page": "assets/images/hn-927-in-JFBSTR20121102-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3381x6061",
+   "iiif_id": null
+  }
+ ],
+ "HN-928": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 21 November 2012",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2012-11-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20121121.1.2",
+   "full_page": "assets/images/hn-928-in-JFBSTR20121121-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3380x6061",
+   "iiif_id": null
+  }
+ ],
+ "HN-929": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 21 November 2012",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2012-11-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20121121.1.4",
+   "full_page": "assets/images/hn-929-in-JFBSTR20121121-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3378x6067",
+   "iiif_id": null
+  }
+ ],
+ "HN-930": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 19 December 2012",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2012-12-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20121219.1.4",
+   "full_page": "assets/images/hn-930-in-JFBSTR20121219-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3464x6084",
+   "iiif_id": null
+  }
+ ],
+ "HN-931": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 7 February 2013",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2013-02-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20130207.1.4",
+   "full_page": "assets/images/hn-931-in-JFBSTR20130207-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3376x6059",
+   "iiif_id": null
+  }
+ ],
+ "HN-932": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 7 February 2013",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2013-02-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20130207.1.3",
+   "full_page": "assets/images/hn-932-in-JFBSTR20130207-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3376x6077",
+   "iiif_id": null
+  }
+ ],
+ "HN-933": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 31 May 2013",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2013-05-31",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20130531.1.1",
+   "full_page": "assets/images/hn-933-in-JFBSTR20130531-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3464x6083",
+   "iiif_id": null
+  }
+ ],
+ "HN-934": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 4 November 2013",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2013-11-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20131104.1.7",
+   "full_page": "assets/images/hn-934-in-JFBSTR20131104-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3372x6059",
+   "iiif_id": null
+  }
+ ],
+ "HN-936": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 21 March 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-03-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20140321.1.3",
+   "full_page": "assets/images/hn-936-in-JFBSTR20140321-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3444x6138",
+   "iiif_id": null
+  }
+ ],
+ "HN-937": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 21 March 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-03-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20140321.1.7",
+   "full_page": "assets/images/hn-937-in-JFBSTR20140321-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3386x6091",
+   "iiif_id": null
+  }
+ ],
+ "HN-938": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 25 September 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-09-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20140925.1.7",
+   "full_page": "assets/images/hn-938-in-JFBSTR20140925-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3125x6080",
+   "iiif_id": null
+  }
+ ],
+ "HN-939": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 23 October 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20141023.1.5",
+   "full_page": "assets/images/hn-939-in-JFBSTR20141023-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3124x6078",
+   "iiif_id": null
+  }
+ ],
+ "HN-940": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 23 October 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20141023.1.3",
+   "full_page": "assets/images/hn-940-in-JFBSTR20141023-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3105x6079",
+   "iiif_id": null
+  }
+ ],
+ "HN-941": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 23 October 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-10-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20141023.1.7",
+   "full_page": "assets/images/hn-941-in-JFBSTR20141023-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3122x6072",
+   "iiif_id": null
+  }
+ ],
+ "HN-942": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 19 December 2014",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2014-12-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20141219.1.7",
+   "full_page": "assets/images/hn-942-in-JFBSTR20141219-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3111x6090",
+   "iiif_id": null
+  }
+ ],
+ "HN-943": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 2 February 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-02-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20150202.1.1",
+   "full_page": "assets/images/hn-943-in-JFBSTR20150202-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3119x6109",
+   "iiif_id": null
+  }
+ ],
+ "HN-944": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 1 May 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-05-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20150501.1.2",
+   "full_page": "assets/images/hn-944-in-JFBSTR20150501-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3137x6094",
+   "iiif_id": null
+  }
+ ],
+ "HN-945": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 28 October 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-10-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20151028.1.3",
+   "full_page": "assets/images/hn-945-in-JFBSTR20151028-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3128x6090",
+   "iiif_id": null
+  }
+ ],
+ "HN-946": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 24 November 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-11-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20151124.1.3",
+   "full_page": "assets/images/hn-946-in-JFBSTR20151124-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3141x6067",
+   "iiif_id": null
+  }
+ ],
+ "HN-948": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 18 December 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-12-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20151218.1.9",
+   "full_page": "assets/images/hn-948-in-JFBSTR20151218-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3091x6060",
+   "iiif_id": null
+  }
+ ],
+ "HN-949": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 18 December 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-12-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20151218.1.3",
+   "full_page": "assets/images/hn-949-in-JFBSTR20151218-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3129x6085",
+   "iiif_id": null
+  }
+ ],
+ "HN-951": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 3 March 2016",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2016-03-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20160303.1.4",
+   "full_page": "assets/images/hn-951-in-JFBSTR20160303-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3149x6109",
+   "iiif_id": null
+  }
+ ],
+ "HN-959": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 October 2017",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2017-10-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20171020.1.7",
+   "full_page": "assets/images/hn-959-in-JFBSTR20171020-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3159x6107",
+   "iiif_id": null
+  }
+ ],
+ "HN-961": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 22 March 2018",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2018-03-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20180322.1.1",
+   "full_page": "assets/images/hn-961-in-JFBSTR20180322-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3155x6080",
+   "iiif_id": null
+  }
+ ],
+ "HN-974": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 15 October 2020",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2020-10-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20201015.1.2",
+   "full_page": "assets/images/hn-974-in-JFBSTR20201015-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3141x6103",
+   "iiif_id": null
+  }
+ ],
+ "HN-975": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 2 November 2020",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2020-11-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20201102.1.5",
+   "full_page": "assets/images/hn-975-in-JFBSTR20201102-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3138x6091",
+   "iiif_id": null
+  }
+ ],
+ "HN-981": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 27 September 2021",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2021-09-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20210927.1.5",
+   "full_page": "assets/images/hn-981-in-JFBSTR20210927-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3110x6074",
+   "iiif_id": null
+  }
+ ],
+ "HN-983": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 1 February 2022",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2022-02-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20220201.1.3",
+   "full_page": "assets/images/hn-983-in-JFBSTR20220201-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3148x6091",
+   "iiif_id": null
+  }
+ ],
+ "HN-985": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 4 April 2022",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2022-04-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20220404.1.3",
+   "full_page": "assets/images/hn-985-in-JFBSTR20220404-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3148x6107",
+   "iiif_id": null
+  }
+ ],
+ "HN-992": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 20 March 2023",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2023-03-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20230320.1.5",
+   "full_page": "assets/images/hn-992-in-JFBSTR20230320-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3144x6092",
+   "iiif_id": null
+  }
+ ],
+ "HN-995": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jefferson Booster 7 September 2023",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2023-09-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JFBSTR20230907.1.5",
+   "full_page": "assets/images/hn-995-in-JFBSTR20230907-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3163x6096",
+   "iiif_id": null
+  }
+ ],
+ "HN-503": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 14 August 1936",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1936-08-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19360814-01.1.1",
+   "full_page": "assets/images/hn-503-in-JPOST19360814-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3918x5484",
+   "iiif_id": null
+  }
+ ],
+ "HN-516": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 2 December 1938",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1938-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19381202-01.1.1",
+   "full_page": "assets/images/hn-516-in-JPOST19381202-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3909x5556",
+   "iiif_id": null
+  }
+ ],
+ "HN-537": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 21 May 1943",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1943-05-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19430521-01.1.1",
+   "full_page": "assets/images/hn-537-in-JPOST19430521-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4108x5637",
+   "iiif_id": null
+  }
+ ],
+ "HN-538": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 4 June 1943",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1943-06-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19430604-01.1.3",
+   "full_page": "assets/images/hn-538-in-JPOST19430604-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4064x5585",
+   "iiif_id": null
+  }
+ ],
+ "HN-663": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 9 June 1967",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1967-06-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19670609-01.1.9",
+   "full_page": "assets/images/hn-663-in-JPOST19670609-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4565x6178",
+   "iiif_id": null
+  }
+ ],
+ "HN-687": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 8 September 1972",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1972-09-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19720908-01.1.13",
+   "full_page": "assets/images/hn-687-in-JPOST19720908-01-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5984x8168",
+   "iiif_id": null
+  }
+ ],
+ "HN-688": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 15 September 1972",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1972-09-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19720915-01.1.3",
+   "full_page": "assets/images/hn-688-in-JPOST19720915-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6039x8112",
+   "iiif_id": null
+  }
+ ],
+ "HN-690": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 27 October 1972",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1972-10-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19721027-01.1.3",
+   "full_page": "assets/images/hn-690-in-JPOST19721027-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6035x8145",
+   "iiif_id": null
+  }
+ ],
+ "HN-711": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 8 April 1977",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1977-04-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19770408-01.1.3",
+   "full_page": "assets/images/hn-711-in-JPOST19770408-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4659x5960",
+   "iiif_id": null
+  }
+ ],
+ "HN-716": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 8 December 1978",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1978-12-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19781208-01.1.10",
+   "full_page": "assets/images/hn-716-in-JPOST19781208-01-p1-10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4735x5994",
+   "iiif_id": null
+  },
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 29 December 1978",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1978-12-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19781229-01.1.9",
+   "full_page": "assets/images/hn-716-in-JPOST19781229-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4492x5895",
+   "iiif_id": null
+  }
+ ],
+ "HN-732": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 24 September 1982",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1982-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19820924-01.1.5",
+   "full_page": "assets/images/hn-732-in-JPOST19820924-01-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3060x4242",
+   "iiif_id": null
+  }
+ ],
+ "HN-799": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 2 September 1992",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1992-09-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19920902-01.1.1",
+   "full_page": "assets/images/hn-799-in-JPOST19920902-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3043x3989",
+   "iiif_id": null
+  }
+ ],
+ "HN-802": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 10 March 1993",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1993-03-10",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19930310-01.1.11",
+   "full_page": "assets/images/hn-802-in-JPOST19930310-01-p1-11-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3073x4038",
+   "iiif_id": null
+  }
+ ],
+ "HN-804": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 21 July 1993",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1993-07-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19930721-01.1.13",
+   "full_page": "assets/images/hn-804-in-JPOST19930721-01-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3059x4023",
+   "iiif_id": null
+  }
+ ],
+ "HN-807": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 9 February 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-02-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19940209-01.1.12",
+   "full_page": "assets/images/hn-807-in-JPOST19940209-01-p1-12-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3140x4064",
+   "iiif_id": null
+  }
+ ],
+ "HN-809": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 18 May 1994",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1994-05-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19940518-01.1.12",
+   "full_page": "assets/images/hn-809-in-JPOST19940518-01-p1-12-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3132x4094",
+   "iiif_id": null
+  }
+ ],
+ "HN-813": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 26 April 1995",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1995-04-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19950426-01.1.8",
+   "full_page": "assets/images/hn-813-in-JPOST19950426-01-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3041x4075",
+   "iiif_id": null
+  }
+ ],
+ "HN-815": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 3 May 1995",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1995-05-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19950503-01.1.4",
+   "full_page": "assets/images/hn-815-in-JPOST19950503-01-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3025x4007",
+   "iiif_id": null
+  }
+ ],
+ "HN-818": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 27 December 1995",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1995-12-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19951227-01.1.1",
+   "full_page": "assets/images/hn-818-in-JPOST19951227-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3056x3896",
+   "iiif_id": null
+  }
+ ],
+ "HN-819": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 3 January 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-01-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19960103-01.1.7",
+   "full_page": "assets/images/hn-819-in-JPOST19960103-01-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3082x3989",
+   "iiif_id": null
+  }
+ ],
+ "HN-820": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 31 July 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-07-31",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19960731-01.1.1",
+   "full_page": "assets/images/hn-820-in-JPOST19960731-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3078x4076",
+   "iiif_id": null
+  }
+ ],
+ "HN-822": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 4 September 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-09-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19960904-01.1.10",
+   "full_page": "assets/images/hn-822-in-JPOST19960904-01-p1-10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3042x3996",
+   "iiif_id": null
+  }
+ ],
+ "HN-827": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 2 July 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-07-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19970702-01.1.1",
+   "full_page": "assets/images/hn-827-in-JPOST19970702-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3090x4020",
+   "iiif_id": null
+  }
+ ],
+ "HN-828": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 2 July 1997",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1997-07-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19970702-01.1.8",
+   "full_page": "assets/images/hn-828-in-JPOST19970702-01-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3096x3990",
+   "iiif_id": null
+  }
+ ],
+ "HN-836": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 9 September 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-09-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19980909-01.1.9",
+   "full_page": "assets/images/hn-836-in-JPOST19980909-01-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3138x4074",
+   "iiif_id": null
+  }
+ ],
+ "HN-837": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 21 October 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-10-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19981021-01.1.8",
+   "full_page": "assets/images/hn-837-in-JPOST19981021-01-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3149x4051",
+   "iiif_id": null
+  }
+ ],
+ "HN-839": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 11 November 1998",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1998-11-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19981111-01.1.8",
+   "full_page": "assets/images/hn-839-in-JPOST19981111-01-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3113x4021",
+   "iiif_id": null
+  }
+ ],
+ "HN-843": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 28 April 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-04-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19990428-01.1.19",
+   "full_page": "assets/images/hn-843-in-JPOST19990428-01-p1-19-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4504x6088",
+   "iiif_id": null
+  }
+ ],
+ "HN-846": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 25 August 1999",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1999-08-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST19990825-01.1.8",
+   "full_page": "assets/images/hn-846-in-JPOST19990825-01-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4618x6122",
+   "iiif_id": null
+  }
+ ],
+ "HN-871": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 20 August 2003",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2003-08-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST20030820-01.1.23",
+   "full_page": "assets/images/hn-871-in-JPOST20030820-01-p1-23-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3662x4825",
+   "iiif_id": null
+  }
+ ],
+ "HN-878": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 9 June 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-06-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST20040609-01.1.11",
+   "full_page": "assets/images/hn-878-in-JPOST20040609-01-p1-11-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3664x4839",
+   "iiif_id": null
+  }
+ ],
+ "HN-880": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 15 September 2004",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2004-09-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST20040915-01.1.35",
+   "full_page": "assets/images/hn-880-in-JPOST20040915-01-p1-35-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3671x4787",
+   "iiif_id": null
+  }
+ ],
+ "HN-883": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jewish Post 27 July 2005",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2005-07-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JPOST20050727-01.1.19",
+   "full_page": "assets/images/hn-883-in-JPOST20050727-01-p1-19-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3699x4854",
+   "iiif_id": null
+  }
+ ],
+ "HN-229": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Jasper Weekly Courier 12 March 1875",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1875-03-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=JWC18750312.1.6",
+   "full_page": "assets/images/hn-229-in-JWC18750312-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4620x7323",
+   "iiif_id": null
+  }
+ ],
+ "HN-145": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Locomotive 16 August 1845",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1845-08-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=LO18450816.1.3",
+   "full_page": "assets/images/hn-145-in-LO18450816-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3304x4701",
+   "iiif_id": null
+  }
+ ],
+ "HN-146": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Locomotive 16 August 1845",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1845-08-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=LO18450816.1.3",
+   "full_page": "assets/images/hn-146-in-LO18450816-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3304x4701",
+   "iiif_id": null
+  }
+ ],
+ "HN-181": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Marshall County Republican 25 February 1858",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1858-02-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=MCR18580225.1.2",
+   "full_page": "assets/images/hn-181-in-MCR18580225-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7764x10238",
+   "iiif_id": null
+  }
+ ],
+ "HN-349": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 15 November 1905",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1905-11-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19051115.1.6",
+   "full_page": "assets/images/hn-349-in-NAN19051115-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4854x7305",
+   "iiif_id": null
+  }
+ ],
+ "HN-364": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 19 August 1908",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1908-08-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19080819.1.3",
+   "full_page": "assets/images/hn-364-in-NAN19080819-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4818x7253",
+   "iiif_id": null
+  }
+ ],
+ "HN-689": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 21 September 1972",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1972-09-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19720921.1.1",
+   "full_page": "assets/images/hn-689-in-NAN19720921-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5392x7449",
+   "iiif_id": null
+  }
+ ],
+ "HN-803": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 5 May 1993",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1993-05-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19930505.1.5",
+   "full_page": "assets/images/hn-803-in-NAN19930505-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4081x6700",
+   "iiif_id": null
+  }
+ ],
+ "HN-821": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 31 July 1996",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1996-07-31",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19960731.1.1",
+   "full_page": "assets/images/hn-821-in-NAN19960731-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4047x6696",
+   "iiif_id": null
+  }
+ ],
+ "HN-853": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 20 December 2000",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2000-12-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20001220.1.2",
+   "full_page": "assets/images/hn-853-in-NAN20001220-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4145x6746",
+   "iiif_id": null
+  }
+ ],
+ "HN-904": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 25 October 2007",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2007-10-25",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20071025.1.1",
+   "full_page": "assets/images/hn-904-in-NAN20071025-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3805x7056",
+   "iiif_id": null
+  }
+ ],
+ "HN-905": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 8 November 2007",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2007-11-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20071108.1.6",
+   "full_page": "assets/images/hn-905-in-NAN20071108-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3755x7057",
+   "iiif_id": null
+  }
+ ],
+ "HN-906": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 6 December 2007",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2007-12-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20071206.1.9",
+   "full_page": "assets/images/hn-906-in-NAN20071206-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3742x7049",
+   "iiif_id": null
+  }
+ ],
+ "HN-915": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 19 November 2009",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2009-11-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20091119.1.1",
+   "full_page": "assets/images/hn-915-in-NAN20091119-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3657x7068",
+   "iiif_id": null
+  }
+ ],
+ "HN-935": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 21 November 2013",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2013-11-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20131121.1.8",
+   "full_page": "assets/images/hn-935-in-NAN20131121-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3643x7043",
+   "iiif_id": null
+  }
+ ],
+ "HN-947": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 17 December 2015",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2015-12-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20151217.1.3",
+   "full_page": "assets/images/hn-947-in-NAN20151217-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3583x7019",
+   "iiif_id": null
+  }
+ ],
+ "HN-950": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 18 February 2016",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "2016-02-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN20160218.1.2",
+   "full_page": "assets/images/hn-950-in-NAN20160218-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3598x7069",
+   "iiif_id": null
+  }
+ ],
+ "HN-267": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Evening Star 15 July 1885",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1885-07-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PKES18850715.1.1",
+   "full_page": "assets/images/hn-267-in-PKES18850715-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "3676x5725",
+   "iiif_id": null
+  }
+ ],
+ "HN-133": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Leavenworth Arena 4 April 1839",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1839-04-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PKLA18390404.1.2",
+   "full_page": "assets/images/hn-133-in-PKLA18390404-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5316x7327",
+   "iiif_id": null
+  }
+ ],
+ "HN-152": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Madison Daily Courier 9 May 1849",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1849-05-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PKMDC18490509.1.2",
+   "full_page": "assets/images/hn-152-in-PKMDC18490509-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6056x7843",
+   "iiif_id": null
+  }
+ ],
+ "HN-156": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Prairie Chieftain 22 April 1851",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1851-04-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PKPD18510422.1.2",
+   "full_page": "assets/images/hn-156-in-PKPD18510422-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6180x7594",
+   "iiif_id": null
+  }
+ ],
+ "HN-093": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Public Leger 29 May 1824",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1824-05-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PL18240529.1.1",
+   "full_page": "assets/images/hn-093-in-PL18240529-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5760x9372",
+   "iiif_id": null
+  }
+ ],
+ "HN-094": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Public Leger 27 November 1824",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1824-11-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PL18241127.1.3",
+   "full_page": "assets/images/hn-094-in-PL18241127-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5632x8816",
+   "iiif_id": null
+  }
+ ],
+ "HN-189": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Plymouth Weekly Democrat 2 May 1861",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1861-05-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PWD18610502.1.1",
+   "full_page": "assets/images/hn-189-in-PWD18610502-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "8444x10684",
+   "iiif_id": null
+  }
+ ],
+ "HN-344": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Richmond Palladium (Daily) 8 July 1904",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1904-07-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=RPD19040708.1.1",
+   "full_page": "assets/images/hn-344-in-RPD19040708-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6236x8455",
+   "iiif_id": null
+  }
+ ],
+ "HN-128": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Richmond Palladium (Weekly) 21 January 1837",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1837-01-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=RPW18370121.1.1",
+   "full_page": "assets/images/hn-128-in-RPW18370121-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5500x7259",
+   "iiif_id": null
+  }
+ ],
+ "HN-144": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Richmond Palladium (Weekly) 30 July 1845",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1845-07-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=RPW18450730.1.3",
+   "full_page": "assets/images/hn-144-in-RPW18450730-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5648x7205",
+   "iiif_id": null
+  }
+ ],
+ "HN-428": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "South Bend News-Times 15 July 1921",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1921-07-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=SBNT19210715.1.1",
+   "full_page": "assets/images/hn-428-in-SBNT19210715-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "8776x11268",
+   "iiif_id": null
+  }
+ ],
+ "HN-135": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Semi-Weekly Journal 26 November 1840",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1840-11-26",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=SWJ18401126.1.2",
+   "full_page": "assets/images/hn-135-in-SWJ18401126-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4056x6975",
+   "iiif_id": null
+  }
+ ],
+ "HN-137": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Semi-Weekly Journal 4 August 1841",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1841-08-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=SWJ18410804.1.1",
+   "full_page": "assets/images/hn-137-in-SWJ18410804-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4304x7107",
+   "iiif_id": null
+  },
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Vincennes Gazette 7 August 1841",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1841-08-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=VG18410807.1.2",
+   "full_page": "assets/images/hn-137-in-VG18410807-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6720x8687",
+   "iiif_id": null
+  }
+ ],
+ "HN-531": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Syracuse-Wawasee Journal 13 March 1942",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1942-03-13",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=SWWJ19420313.1.7",
+   "full_page": "assets/images/hn-531-in-SWWJ19420313-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5813x7806",
+   "iiif_id": null
+  }
+ ],
+ "HN-169": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Daily American 9 June 1855",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1855-06-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDA18550609.1.2",
+   "full_page": "assets/images/hn-169-in-TDA18550609-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4823x7418",
+   "iiif_id": null
+  }
+ ],
+ "HN-473": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 19 September 1931",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1931-09-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19310919-01.1.1",
+   "full_page": "assets/images/hn-473-in-TDB19310919-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5242x6957",
+   "iiif_id": null
+  }
+ ],
+ "HN-481": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 27 March 1933",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1933-03-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19330327-01.1.1",
+   "full_page": "assets/images/hn-481-in-TDB19330327-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5136x6863",
+   "iiif_id": null
+  }
+ ],
+ "HN-485": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 6 December 1933",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1933-12-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19331206-01.1.1",
+   "full_page": "assets/images/hn-485-in-TDB19331206-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5018x6854",
+   "iiif_id": null
+  }
+ ],
+ "HN-567": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 30 January 1948",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1948-01-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19480130-01.1.1",
+   "full_page": "assets/images/hn-567-in-TDB19480130-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5230x6776",
+   "iiif_id": null
+  }
+ ],
+ "HN-583": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 30 March 1951",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1951-03-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19510330-01.1.1",
+   "full_page": "assets/images/hn-583-in-TDB19510330-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5700x7205",
+   "iiif_id": null
+  }
+ ],
+ "HN-617": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 24 September 1957",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1957-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19570924-01.1.1",
+   "full_page": "assets/images/hn-617-in-TDB19570924-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6704x8646",
+   "iiif_id": null
+  }
+ ],
+ "HN-620": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 1 February 1958",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1958-02-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19580201-01.1.1",
+   "full_page": "assets/images/hn-620-in-TDB19580201-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6634x8613",
+   "iiif_id": null
+  }
+ ],
+ "HN-655": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 12 November 1965",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1965-11-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19651112-01.1.3",
+   "full_page": "assets/images/hn-655-in-TDB19651112-01-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5685x8444",
+   "iiif_id": null
+  }
+ ],
+ "HN-658": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 29 August 1966",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1966-08-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19660829-01.1.1",
+   "full_page": "assets/images/hn-658-in-TDB19660829-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5782x8434",
+   "iiif_id": null
+  }
+ ],
+ "HN-659": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 22 October 1966",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1966-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19661022-01.1.1",
+   "full_page": "assets/images/hn-659-in-TDB19661022-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5745x8420",
+   "iiif_id": null
+  }
+ ],
+ "HN-660": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 29 October 1966",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1966-10-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19661029-01.1.1",
+   "full_page": "assets/images/hn-660-in-TDB19661029-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5723x8404",
+   "iiif_id": null
+  }
+ ],
+ "HN-662": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 30 January 1967",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1967-01-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19670130-01.1.1",
+   "full_page": "assets/images/hn-662-in-TDB19670130-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5780x8537",
+   "iiif_id": null
+  }
+ ],
+ "HN-666": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 18 December 1967",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1967-12-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19671218-01.1.12",
+   "full_page": "assets/images/hn-666-in-TDB19671218-01-p1-12-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5772x8499",
+   "iiif_id": null
+  }
+ ],
+ "HN-668": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 5 June 1968",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1968-06-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19680605-01.1.1",
+   "full_page": "assets/images/hn-668-in-TDB19680605-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6438x8586",
+   "iiif_id": null
+  }
+ ],
+ "HN-669": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 6 June 1968",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1968-06-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19680606-01.1.1",
+   "full_page": "assets/images/hn-669-in-TDB19680606-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6423x8580",
+   "iiif_id": null
+  }
+ ],
+ "HN-670": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 21 August 1968",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1968-08-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19680821-01.1.1",
+   "full_page": "assets/images/hn-670-in-TDB19680821-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6395x8494",
+   "iiif_id": null
+  }
+ ],
+ "HN-671": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Daily Banner 3 October 1968",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1968-10-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TDB19681003-01.1.5",
+   "full_page": "assets/images/hn-671-in-TDB19681003-01-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6396x8517",
+   "iiif_id": null
+  }
+ ],
+ "HN-215": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Terre Haute Daily Gazette 3 September 1870",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1870-09-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=THDG18700903.1.2",
+   "full_page": "assets/images/hn-215-in-THDG18700903-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7357x9766",
+   "iiif_id": null
+  }
+ ],
+ "HN-221": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Terre Haute Evening Gazette 27 December 1872",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1872-12-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=THG18721227.1.1",
+   "full_page": "assets/images/hn-221-in-THG18721227-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6381x8792",
+   "iiif_id": null
+  }
+ ],
+ "HN-166": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Terre-Haute Journal 2 December 1853",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1853-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=THJ18531202.1.1",
+   "full_page": "assets/images/hn-166-in-THJ18531202-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7081x9068",
+   "iiif_id": null
+  }
+ ],
+ "HN-218": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Terre-Haute Weekly Express 2 August 1871",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1871-08-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=THWE18710802.1.2",
+   "full_page": "assets/images/hn-218-in-THWE18710802-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7204x9467",
+   "iiif_id": null
+  }
+ ],
+ "HN-673": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 23 July 1969",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1969-07-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19690723.1.1",
+   "full_page": "assets/images/hn-673-in-TMJ19690723-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6107x8287",
+   "iiif_id": null
+  }
+ ],
+ "HN-675": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 6 August 1969",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1969-08-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19690806.1.1",
+   "full_page": "assets/images/hn-675-in-TMJ19690806-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6088x8331",
+   "iiif_id": null
+  }
+ ],
+ "HN-676": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 8 October 1969",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1969-10-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19691008.1.9",
+   "full_page": "assets/images/hn-676-in-TMJ19691008-p1-9-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6090x8321",
+   "iiif_id": null
+  }
+ ],
+ "HN-677": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 29 April 1970",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1970-04-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19700429.1.7",
+   "full_page": "assets/images/hn-677-in-TMJ19700429-p1-7-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6074x8304",
+   "iiif_id": null
+  }
+ ],
+ "HN-681": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 7 July 1971",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1971-07-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19710707.1.13",
+   "full_page": "assets/images/hn-681-in-TMJ19710707-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6112x8324",
+   "iiif_id": null
+  }
+ ],
+ "HN-682": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 21 July 1971",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1971-07-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19710721.1.10",
+   "full_page": "assets/images/hn-682-in-TMJ19710721-p1-10-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6175x8345",
+   "iiif_id": null
+  }
+ ],
+ "HN-686": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 15 December 1971",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1971-12-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19711215.1.5",
+   "full_page": "assets/images/hn-686-in-TMJ19711215-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6080x8343",
+   "iiif_id": null
+  }
+ ],
+ "HN-710": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 30 March 1977",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1977-03-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19770330.1.1",
+   "full_page": "assets/images/hn-710-in-TMJ19770330-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6120x8299",
+   "iiif_id": null
+  }
+ ],
+ "HN-752": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Mail-Journal 3 July 1985",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1985-07-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TMJ19850703.1.4",
+   "full_page": "assets/images/hn-752-in-TMJ19850703-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6296x8335",
+   "iiif_id": null
+  }
+ ],
+ "HN-149": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Tri-weekly Journal 28 September 1847",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1847-09-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TWJ18470928.1.2",
+   "full_page": "assets/images/hn-149-in-TWJ18470928-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5036x7138",
+   "iiif_id": null
+  }
+ ],
+ "HN-150": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Tri-weekly Journal 29 February 1848",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1848-02-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=TWJ18480229.1.3",
+   "full_page": "assets/images/hn-150-in-TWJ18480229-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5064x6986",
+   "iiif_id": null
+  }
+ ],
+ "HN-089": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Clarion 18 September 1822",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1822-09-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WC18220918.1.3",
+   "full_page": "assets/images/hn-089-in-WC18220918-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5716x8457",
+   "iiif_id": null
+  }
+ ],
+ "HN-160": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Wabash Express 21 April 1852",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1852-04-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WE18520421.1.1",
+   "full_page": "assets/images/hn-160-in-WE18520421-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6853x9011",
+   "iiif_id": null
+  }
+ ],
+ "HN-161": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Wabash Express 21 April 1852",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1852-04-21",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WE18520421.1.1",
+   "full_page": "assets/images/hn-161-in-WE18520421-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6853x9011",
+   "iiif_id": null
+  }
+ ],
+ "HN-065": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Eagle 17 December 1813",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1813-12-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WEE18131217.1.3",
+   "full_page": "assets/images/hn-065-in-WEE18131217-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4900x8014",
+   "iiif_id": null
+  }
+ ],
+ "HN-070": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Eagle 16 December 1815",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1815-12-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WEE18151216.1.2",
+   "full_page": "assets/images/hn-070-in-WEE18151216-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5104x8132",
+   "iiif_id": null
+  }
+ ],
+ "HN-112": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Wabash Herald 20 August 1831",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1831-08-20",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WH18310820.1.4",
+   "full_page": "assets/images/hn-112-in-WH18310820-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4848x7181",
+   "iiif_id": null
+  }
+ ],
+ "HN-368": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Walkerton Independent 19 November 1909",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1909-11-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WLKI19091119.1.6",
+   "full_page": "assets/images/hn-368-in-WLKI19091119-p1-6-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6762x8808",
+   "iiif_id": null
+  }
+ ],
+ "HN-127": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Weekly Messenger 14 May 1836",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1836-05-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WM18360514.1.2",
+   "full_page": "assets/images/hn-127-in-WM18360514-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5512x7423",
+   "iiif_id": null
+  }
+ ],
+ "HN-165": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Weekly Reveille 1 September 1853",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1853-09-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRE18530901.1.2",
+   "full_page": "assets/images/hn-165-in-WRE18530901-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5584x8512",
+   "iiif_id": null
+  }
+ ],
+ "HN-092": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Western Register and Terre-Haute advertiser 11 February 1824",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1824-02-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRTA18240211.1.2",
+   "full_page": "assets/images/hn-092-in-WRTA18240211-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4384x7452",
+   "iiif_id": null
+  }
+ ],
+ "HN-101": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Western Register and Terre-Haute advertiser 28 July 1827",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1827-07-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRTA18270728.1.1",
+   "full_page": "assets/images/hn-101-in-WRTA18270728-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5290x9236",
+   "iiif_id": null
+  }
+ ],
+ "HN-103": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Western Register and Terre-Haute advertiser 22 October 1829",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1829-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRTA18291022.1.3",
+   "full_page": "assets/images/hn-103-in-WRTA18291022-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5929x9664",
+   "iiif_id": null
+  }
+ ],
+ "HN-104": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Western Register and Terre-Haute advertiser 22 October 1829",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1829-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRTA18291022.1.3",
+   "full_page": "assets/images/hn-104-in-WRTA18291022-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5929x9664",
+   "iiif_id": null
+  }
+ ],
+ "HN-105": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Western Register and Terre-Haute advertiser 22 October 1829",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1829-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WRTA18291022.1.3",
+   "full_page": "assets/images/hn-105-in-WRTA18291022-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5929x9664",
+   "iiif_id": null
+  }
+ ],
+ "HN-056": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 December 1807",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1807-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18071202.1.3",
+   "full_page": "assets/images/hn-056-in-WS18071202-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5984x9320",
+   "iiif_id": null
+  }
+ ],
+ "HN-057": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 December 1807",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1807-12-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18071202.1.3",
+   "full_page": "assets/images/hn-057-in-WS18071202-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5984x9320",
+   "iiif_id": null
+  }
+ ],
+ "HN-058": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 22 October 1808",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1808-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18081022.1.3",
+   "full_page": "assets/images/hn-058-in-WS18081022-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6112x9364",
+   "iiif_id": null
+  }
+ ],
+ "HN-059": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 September 1809",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1809-09-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18090902.1.2",
+   "full_page": "assets/images/hn-059-in-WS18090902-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6076x9261",
+   "iiif_id": null
+  }
+ ],
+ "HN-060": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 12 May 1810",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1810-05-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18100512.1.3",
+   "full_page": "assets/images/hn-060-in-WS18100512-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6112x9307",
+   "iiif_id": null
+  }
+ ],
+ "HN-061": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 12 May 1810",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1810-05-12",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18100512.1.3",
+   "full_page": "assets/images/hn-061-in-WS18100512-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6112x9307",
+   "iiif_id": null
+  }
+ ],
+ "HN-062": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 8 June 1811",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1811-06-08",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18110608.1.2",
+   "full_page": "assets/images/hn-062-in-WS18110608-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6092x9353",
+   "iiif_id": null
+  }
+ ],
+ "HN-063": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 June 1812",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1812-06-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18120602.1.2",
+   "full_page": "assets/images/hn-063-in-WS18120602-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5908x8655",
+   "iiif_id": null
+  }
+ ],
+ "HN-064": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 June 1812",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1812-06-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18120602.1.2",
+   "full_page": "assets/images/hn-064-in-WS18120602-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5908x8655",
+   "iiif_id": null
+  }
+ ],
+ "HN-067": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 19 February 1814",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1814-02-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18140219.1.2",
+   "full_page": "assets/images/hn-067-in-WS18140219-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5812x8708",
+   "iiif_id": null
+  }
+ ],
+ "HN-068": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 19 February 1814",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1814-02-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18140219.1.2",
+   "full_page": "assets/images/hn-068-in-WS18140219-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5812x8708",
+   "iiif_id": null
+  }
+ ],
+ "HN-066": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 27 August 1814",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1814-08-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18140827.1.4",
+   "full_page": "assets/images/hn-066-in-WS18140827-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5824x8828",
+   "iiif_id": null
+  }
+ ],
+ "HN-069": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 27 August 1814",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1814-08-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18140827.1.4",
+   "full_page": "assets/images/hn-069-in-WS18140827-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5824x8828",
+   "iiif_id": null
+  }
+ ],
+ "HN-071": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 17 February 1816",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1816-02-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18160217.1.2",
+   "full_page": "assets/images/hn-071-in-WS18160217-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5896x9076",
+   "iiif_id": null
+  }
+ ],
+ "HN-072": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 17 February 1816",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1816-02-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18160217.1.3",
+   "full_page": "assets/images/hn-072-in-WS18160217-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5964x9007",
+   "iiif_id": null
+  }
+ ],
+ "HN-073": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 18 May 1816",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1816-05-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18160518.1.4",
+   "full_page": "assets/images/hn-073-in-WS18160518-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5836x8834",
+   "iiif_id": null
+  }
+ ],
+ "HN-074": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 15 June 1816",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1816-06-15",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18160615.1.2",
+   "full_page": "assets/images/hn-074-in-WS18160615-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5820x8968",
+   "iiif_id": null
+  }
+ ],
+ "HN-075": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun 2 November 1816",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1816-11-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WS18161102.1.2",
+   "full_page": "assets/images/hn-075-in-WS18161102-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6056x8986",
+   "iiif_id": null
+  }
+ ],
+ "HN-077": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 22 August 1818",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1818-08-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18180822.1.3",
+   "full_page": "assets/images/hn-077-in-WSGA18180822-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5768x8901",
+   "iiif_id": null
+  }
+ ],
+ "HN-078": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 29 August 1818",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1818-08-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18180829.1.5",
+   "full_page": "assets/images/hn-078-in-WSGA18180829-p1-5-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5864x8861",
+   "iiif_id": null
+  }
+ ],
+ "HN-081": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 5 December 1818",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1818-12-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18181205.1.2",
+   "full_page": "assets/images/hn-081-in-WSGA18181205-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5804x8719",
+   "iiif_id": null
+  }
+ ],
+ "HN-088": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 31 March 1821",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1821-03-31",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18210331.1.3",
+   "full_page": "assets/images/hn-088-in-WSGA18210331-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5600x7164",
+   "iiif_id": null
+  }
+ ],
+ "HN-097": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 14 May 1825",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1825-05-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18250514.1.3",
+   "full_page": "assets/images/hn-097-in-WSGA18250514-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5772x8850",
+   "iiif_id": null
+  }
+ ],
+ "HN-098": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 14 May 1825",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1825-05-14",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18250514.1.3",
+   "full_page": "assets/images/hn-098-in-WSGA18250514-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5772x8850",
+   "iiif_id": null
+  }
+ ],
+ "HN-100": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 28 January 1826",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1826-01-28",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18260128.1.2",
+   "full_page": "assets/images/hn-100-in-WSGA18260128-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5756x8908",
+   "iiif_id": null
+  }
+ ],
+ "HN-116": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Western Sun & General Advertiser 17 August 1833",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1833-08-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WSGA18330817.1.2",
+   "full_page": "assets/images/hn-116-in-WSGA18330817-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6572x9764",
+   "iiif_id": null
+  }
+ ],
+ "HN-095": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Public Leger 27 November 1824",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1824-11-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PL18241127.1.3",
+   "full_page": "assets/images/hn-095-in-PL18241127-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5632x8816",
    "iiif_id": null
   }
  ],
