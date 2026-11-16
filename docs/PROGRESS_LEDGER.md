@@ -40,19 +40,19 @@
 | Candidate identity pairs | 135 | deduped from seed peer column (authoritative 140 in workbook) |
 | Source-acquisition manifest rows | 1,056 | one per seed URL |
 | Manifest rows with live test results | 9 | 4 blocked_access, 3 verified, 2 link_checked |
-| Records with ≥1 resolved source URL | 1,025 | `scripts/hn_urls.json` (batch reports ∪ record text) |
-| Distinct resolved source URLs | 3,141 | `scripts/hn_urls.json` |
-| Records with no source URL at all | 27 | honest gaps, no invented links |
-| Records with ≥1 stored image | 798 | `site/data/images.json` |
-| Stored image renditions (entries) | 1,141 | 1,117 full-page + 61 crops (overlap where both exist) |
-| Full-page scans | 1,117 | Oregon 420, Indiana 485, LOC 85, OK 53, TX 25, SC 20, SCVHistory 16, other 13 |
+| Records with ≥1 resolved source URL | 1,056 | `scripts/hn_urls.json` (record `url` ∪ batch reports ∪ record text) |
+| Distinct resolved source URLs | 3,240 | `scripts/hn_urls.json` |
+| Records with no source URL at all | 0 | every record has a cited URL |
+| Records with ≥1 stored image | 825 | `site/data/images.json` |
+| Stored image renditions (entries) | 1,168 | 1,144 full-page + 61 crops (overlap where both exist) |
+| Full-page scans | 1,144 | Oregon 420, Indiana 510, LOC 86, OK 53, TX 25, SC 20, SCVHistory 16, other 14 |
 | Word-coordinate-verified article crops | 31 | score ≥ 0.6 against quoted headline |
 | Archive article clips | 21 | Indiana block-level crops (no OCR verification available) |
-| Indiana tile mosaics | 485 pages / 441 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (134 page-unavailable, 1 residual failed) |
+| Indiana tile mosaics | 510 pages / 463 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (143 page-unavailable, 1 residual failed) |
 | PDF-rendered page images | 11 | 9 records, `archive_pdf_page_rendition` |
-| Other-archive page renditions | 18 | Quartex / CONTENTdm / SCVHistory |
-| Image files on disk | 1,184 | 627 MB under `site/assets/images/` |
-| Records still without an image | 258 | 27 with no source URL, 231 with only blocked/paywalled/non-newspaper URLs |
+| Other-archive page renditions | 19 | Quartex / CONTENTdm / SCVHistory / LOC guide page (4 records) |
+| Image files on disk | 1,211 | 639 MB under `site/assets/images/` |
+| Records still without an image | 231 | 0 with no source URL, 231 with only blocked/paywalled/non-newspaper URLs |
 
 ## Milestone 3 feasibility results (summary)
 
@@ -74,22 +74,22 @@
    service has been harvested. What remains is listed in
    `docs/IMAGE_GAP_REPORT.md` and is almost entirely paywalled, bot-protected, or
    not a newspaper scan at all.
-   - **Indiana batch complete:** 485 mosaic pages across 441 documents.
+   - **Indiana batch complete:** 510 mosaic pages across 463 documents.
      `node scripts/acquire_indiana_mosaics.js --retry-failed` retries only
      ledger entries marked failed (currently just HN-704, whose Indiana citation
      is superseded by its Newport Beach issue-PDF page) without re-walking the
-     134 pages the viewer reports as unavailable. After any acquisition run,
+     143 pages the viewer reports as unavailable. After any acquisition run,
      run `node scripts/lib_image_merge.js`, then `build-pages.js`.
-   - **Unavailable section-2 pages (134):** several Indiana titles cite
+   - **Unavailable section-2 pages (143):** several Indiana titles cite
      section-2 pages (e.g. `?a=d&d=JCDC19000505.2.89`) that the viewer does not
      expose. Verified directly on four titles: fetching the cited URL returns
      HTTP 200, but `pageImageSizes` lists only 4–8 `1.x` pages and zero `2.x`
      keys. The cited page is genuinely absent from the digital object, so these
      are recorded as `page_unavailable` (honest gaps); no page mapping is
      invented.
-   - **Every remaining Indiana gap is documented:** cross-checking the 126
+   - **Every remaining Indiana gap is documented:** cross-checking the 133
      Indiana records still listed in `docs/IMAGE_GAP_REPORT.csv` against
-     `docs/INDIANA_MOSAIC_LEDGER.json` shows all 126 have at least one
+     `docs/INDIANA_MOSAIC_LEDGER.json` shows all 133 have at least one
      `page_unavailable` entry (0 unexplained, 0 with an image from another
      provider). No Indiana gap is silent or unattributed.
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
@@ -250,18 +250,51 @@ batch-report markdown, which left 395 records with an empty URL list. Those
 records are not source-less: 368 of them cite a source URL inside the canonical
 record text (`discovery_body`, `audit_links`, `recorded_finding`).
 
-`scripts/augment_hn_urls.js` unions the two sources without removing or
-rewriting anything. Result:
+`scripts/augment_hn_urls.js` unions those sources without removing or rewriting
+anything. A first pass still skipped each record's own `url` field, which is the
+primary citation for 34 records whose seed page is a live Indiana page — they
+showed as image gaps even though their cited page was available. The builder now
+reads the record's `url` first, then the narrative fields, and the index was
+rebuilt:
 
 | | before | after |
 |---|---:|---:|
-| Records with ≥1 URL | 661 | 1,025 |
-| Unique URLs | 3,599 (with duplicates) | 3,141 unique |
-| Records with no URL at all | 395 | 27 |
+| Records with ≥1 URL | 661 | 1,056 |
+| Unique URLs | 3,599 (with duplicates) | 3,240 unique |
+| Records with no URL at all | 395 | 0 |
 
-The 27 genuinely source-less records are listed in `docs/IMAGE_GAP_REPORT.md`.
-Everything downstream (gap report, every acquisition pipeline) now reads the
-corrected index.
+No record is source-less; every one of the 1,056 carries a cited URL. Everything
+downstream (gap report, every acquisition pipeline) now reads the corrected
+index.
+
+### Previously unindexed seed pages
+
+The rebuilt index exposed 34 cited Indiana pages that no pipeline had ever
+attempted. They were processed with the existing tile-mosaic pipeline:
+
+- 25 section-1 pages acquired (25 records gained a page image).
+- 9 section-2 citations confirmed absent from the archive viewer
+  (`page_unavailable`: HN-243, HN-296, HN-304, HN-313, HN-343, HN-348, HN-351,
+  HN-357, HN-375). The viewer's `pageImageSizes` map has no key for those
+  section-2 pages, so no image is stored and no page mapping is invented.
+- 0 document failures.
+
+Records with a stored image rose from 798 to 825.
+
+### Hand-verified fallbacks
+
+`scripts/acquire_extra_images.js` holds a short list of individually verified
+direct sources for records whose cited page is genuinely unavailable. Each job
+records the archive page it came from and skips any record that already has an
+image from another pipeline:
+
+- **HN-362** — Library of Congress / Chronicling America, *Crittenden record=press*
+  1908-05-28 page 3 (IIIF segment `0863`, 1288×1811). The page OCR was checked and
+  mentions Belle Gunness and LaPorte. The record's cited Indiana page (9 May 1908)
+  is not in the viewer.
+- **HN-233** — *The Spectator* 1875-12-18 page 1, `archive_page_preview`. The
+  archive serves only a 280×410 token-bound preview without a subscription; it is
+  labelled on the page as a low-resolution preview rather than a full scan.
 
 ### Other archives (Quartex, CONTENTdm, SCVHistory)
 
@@ -334,16 +367,17 @@ access code**:
   changes so tiles from two different partitions are never mixed;
 - closes the tab and moves on, writing the ledger after every page.
 
-Result: 485 mosaic pages across 441 documents stored. 134 cited pages report
+Result: 510 mosaic pages across 463 documents stored. 143 cited pages report
 `UNAVAILABLE (not in viewer)`; this is a genuine archive gap, not a token issue:
 the cited section-2 keys (e.g. `JCDC19000505.2.89`, `RLRP18860429.2.61`) do not
 exist in the viewer's `pageImageSizes`, which exposes only 4–8 `1.x` pages for
 those issues. The batch initially left 9 retryable failures; all 9 succeeded on
 a `--retry-failed` pass. One residual ledger entry (HN-704) is superseded by the
-record's issue-PDF page image from Newport Beach. Ledger:
-`docs/INDIANA_MOSAIC_LEDGER.json`.
+record's issue-PDF page image from Newport Beach. A later pass processed 34
+previously unindexed seed pages: 25 acquired and 9 more section-2
+`page_unavailable`. Ledger: `docs/INDIANA_MOSAIC_LEDGER.json`.
 
-Structural audit of all 485 mosaics (64×64 gray sampling): **0 blank or
+Structural audit of all 510 mosaics (64×64 gray sampling): **0 blank or
 degenerate** — minimum standard deviation 6.1, median 39.7, and every page has
 at least one pixel at luma ≤ 191, so none is a blank white or black tile.
 

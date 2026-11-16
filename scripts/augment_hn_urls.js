@@ -1,10 +1,14 @@
 // Augment scripts/hn_urls.json with every URL that appears in the canonical
-// record text (discovery_body, audit_links, recorded_finding).
+// record text (the record's own `url` field, then discovery_body, audit_links,
+// recorded_finding).
 //
 // The original map was built only from `### HN-...` blocks in the batch report
 // markdown, which left 355 records with an empty URL list even though their
-// canonical record text cites a source. This script unions the two sources so
-// the acquisition pipelines and the gap report see the same URL set.
+// canonical record text cites a source. A later pass added URLs from the
+// narrative fields but still skipped the record's own `url` field, so 34
+// records whose seed citation is a live Indiana page were never acquired. This
+// script unions all three sources so the acquisition pipelines and the gap
+// report see the same URL set.
 //
 // It never removes a URL and never rewrites one: existing entries keep their
 // order, and new URLs are appended in the order they appear in the record.
@@ -43,6 +47,7 @@ for (const r of arr) {
   if (!existing.length) emptyBefore++;
   const seen = new Set(existing);
   const candidates = [
+    ...(r.url ? [String(r.url)] : []),
     ...extractUrls(r.discovery_body),
     ...extractUrls(r.audit_links),
     ...extractUrls(r.recorded_finding),

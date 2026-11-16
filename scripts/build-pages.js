@@ -169,13 +169,15 @@ function imagesCard(hn) {
     const isMosaic = !isCrop && im.mosaic_method === 'openseadragon_tiles_256';
     const isPageImage = !isCrop && im.mosaic_method === 'archive_page_rendition';
     const isPdfPage = !isCrop && im.mosaic_method === 'archive_pdf_page_rendition';
+    const isPreview = !isCrop && im.mosaic_method === 'archive_page_preview';
     const src = isCrop ? im.crop : im.full_page;
     const kindText = isArticleClip ? 'article clip'
       : (isClipping ? 'archive clipping'
         : (isCrop ? 'article crop'
           : (isMosaic ? 'page image (archive tiles)'
             : (isPdfPage ? 'page image (issue PDF)'
-              : (isPageImage ? 'page image' : 'page scan')))));
+              : (isPreview ? 'page image (low-resolution preview)'
+                : (isPageImage ? 'page image' : 'page scan'))))));
     const linkText = isCrop
       ? 'Open full-resolution ' + (isArticleClip ? 'clip' : (isClipping ? 'clipping' : 'crop'))
       : 'Open larger view';

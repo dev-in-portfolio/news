@@ -19313,6 +19313,456 @@
    "iiif_id": null
   }
  ],
+ "HN-182": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Crawfordsville Review 17 April 1858",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1858-04-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=CVR18580417.1.1",
+   "full_page": "assets/images/hn-182-in-CVR18580417-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6652x8806",
+   "iiif_id": null
+  }
+ ],
+ "HN-468": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Greencastle Herald 6 October 1930",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1930-10-06",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=GH19301006-01.1.2",
+   "full_page": "assets/images/hn-468-in-GH19301006-01-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5414x6832",
+   "iiif_id": null
+  }
+ ],
+ "HN-138": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana American 29 April 1842",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1842-04-29",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IA18420429.1.1",
+   "full_page": "assets/images/hn-138-in-IA18420429-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5032x7030",
+   "iiif_id": null
+  }
+ ],
+ "HN-139": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana American 30 December 1842",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1842-12-30",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IA18421230.1.1",
+   "full_page": "assets/images/hn-139-in-IA18421230-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4888x6976",
+   "iiif_id": null
+  }
+ ],
+ "HN-140": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana American 27 January 1843",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1843-01-27",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IA18430127.1.4",
+   "full_page": "assets/images/hn-140-in-IA18430127-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4740x6760",
+   "iiif_id": null
+  }
+ ],
+ "HN-470": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 18 April 1931",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1931-04-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19310418-01.1.1",
+   "full_page": "assets/images/hn-470-in-INR19310418-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7409x9270",
+   "iiif_id": null
+  }
+ ],
+ "HN-606": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 24 September 1955",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1955-09-24",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19550924-01.1.1",
+   "full_page": "assets/images/hn-606-in-INR19550924-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7698x9582",
+   "iiif_id": null
+  }
+ ],
+ "HN-626": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 4 July 1959",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1959-07-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19590704-01.1.13",
+   "full_page": "assets/images/hn-626-in-INR19590704-01-p1-13-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7647x9526",
+   "iiif_id": null
+  }
+ ],
+ "HN-650": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Recorder 19 September 1964",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1964-09-19",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=INR19640919-01.1.1",
+   "full_page": "assets/images/hn-650-in-INR19640919-01-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7183x9667",
+   "iiif_id": null
+  }
+ ],
+ "HN-114": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana Palladium 18 August 1832",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1832-08-18",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IP18320818.1.3",
+   "full_page": "assets/images/hn-114-in-IP18320818-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6360x9952",
+   "iiif_id": null
+  }
+ ],
+ "HN-461": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 23 November 1928",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1928-11-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19281123.1.8",
+   "full_page": "assets/images/hn-461-in-IPT19281123-p1-8-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6184x8137",
+   "iiif_id": null
+  }
+ ],
+ "HN-518": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indianapolis Times 4 September 1939",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1939-09-04",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=IPT19390904.1.1",
+   "full_page": "assets/images/hn-518-in-IPT19390904-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6333x8580",
+   "iiif_id": null
+  }
+ ],
+ "HN-147": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 22 October 1846",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1846-10-22",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISSN18461022.1.1",
+   "full_page": "assets/images/hn-147-in-ISSN18461022-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7448x9624",
+   "iiif_id": null
+  }
+ ],
+ "HN-155": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 13 March 1851",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1851-03-13",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISSN18510313.1.3",
+   "full_page": "assets/images/hn-155-in-ISSN18510313-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7480x9640",
+   "iiif_id": null
+  }
+ ],
+ "HN-158": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Indiana State Sentinel 9 October 1851",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1851-10-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=ISSN18511009.1.3",
+   "full_page": "assets/images/hn-158-in-ISSN18511009-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7544x9506",
+   "iiif_id": null
+  }
+ ],
+ "HN-195": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Marshall County Republican 17 March 1864",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1864-03-17",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=MCR18640317.1.1",
+   "full_page": "assets/images/hn-195-in-MCR18640317-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7912x10221",
+   "iiif_id": null
+  }
+ ],
+ "HN-347": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Nappanee Advance-News 5 July 1905",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1905-07-05",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=NAN19050705.1.2",
+   "full_page": "assets/images/hn-347-in-NAN19050705-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4816x7197",
+   "iiif_id": null
+  }
+ ],
+ "HN-134": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Leavenworth Arena 16 May 1839",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1839-05-16",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PKLA18390516.1.2",
+   "full_page": "assets/images/hn-134-in-PKLA18390516-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5180x7316",
+   "iiif_id": null
+  }
+ ],
+ "HN-157": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Plymouth Pilot 2 July 1851",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1851-07-02",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=PP18510702.1.2",
+   "full_page": "assets/images/hn-157-in-PP18510702-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7336x9767",
+   "iiif_id": null
+  }
+ ],
+ "HN-118": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Rising Sun Times 7 December 1833",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1833-12-07",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=RST18331207.1.3",
+   "full_page": "assets/images/hn-118-in-RST18331207-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "4724x7337",
+   "iiif_id": null
+  }
+ ],
+ "HN-141": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Vincennes Gazette 11 March 1843",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1843-03-11",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=VG18430311.1.1",
+   "full_page": "assets/images/hn-141-in-VG18430311-p1-1-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "6484x8444",
+   "iiif_id": null
+  }
+ ],
+ "HN-136": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Vevay Times and Switzerland County Democrat 3 December 1840",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1840-12-03",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=VT18401203.1.4",
+   "full_page": "assets/images/hn-136-in-VT18401203-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5320x8244",
+   "iiif_id": null
+  }
+ ],
+ "HN-153": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Wabash Courier 1 September 1849",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1849-09-01",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WACO18490901.1.4",
+   "full_page": "assets/images/hn-153-in-WACO18490901-p1-4-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7314x9906",
+   "iiif_id": null
+  }
+ ],
+ "HN-164": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "The Wabash Courier 23 July 1853",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1853-07-23",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WACO18530723.1.2",
+   "full_page": "assets/images/hn-164-in-WACO18530723-p1-2-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "7502x9773",
+   "iiif_id": null
+  }
+ ],
+ "HN-126": [
+  {
+   "provider": "Hoosier State Chronicles (Indiana State Library)",
+   "newspaper": "Weekly Messenger 9 April 1836",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1836-04-09",
+   "sequence": 1,
+   "page_url": "https://newspapers.library.in.gov/?a=d&d=WM18360409.1.3",
+   "full_page": "assets/images/hn-126-in-WM18360409-p1-3-page.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "openseadragon_tiles_256",
+   "dimensions": "5472x7524",
+   "iiif_id": null
+  }
+ ],
  "HN-456": [
   {
    "provider": "SCVHistory.com (Santa Clarita Valley Historical Society)",
@@ -19848,6 +20298,42 @@
    "crop_method": null,
    "mosaic_method": "archive_pdf_page_rendition",
    "dimensions": "632x921pt",
+   "iiif_id": null
+  }
+ ],
+ "HN-362": [
+  {
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Crittenden record=press (Marion, Ky.)",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1908-05-28",
+   "sequence": 3,
+   "page_url": "https://guides.loc.gov/chronicling-america-belle-gunness-murder-farm",
+   "full_page": "assets/images/hn-362-loc-crittenden-19080528-p3.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "archive_page_rendition",
+   "dimensions": "1288,1811",
+   "iiif_id": null
+  }
+ ],
+ "HN-233": [
+  {
+   "provider": "The Spectator Archive",
+   "newspaper": "The Spectator",
+   "headline": "",
+   "lccn": "",
+   "issue_date": "1875-12-18",
+   "sequence": 1,
+   "page_url": "https://archive.spectator.co.uk/article/18th-december-1875/1/a-crime-the-like-of-which-the-world-has-probably",
+   "full_page": "assets/images/hn-233-spectator-18751218-p1-preview.jpg",
+   "crop": null,
+   "crop_coordinates": null,
+   "crop_method": null,
+   "mosaic_method": "archive_page_preview",
+   "dimensions": "280,410",
    "iiif_id": null
   }
  ]

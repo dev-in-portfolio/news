@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T14:56:03.787Z",
+ "generated_at": "2026-11-16T21:53:17.330Z",
  "items": {
   "HN-456|https://scvhistory.com/scvhistory/aen031328.htm": {
    "hn_id": "HN-456",
@@ -534,6 +534,42 @@
    "pdf_pages": 16,
    "page_selection": "text_match",
    "match_score": "7/8"
+  },
+  "HN-362|https://guides.loc.gov/chronicling-america-belle-gunness-murder-farm": {
+   "hn_id": "HN-362",
+   "status": "image_acquired",
+   "page_url": "https://guides.loc.gov/chronicling-america-belle-gunness-murder-farm",
+   "error": null,
+   "acquired_at": "2026-11-16T21:42:28.808Z",
+   "provider": "Library of Congress / Chronicling America",
+   "newspaper": "Crittenden record=press (Marion, Ky.)",
+   "headline": "",
+   "issue_date": "1908-05-28",
+   "sequence": 3,
+   "image_url": "https://tile.loc.gov/image-services/iiif/service:ndnp:kyu:batch_kyu_fargo_ver01:data:sn86069458:00206533560:1908052801:0863/full/pct:25/0/default.jpg",
+   "full_page_asset": "assets/images/hn-362-loc-crittenden-19080528-p3.jpg",
+   "source_dimensions": "1288,1811",
+   "output_dimensions": "1288,1811",
+   "mosaic_method": "archive_page_rendition",
+   "note": "Later follow-up on the Belle Gunness case, from the Chronicling America page linked by the cited LOC research guide. The cited Indiana seed page (9 May 1908) is not in the viewer."
+  },
+  "HN-233|https://archive.spectator.co.uk/article/18th-december-1875/1/a-crime-the-like-of-which-the-world-has-probably": {
+   "hn_id": "HN-233",
+   "status": "image_acquired",
+   "page_url": "https://archive.spectator.co.uk/article/18th-december-1875/1/a-crime-the-like-of-which-the-world-has-probably",
+   "error": null,
+   "acquired_at": "2026-11-16T21:42:29.454Z",
+   "provider": "The Spectator Archive",
+   "newspaper": "The Spectator",
+   "headline": "",
+   "issue_date": "1875-12-18",
+   "sequence": 1,
+   "image_url": "http://archive-images.spectator.co.uk/issues/18th-december-1875/1.jpg?size=280x410&token=68d398c1fd818234b444e3bfeab95371",
+   "full_page_asset": "assets/images/hn-233-spectator-18751218-p1-preview.jpg",
+   "source_dimensions": "280,410",
+   "output_dimensions": "280,410",
+   "mosaic_method": "archive_page_preview",
+   "note": "Low-resolution page preview (280x410) of page 1, the only resolution the archive exposes without a subscription."
   }
  }
 }
