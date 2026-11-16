@@ -87,6 +87,11 @@
      keys. The cited page is genuinely absent from the digital object, so these
      are recorded as `page_unavailable` (honest gaps); no page mapping is
      invented.
+   - **Every remaining Indiana gap is documented:** cross-checking the 126
+     Indiana records still listed in `docs/IMAGE_GAP_REPORT.csv` against
+     `docs/INDIANA_MOSAIC_LEDGER.json` shows all 126 have at least one
+     `page_unavailable` entry (0 unexplained, 0 with an image from another
+     provider). No Indiana gap is silent or unattributed.
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
 3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
 4. No deployment authorized; local build and preview remain in scope.
