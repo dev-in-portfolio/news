@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:53:10.161Z",
+ "generated_at": "2026-11-17T21:59:30.526Z",
  "items": {
   "HN-704|https://newspapers.library.in.gov/?a=d&d=BG19750331.1.5": {
    "hn_id": "HN-704",
@@ -2292,42 +2292,132 @@
   "HN-240|https://newspapers.library.in.gov/?a=d&d=DMST18770914.2.24": {
    "hn_id": "HN-240",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=DMST18770914.2.24",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T17:17:26.952Z"
+   "newspaper": "Democratic Sentinel 14 September 1877",
+   "issue_date": "1877-09-14",
+   "page": 4,
+   "sequence": 4,
+   "document_oid": "DMST18770914",
+   "page_key": "1.4",
+   "cited_section": "2.24",
+   "section_area": [
+    3976,
+    853,
+    504,
+    36
+   ],
+   "full_page_asset": "assets/images/hn-240-in-DMST18770914-s2-24-p1-4-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "7509x9631",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:55:32.220Z"
   },
   "HN-242|https://newspapers.library.in.gov/?a=d&d=DMST18780816.2.40": {
    "hn_id": "HN-242",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=DMST18780816.2.40",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T17:17:34.374Z"
+   "newspaper": "Democratic Sentinel 16 August 1878",
+   "issue_date": "1878-08-16",
+   "page": 4,
+   "sequence": 4,
+   "document_oid": "DMST18780816",
+   "page_key": "1.4",
+   "cited_section": "2.40",
+   "section_area": [
+    3812,
+    4105,
+    608,
+    37
+   ],
+   "full_page_asset": "assets/images/hn-242-in-DMST18780816-s2-40-p1-4-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "7490x9611",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:58:12.407Z"
   },
   "HN-244|https://newspapers.library.in.gov/?a=d&d=DMST18791107.2.3": {
    "hn_id": "HN-244",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=DMST18791107.2.3",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T17:17:40.171Z"
+   "newspaper": "Democratic Sentinel 7 November 1879",
+   "issue_date": "1879-11-07",
+   "page": 1,
+   "sequence": 1,
+   "document_oid": "DMST18791107",
+   "page_key": "1.1",
+   "cited_section": "2.3",
+   "section_area": [
+    2163,
+    4003,
+    523,
+    33
+   ],
+   "full_page_asset": "assets/images/hn-244-in-DMST18791107-s2-3-p1-1-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "7479x9594",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:58:42.916Z"
   },
   "HN-245|https://newspapers.library.in.gov/?a=d&d=DMST18791107.2.3": {
    "hn_id": "HN-245",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=DMST18791107.2.3",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T17:17:40.171Z"
+   "newspaper": "Democratic Sentinel 7 November 1879",
+   "issue_date": "1879-11-07",
+   "page": 1,
+   "sequence": 1,
+   "document_oid": "DMST18791107",
+   "page_key": "1.1",
+   "cited_section": "2.3",
+   "section_area": [
+    2163,
+    4003,
+    523,
+    33
+   ],
+   "full_page_asset": "assets/images/hn-245-in-DMST18791107-s2-3-p1-1-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "7479x9594",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:59:00.593Z"
   },
   "HN-247|https://newspapers.library.in.gov/?a=d&d=DMST18800702.2.4": {
    "hn_id": "HN-247",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=DMST18800702.2.4",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T17:17:49.237Z"
+   "newspaper": "Democratic Sentinel 2 July 1880",
+   "issue_date": "1880-07-02",
+   "page": 1,
+   "sequence": 1,
+   "document_oid": "DMST18800702",
+   "page_key": "1.1",
+   "cited_section": "2.4",
+   "section_area": [
+    6511,
+    4636,
+    364,
+    33
+   ],
+   "full_page_asset": "assets/images/hn-247-in-DMST18800702-s2-4-p1-1-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "7460x9575",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:59:30.526Z"
   },
   "HN-249|https://newspapers.library.in.gov/?a=d&d=DMST18801203.2.9": {
    "hn_id": "HN-249",
@@ -6980,18 +7070,54 @@
   "HN-167|https://newspapers.library.in.gov/?a=d&d=JPBN18540615.2.6": {
    "hn_id": "HN-167",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=JPBN18540615.2.6",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T18:37:16.567Z"
+   "newspaper": "Jasper Banner 15 June 1854",
+   "issue_date": "1854-06-15",
+   "page": 2,
+   "sequence": 2,
+   "document_oid": "JPBN18540615",
+   "page_key": "1.2",
+   "cited_section": "2.6",
+   "section_area": [
+    2264,
+    452,
+    401,
+    52
+   ],
+   "full_page_asset": "assets/images/hn-167-in-JPBN18540615-s2-6-p1-2-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "5642x7694",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-17T21:56:03.878Z"
   },
   "HN-168|https://newspapers.library.in.gov/?a=d&d=JPBN18550125.2.14": {
    "hn_id": "HN-168",
    "provider": "Hoosier State Chronicles (Indiana State Library)",
-   "status": "page_unavailable",
+   "status": "page_mosaic_acquired",
    "page_url": "https://newspapers.library.in.gov/?a=d&d=JPBN18550125.2.14",
-   "error": "page absent from archive viewer",
-   "acquired_at": "2026-11-15T18:37:25.757Z"
+   "newspaper": "Jasper Banner 25 January 1855",
+   "issue_date": "1855-01-25",
+   "page": 2,
+   "sequence": 2,
+   "document_oid": "JPBN18550125",
+   "page_key": "1.2",
+   "cited_section": "2.14",
+   "section_area": [
+    3672,
+    451,
+    803,
+    55
+   ],
+   "full_page_asset": "assets/images/hn-168-in-JPBN18550125-s2-14-p1-2-page.jpg",
+   "full_page_dimensions": "1024x1416",
+   "source_dimensions": "5573x7713",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 24,
+   "error": null,
+   "acquired_at": "2026-11-17T21:56:34.493Z"
   },
   "HN-170|https://newspapers.library.in.gov/?a=d&d=JPBN18550719.2.10": {
    "hn_id": "HN-170",

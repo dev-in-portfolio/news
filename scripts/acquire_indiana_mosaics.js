@@ -73,7 +73,10 @@ if (!ledger.items) ledger.items = {};
 const withImage = new Set(Object.keys(images));
 const missing = recArr.filter(r => !withImage.has(r.hn_id));
 
-// doc -> { doc, pages: Map(pageKey -> [{hn, url}]) }
+// A cited URL's suffix is a SECTION id, not a page key. The archive viewer maps
+// a section (e.g. 2.6) to the page that actually holds it (e.g. 1.2). Group by
+// document + section, then resolve the real page from the viewer before render.
+// doc -> { doc, sections: Map(sectionId -> [{hn, url}]) }
 const docs = new Map();
 for (const r of missing) {
   if (ONLY && !ONLY.has(r.hn_id)) continue;
@@ -86,11 +89,11 @@ for (const r of missing) {
     const m = d.match(/^([A-Za-z0-9]+?-?\d{8}(?:-\d+)?)\.(\d+)\.(\d+)$/);
     if (!m) continue;
     const doc = m[1];
-    const pageKey = m[2] + '.' + m[3];
-    if (!docs.has(doc)) docs.set(doc, { doc, pages: new Map() });
-    const pg = docs.get(doc).pages;
-    if (!pg.has(pageKey)) pg.set(pageKey, []);
-    const list = pg.get(pageKey);
+    const section = m[2] + '.' + m[3];
+    if (!docs.has(doc)) docs.set(doc, { doc, sections: new Map() });
+    const secs = docs.get(doc).sections;
+    if (!secs.has(section)) secs.set(section, []);
+    const list = secs.get(section);
     if (!list.some(x => x.hn === r.hn_id)) list.push({ hn: r.hn_id, url });
   }
 }
@@ -98,10 +101,10 @@ for (const r of missing) {
 let docList = [...docs.values()].sort((a, b) => a.doc.localeCompare(b.doc));
 if (LIMIT !== Infinity) docList = docList.slice(0, LIMIT);
 
-const pageTotal = docList.reduce((n, d) => n + d.pages.size, 0);
-const recTotal = new Set([...docs.values()].flatMap(d => [...d.pages.values()].flat().map(x => x.hn))).size;
+const sectionTotal = docList.reduce((n, d) => n + d.sections.size, 0);
+const recTotal = new Set([...docs.values()].flatMap(d => [...d.sections.values()].flat().map(x => x.hn))).size;
 console.log(`Missing records with Indiana page URLs: ${recTotal}`);
-console.log(`Documents to load: ${docList.length}   pages to render: ${pageTotal}`);
+console.log(`Documents to load: ${docList.length}   cited sections to resolve: ${sectionTotal}`);
 
 // Skip already-done pages. By default failed and unavailable pages are both
 // retried (unavailable may become available after an archive re-scan). With
@@ -115,16 +118,16 @@ function alreadyDone(hn, url) {
   return false;
 }
 for (const d of docList) {
-  for (const [pk, list] of d.pages) {
+  for (const [section, list] of d.sections) {
     const keep = list.filter(x => !alreadyDone(x.hn, x.url));
-    if (keep.length) d.pages.set(pk, keep); else d.pages.delete(pk);
+    if (keep.length) d.sections.set(section, keep); else d.sections.delete(section);
   }
 }
-docList = docList.filter(d => d.pages.size);
-console.log(`After resume filter: ${docList.length} documents, ${docList.reduce((n, d) => n + d.pages.size, 0)} pages`);
+docList = docList.filter(d => d.sections.size);
+console.log(`After resume filter: ${docList.length} documents, ${docList.reduce((n, d) => n + d.sections.size, 0)} sections`);
 if (DRY) {
   for (const d of docList.slice(0, 30)) {
-    console.log('  ' + d.doc + '  ' + [...d.pages.keys()].join(' '));
+    console.log('  ' + d.doc + '  ' + [...d.sections.keys()].join(' '));
   }
   process.exit(0);
 }
@@ -165,6 +168,43 @@ async function getJpeg(url, dest, referer) {
     await sleep(1200 * (attempt + 1));
   }
   throw lastErr;
+}
+
+// Parse the viewer's JSON payload from a document/section page.
+function parseViewerData(html) {
+  const marker = 'data-viewer-data-base-json=';
+  const i = html.indexOf(marker);
+  if (i < 0) return null;
+  const quote = html[i + marker.length];
+  if (quote !== '"' && quote !== "'") return null;
+  const start = i + marker.length + 1;
+  const end = html.indexOf(quote, start);
+  if (end < 0) return null;
+  let raw = html.slice(start, end)
+    .replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  try { return JSON.parse(raw); } catch (e) { return null; }
+}
+
+// Resolve a cited section to the page the viewer places it on. Returns
+// { pageId, area, sizes } or throws UnavailableError when the section has no
+// placed area. This uses the plain HTTP session, not a browser tab.
+async function resolveSectionPage(doc, section) {
+  const url = 'https://newspapers.library.in.gov/?a=d&d=' + doc + '.' + section + E;
+  const r = await fetch(url, {
+    headers: { 'User-Agent': cookies.ua, Cookie: cookies.cookieHeader, Accept: 'text/html' },
+    redirect: 'follow', signal: AbortSignal.timeout(90000),
+  });
+  const html = await r.text();
+  if (/Just a moment|Performing security verification/i.test(html.slice(0, 4000))) {
+    throw new ChallengeError('cloudflare challenge resolving section');
+  }
+  if (!r.ok) throw new UnavailableError('section page HTTP ' + r.status);
+  const v = parseViewerData(html);
+  if (!v) throw new UnavailableError('no viewer payload for section');
+  const area = v.initialDisplayPageArea || null;
+  if (!area || !area.pageID) throw new UnavailableError('section has no placed page area');
+  return { pageId: area.pageID, area, sizes: v.pageImageSizes || {} };
 }
 
 function ffprobeSize(file) {
@@ -392,10 +432,10 @@ function issueDate(doc) {
     if (!loaded.token) {
       console.log(`${tag}  no tile token (challenge or no viewer)  title="${(loaded.title || '').slice(0, 60)}"`);
       failedDocs++;
-      for (const [pageKey, list] of d.pages) {
+      for (const [section, list] of d.sections) {
         for (const x of list) {
           ledger.items[x.hn + '|' + x.url] = {
-            hn_id: x.hn, provider: PROVIDER, status: 'failed',
+            hn_id: x.hn, provider: PROVIDER, status: 'failed', cited_section: section,
             page_url: x.url, error: 'no viewer access token', acquired_at: new Date().toISOString(),
           };
         }
@@ -407,32 +447,49 @@ function issueDate(doc) {
 
     const sizes = (loaded.viewer && loaded.viewer.pageImageSizes) || {};
     const paper = decodeEntities((loaded.title || '').split(/\s+[\u2014-]\s+/)[0] || '').trim();
+    const resolved = new Map(); // section -> { pageId, area } | { error, challenge }
 
-    for (const [pageKey, list] of d.pages) {
-      if (!sizes[pageKey]) {
-        console.log(`${tag}  page ${pageKey}  UNAVAILABLE (not in viewer)`);
+    for (const [section, list] of d.sections) {
+      let info = resolved.get(section);
+      if (!info) {
+        try {
+          await sleep(400);
+          info = await resolveSectionPage(d.doc, section);
+        } catch (e) {
+          info = { error: e.message, challenge: e instanceof ChallengeError };
+        }
+        resolved.set(section, info);
+      }
+
+      if (info.error || !sizes[info.pageId]) {
+        const reason = info.error || 'page not in viewer pageImageSizes';
+        console.log(`${tag}  section ${section} -> ${info.pageId || '?'}  UNAVAILABLE (${reason})`);
         unavailable += list.length;
         for (const x of list) {
           ledger.items[x.hn + '|' + x.url] = {
             hn_id: x.hn, provider: PROVIDER, status: 'page_unavailable',
-            page_url: x.url, error: 'page absent from archive viewer',
-            acquired_at: new Date().toISOString(),
+            page_url: x.url, cited_section: section, page_key: info.pageId || null,
+            error: reason, acquired_at: new Date().toISOString(),
           };
         }
         fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 1));
+        if (info.challenge) { failedDocs++; break; }
         continue;
       }
 
+      const pageKey = info.pageId;
       for (const x of list) {
-        const base = `hn-${x.hn.replace('HN-', '')}-in-${d.doc}-p${pageKey.replace('.', '-')}-page`;
+        const base = `hn-${x.hn.replace('HN-', '')}-in-${d.doc}-s${section.replace(/\./g, '-')}-p${pageKey.replace('.', '-')}-page`;
         const outName = base + '.jpg';
         const outPath = path.join(IMG_DIR, outName);
         const workDir = path.join(TMP, base);
         fs.mkdirSync(workDir, { recursive: true });
+        const seq = Number((pageKey.split('.')[1] || pageKey.split('.')[0]));
         const entry = {
           hn_id: x.hn, provider: PROVIDER, status: 'pending', page_url: x.url,
-          newspaper: paper, issue_date: issueDate(d.doc), page: Number(pageKey.split('.')[0]),
-          sequence: Number(pageKey.split('.')[0]), document_oid: d.doc, page_key: pageKey,
+          newspaper: paper, issue_date: issueDate(d.doc), page: seq,
+          sequence: seq, document_oid: d.doc, page_key: pageKey, cited_section: section,
+          section_area: info.area ? [info.area.x, info.area.y, info.area.w, info.area.h] : null,
           full_page_asset: null, full_page_dimensions: null, source_dimensions: null,
           mosaic_method: 'openseadragon_tiles_256', tile_count: 0, error: null, acquired_at: null,
         };
@@ -446,11 +503,11 @@ function issueDate(doc) {
           entry.status = 'page_mosaic_acquired';
           entry.acquired_at = new Date().toISOString();
           done++;
-          console.log(`${tag}  page ${pageKey}  OK  ${res.dims.w}x${res.dims.h} from ${res.source.w}x${res.source.h}  tiles=${res.tiles}  ${(fs.statSync(outPath).size / 1024).toFixed(0)}KB`);
+          console.log(`${tag}  section ${section} -> page ${pageKey}  OK  ${res.dims.w}x${res.dims.h} from ${res.source.w}x${res.source.h}  tiles=${res.tiles}  ${(fs.statSync(outPath).size / 1024).toFixed(0)}KB`);
         } catch (e) {
           entry.status = e instanceof UnavailableError ? 'page_unavailable' : 'failed';
           entry.error = e.message;
-          console.log(`${tag}  page ${pageKey}  FAIL  ${e.message}`);
+          console.log(`${tag}  section ${section} -> page ${pageKey}  FAIL  ${e.message}`);
           if (e instanceof ChallengeError) {
             // Cookies went stale mid-document; stop this document and move on.
             ledger.items[x.hn + '|' + x.url] = entry;

@@ -43,16 +43,20 @@
 | Records with ≥1 resolved source URL | 1,056 | `scripts/hn_urls.json` (record `url` ∪ batch reports ∪ record text) |
 | Distinct resolved source URLs | 3,240 | `scripts/hn_urls.json` |
 | Records with no source URL at all | 0 | every record has a cited URL |
-| Records with ≥1 stored image | 825 | `site/data/images.json` |
-| Stored image renditions (entries) | 1,168 | 1,144 full-page + 61 crops (overlap where both exist) |
-| Full-page scans | 1,144 | Oregon 420, Indiana 510, LOC 86, OK 53, TX 25, SC 20, SCVHistory 16, other 14 |
-| Word-coordinate-verified article crops | 31 | score ≥ 0.6 against quoted headline |
-| Archive article clips | 21 | Indiana block-level crops (no OCR verification available) |
-| Indiana tile mosaics | 510 pages / 463 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (143 page-unavailable, 1 residual failed) |
+| Records with ≥1 stored image | 958 | `site/data/images.json` |
+| Stored image renditions (entries) | 1,375 | 1,144 full-page + 316 crops/clips (85 entries have both) |
+| Full-page scans | 1,144 | Indiana 510, Oregon 420, LOC 86, OK 53, TX 25, SC 20, SCVHistory 16, other 14 |
+| Word-coordinate-verified article crops (`crop`) | 85 | score ≥ 0.6 against a quoted headline: Oregon 76, SC 6, LOC 3 |
+| Archive article clips (`archive_article_blocks_native`) | 227 | archive-supplied block geometry: Indiana 177, Papers Past 49, NLI 1 |
+| Archive clipping images (`archive_clipping_image`) | 4 | archive's own clipping: Birmingham 3, NewspaperSG 1 |
+| Records with ≥1 article crop/clip | 244 | `site/data/images.json` |
+| Records with page scan only (no crop) | 714 | all 714 have a full-page rendition |
+| Indiana tile mosaics | 510 pages / 463 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (1 residual superseded by HN-704 issue PDF) |
 | PDF-rendered page images | 11 | 9 records, `archive_pdf_page_rendition` |
-| Other-archive page renditions | 19 | Quartex / CONTENTdm / SCVHistory / LOC guide page (4 records) |
-| Image files on disk | 1,211 | 639 MB under `site/assets/images/` |
-| Records still without an image | 231 | 0 with no source URL, 231 with only blocked/paywalled/non-newspaper URLs |
+| Other-archive page renditions | 19 | Quartex / CONTENTdm / SCVHistory / LOC guide page |
+| Distinct image assets referenced | 1,455 | `scripts/verify_images.js` |
+| Image files on disk | 1,462 | 975.6 MB under `site/assets/images/` |
+| Records still without an image | 98 | 96 modern copyrighted web articles + 2 British Library OCR-only |
 
 ## Milestone 3 feasibility results (summary)
 
@@ -80,18 +84,33 @@
      is superseded by its Newport Beach issue-PDF page) without re-walking the
      143 pages the viewer reports as unavailable. After any acquisition run,
      run `node scripts/lib_image_merge.js`, then `build-pages.js`.
-   - **Unavailable section-2 pages (143):** several Indiana titles cite
-     section-2 pages (e.g. `?a=d&d=JCDC19000505.2.89`) that the viewer does not
-     expose. Verified directly on four titles: fetching the cited URL returns
-     HTTP 200, but `pageImageSizes` lists only 4–8 `1.x` pages and zero `2.x`
-     keys. The cited page is genuinely absent from the digital object, so these
-     are recorded as `page_unavailable` (honest gaps); no page mapping is
-     invented.
-   - **Every remaining Indiana gap is documented:** cross-checking the 133
-     Indiana records still listed in `docs/IMAGE_GAP_REPORT.csv` against
-     `docs/INDIANA_MOSAIC_LEDGER.json` shows all 133 have at least one
-     `page_unavailable` entry (0 unexplained, 0 with an image from another
-     provider). No Indiana gap is silent or unattributed.
+   - **CORRECTION (2026-11-17) — section ids are not page keys.** The earlier
+     "unavailable section-2 pages (143)" verdict was a mapping bug, not an
+     archive gap. In an Indiana `?a=d&d=<doc>.<n>.<m>` URL the suffix is a
+     **section id**, not a page key. The viewer's own payload names the page
+     that holds the section: `initialDisplayPageArea.pageID`. Examples verified
+     from the archive's own overlay titles:
+     - HN-167 `JPBN18540615.2.6` → page `1.2`, overlay title "Departure of Burns."
+     - HN-240 `DMST18770914.2.24` → page `1.4`, overlay title "A MYSTERY IN LAW."
+     - HN-168 `JPBN18550125.2.14` → page `1.2`.
+     A nonexistent section (`2.99`) returns HTTP 404, so the mapping is real
+     and not a default view. Page-level citations use edition `1.x` and have
+     `fullPage: true` with no article blocks; article-level citations use
+     edition `2.x+` and expose native-resolution block images at
+     `?a=is&oid=<doc>.<section>&type=blockimage&area=N`.
+   - **All 133 Indiana gaps resolve:** probing every gap record through the
+     viewer gave **133/133** with a real, imaged page (0 area-null, 0
+     page-not-in-`pageImageSizes`, 0 HTTP failures). Results:
+     `indiana-section-map.json` (session temp dir).
+   - `scripts/acquire_indiana_mosaics.js` and `scripts/acquire_indiana_images.js`
+     were corrected to resolve each cited section to its real page before
+     rendering, and now record `cited_section`, `page_key`, and `section_area`
+     alongside the image.
+   - **Article clips are the priority path:** the block-image endpoint returns
+     native-resolution crops (e.g. 417×1993) over plain HTTP with no browser,
+     far faster than the ~2 min/issue Turnstile-gated tile mosaics. The clip
+     work list now considers only edition-`2.x+` citations (735 page-level-only
+     records are skipped and remain covered by the mosaic pipeline).
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
 3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
 4. No deployment authorized; local build and preview remain in scope.
@@ -273,10 +292,11 @@ The rebuilt index exposed 34 cited Indiana pages that no pipeline had ever
 attempted. They were processed with the existing tile-mosaic pipeline:
 
 - 25 section-1 pages acquired (25 records gained a page image).
-- 9 section-2 citations confirmed absent from the archive viewer
-  (`page_unavailable`: HN-243, HN-296, HN-304, HN-313, HN-343, HN-348, HN-351,
-  HN-357, HN-375). The viewer's `pageImageSizes` map has no key for those
-  section-2 pages, so no image is stored and no page mapping is invented.
+- 9 section-2 citations were initially recorded `page_unavailable`
+  (HN-243, HN-296, HN-304, HN-313, HN-343, HN-348, HN-351, HN-357, HN-375).
+  **Corrected:** this was a section→page mapping bug. The cited `2.x` suffix is
+  a section id; the viewer maps it to a real `1.x` page that has an image. All 9
+  are recoverable.
 - 0 document failures.
 
 Records with a stored image rose from 798 to 825.
@@ -367,15 +387,22 @@ access code**:
   changes so tiles from two different partitions are never mixed;
 - closes the tab and moves on, writing the ledger after every page.
 
-Result: 510 mosaic pages across 463 documents stored. 143 cited pages report
-`UNAVAILABLE (not in viewer)`; this is a genuine archive gap, not a token issue:
-the cited section-2 keys (e.g. `JCDC19000505.2.89`, `RLRP18860429.2.61`) do not
-exist in the viewer's `pageImageSizes`, which exposes only 4–8 `1.x` pages for
-those issues. The batch initially left 9 retryable failures; all 9 succeeded on
-a `--retry-failed` pass. One residual ledger entry (HN-704) is superseded by the
+Result: 510 mosaic pages across 463 documents stored. The original run recorded
+143 cited "section-2 pages" as `UNAVAILABLE (not in viewer)`. **That verdict was
+wrong and has been corrected.** The cited suffix (e.g. `JCDC19000505.2.89`) is a
+**section id**, not a page key; the viewer's `initialDisplayPageArea.pageID`
+names the real page (usually `1.x`), which does exist in `pageImageSizes`. See
+"Section ids are not page keys" above. Re-probing all 133 remaining Indiana gap
+records resolved **133/133** to a real, imaged page, and the mosaic script now
+resolves each section before rendering and stores `cited_section`, `page_key`,
+and `section_area`.
+
+The batch initially left 9 retryable failures; all 9 succeeded on a
+`--retry-failed` pass. One residual ledger entry (HN-704) is superseded by the
 record's issue-PDF page image from Newport Beach. A later pass processed 34
-previously unindexed seed pages: 25 acquired and 9 more section-2
-`page_unavailable`. Ledger: `docs/INDIANA_MOSAIC_LEDGER.json`.
+previously unindexed seed pages: 25 acquired (the 9 "unavailable" ones are
+recoverable under the corrected mapping). Ledger:
+`docs/INDIANA_MOSAIC_LEDGER.json`.
 
 Structural audit of all 510 mosaics (64×64 gray sampling): **0 blank or
 degenerate** — minimum standard deviation 6.1, median 39.7, and every page has
@@ -404,3 +431,127 @@ at least one pixel at luma ≤ 191, so none is a blank white or black tile.
   Henry Ford artifact pages are JS applications with no usable image metadata;
   `archindy.org` Criterion PDF returns 403; `dailyiowan.lib.uiowa.edu` PDF fetch
   fails.
+
+---
+
+## Article-level coverage sweep and additional providers (2026-11-17)
+
+A definitive sweep (`scripts/_sweep_article_level.js`) classifies every cited URL
+by each archive's own URL grammar and reports article-level citations that do
+not yet have a stored crop/clip. Page-level citations are covered by the
+page-scan pipelines and are intentionally excluded.
+
+| Kind | Article-level citations | Covered | Missing |
+|------|------------------------:|--------:|--------:|
+| Veridian (`?a=d&d=<doc>.<edition>.<section>`) | 187 | 186 | 1 |
+| Papers Past | 48 | 48 | 0 |
+| NewspaperSG | 1 | 1 | 0 |
+| NLI JPress | 1 | 1 | 0 |
+| newspapers.com | 1 | 0 | 1 |
+
+The only two article-level gaps are honest and already explained:
+
+- **HN-231** cites `JPRP18750514.2.12`, but section `2.12` does not hold the
+  cited article. The real article is stored at section `2.4`
+  (`823×5369`). This is a documented citation error; no re-download and no
+  fabricated substitute.
+- **HN-736** cites a `newspapers.com/article/...` page that is paywalled. The
+  record already has its Indiana page scan `BG19830618.1.2`.
+
+### Papers Past (National Library of New Zealand)
+
+48/48 cited article URLs acquired (`docs/PAPERSPAST_IMAGE_ACQUISITION_LEDGER.json`,
+all `article_clip_acquired`). The image server requires a `Referer` pointing at
+the article page; dropping `width` and setting `ext=png` returns the native scan
+resolution (2× the displayed width). Clips taller than JPEG's 65,500-px limit are
+split into ordered vertical parts at `MAX_PART_H = 60000`
+(HN-522 `ESD19400620.2.67` → `-part1.jpg` 1406×57177 + `-part2.jpg` 708×8920).
+`scripts/_fix_paperspast_headlines.js` re-verifies the 49 crops (0 missing,
+0 failed).
+
+### National Library of Israel — JPress (`nli.org.il`)
+
+`nli.org.il` is a Veridian archive behind Cloudflare. A real Chrome session
+(`scripts/nli_session.js`) clears it. HN-799's cited article is stored as an
+additional cited article clip
+(`hn-799-nli-jweekly19920904-2-3-3-article.jpg`, 1403×1173,
+`crop_method: archive_article_blocks_native`, `additional_cited_article: true`)
+from the native block endpoint
+`?a=is&oid=<paper><yyyymmdd>.2.<articlePath>&type=blockimage&area=all` with
+`width` dropped. HN-799 already has its Indiana primary page, so the clip is
+additional, never a substitute.
+
+### NewspaperSG (National Library Board, Singapore)
+
+NewspaperSG sits behind an AWS WAF challenge and a terms-of-use modal.
+`scripts/newspapersg_session.js` clears both in a real Chrome and writes the
+cookie header to `%TEMP%/opencode/newspapersg-session.json`. The archive's own
+article-clipping endpoint is:
+
+```
+https://eservice.nlb.gov.sg/newspapercontent/digitised/article/<id>.webp
+  ?area=1&width=<N>&ct=ARTICLE&ns=&coord=
+```
+
+`area=1` is the real clipping; areas 2–5 return a 322×68 placeholder JPEG. The
+endpoint upscales to any width, so the stored rendition is `width=1200`
+(1200×701), the point where edge energy peaks and native microfilm detail is
+preserved without an artificial multi-megapixel upscale. The archive's WebP is
+transcoded to JPEG with ffmpeg (`-q:v 2`) — a format transcode, not retouching.
+HN-698's clip is an additional cited article (`additional_cited_article: true`)
+alongside its Indiana page `BG19740410-01-p1-10`.
+
+### Page-level Veridian citations expose no article blocks
+
+Probed through a real Chrome session (2026-11-17):
+
+| Archive | Sample page-level citation | `sectionTitles` | `sectionPageBlockAreas` | block `<img>` |
+|---------|----------------------------|----------------:|------------------------:|--------------:|
+| Virginia Chronicle | `TFL19421202.1.1` | 0 | 0 | 0 |
+| HRVH Historical Newspapers | `ieadbehj19411211.1.1` | 0 | 0 | 0 |
+| California Digital Newspaper Collection | `DNLA19270520.1.3` | 0 | 0 | 0 |
+
+Indiana page-level (`1.x`) citations behave the same. The page mosaic/scan is
+therefore the correct article image for those records; no article clip exists to
+extract.
+
+### Crop retries are exhausted (honest full-page-only records)
+
+- **Historic Oregon Newspapers:** 420 ledger entries — 76 crops, 52
+  `no_confident_match`, 292 `no_headline`. A `--retry-crops` pass re-attempted all
+  50 headline-bearing pages; every one stayed `no_confident_match` (scores
+  0.20–0.50). The 292 `no_headline` pages have no quoted headline in any record
+  field (`discovery_body`, `audit_finding`, `report`, `recorded_finding`,
+  `discovery_title`, `rationale`, `audit_assessment`, `audit_prior_evidence`), so
+  a crop is not permitted under the ≥0.6 quoted-headline rule.
+- **Library of Congress:** 85 entries — 3 crops, 9 `no_confident_match`, 73
+  `no_headline`. A `--retry-crops` pass re-attempted the headline-bearing pages;
+  no new crop.
+- **Gateway to Oklahoma / Portal to Texas:** OCR plain text only, no
+  ALTO/word coordinates, so no crops are possible; full pages are stored.
+- **Indiana page-level / Virginia Chronicle / HRVH / CDNC:** no article blocks
+  (see above); covered by page mosaics/scans.
+
+### Final honest gap split
+
+`scripts/gap_report.js` reports **98 records without an image**:
+
+- **96 modern copyrighted web articles** (94 Guardian, 1 WCAX, 1 NY1; 2016–2026).
+  These are web articles, not historical newspaper scans, and are never
+  screenshotted or republished.
+- **2 British Library records** (HN-054/HN-055, *The Statesman*, London,
+  24 July 1806, pp. 3–4). Only ALTO/METS XML is public; the page images are on
+  the subscription British Newspaper Archive.
+
+`scripts/_check_coverage.js` confirms **0 gap records cite a historical newspaper
+archive** — every record whose citation is a historical scan has an image.
+
+### Structural audit (all stored assets)
+
+`scripts/audit_mosaics.js` samples every referenced asset at 64×64 gray and checks
+variance and darkest pixel. Current run: **1,455 distinct assets, 0
+missing/blank/degenerate**; sd min/median 6.1/37.6; darkest-pixel max 197. Per
+method, 0 bad: `page_scan` 518, `openseadragon_tiles_256` 510,
+`archive_article_blocks_native` 222, `crop` 170, `archive_page_rendition` 19,
+`archive_pdf_page_rendition` 11, `archive_clipping_image` 4,
+`archive_page_preview` 1.

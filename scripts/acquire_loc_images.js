@@ -15,6 +15,7 @@
 const fs = require('fs');
 const path = require('path');
 const { buildImages } = require('./lib_image_merge');
+const { recordHeadlineCandidates } = require('./lib_headline');
 
 const SITE = 'D:/news/site';
 const IMG_DIR = path.join(SITE, 'assets', 'images');
@@ -30,6 +31,10 @@ const DRY = args.includes('--dry');
 const DELAY = argVal('--delay') ? Number(argVal('--delay')) : 1200;
 const CONCURRENCY = argVal('--conc') ? Number(argVal('--conc')) : 1;
 const RETRY_FAILED = args.includes('--retry-failed');
+// Revisit pages that already have a full-page image but no article crop. Used
+// to retry earlier crop failures and to try a quoted headline recovered from
+// the record text.
+const RETRY_CROPS = args.includes('--retry-crops');
 
 fs.mkdirSync(IMG_DIR, { recursive: true });
 
@@ -61,6 +66,15 @@ for (const meta of Object.values(hnUrlMeta)) {
     if (n && n.lccn && n.date && n.seq) metaByPage[metaKey(n.lccn, n.date, n.seq)] = m;
   }
 }
+
+// Canonical records, used only to recover a quoted headline when the batch
+// line for this page did not quote one.
+const recordList = (() => {
+  const r = readJsonIf('D:/news/site/data/records.json') || [];
+  return Array.isArray(r) ? r : (r.records || Object.values(r));
+})();
+const recordById = {};
+for (const r of recordList) recordById[r.hn_id] = r;
 
 // ---------- URL normalisation ----------
 function normaliseLoc(u) {
@@ -309,6 +323,17 @@ if (RETRY_FAILED) {
   });
   console.log(`Retry-failed: ${selected.length} of ${work.length} items need another attempt`);
 }
+if (RETRY_CROPS) {
+  selected = work.filter(w => {
+    const k = `${w.hn}|${w.pageUrl}|${w.serviceId || ''}`;
+    const e = ledger.items[k];
+    if (e && e.crop_asset) return false;
+    const meta = metaByPage[metaKey(w.lccn, w.date, w.seq)] || {};
+    const rec = recordById[w.hn] || {};
+    return !!meta.headline || recordHeadlineCandidates(rec).length > 0;
+  });
+  console.log(`Retry-crops: ${selected.length} of ${work.length} items have headline text but no crop`);
+}
 
 const target = selected.slice(0, LIMIT === Infinity ? selected.length : LIMIT);
 const byKind = {};
@@ -372,27 +397,45 @@ async function processItem(item, idx) {
     entry.full_page_asset = 'assets/images/' + fullName;
     entry.full_page_bytes = fullBytes;
 
-    // crop via word coordinates
-    if (meta.headline && coordsUrl && w && h) {
+    // crop via word coordinates. Prefer the batch-report headline; when it is
+    // absent (or fails to match) try a quoted headline recovered from the
+    // record's own text. Both go through the same >= 0.6 coordinate match.
+    const candidates = [];
+    if (meta.headline) candidates.push({ text: meta.headline, source: 'batch_report' });
+    const rec = recordById[item.hn] || {};
+    for (const c of recordHeadlineCandidates(rec)) {
+      if (!candidates.some(x => x.text.toLowerCase() === c.text.toLowerCase())) {
+        candidates.push({ text: c.text, source: 'record_quote' });
+      }
+    }
+    entry.headline_source = meta.headline ? 'batch_report' : null;
+    if (candidates.length && coordsUrl && w && h) {
       try {
         const coordsJson = await getJson(coordsUrl, 90000);
         const { W, H, occ } = flattenCoords(coordsJson);
         if (W && H && occ.length) {
-          const loc = locateLoc(occ, meta.headline, W, H, w, h);
-          if (!loc.failed) {
-            const r = loc.region;
+          let best = null, used = null;
+          for (const c of candidates.slice(0, 4)) {
+            const attempt = locateLoc(occ, c.text, W, H, w, h);
+            if (attempt && !attempt.failed) { best = attempt; used = c; break; }
+            if (attempt && (best == null || (attempt.score || 0) > (best.score || 0))) { best = attempt; used = c; }
+          }
+          if (best && !best.failed) {
+            const r = best.region;
             const cropName = base + '-article.jpg';
             const cropPath = path.join(IMG_DIR, cropName);
             const cropUrl = `${iiifBase}/${r.x},${r.y},${r.w},${r.h}/${r.w},/0/default.jpg`;
             const cb = fs.existsSync(cropPath) ? fs.statSync(cropPath).size : await download(cropUrl, cropPath);
+            entry.headline = used.text;
+            entry.headline_source = used.source;
             entry.crop_asset = 'assets/images/' + cropName;
             entry.crop_bytes = cb;
             entry.crop_coordinates = `${r.x},${r.y},${r.w},${r.h}`;
-            entry.crop_match_score = Number(loc.score.toFixed(2));
+            entry.crop_match_score = Number(best.score.toFixed(2));
             entry.crop_status = 'crop_acquired';
           } else {
-            entry.crop_status = loc.reason || 'no_confident_match';
-            if (loc.score != null) entry.crop_match_score = Number(loc.score.toFixed(2));
+            entry.crop_status = (best && best.reason) || 'no_confident_match';
+            if (best && best.score != null) entry.crop_match_score = Number(best.score.toFixed(2));
           }
         } else {
           entry.crop_status = 'no_coordinates';
@@ -402,7 +445,7 @@ async function processItem(item, idx) {
         entry.crop_error = e.message;
       }
     } else {
-      entry.crop_status = meta.headline ? 'missing_coords' : 'no_headline';
+      entry.crop_status = candidates.length ? 'missing_coords' : 'no_headline';
     }
 
     entry.status = entry.crop_asset ? 'crop_acquired' : 'full_page_acquired';

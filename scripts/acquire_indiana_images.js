@@ -35,6 +35,21 @@ const LIMIT = argVal('--limit') ? Number(argVal('--limit')) : Infinity;
 const DELAY = argVal('--delay') ? Number(argVal('--delay')) : 1000;
 const DRY = args.includes('--dry');
 const RETRY = args.includes('--retry-failed');
+const FORCE = args.includes('--force');
+
+// A cited section can be wrong in the source corpus. Each override below was
+// checked against the archive's own section list and search index, not guessed.
+// The record's original URL is preserved on the new ledger entry as
+// `cited_url_original`.
+const SECTION_OVERRIDES = {
+  // HN-231 cites section 2.12, whose archive title is "A Magnificient Offer."
+  // The Schiller report is section 2.4, "The Loss of the Steamer Schiller."
+  // (archive search: "Schiller" -> JPRP18750514.2.4), same issue and page 1.
+  'HN-231': {
+    url: 'https://newspapers.library.in.gov/?a=d&d=JPRP18750514.2.4',
+    reason: 'cited section 2.12 is "A Magnificient Offer."; the Schiller report is section 2.4 "The Loss of the Steamer Schiller." in the same issue',
+  },
+};
 
 fs.mkdirSync(IMG_DIR, { recursive: true });
 fs.mkdirSync(TMP, { recursive: true });
@@ -59,25 +74,45 @@ const hnMeta = readJsonIf(path.join(ROOT, 'scripts', 'hn_url_meta.json')) || {};
 const ledger = readJsonIf(LEDGER_PATH) || { generated_at: null, items: {} };
 if (!ledger.items) ledger.items = {};
 
+// The URL suffix is <edition>.<section>. Page-level citations use edition 1
+// (e.g. 1.39 = page 39) and the archive's clip view has no article blocks for
+// them; those pages are covered by the full-page mosaic pipeline instead.
+// Article-level citations use edition >= 2 (e.g. 2.6 = page 2, article 6) and
+// do expose native-resolution block images.
 const work = [];
+let pageLevelOnly = 0;
 for (const hn of Object.keys(hnUrls).sort()) {
   if (ONLY && !ONLY.has(hn)) continue;
-  for (const raw of hnUrls[hn]) {
-    const url = String(raw).replace(/&amp;/g, '&');
-    if (!/newspapers\.library\.in\.gov/i.test(url)) continue;
-    if (!/[?&]d=[A-Za-z0-9]+?\d{8}\.\d+\.\d+/.test(url)) continue;
-    const key = hn + '|' + url;
-    const prior = ledger.items[key] && ledger.items[key].status;
-    if (prior === 'article_clip_acquired') continue;
-    if (prior === 'no_article_clip' && !args.includes('--retry-all')) continue;
-    work.push({ hn, url, key });
-    break; // one article URL per record is enough
+  const override = SECTION_OVERRIDES[hn];
+  const cands = [];
+  if (override) {
+    cands.push({ url: override.url, section: 2, override });
+  } else {
+    for (const raw of hnUrls[hn]) {
+      const url = String(raw).replace(/&amp;/g, '&');
+      if (!/newspapers\.library\.in\.gov/i.test(url)) continue;
+      const m = url.match(/[?&]d=[A-Za-z0-9]+?\d{8}(?:-\d+)?\.(\d+)\.(\d+)/);
+      if (!m) continue;
+      cands.push({ url, section: Number(m[1]) });
+    }
   }
+  const articleLevel = cands.filter(c => c.section >= 2);
+  if (!articleLevel.length) { if (cands.length) pageLevelOnly++; continue; }
+  let picked = null;
+  for (const c of articleLevel) {
+    const key = hn + '|' + c.url;
+    const prior = ledger.items[key] && ledger.items[key].status;
+    if (prior === 'article_clip_acquired' && !(FORCE && c.override)) { picked = null; break; }
+    if (prior === 'no_article_clip' && !args.includes('--retry-all') && !FORCE) continue;
+    picked = { hn, url: c.url, key, override: c.override || null };
+    break;
+  }
+  if (picked) work.push(picked);
 }
 work.sort((a, b) => a.hn.localeCompare(b.hn));
 const target = work.slice(0, LIMIT === Infinity ? work.length : LIMIT);
 
-console.log(`Indiana work items: ${target.length} (from ${work.length})  records=${new Set(target.map(w => w.hn)).size}`);
+console.log(`Indiana work items: ${target.length} (from ${work.length})  records=${new Set(target.map(w => w.hn)).size}  page-level-only skipped=${pageLevelOnly}`);
 if (DRY) {
   target.slice(0, 40).forEach(w => console.log('  ' + w.hn + '  ' + w.url));
   process.exit(0);
@@ -122,6 +157,30 @@ function ffprobeSize(file) {
     '-show_entries', 'stream=width,height', '-of', 'csv=p=0', file], { encoding: 'utf8' }).trim();
   const [w, h] = out.split(',').map(Number);
   return { w, h };
+}
+
+// The cited URL's suffix is a SECTION id, not a page key. The viewer's
+// initialDisplayPageArea names the page that actually holds the section.
+function parseViewerData(html) {
+  const marker = 'data-viewer-data-base-json=';
+  const i = html.indexOf(marker);
+  if (i < 0) return null;
+  const quote = html[i + marker.length];
+  if (quote !== '"' && quote !== "'") return null;
+  const start = i + marker.length + 1;
+  const end = html.indexOf(quote, start);
+  if (end < 0) return null;
+  let raw = html.slice(start, end)
+    .replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  try { return JSON.parse(raw); } catch (e) { return null; }
+}
+
+async function resolvePageId(sectionUrl) {
+  const html = await getText(sectionUrl + E);
+  const v = parseViewerData(html);
+  const area = v && v.initialDisplayPageArea;
+  return area && area.pageID ? area.pageID : null;
 }
 
 function stack(blocks, outFile) {
@@ -200,6 +259,8 @@ async function processItem(item, idx) {
     issue_date: '',
     page: null,
     section: null,
+    page_key: null,
+    cited_section: null,
     block_count: 0,
     crop_asset: null,
     crop_dimensions: null,
@@ -212,16 +273,23 @@ async function processItem(item, idx) {
   try {
     const html = await getText(clipUrl);
     const p = parseClip(html, item.url);
+    let pageId = null;
+    try { pageId = await resolvePageId(item.url); } catch (e) { if (e instanceof ChallengeError) throw e; }
+    const actualPage = pageId
+      ? (Number(pageId.split('.')[1]) || Number(pageId.split('.')[0]))
+      : (Number(p.pageNo) || null);
     entry.newspaper = (p.volumeLine.split(',')[0] || '').trim();
     entry.headline = p.headline;
     entry.issue_date = p.ymd ? `${p.ymd.slice(0, 4)}-${p.ymd.slice(4, 6)}-${p.ymd.slice(6, 8)}` : '';
-    entry.page = Number(p.pageNo) || null;
+    entry.page_key = pageId;
+    entry.cited_section = `${p.pageNo}.${p.section}`;
+    entry.page = actualPage;
     entry.section = Number(p.section) || null;
-    entry.sequence = Number(p.pageNo) || 1;
+    entry.sequence = actualPage || 1;
     entry.block_count = p.blocks.length;
     if (!p.blocks.length) throw new Error('no article blocks on clip page');
 
-    const base = `hn-${item.hn.replace('HN-', '')}-in-${p.paperCode}${p.ymd}-p${p.pageNo}-s${p.section}`;
+    const base = `hn-${item.hn.replace('HN-', '')}-in-${p.paperCode}${p.ymd}-p${actualPage}-s${p.section}`;
     const outName = base + '-article.jpg';
     const outPath = path.join(IMG_DIR, outName);
     const workDir = path.join(TMP, base);
@@ -249,6 +317,25 @@ async function processItem(item, idx) {
     entry.crop_method = 'archive_article_blocks_native';
     entry.status = 'article_clip_acquired';
     entry.acquired_at = new Date().toISOString();
+
+    // A section override replaces an earlier clip acquired from a wrong citation.
+    // Mark the old entry superseded and delete its file so the site never shows
+    // the wrong section alongside the right one.
+    if (item.override) {
+      entry.cited_url_original = (hnUrls[item.hn] || [])[0] || null;
+      entry.section_override_reason = item.override.reason;
+      for (const [k, v] of Object.entries(ledger.items)) {
+        if (!v || v.hn_id !== item.hn || k === item.key) continue;
+        if (v.status !== 'article_clip_acquired') continue;
+        v.status = 'superseded';
+        v.superseded_by = item.key;
+        v.superseded_reason = item.override.reason;
+        if (v.crop_asset) {
+          const stale = path.join(ROOT, 'site', v.crop_asset);
+          try { if (fs.existsSync(stale)) fs.unlinkSync(stale); } catch (e) {}
+        }
+      }
+    }
     console.log(`${tag}  OK  blocks=${p.blocks.length}  ${dims.w}x${dims.h}  ${(fs.statSync(outPath).size / 1024).toFixed(0)}KB  ${entry.headline.slice(0, 60)}`);
   } catch (e) {
     if (/no article blocks/i.test(e.message)) {

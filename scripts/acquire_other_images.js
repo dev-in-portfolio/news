@@ -36,6 +36,23 @@ function readJson(p) {
 function readJsonIf(p) { try { return readJson(p); } catch (e) { return null; } }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// NLI JPress sits behind Cloudflare; a real Chrome session (nli_session.js)
+// supplies the cf_clearance cookie used for both the article page and the
+// Veridian block-image endpoint.
+const NLI_SESSION_PATH = 'C:/Users/dtoro/AppData/Local/Temp/opencode/nli-session.json';
+const nliSession = readJsonIf(NLI_SESSION_PATH);
+
+// NewspaperSG (National Library Board, Singapore) sits behind an AWS WAF
+// challenge and a terms-of-use modal. newspapersg_session.js clears both in a
+// real Chrome and writes the cookie header used for the article page and the
+// archive's own article-clipping image endpoint.
+const NEWSPAPERSG_SESSION_PATH = 'C:/Users/dtoro/AppData/Local/Temp/opencode/newspapersg-session.json';
+const newspapersgSession = readJsonIf(NEWSPAPERSG_SESSION_PATH);
+// The archive upscales its clipping to any requested width; 1200 px preserves
+// the native detail of the microfilm scan without storing an artificial
+// multi-megapixel upscale.
+const NEWSPAPERSG_WIDTH = 1200;
+
 function decodeEntities(v) {
   return v.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&apos;/g, "'")
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&mdash;/g, '\u2014')
@@ -82,6 +99,8 @@ function hostKind(u) {
   if (/quartexcollections\.com\/Documents\/Detail\//i.test(u)) return 'quartex';
   if (/contentdm\.oclc\.org\/digital\/collection\//i.test(u)) return 'contentdm';
   if (/scvhistory\.com\/scvhistory\//i.test(u)) return 'scvhistory';
+  if (/nli\.org\.il\/[^?#]*\/article\/\d+\.\d+/i.test(u)) return 'nli';
+  if (/eresources\.nlb\.gov\.sg\/newspapers\/digitised\/article\/[^/?#]+/i.test(u)) return 'newspapersg';
   return null;
 }
 
@@ -104,6 +123,164 @@ console.log(`Work items: ${work.length}  records=${new Set(work.map(w => w.hn)).
 if (DRY) { work.forEach(w => console.log('  ' + w.hn + '  ' + w.kind + '  ' + w.url)); process.exit(0); }
 
 // ---------- providers ----------
+
+// NLI JPress is a Veridian archive behind Cloudflare. The cleared Chrome
+// session (nli_session.js) supplies the cf_clearance cookie for both the
+// article page and the archive's own article-block image endpoint.
+function stripBidi(s) {
+  return String(s).replace(/[\u200e\u200f\u202a-\u202e\u2066-\u2069]/g, '').replace(/\s+/g, ' ').trim();
+}
+function nliCookieHeader() {
+  if (!nliSession) return '';
+  if (nliSession.cookieHeader) return nliSession.cookieHeader;
+  if (Array.isArray(nliSession.cookies)) return nliSession.cookies.map(c => c.name + '=' + c.value).join('; ');
+  return '';
+}
+async function nliFetch(url, accept, timeout = 90000) {
+  const headers = {
+    'User-Agent': (nliSession && nliSession.ua) || UA,
+    Accept: accept,
+    Referer: 'https://www.nli.org.il/en/newspapers/',
+  };
+  const ch = nliCookieHeader();
+  if (ch) headers.Cookie = ch;
+  return fetch(url, { headers, redirect: 'follow', signal: AbortSignal.timeout(timeout) });
+}
+
+async function doNli(item) {
+  if (!nliSession) throw new Error('no NLI session; run scripts/nli_session.js first');
+  const r = await nliFetch(item.url, 'text/html,application/json');
+  if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + item.url);
+  const html = await r.text();
+
+  // The archive's own block image, as referenced by the article page.
+  const blockRe = /https:\/\/www\.nli\.org\.il\/en\/newspapers\/\?a=is&(?:amp;)?oid=([^&"'\s]+)&(?:amp;)?type=blockimage[^"'\s]*/gi;
+  const blockMatches = [...html.matchAll(blockRe)];
+  if (!blockMatches.length) throw new Error('no blockimage URL on article page');
+  const oid = decodeEntities(blockMatches[0][1]);
+
+  const E = '-------en-20--1--img-txIN%7CtxTI--------------1';
+  // Dropping `width` asks Veridian for the native scan resolution.
+  const imgUrl = `https://www.nli.org.il/en/newspapers/?a=is&oid=${oid}&type=blockimage&e=${E}&area=all`;
+  const ir = await nliFetch(imgUrl, 'image/*,*/*', 120000);
+  if (!ir.ok) throw new Error('HTTP ' + ir.status + ' block image');
+  const buf = Buffer.from(await ir.arrayBuffer());
+  if (buf[0] !== 0xFF || buf[1] !== 0xD8) throw new Error('block image is not a JPEG');
+  if (buf.length < 5000) throw new Error('block image too small (' + buf.length + 'B)');
+
+  const h1 = stripBidi(decodeEntities((html.match(/<h1>([\s\S]*?)<\/h1>/i) || [])[1] || ''));
+  const newspaper = h1.split(/,\s*Number\s+\d+/i)[0].replace(/^[\s,]+|[\s,]+$/g, '').trim();
+  const metaDesc = stripBidi(decodeEntities((html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["']/i) || [])[1] || ''));
+  const titleRaw = stripBidi(decodeEntities((html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || ''));
+  const headline = metaDesc || titleRaw.split('|')[0].trim() || item.heading;
+  const dateM = item.url.match(/\/(\d{4})\/(\d{2})\/(\d{2})\/article\//);
+  const issueDate = dateM ? `${dateM[1]}-${dateM[2]}-${dateM[3]}` : item.date;
+
+  const outName = `hn-${item.hn.replace('HN-', '')}-nli-${slug(oid)}-article.jpg`;
+  const dest = path.join(IMG_DIR, outName);
+  fs.writeFileSync(dest, buf);
+  const dims = ffprobeSize(dest);
+
+  return {
+    provider: 'National Library of Israel \u2014 Historical Jewish Press (JPress)',
+    newspaper,
+    headline,
+    issue_date: issueDate,
+    page_url: item.url,
+    image_url: imgUrl,
+    oid,
+    crop_asset: 'assets/images/' + outName,
+    crop_method: 'archive_article_blocks_native',
+    source_dimensions: `${dims.w}x${dims.h}`,
+    output_dimensions: `${dims.w}x${dims.h}`,
+    additional_cited_article: true,
+  };
+}
+
+// NewspaperSG exposes each article as an archive-produced clipping:
+//   https://eservice.nlb.gov.sg/newspapercontent/digitised/article/<id>.webp
+//     ?area=1&width=<N>&ct=ARTICLE&ns=&coord=
+// `area=1` is the real clipping; other areas return a 322x68 placeholder.
+// The endpoint upscales to any width, so we request a fixed, legible width and
+// keep the archive's own WebP bytes before transcoding to JPEG.
+function newspapersgCookieHeader() {
+  if (!newspapersgSession) return '';
+  if (newspapersgSession.cookieHeader) return newspapersgSession.cookieHeader;
+  if (Array.isArray(newspapersgSession.cookies)) {
+    return newspapersgSession.cookies.map(c => c.name + '=' + c.value).join('; ');
+  }
+  return '';
+}
+async function newspapersgFetch(url, accept, timeout = 120000) {
+  const headers = {
+    'User-Agent': (newspapersgSession && newspapersgSession.ua) || UA,
+    Accept: accept,
+    Referer: 'https://eresources.nlb.gov.sg/newspapers/',
+  };
+  const ch = newspapersgCookieHeader();
+  if (ch) headers.Cookie = ch;
+  return fetch(url, { headers, redirect: 'follow', signal: AbortSignal.timeout(timeout) });
+}
+
+async function doNewspapersg(item) {
+  if (!newspapersgSession) throw new Error('no NewspaperSG session; run scripts/newspapersg_session.js first');
+  const r = await newspapersgFetch(item.url, 'text/html,application/json');
+  if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + item.url);
+  const html = await r.text();
+
+  // The article page renders the archive's own clipping <img>.
+  const clipMatch = html.match(/https:\/\/eservice\.nlb\.gov\.sg\/newspapercontent\/digitised\/article\/([^?"'\s]+)\.webp\?[^"'\s]*/i);
+  if (!clipMatch) throw new Error('no article clipping image on page');
+  const articleId = clipMatch[1];
+  const area = (clipMatch[0].match(/[?&]area=(\d+)/) || [])[1] || '1';
+  if (area !== '1') throw new Error('article clipping area is not 1 (' + area + ')');
+
+  const imgUrl = `https://eservice.nlb.gov.sg/newspapercontent/digitised/article/${articleId}.webp?area=1&width=${NEWSPAPERSG_WIDTH}&ct=ARTICLE&ns=&coord=`;
+  const ir = await newspapersgFetch(imgUrl, 'image/webp,image/*,*/*');
+  if (!ir.ok) throw new Error('HTTP ' + ir.status + ' clipping image');
+  const buf = Buffer.from(await ir.arrayBuffer());
+  const isWebp = buf.slice(0, 4).toString() === 'RIFF' && buf.slice(8, 12).toString() === 'WEBP';
+  if (!isWebp) throw new Error('clipping image is not the archive WebP (' + (ir.headers.get('content-type') || '') + ')');
+
+  const meta = name => decodeEntities((html.match(new RegExp('data-nlb-' + name + '="([^"]*)"')) || [])[1] || '');
+  const newspaper = meta('newspapertitle') || 'The Straits Times';
+  const archiveTitle = meta('articletitle') || '';
+  const abstract = meta('articleabstract') || '';
+  const issueDate = meta('issuedate') || item.date;
+  const pageNumber = meta('pagenumber') || '';
+
+  const outName = `hn-${item.hn.replace('HN-', '')}-newspapersg-${slug(articleId)}-clipping.jpg`;
+  const dest = path.join(IMG_DIR, outName);
+  const tmp = path.join('C:/Users/dtoro/AppData/Local/Temp/opencode', 'newspapersg-clip-' + slug(articleId) + '.webp');
+  fs.writeFileSync(tmp, buf);
+  try {
+    execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', tmp, '-q:v', '2', dest], { stdio: ['ignore', 'ignore', 'pipe'] });
+  } finally {
+    try { fs.unlinkSync(tmp); } catch (e) { /* best effort */ }
+  }
+  const dims = ffprobeSize(dest);
+
+  return {
+    provider: 'NewspaperSG (National Library Board, Singapore)',
+    newspaper,
+    headline: item.heading || archiveTitle,
+    archive_article_title: archiveTitle || null,
+    article_abstract: abstract || null,
+    issue_date: issueDate,
+    page: pageNumber ? Number(pageNumber) : null,
+    page_url: item.url,
+    image_url: imgUrl,
+    article_id: articleId,
+    crop_asset: 'assets/images/' + outName,
+    crop_method: 'archive_clipping_image',
+    source_format: 'webp',
+    requested_width: NEWSPAPERSG_WIDTH,
+    source_dimensions: `${dims.w}x${dims.h}`,
+    output_dimensions: `${dims.w}x${dims.h}`,
+    additional_cited_article: true,
+  };
+}
+
 async function doQuartex(item) {
   const html = await getText(item.url);
   const manifestUrl = (html.match(/https:\/\/iiif\.quartexcollections\.com\/[^"'\s]+\/manifest/i) || [])[0];
@@ -216,7 +393,7 @@ async function doScvhistory(item) {
   };
 }
 
-const HANDLERS = { quartex: doQuartex, contentdm: doContentdm, scvhistory: doScvhistory };
+const HANDLERS = { quartex: doQuartex, contentdm: doContentdm, scvhistory: doScvhistory, nli: doNli, newspapersg: doNewspapersg };
 
 (async () => {
   let ok = 0, fail = 0;

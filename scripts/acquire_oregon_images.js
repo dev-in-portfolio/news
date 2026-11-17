@@ -23,6 +23,10 @@ function argVal(name) {
 }
 const LIMIT = argVal('--limit') ? Number(argVal('--limit')) : Infinity;
 const ONLY = argVal('--only') ? new Set(argVal('--only').split(',')) : null;
+// Revisit pages that already have a full-page image but no article crop. This is
+// how a quoted headline found in the record text gets a second chance, and how
+// earlier crop failures (e.g. IIIF pixel-area 501s) are retried.
+const RETRY_CROPS = args.includes('--retry-crops');
 
 fs.mkdirSync(IMG_DIR, { recursive: true });
 fs.mkdirSync(DATA, { recursive: true });
@@ -48,6 +52,16 @@ const recon = readJson(path.join(DOCS, 'reconciliation_ledger.json'));
 const reconArr = Array.isArray(recon) ? recon : (recon.records || Object.values(recon));
 const reconById = {};
 for (const r of reconArr) reconById[r.hn_id] = r;
+
+// Canonical records, used only to recover a quoted headline when the batch-report
+// line for this page did not quote one.
+const { recordHeadlineCandidates } = require('./lib_headline');
+const recordList = (() => {
+  const r = readJson(path.join(SITE, 'data', 'records.json'));
+  return Array.isArray(r) ? r : (r.records || Object.values(r));
+})();
+const recordById = {};
+for (const r of recordList) recordById[r.hn_id] = r;
 
 // ---------- URL normalisation ----------
 function normalise(u) {
@@ -119,19 +133,51 @@ function parseAlto(xml) {
 
 const STOP = new Set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'were', 'his', 'her', 'its', 'not', 'but', 'has', 'have', 'had', 'will', 'would', 'into', 'over', 'than', 'them', 'they', 'their', 'when', 'who', 'all', 'out', 'one', 'two', 'new', 'may', 'now', 'how', 'why']);
 
+function scoreText(text, toks) {
+  const nb = ' ' + normText(text) + ' ';
+  let hit = 0;
+  for (const t of toks) if (nb.includes(' ' + t + ' ')) hit++;
+  return hit / toks.length;
+}
+
 function locateArticle(blocks, headline, imgW, scale) {
   if (!headline) return null;
   const toks = normText(headline).split(' ').filter(t => t.length >= 3 && !STOP.has(t));
   if (toks.length < 2) return null;
   let best = null, bestScore = 0;
   for (const b of blocks) {
-    const nb = ' ' + normText(b.text) + ' ';
-    let hit = 0;
-    for (const t of toks) if (nb.includes(' ' + t + ' ')) hit++;
-    const score = hit / toks.length;
+    const score = scoreText(b.text, toks);
     if (score > bestScore) { bestScore = score; best = b; }
   }
-  if (!best || bestScore < 0.6) return { failed: true, score: bestScore };
+  if (!best) return { failed: true, score: 0 };
+
+  // A headline is often split across two or three ALTO blocks (overline,
+  // second line). Greedily merge vertically adjacent blocks in the same column
+  // when that improves the match, so a 0.5 single-block score can become 1.0.
+  let group = { hpos: best.hpos, vpos: best.vpos, w: best.w, h: best.h, text: best.text };
+  let groupScore = bestScore;
+  for (let step = 0; step < 3; step++) {
+    let pick = null, pickScore = groupScore;
+    for (const b of blocks) {
+      if (b === best) continue;
+      const sameColumn = b.hpos >= group.hpos - 80 && b.hpos + b.w <= group.hpos + group.w + 80;
+      const near = b.vpos >= group.vpos - 900 && b.vpos <= group.vpos + group.h + 900;
+      if (!sameColumn || !near) continue;
+      const s = scoreText(group.text + ' ' + b.text, toks);
+      if (s > pickScore + 1e-9) { pickScore = s; pick = b; }
+    }
+    if (!pick) break;
+    const right = Math.max(group.hpos + group.w, pick.hpos + pick.w);
+    const bottom = Math.max(group.vpos + group.h, pick.vpos + pick.h);
+    group.hpos = Math.min(group.hpos, pick.hpos);
+    group.vpos = Math.min(group.vpos, pick.vpos);
+    group.w = right - group.hpos;
+    group.h = bottom - group.vpos;
+    group.text += ' ' + pick.text;
+    groupScore = pickScore;
+  }
+  if (groupScore > bestScore) { best = group; bestScore = groupScore; }
+  if (bestScore < 0.6) return { failed: true, score: bestScore };
 
   // Extend down the same column to include the article body.
   const x0 = best.hpos, x1 = best.hpos + best.w;
@@ -188,12 +234,21 @@ let ledger = fs.existsSync(ledgerPath) ? readJson(ledgerPath) : { generated_at: 
 if (!ledger.items) ledger.items = {};
 
 // Resume: skip pages already stored. Without this a re-run refetches all 400+
-// Oregon pages even though nothing has changed.
+// Oregon pages even though nothing has changed. --retry-crops additionally
+// revisits stored pages that still have no article crop.
 const pending = work.filter(it => {
   const e = ledger.items[it.hn + '|' + it.pageUrl];
-  return !(e && (e.status === 'full_page_acquired' || e.status === 'crop_acquired'));
+  if (!e) return true;
+  if (RETRY_CROPS && !e.crop_asset) {
+    // Only revisit pages that have some headline text to test. Pages with no
+    // quoted headline anywhere stay as honest full-page-only entries.
+    const m = metaByPage[it.pageUrl] || {};
+    const rec = recordById[it.hn] || {};
+    return !!m.headline || recordHeadlineCandidates(rec).length > 0;
+  }
+  return !(e.status === 'full_page_acquired' || e.status === 'crop_acquired');
 });
-console.log(`Already stored: ${work.length - pending.length} of ${work.length} Oregon pages`);
+console.log(`Already stored: ${work.length - pending.length} of ${work.length} Oregon pages${RETRY_CROPS ? ' (retrying pages without a crop)' : ''}`);
 
 const target = pending.slice(0, LIMIT === Infinity ? pending.length : LIMIT);
 console.log(`Work items: ${target.length} (from ${work.length} Oregon page URLs across ${Object.keys(hnUrls).length} records)`);
@@ -250,11 +305,27 @@ async function processItem(item, idx) {
     entry.full_page_asset = 'assets/images/' + fullName;
     entry.full_page_bytes = fullBytes;
 
-    // 4. article crop located via the archive's ALTO OCR coordinates
+    // 4. article crop located via the archive's ALTO OCR coordinates.
+    //    Prefer the batch-report headline; when the report line did not quote
+    //    one, fall back to a quoted headline from the record's own text. Either
+    //    way the archive's OCR must match it at >= 0.6 before anything is
+    //    cropped, so a paraphrase is never turned into a crop.
     const meta = metaByPage[item.pageUrl] || {};
     entry.newspaper = meta.paper || '';
+    const record = recordById[item.hn] || {};
+    const candidates = [];
+    if (meta.headline) candidates.push({ text: meta.headline, source: 'batch_report' });
+    // Even when a batch headline exists it can be a different paper's wording
+    // (or split across blocks); the record's own quoted headline is a valid
+    // second attempt, still gated on >= 0.6 OCR match.
+    for (const c of recordHeadlineCandidates(record)) {
+      if (!candidates.some(x => x.text.toLowerCase() === c.text.toLowerCase())) {
+        candidates.push({ text: c.text, source: 'record_quote' });
+      }
+    }
     entry.headline = meta.headline || '';
-    if (meta.headline && w && h) {
+    entry.headline_source = meta.headline ? 'batch_report' : null;
+    if (candidates.length && w && h) {
       try {
         const altoXml = await getText(item.pageUrl + 'ocr.xml', 90000);
         const { blocks, unit, xdpi } = parseAlto(altoXml);
@@ -265,22 +336,53 @@ async function processItem(item, idx) {
           const maxX = blocks.reduce((a, b) => Math.max(a, b.hpos + b.w), 0);
           scale = maxX ? w / maxX : 0.25;
         }
-        const loc = locateArticle(blocks, meta.headline, w, scale);
+        let loc = null, used = null;
+        for (const c of candidates.slice(0, 4)) {
+          const attempt = locateArticle(blocks, c.text, w, scale);
+          if (attempt && !attempt.failed) { loc = attempt; used = c; break; }
+          if (!loc || (attempt && (attempt.score || 0) > (loc.score || 0))) { loc = attempt; used = c; }
+        }
         if (loc && !loc.failed) {
           const r = loc.region;
           const cx = Math.max(0, Math.min(r.x, w - 1));
           const cy = Math.max(0, Math.min(r.y, h - 1));
           const cw = Math.min(r.w, w - cx);
           const ch = Math.min(r.h, h - cy);
-          const cropName = base + '-article.jpg';
-          const cropPath = path.join(IMG_DIR, cropName);
-          const cropUrl = `https://oregonnews.uoregon.edu/images/iiif/${entry.iiif_id}/${cx},${cy},${cw},${ch}/${cw},/0/default.jpg`;
-          const cb = fs.existsSync(cropPath) ? fs.statSync(cropPath).size : await download(cropUrl, cropPath);
-          entry.crop_asset = 'assets/images/' + cropName;
-          entry.crop_bytes = cb;
-          entry.crop_coordinates = `${cx},${cy},${cw},${ch}`;
-          entry.crop_match_score = Number(loc.score.toFixed(2));
-          entry.crop_status = 'crop_acquired';
+          // A real article is at least a column wide. A tiny region means the
+          // match anchored on an OCR fragment (caption, marginal artifact), not
+          // the article, so treat it as a failed match rather than store a
+          // degenerate sliver.
+          if (cw < 150 || ch < 120) {
+            entry.crop_status = 'no_confident_match';
+            entry.crop_match_score = Number(loc.score.toFixed(2));
+            entry.crop_note = `degenerate region ${cw}x${ch}`;
+          } else {
+            const cropName = base + '-article.jpg';
+            const cropPath = path.join(IMG_DIR, cropName);
+            // Ask for the region at native resolution. The server returns 501 when
+            // the requested output area exceeds maxArea, so retry at half width.
+            const region = `${cx},${cy},${cw},${ch}`;
+            // Record the attempted region up front so a failed crop still tells us
+            // exactly where the headline was located.
+            entry.crop_coordinates = region;
+            let cb;
+            if (fs.existsSync(cropPath)) {
+              cb = fs.statSync(cropPath).size;
+            } else {
+              try {
+                cb = await download(`https://oregonnews.uoregon.edu/images/iiif/${entry.iiif_id}/${region}/max/0/default.jpg`, cropPath);
+              } catch (e) {
+                cb = await download(`https://oregonnews.uoregon.edu/images/iiif/${entry.iiif_id}/${region}/${Math.max(1, Math.round(cw / 2))},/0/default.jpg`, cropPath);
+              }
+            }
+            entry.headline = used.text;
+            entry.headline_source = used.source;
+            entry.crop_asset = 'assets/images/' + cropName;
+            entry.crop_bytes = cb;
+            entry.crop_coordinates = `${cx},${cy},${cw},${ch}`;
+            entry.crop_match_score = Number(loc.score.toFixed(2));
+            entry.crop_status = 'crop_acquired';
+          }
         } else {
           entry.crop_status = loc && loc.failed ? 'no_confident_match' : 'no_headline';
           if (loc) entry.crop_match_score = Number((loc.score || 0).toFixed(2));
@@ -290,7 +392,7 @@ async function processItem(item, idx) {
         entry.crop_error = e.message;
       }
     } else {
-      entry.crop_status = meta.headline ? 'missing_dimensions' : 'no_headline';
+      entry.crop_status = candidates.length ? 'missing_dimensions' : 'no_headline';
     }
 
     entry.status = entry.crop_asset ? 'crop_acquired' : 'full_page_acquired';

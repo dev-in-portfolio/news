@@ -1,0 +1,924 @@
+[
+ {
+  "hn": "HN-382",
+  "doc": "JCDC19120417.2.13",
+  "headline": "OCEAN LINER SINKS AT SEA",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-397",
+  "doc": "JCDC19150728.2.14",
+  "headline": "STILL GOING IT BLIND.",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-405",
+  "doc": "JCDC19170704.2.20",
+  "headline": "CLEANED from the EXCHANGES",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "100 or more deaths as conjecture",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "East St. Louis, Illinois",
+    "hits": 3,
+    "found": false
+   },
+   {
+    "q": "Jasper County Democrat",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-419",
+  "doc": "JCDC19191203.2.9",
+  "headline": "GENERAL AND STATE NEWS",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "reversed his conviction in 1921",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "14 leading campaign workers",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Jasper County Democrat",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-167",
+  "doc": "JPBN18540615.2.6",
+  "headline": "Departure of Burns.",
+  "verdict": "CONFIRMED",
+  "via": "Black Heath coal pits",
+  "tried": [
+   {
+    "q": "Black Heath coal pits",
+    "hits": 1,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-172",
+  "doc": "JPBN18550913.2.9",
+  "headline": "A Murder disc avered—The Murderers Arrested.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Extraordinary anecdote presented as local hearsay",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Brockway, Michigan",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Jasper Banner",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-173",
+  "doc": "JPBN18550913.2.9",
+  "headline": "A Murder disc avered—The Murderers Arrested.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Contemporary follow-up materially qualifying HN-170",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "January 11, 1856",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Timothy Driscoll",
+    "hits": 1,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-228",
+  "doc": "JPRP18741218.2.6",
+  "headline": "A Murderer Lynched.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "A contemporaneous account of lynching after legal sentencing",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Des Moines, Iowa",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Jasper Republican",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-234",
+  "doc": "RLJP18760217.2.7",
+  "headline": "A Forger’s Way of Doing Business.",
+  "verdict": "CONFIRMED",
+  "via": "Maverick Bank",
+  "tried": [
+   {
+    "q": "Jasper Republican",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Union",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Maverick Bank",
+    "hits": 1,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-237",
+  "doc": "RLUN18760907.2.23",
+  "headline": "$500,000 IN PERIL!",
+  "verdict": "CONFIRMED",
+  "via": "James Filkins and Martin Davis",
+  "tried": [
+   {
+    "q": "McCoy & Thompson's bank in Rensselaer, Indiana",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "James Filkins and Martin Davis",
+    "hits": 1,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-240",
+  "doc": "DMST18770914.2.24",
+  "headline": "A MYSTERY IN LAW.",
+  "verdict": "CONFIRMED",
+  "via": "Third National Bank of St. Louis",
+  "tried": [
+   {
+    "q": "paper cut into banknote-sized pieces",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Reported lawsuit and alleged transit theft",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Third National Bank of St. Louis",
+    "hits": 2,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-245",
+  "doc": "DMST18791107.2.3",
+  "headline": "HON. ZACH. CHANDLER.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Reported fatal mob action overriding an acquittal",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Democratic Sentinel",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Luray, Missouri",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-253",
+  "doc": "DMST18811216.2.18",
+  "headline": "FRIGHTFUL CALAMITY.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "stage lighting was being ignited",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "December 8 Ringtheater fire",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "at least 386 people",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-257",
+  "doc": "RLRP18821116.2.40",
+  "headline": "SHIPWRECK.",
+  "verdict": "CONFIRMED",
+  "via": "an officer and six men",
+  "tried": [
+   {
+    "q": "Early maritime-disaster and disappearance report",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "unidentified steamer near Beachy Head",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "an officer and six men",
+    "hits": 3,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-264",
+  "doc": "RLRP18841023.2.8",
+  "headline": "THE WEST.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Reported killing followed by mob execution",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "first rope broke",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Republican",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-273",
+  "doc": "DMST18870318.2.15",
+  "headline": "SCORES OF VICTIMS.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Democratic Sentinel",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Forest Hills",
+    "hits": 6,
+    "found": false
+   },
+   {
+    "q": "at least 25",
+    "hits": 18,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-274",
+  "doc": "RLRP18870414.2.44",
+  "headline": "TRUTH STRANGER THAN FICTION.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "The 1887 news is the revived legal proceeding",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "1854 forgery indictment",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Motion's disposition open",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-278",
+  "doc": "RLRP18881115.2.11",
+  "headline": "HUNDREDS KILLED.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Steam Gauge and Lantern Company",
+    "hits": 2,
+    "found": false
+   },
+   {
+    "q": "five immediate deaths",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Republican",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-280",
+  "doc": "DMST18890816.2.17",
+  "headline": "A CITY ALMOST RUINED.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Spokane Falls, Washington Territory",
+    "hits": 12,
+    "found": false
+   },
+   {
+    "q": "Washington Territory",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Democratic Sentinel",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-281",
+  "doc": "RLRP18891031.2.32",
+  "headline": "LYNCHED TO SLOW MUSIC.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "A newspaper account of a lynching",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Lexington, North Carolina",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Republican",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-283",
+  "doc": "DMST18900718.2.14",
+  "headline": "SEVENTEEN MEN PERISH",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-284",
+  "doc": "DMST18901003.2.12",
+  "headline": "HURLED INTO ETERNITY",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": ", not a final list of people killed",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "15 bodies had been recovered",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Democratic Sentinel",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-287",
+  "doc": "RLRP18910430.2.34",
+  "headline": "MADE HOME HOWL.",
+  "verdict": "CONFIRMED",
+  "via": "150 tons of gunpowder",
+  "tried": [
+   {
+    "q": "120 civilians taken to hospitals",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "seven people known dead",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "150 tons of gunpowder",
+    "hits": 1,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-290",
+  "doc": "DMST18920520.2.20",
+  "headline": "MANY MINERS DEAD.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Later fatality tally corroborated (45)",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "May 10 Roslyn, Washington",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "45 workers died",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-292",
+  "doc": "PLPL18930106.2.28",
+  "headline": "TERRIBLE DISASTER.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Published in 1893 about an event in 1892",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "late-December 1892",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "steam-heated box",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-296",
+  "doc": "DMST18931110.2.7",
+  "headline": "BLOWN INTO THE SEA.",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-300",
+  "doc": "RLRP18940621.2.14",
+  "headline": "ANOTHER HIGH-TONED CONVICT.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Later outcome partly corroborated",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "the conviction was reversed on appeal",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "American Baseball Research",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-302",
+  "doc": "PLPL18940824.2.6",
+  "headline": "MANY KILLED.",
+  "verdict": "CONFIRMED",
+  "via": "George Davis",
+  "tried": [
+   {
+    "q": "24 bodies recovered",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Lincoln, Nebraska",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "George Davis",
+    "hits": 20,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-303",
+  "doc": "DMST18950809.2.26",
+  "headline": "TOILS DRAW TIGHTER",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "not yet proof of homicide",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Democratic Sentinel",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Benjamin Pitezel",
+    "hits": 1,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-304",
+  "doc": "RLRP18950815.2.58",
+  "headline": "SUPREME JUDGE DIES.",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-313",
+  "doc": "DMST18980402.2.7",
+  "headline": "SPAIN A SUSPECT",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-332",
+  "doc": "RSWR19020718.2.57",
+  "headline": "MANY BURIED ALIVE.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Cambria Steel Company's Rolling Mill mine",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "125 to 200 dead",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "300-death rumor",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-333",
+  "doc": "RLJR19020828.2.26",
+  "headline": "Many Bogus Doctors.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "administrative fraud investigation and proposed safeguard",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "under other applicants' names",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Journal",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-336",
+  "doc": "RSWR19030508.2.56",
+  "headline": "MOUNTRENT IN TWAIN",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Frank is in Alberta, not British Columbia",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "April 29 rockslide at Frank",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "unstable geological structure",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-338",
+  "doc": "JCDC19030801.2.24",
+  "headline": "BLAST KILLS A SCORE",
+  "verdict": "CONFIRMED",
+  "via": "United States Cartridge Company",
+  "tried": [
+   {
+    "q": "contemporary correction within one newspaper article",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "United States Cartridge Company",
+    "hits": 6,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-339",
+  "doc": "RSWR19031204.2.55",
+  "headline": "HOW GANG KILLED AND ROBBED.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "April 22, 1904 executions of Marx, Niedermeier, and Van Dine",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "police reports and disputed confessions",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Northwestern University Chicago",
+    "hits": 11,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-343",
+  "doc": "RSWR19040624.2.19",
+  "headline": "A THOUSAND DIE.",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-346",
+  "doc": "JCDC19050408.2.25",
+  "headline": "FIFTY MINERS IN A LIVING SEPULCHER",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Sunday-gas accumulation theory",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Joseph Leiter's Zeigler mine",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "49 deaths at Leiter/Zeigler",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-351",
+  "doc": "RSWR19060202.2.60",
+  "headline": "GREAT SHI PON ROCKS",
+  "verdict": "NO-PHRASE"
+ },
+ {
+  "hn": "HN-352",
+  "doc": "RSWR19060323.2.37",
+  "headline": "DEAD LIE IN HEAPS.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "March 10 Courrières mining disaster",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "coal-dust ignition",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "1,099 fatalities",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-353",
+  "doc": "JCDC19060421.2.2",
+  "headline": "DIRE HAVOC AND DEATH IN A REVEL",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "April 18 earthquake and subsequent fires",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "near or above 3,000",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Jasper County Democrat",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-354",
+  "doc": "RSWR19060810.2.26",
+  "headline": "MORE JOIN IN REVOLT.",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "contemporaneous reports of several distinct revolts",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Weekly Republican",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Rensselaer Semi",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-361",
+  "doc": "JCDC19080307.2.48",
+  "headline": "PITILESS FLAMES",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "172 children, two teachers, and one rescuer",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Lake View School in Collinwood, Ohio",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "160–170 children dead",
+    "hits": 0,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-362",
+  "doc": "JCDC19080509.2.23",
+  "headline": "VERITABLE SHEDEVIL",
+  "verdict": "NOT-FOUND",
+  "via": null,
+  "tried": [
+   {
+    "q": "Belle Gunness's LaPorte farm",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "County Historical Society",
+    "hits": 19,
+    "found": false
+   },
+   {
+    "q": "Jasper County Democrat",
+    "hits": 20,
+    "found": false
+   }
+  ]
+ },
+ {
+  "hn": "HN-365",
+  "doc": "JCDC19081028.2.24",
+  "headline": "LOOKS LIKE BUSINESS",
+  "verdict": "CONFIRMED",
+  "via": "Captain Rankin",
+  "tried": [
+   {
+    "q": "arrests, witness claims, and intimidation",
+    "hits": 0,
+    "found": false
+   },
+   {
+    "q": "Jasper County Democrat",
+    "hits": 20,
+    "found": false
+   },
+   {
+    "q": "Captain Rankin",
+    "hits": 10,
+    "found": true
+   }
+  ]
+ },
+ {
+  "hn": "HN-375",
+  "doc": "JCDC19101008.2.31",
+  "headline": "BLAST KILLS TWENTY",
+  "verdict": "NO-PHRASE"
+ }
+]

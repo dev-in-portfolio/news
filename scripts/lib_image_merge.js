@@ -30,7 +30,24 @@ function normalise(e, fallbackProvider) {
     mosaic_method: e.mosaic_method || null,
     dimensions: e.source_dimensions || null,
     iiif_id: e.iiif_id || null,
+    cited_section: e.cited_section || null,
+    page_key: e.page_key || null,
+    section_area: e.section_area || null,
+    additional_cited_article: e.additional_cited_article || false,
+    cross_reference_of: e.cross_reference_of || null,
   };
+}
+
+// An article clip too tall for one JPEG is stored as ordered vertical parts
+// (crop_parts). Each part is its own image item on the record page, sharing the
+// same source page URL and archive provenance.
+function normalisePart(e, part, fallbackProvider) {
+  const base = normalise(e, fallbackProvider);
+  base.crop = part.asset;
+  base.dimensions = part.dimensions || base.dimensions;
+  base.part = part.part;
+  base.part_count = e.crop_parts.length;
+  return base;
 }
 
 function buildImages() {
@@ -44,6 +61,7 @@ function buildImages() {
     { file: path.join(ROOT, 'docs', 'INDIANA_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Hoosier State Chronicles (Indiana State Library)' },
     { file: path.join(ROOT, 'docs', 'INDIANA_MOSAIC_LEDGER.json'), provider: 'Hoosier State Chronicles (Indiana State Library)' },
     { file: path.join(ROOT, 'docs', 'OTHER_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Other public archives' },
+    { file: path.join(ROOT, 'docs', 'PAPERSPAST_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Papers Past (National Library of New Zealand)' },
   ];
   for (const src of sources) {
     const ledger = readJsonIf(src.file);
@@ -56,6 +74,17 @@ function buildImages() {
           e.status !== 'image_acquired') continue;
       const hn = e.hn_id;
       if (!hn) continue;
+      const parts = Array.isArray(e.crop_parts) && e.crop_parts.length ? e.crop_parts : null;
+      if (parts) {
+        for (const p of parts) {
+          const pkey = hn + '|' + (e.page_url || p.asset) + '|part' + p.part;
+          if (seen.has(pkey)) continue;
+          seen.add(pkey);
+          if (!images[hn]) images[hn] = [];
+          images[hn].push(normalisePart(e, p, src.provider));
+        }
+        continue;
+      }
       const key = hn + '|' + (e.page_url || e.full_page_asset || e.crop_asset);
       if (seen.has(key)) continue;
       seen.add(key);

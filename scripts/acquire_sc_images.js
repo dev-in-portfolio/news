@@ -23,6 +23,7 @@ const path = require('path');
 const os = require('os');
 const { execFileSync } = require('child_process');
 const { buildImages } = require('./lib_image_merge');
+const { recordHeadlineCandidates } = require('./lib_headline');
 
 const SITE = 'D:/news/site';
 const IMG_DIR = path.join(SITE, 'assets', 'images');
@@ -37,6 +38,8 @@ const LIMIT = argVal('--limit') ? Number(argVal('--limit')) : Infinity;
 const ONLY = argVal('--only') ? new Set(argVal('--only').split(',')) : null;
 const DRY = args.includes('--dry');
 const DELAY = argVal('--delay') ? Number(argVal('--delay')) : 400;
+// Revisit pages that already have a full-page image but no article crop.
+const RETRY_CROPS = args.includes('--retry-crops');
 
 fs.mkdirSync(IMG_DIR, { recursive: true });
 fs.mkdirSync(TMP, { recursive: true });
@@ -85,6 +88,15 @@ for (const meta of Object.values(hnUrlMeta)) {
     if (n) metaByPage[`${n.lccn}|${n.date}|${n.seq}`] = m;
   }
 }
+
+// Canonical records, used only to recover a quoted headline when the batch
+// line for this page did not quote one.
+const recordList = (() => {
+  const r = readJsonIf('D:/news/site/data/records.json') || [];
+  return Array.isArray(r) ? r : (r.records || Object.values(r));
+})();
+const recordById = {};
+for (const r of recordList) recordById[r.hn_id] = r;
 
 // ---------- HTTP ----------
 async function get(url, timeoutMs = 120000, attempt = 1) {
@@ -277,15 +289,28 @@ for (let i = 1; i < mlines.length; i++) {
 }
 
 work.sort((a, b) => a.hn.localeCompare(b.hn) || a.date.localeCompare(b.date) || a.seq - b.seq);
-const target = work.slice(0, LIMIT === Infinity ? work.length : LIMIT);
+
+let ledger = readJsonIf(LEDGER_PATH) || { generated_at: null, items: {} };
+if (!ledger.items) ledger.items = {};
+
+let selected = work;
+if (RETRY_CROPS) {
+  selected = work.filter(w => {
+    const e = ledger.items[`${w.hn}|${w.pageUrl}`];
+    if (e && e.crop_asset) return false;
+    const meta = metaByPage[`${w.lccn}|${w.date}|${w.seq}`] || {};
+    const rec = recordById[w.hn] || {};
+    return !!meta.headline || recordHeadlineCandidates(rec).length > 0;
+  });
+  console.log(`Retry-crops: ${selected.length} of ${work.length} SC items have headline text but no crop`);
+}
+
+const target = selected.slice(0, LIMIT === Infinity ? selected.length : LIMIT);
 console.log(`SC work items: ${target.length} (from ${work.length})  records=${new Set(target.map(w => w.hn)).size}`);
 if (DRY) {
   target.forEach(w => console.log(`  ${w.hn}  ${w.lccn}  ${w.date}  seq${w.seq}  ${w.jp2Url}`));
   process.exit(0);
 }
-
-let ledger = readJsonIf(LEDGER_PATH) || { generated_at: null, items: {} };
-if (!ledger.items) ledger.items = {};
 
 async function processItem(item, idx) {
   const tag = `[${idx + 1}/${target.length}] ${item.hn} ${item.lccn} ${item.date} seq-${item.seq}`;
@@ -325,26 +350,51 @@ async function processItem(item, idx) {
     entry.full_page_bytes = renderPage(jp2Path, fullPath, 1200);
     entry.full_page_asset = 'assets/images/' + fullName;
 
-    if (meta.headline) {
+    // Prefer the batch-report headline; when it is absent (or fails to match)
+    // try a quoted headline recovered from the record's own text. Both are
+    // gated on the archive's own word-coordinate match.
+    const candidates = [];
+    if (meta.headline) candidates.push({ text: meta.headline, source: 'batch_report' });
+    const rec = recordById[item.hn] || {};
+    for (const c of recordHeadlineCandidates(rec)) {
+      if (!candidates.some(x => x.text.toLowerCase() === c.text.toLowerCase())) {
+        candidates.push({ text: c.text, source: 'record_quote' });
+      }
+    }
+    entry.headline_source = meta.headline ? 'batch_report' : null;
+    if (candidates.length) {
       try {
         const coords = await getJson(item.coordsUrl);
         const { W, H, occ } = flattenCoords(coords);
         if (W && H && occ.length) {
-          const loc = locate(occ, meta.headline, W, H, dim.w, dim.h);
-          if (!loc.failed) {
-            const r = loc.region;
-            const cropName = base + '-article.jpg';
-            const cropPath = path.join(IMG_DIR, cropName);
-            entry.crop_bytes = renderCrop(jp2Path, cropPath, r);
-            entry.crop_asset = 'assets/images/' + cropName;
-            entry.crop_coordinates = `${r.x},${r.y},${r.w},${r.h}`;
-            entry.crop_match_score = Number(loc.score.toFixed(2));
-            entry.crop_status = 'crop_acquired';
-            const cs = jpegSize(cropPath);
-            entry.crop_dimensions = cs ? `${cs.w}x${cs.h}` : null;
+          let best = null, used = null;
+          for (const c of candidates.slice(0, 4)) {
+            const attempt = locate(occ, c.text, W, H, dim.w, dim.h);
+            if (attempt && !attempt.failed) { best = attempt; used = c; break; }
+            if (attempt && (best == null || (attempt.score || 0) > (best.score || 0))) { best = attempt; used = c; }
+          }
+          if (best && !best.failed) {
+            const r = best.region;
+            if (r.w < 150 || r.h < 120) {
+              entry.crop_status = 'no_confident_match';
+              entry.crop_match_score = Number(best.score.toFixed(2));
+              entry.crop_note = `degenerate region ${r.w}x${r.h}`;
+            } else {
+              const cropName = base + '-article.jpg';
+              const cropPath = path.join(IMG_DIR, cropName);
+              entry.crop_bytes = renderCrop(jp2Path, cropPath, r);
+              entry.headline = used.text;
+              entry.headline_source = used.source;
+              entry.crop_asset = 'assets/images/' + cropName;
+              entry.crop_coordinates = `${r.x},${r.y},${r.w},${r.h}`;
+              entry.crop_match_score = Number(best.score.toFixed(2));
+              entry.crop_status = 'crop_acquired';
+              const cs = jpegSize(cropPath);
+              entry.crop_dimensions = cs ? `${cs.w}x${cs.h}` : null;
+            }
           } else {
-            entry.crop_status = loc.reason || 'no_confident_match';
-            if (loc.score != null) entry.crop_match_score = Number(loc.score.toFixed(2));
+            entry.crop_status = (best && best.reason) || 'no_confident_match';
+            if (best && best.score != null) entry.crop_match_score = Number(best.score.toFixed(2));
           }
         } else {
           entry.crop_status = 'no_coordinates';

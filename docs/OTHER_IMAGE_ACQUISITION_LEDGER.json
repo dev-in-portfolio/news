@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:53:17.330Z",
+ "generated_at": "2026-11-17T23:41:16.186Z",
  "items": {
   "HN-456|https://scvhistory.com/scvhistory/aen031328.htm": {
    "hn_id": "HN-456",
@@ -570,6 +570,47 @@
    "output_dimensions": "280,410",
    "mosaic_method": "archive_page_preview",
    "note": "Low-resolution page preview (280x410) of page 1, the only resolution the archive exposes without a subscription."
+  },
+  "HN-799|https://www.nli.org.il/en/newspapers/jweekly/1992/09/04/article/3.3": {
+   "hn_id": "HN-799",
+   "status": "image_acquired",
+   "page_url": "https://www.nli.org.il/en/newspapers/jweekly/1992/09/04/article/3.3",
+   "error": null,
+   "acquired_at": "2026-11-17T23:18:03.855Z",
+   "provider": "National Library of Israel — Historical Jewish Press (JPress)",
+   "newspaper": "J. Jewish News of Northern California (Emanu-El, Jewish Community Bulletin)",
+   "headline": "Photo by Bertram Kom Jr., Miami Jewish Tribune Crews clean up annex building of Greater Miami Jewish Federation after concrete tower of adjacent ABC-affiliate TV station crashes into it during Hurrican",
+   "issue_date": "1992-09-04",
+   "image_url": "https://www.nli.org.il/en/newspapers/?a=is&oid=jweekly19920904.2.3.3&type=blockimage&e=-------en-20--1--img-txIN%7CtxTI--------------1&area=all",
+   "oid": "jweekly19920904.2.3.3",
+   "crop_asset": "assets/images/hn-799-nli-jweekly19920904-2-3-3-article.jpg",
+   "crop_method": "archive_article_blocks_native",
+   "source_dimensions": "1403x1173",
+   "output_dimensions": "1403x1173",
+   "additional_cited_article": true
+  },
+  "HN-698|https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19740410-1.2.29.14.4": {
+   "hn_id": "HN-698",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19740410-1.2.29.14.4",
+   "error": null,
+   "acquired_at": "2026-11-17T23:41:16.181Z",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "newspaper": "The Straits Times",
+   "headline": "Additional tornadoes strike before Super Outbreak recovery ends",
+   "archive_article_title": "Untitled",
+   "article_abstract": "NEW YORK: Tornadoes struck. In the southern US states of Georgia, Tennessee, Alabama and South Carolina today killing at least one person and injuring more than a dosen.",
+   "issue_date": "1974-04-10",
+   "page": 3,
+   "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19740410-1.2.29.14.4.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+   "article_id": "straitstimes19740410-1.2.29.14.4",
+   "crop_asset": "assets/images/hn-698-newspapersg-straitstimes19740410-1-2-29-14-4-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x701",
+   "output_dimensions": "1200x701",
+   "additional_cited_article": true
   }
  }
 }

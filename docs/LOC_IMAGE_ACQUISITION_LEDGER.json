@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T16:34:15.683Z",
+ "generated_at": "2026-11-17T23:49:22.468Z",
  "items": {
   "HN-389|https://www.loc.gov/resource/loc//ed-1/?sp=1|service:ndnp:dlc:batch_dlc_hawaiian_ver01:data:sn84026749:00294557854:1914042201:0295": {
    "hn_id": "HN-389",
@@ -37,9 +37,11 @@
    "source_dimensions": "4169x6482",
    "iiif_id": "service:ndnp:dlc:batch_dlc_annegreen_ver02:data:sn83021126:print:1777072201:0002",
    "error": null,
-   "acquired_at": "2026-11-15T15:30:05.817Z",
+   "acquired_at": "2026-11-17T22:26:23.662Z",
    "full_page_bytes": 440967,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.5
   },
   "HN-389|https://www.loc.gov/resource/sn84027621/1914-04-22/ed-1/?sp=1|": {
    "hn_id": "HN-389",
@@ -77,8 +79,9 @@
    "source_dimensions": "5823x7278",
    "iiif_id": "service:ndnp:pst:batch_pst_holuba_ver02:data:sn83045211:00237280301:1921060101:0437",
    "error": null,
-   "acquired_at": "2026-11-08T22:57:59.405Z",
+   "acquired_at": "2026-11-17T23:49:14.705Z",
    "full_page_bytes": 604155,
+   "headline_source": "batch_report",
    "crop_status": "no_confident_match",
    "crop_match_score": 0.5
   },
@@ -98,8 +101,9 @@
    "source_dimensions": "5205x6041",
    "iiif_id": "service:ndnp:okhi:batch_okhi_idabel_ver01:data:sn85042345:00237284306:1921060201:0496",
    "error": null,
-   "acquired_at": "2026-11-08T23:00:30.924Z",
+   "acquired_at": "2026-11-17T23:49:17.713Z",
    "full_page_bytes": 371748,
+   "headline_source": "batch_report",
    "crop_status": "no_confident_match",
    "crop_match_score": 0.4
   },
@@ -119,8 +123,9 @@
    "source_dimensions": "4194x6028",
    "iiif_id": "service:ndnp:oru:batch_oru_belladonna_ver01:data:sn99063812:00280760122:1921060101:1234",
    "error": null,
-   "acquired_at": "2026-11-08T22:59:15.262Z",
+   "acquired_at": "2026-11-17T23:49:16.142Z",
    "full_page_bytes": 532641,
+   "headline_source": "batch_report",
    "crop_status": "no_confident_match",
    "crop_match_score": 0.33
   },
@@ -466,9 +471,11 @@
    "source_dimensions": "4082x6524",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bowden_ver04:data:sn83025471:print:1784080201:0003",
    "error": null,
-   "acquired_at": "2026-11-15T15:30:49.321Z",
+   "acquired_at": "2026-11-17T23:49:13.195Z",
    "full_page_bytes": 451326,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.25
   },
   "HN-016|https://www.loc.gov/resource/sn83025471/1784-11-08/ed-1/?sp=4|": {
    "hn_id": "HN-016",
@@ -826,9 +833,11 @@
    "source_dimensions": "4109x6224",
    "iiif_id": "service:ndnp:nhd:batch_nhd_bondcliff_ver01:data:sn83025587:00517015131:1791022601:0757",
    "error": null,
-   "acquired_at": "2026-11-15T15:31:30.170Z",
+   "acquired_at": "2026-11-17T22:26:42.843Z",
    "full_page_bytes": 545581,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.5
   },
   "HN-032|https://www.loc.gov/resource/sn83030483/1792-11-07/ed-1/?sp=4|": {
    "hn_id": "HN-032",
@@ -1506,9 +1515,11 @@
    "source_dimensions": "6625x8431",
    "iiif_id": "service:ndnp:dlc:batch_dlc_morton_ver01:data:sn83045462:00280659976:1929102901:0456",
    "error": null,
-   "acquired_at": "2026-11-08T23:12:01.367Z",
+   "acquired_at": "2026-11-17T23:49:19.175Z",
    "full_page_bytes": 604839,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.25
   },
   "HN-479|https://www.loc.gov/resource/sn82014085/1932-07-30/ed-1/?sp=1|": {
    "hn_id": "HN-479",
@@ -1559,16 +1570,20 @@
    "page_url": "https://www.loc.gov/resource/sn98058951/1943-07-10/ed-1/?sp=1",
    "provider": "Library of Congress / Chronicling America",
    "newspaper": "A2 — Southern News",
-   "headline": "",
-   "status": "full_page_acquired",
+   "headline": "Detroit Mayor Expected Riot",
+   "status": "crop_acquired",
    "full_page_asset": "assets/images/hn-540-loc-sn98058951-1943-07-10-seq1-page.jpg",
-   "crop_asset": null,
+   "crop_asset": "assets/images/hn-540-loc-sn98058951-1943-07-10-seq1-article.jpg",
    "source_dimensions": "4701x6244",
    "iiif_id": "service:ndnp:ncu:batch_ncu_isner_ver01:data:sn98058951:00332892435:1943071001:0035",
    "error": null,
-   "acquired_at": "2026-11-08T23:16:37.064Z",
+   "acquired_at": "2026-11-17T22:29:12.042Z",
    "full_page_bytes": 407647,
-   "crop_status": "no_headline"
+   "headline_source": "record_quote",
+   "crop_bytes": 40096,
+   "crop_coordinates": "3848,5502,610,425",
+   "crop_match_score": 0.75,
+   "crop_status": "crop_acquired"
   },
   "HN-569|https://www.loc.gov/resource/sn83045462/1948-07-31/ed-1/?sp=96|service:ndnp:dlc:batch_dlc_2feininger_ver01:data:sn83045462:00280605025:1948073101:0096": {
    "hn_id": "HN-569",
@@ -1586,9 +1601,11 @@
    "source_dimensions": "5589x7871",
    "iiif_id": "service:ndnp:dlc:batch_dlc_2feininger_ver01:data:sn83045462:00280605025:1948073101:0096",
    "error": null,
-   "acquired_at": "2026-11-08T21:37:21.882Z",
+   "acquired_at": "2026-11-17T23:49:20.995Z",
    "full_page_bytes": 715569,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.33
   },
   "HN-566|https://www.loc.gov/resource/sn78002169/1947-11-30/ed-1/?sp=1|": {
    "hn_id": "HN-566",
@@ -1626,9 +1643,11 @@
    "source_dimensions": "4785x7528",
    "iiif_id": "service:ndnp:dlc:batch_dlc_bergman_ver01:data:sn83045462:00280608373:1960051101:1036",
    "error": null,
-   "acquired_at": "2026-11-08T21:37:25.579Z",
+   "acquired_at": "2026-11-17T23:49:22.458Z",
    "full_page_bytes": 538351,
-   "crop_status": "no_headline"
+   "headline_source": null,
+   "crop_status": "no_confident_match",
+   "crop_match_score": 0.33
   },
   "HN-224|https://www.loc.gov/resource/sn83030313/1873-09-21/ed-1/?sp=5|": {
    "hn_id": "HN-224",
