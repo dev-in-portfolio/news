@@ -113,7 +113,10 @@
      work list now considers only edition-`2.x+` citations (735 page-level-only
      records are skipped and remain covered by the mosaic pipeline).
 2. **Open the master tracker Excel workbook** (`Historical_Newspaper_Event_Research_Tracker_v0.1.xlsx`) to complete the 140 candidate identity pair inventory (135 deduped from seed peer column; authoritative 140 in workbook).
-3. **User review of Milestone 3–5 findings** before scaling design/acquisition strategy or requesting deployment.
+3. **Image-gap decisions resolved (2026-11-18):** the owner delegated the two
+   open decisions — modern copyrighted web articles stay citation-only and the
+   two British Library OCR-only records stay honest gaps (see "Final honest
+   gap split"). No further acquisition is pending.
 4. No deployment authorized; local build and preview remain in scope.
 
 ## Deployment
@@ -696,6 +699,19 @@ stored) and HN-465 (excluded magazine).
 
 `scripts/_check_coverage.js` confirms **0 gap records cite a historical newspaper
 archive** — every record whose citation is a historical scan has an image.
+
+**Resolution (2026-11-18, owner delegated): final.** Both categories are accepted
+as permanent, honest gaps — no image is added for them:
+
+- Modern copyrighted web articles: kept as citation + source link only. Taking
+  screenshots of modern web news is outside the project rules, and these records
+  are not historical newspaper scans.
+- British Library records: kept as OCR-only gaps with the BL dataset link.
+  Retrieving the pages would require a paid British Newspaper Archive
+  subscription, which is not available.
+
+This closes image acquisition: the site shows archive-owned scan renditions for
+every record for which one is obtainable, and an honest linked gap otherwise.
 
 ### Structural audit (all stored assets)
 
