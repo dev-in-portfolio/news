@@ -75,6 +75,19 @@ if (!ledger.items) ledger.items = {};
 // Article pages only. Skip search-result and date-browse URLs.
 const ARTICLE_RE = /paperspast\.natlib\.govt\.nz\/newspapers\/([A-Za-z0-9]+?)(\d{8})\.(\d+)\.(\d+)(?:\.(\d+))?/;
 
+// Some records cite a whole issue page rather than one article. The archive
+// still exposes the issue's individual articles; when the cited issue page
+// carries an article that matches the record's subject, it is acquired as an
+// additional cited article (never as a substitute for the primary citation).
+const EXTRA_JOBS = [
+  {
+    hn: 'HN-547',
+    url: 'https://paperspast.natlib.govt.nz/newspapers/BOPT19441221.2.28',
+    cited_issue_url: 'https://paperspast.natlib.govt.nz/newspapers/bay-of-plenty-times/1944/12/21',
+    note: 'The record cites the 21 Dec 1944 issue page; the archive exposes this article ("MASSACRE OF PRISONERS", Malmedy prisoner killings) within that cited issue.',
+  },
+];
+
 const work = [];
 for (const hn of Object.keys(hnUrls).sort()) {
   if (ONLY && !ONLY.has(hn)) continue;
@@ -97,6 +110,20 @@ for (const hn of Object.keys(hnUrls).sort()) {
       article: m[5] != null ? Number(m[5]) : null,
     });
   }
+}
+for (const x of EXTRA_JOBS) {
+  if (ONLY && !ONLY.has(x.hn)) continue;
+  const m = x.url.match(ARTICLE_RE);
+  if (!m) continue;
+  const key = x.hn + '|' + x.url;
+  const prior = ledger.items[key] && ledger.items[key].status;
+  if (prior === 'article_clip_acquired' && !FORCE) continue;
+  work.push({
+    hn: x.hn, url: x.url, key, sequence: 900,
+    paperId: m[1] + m[2], edition: Number(m[3]), page: Number(m[4]),
+    article: m[5] != null ? Number(m[5]) : null,
+    extra: true, note: x.note, citedIssueUrl: x.cited_issue_url,
+  });
 }
 work.sort((a, b) => a.hn.localeCompare(b.hn) || a.sequence - b.sequence);
 const target = work.slice(0, LIMIT === Infinity ? work.length : LIMIT);
@@ -277,7 +304,10 @@ function stackParts(blocks, outBase) {
       acquired_at: null,
       sequence: w.sequence,
       crop_method: 'archive_article_blocks_native',
-      source_kind: 'audit_link_report',
+      source_kind: w.extra ? 'cited_issue_page_article' : 'audit_link_report',
+      additional_cited_article: !!w.extra,
+      article_note: w.note || null,
+      cited_issue_url: w.citedIssueUrl || null,
     };
     try {
       const html = await getText(w.url);

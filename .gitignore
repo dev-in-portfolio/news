@@ -1,2 +1,6 @@
 node_modules/
 package-lock.json
+# Raw full-text OCR research downloads (not part of the image deliverable; OCR-only text is excluded by policy)
+bl-statesman/
+# One-off scratch diagnostic scripts used during the acquisition sweep (not reproducible pipeline code)
+scripts/_probe_*.js

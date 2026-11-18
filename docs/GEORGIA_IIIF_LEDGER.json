@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-11-18T00:29:40.102Z",
+ "items": {
+  "HN-546|https://gahistoricnewspapers.galileo.usg.edu/lccn/sn83009936/1944-07-20/ed-1/seq-1/": {
+   "hn_id": "HN-546",
+   "provider": "Georgia Historic Newspapers (Digital Library of Georgia)",
+   "status": "image_acquired",
+   "page_url": "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn83009936/1944-07-20/ed-1/seq-1/",
+   "error": null,
+   "acquired_at": "2026-11-18T00:29:40.101Z",
+   "full_page_asset": "assets/images/hn-546-ga-sn83009936-19440720-seq1-page.jpg",
+   "newspaper": "",
+   "issue_date": "1944-07-20",
+   "sequence": 1,
+   "page": 1,
+   "iiif_id": "https://iiif-ha.galib.uga.edu/iiif/2/newspapers/batch_gu_griffdailynews04_ver01%2Fdata%2Fsn83009936%2F11006678%2F1944072001%2F0091.jp2",
+   "image_url": "https://iiif-ha.galib.uga.edu/iiif/2/newspapers/batch_gu_griffdailynews04_ver01%2Fdata%2Fsn83009936%2F11006678%2F1944072001%2F0091.jp2/full/1200,/0/default.jpg",
+   "source_dimensions": null,
+   "output_dimensions": "1200x1511",
+   "mosaic_method": "iiif_image_api"
+  }
+ }
+}

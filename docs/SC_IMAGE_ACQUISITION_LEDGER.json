@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:28:44.300Z",
+ "generated_at": "2026-11-18T00:19:28.170Z",
  "items": {
   "HN-379|https://historicnewspapers.sc.edu/lccn/sn84026912/1912-01-24/ed-1/seq-1/": {
    "hn_id": "HN-379",
@@ -35,13 +35,16 @@
    "provider": "South Carolina Historic Newspapers (University of South Carolina)",
    "newspaper": "Yorkville Enquirer",
    "headline": "",
-   "status": "failed",
-   "full_page_asset": null,
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-380-sc-sn84026925-1912-02-16-seq2-page.jpg",
    "crop_asset": null,
-   "source_dimensions": null,
+   "source_dimensions": "7547x10363",
    "iiif_id": null,
-   "error": "fetch failed",
-   "acquired_at": null
+   "error": null,
+   "acquired_at": "2026-11-18T00:19:28.158Z",
+   "full_page_bytes": 771943,
+   "headline_source": null,
+   "crop_status": "no_headline"
   },
   "HN-381|https://historicnewspapers.sc.edu/lccn/sn84026925/1912-03-29/ed-1/seq-1/": {
    "hn_id": "HN-381",
@@ -53,13 +56,16 @@
    "provider": "South Carolina Historic Newspapers (University of South Carolina)",
    "newspaper": "Yorkville Enquirer",
    "headline": "",
-   "status": "failed",
-   "full_page_asset": null,
+   "status": "full_page_acquired",
+   "full_page_asset": "assets/images/hn-381-sc-sn84026925-1912-03-29-seq1-page.jpg",
    "crop_asset": null,
-   "source_dimensions": null,
+   "source_dimensions": "7540x10435",
    "iiif_id": null,
-   "error": "fetch failed",
-   "acquired_at": null
+   "error": null,
+   "acquired_at": "2026-11-18T00:19:12.238Z",
+   "full_page_bytes": 709421,
+   "headline_source": null,
+   "crop_status": "no_headline"
   },
   "HN-385|https://historicnewspapers.sc.edu/lccn/sn86063789/1913-04-03/ed-1/seq-2/": {
    "hn_id": "HN-385",

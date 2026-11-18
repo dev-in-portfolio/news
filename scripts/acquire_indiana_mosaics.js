@@ -20,6 +20,14 @@
 // Usage:
 //   node scripts/acquire_indiana_mosaics.js [--only HN-704,HN-705] [--limit N] [--dry]
 //   node scripts/acquire_indiana_mosaics.js --retry-failed
+//   node scripts/acquire_indiana_mosaics.js --include-imaged
+//
+// By default the work list is limited to records that have no image from any
+// provider. --include-imaged also processes records that already have an image
+// from a different newspaper, but whose own cited Indiana page has no stored
+// rendition yet. This matters because a record's primary citation can be an
+// Indiana page while the only stored image is a related report from another
+// paper; the cited page itself must still be acquired.
 const fs = require('fs');
 const path = require('path');
 const { spawn, execFileSync } = require('child_process');
@@ -45,6 +53,7 @@ const ONLY = argVal('--only') ? new Set(argVal('--only').split(',')) : null;
 const LIMIT = argVal('--limit') ? Number(argVal('--limit')) : Infinity;
 const DRY = args.includes('--dry');
 const RETRY = args.includes('--retry-failed');
+const INCLUDE_IMAGED = args.includes('--include-imaged');
 
 fs.mkdirSync(IMG_DIR, { recursive: true });
 fs.mkdirSync(TMP, { recursive: true });
@@ -72,13 +81,26 @@ if (!ledger.items) ledger.items = {};
 
 const withImage = new Set(Object.keys(images));
 const missing = recArr.filter(r => !withImage.has(r.hn_id));
+// With --include-imaged, also visit records that already have an image from a
+// different provider, so their own cited Indiana page is not left unacquired.
+const workRecords = INCLUDE_IMAGED ? recArr : missing;
+
+// A stored rendition already covers this cited page if any image entry for the
+// record has a page_url containing the same document + edition + section key.
+function coveredByStoredImage(hn, key) {
+  for (const i of images[hn] || []) {
+    const pu = String(i.page_url || '').replace(/&amp;/g, '&');
+    if (pu.includes(key)) return true;
+  }
+  return false;
+}
 
 // A cited URL's suffix is a SECTION id, not a page key. The archive viewer maps
 // a section (e.g. 2.6) to the page that actually holds it (e.g. 1.2). Group by
 // document + section, then resolve the real page from the viewer before render.
 // doc -> { doc, sections: Map(sectionId -> [{hn, url}]) }
 const docs = new Map();
-for (const r of missing) {
+for (const r of workRecords) {
   if (ONLY && !ONLY.has(r.hn_id)) continue;
   const urls = (hnUrls[r.hn_id] || []).map(u => String(u).replace(/&amp;/g, '&'));
   for (const url of urls) {
@@ -90,6 +112,7 @@ for (const r of missing) {
     if (!m) continue;
     const doc = m[1];
     const section = m[2] + '.' + m[3];
+    if (INCLUDE_IMAGED && coveredByStoredImage(r.hn_id, doc + '.' + section)) continue;
     if (!docs.has(doc)) docs.set(doc, { doc, sections: new Map() });
     const secs = docs.get(doc).sections;
     if (!secs.has(section)) secs.set(section, []);
@@ -103,7 +126,7 @@ if (LIMIT !== Infinity) docList = docList.slice(0, LIMIT);
 
 const sectionTotal = docList.reduce((n, d) => n + d.sections.size, 0);
 const recTotal = new Set([...docs.values()].flatMap(d => [...d.sections.values()].flat().map(x => x.hn))).size;
-console.log(`Missing records with Indiana page URLs: ${recTotal}`);
+console.log(`${INCLUDE_IMAGED ? 'Cited' : 'Missing'} records with Indiana page URLs: ${recTotal}`);
 console.log(`Documents to load: ${docList.length}   cited sections to resolve: ${sectionTotal}`);
 
 // Skip already-done pages. By default failed and unavailable pages are both

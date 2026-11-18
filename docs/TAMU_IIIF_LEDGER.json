@@ -1,0 +1,22 @@
+{
+ "generated_at": "2026-11-18T00:32:48.390Z",
+ "items": {
+  "HN-582|https://newspaper.library.tamu.edu/lccn/sn86088544/1951-01-12/ed-1/seq-1/": {
+   "hn_id": "HN-582",
+   "provider": "Texas A&M University Libraries (Open ONI)",
+   "status": "image_acquired",
+   "page_url": "https://newspaper.library.tamu.edu/lccn/sn86088544/1951-01-12/ed-1/seq-1/",
+   "error": null,
+   "acquired_at": "2026-11-18T00:32:48.389Z",
+   "full_page_asset": "assets/images/hn-582-tamu-sn86088544-19510112-seq1-page.jpg",
+   "newspaper": "",
+   "issue_date": "1951-01-12",
+   "sequence": 1,
+   "page": 1,
+   "iiif_id": "batch_txa_batt_ver143%2Fdata%2Fsn86088544%2Fprint%2F1951011201%2F0001.jp2",
+   "image_url": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_batt_ver143%2Fdata%2Fsn86088544%2Fprint%2F1951011201%2F0001.jp2/full/1200,/0/default.jpg",
+   "output_dimensions": "1200x1632",
+   "mosaic_method": "iiif_image_api"
+  }
+ }
+}

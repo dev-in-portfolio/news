@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-18T00:46:28.360Z",
+ "items": {
+  "HN-208|https://archive.spectator.co.uk/article/14th-december-1867/1/news-of-the-week": {
+   "hn_id": "HN-208",
+   "provider": "The Spectator Archive",
+   "status": "image_acquired",
+   "page_url": "https://archive.spectator.co.uk/article/14th-december-1867/1/news-of-the-week",
+   "newspaper": "The Spectator",
+   "issue_date": "1867-12-14",
+   "page": 1,
+   "error": null,
+   "acquired_at": "2026-11-18T00:46:27.650Z",
+   "image_url": "http://archive-images.spectator.co.uk/issues/14th-december-1867/1.jpg?size=x&token=c786d9184a552b373cff8d095f50216f",
+   "full_page_asset": "assets/images/hn-208-spectator-18671214-p1-page.jpg",
+   "mosaic_method": "archive_page_rendition",
+   "source_dimensions": "918x1500",
+   "output_dimensions": "918x1500",
+   "gray_stats": {
+    "sd": 17.8,
+    "min": 99,
+    "mean": 227.2
+   }
+  },
+  "HN-233|https://archive.spectator.co.uk/article/18th-december-1875/1/a-crime-the-like-of-which-the-world-has-probably": {
+   "hn_id": "HN-233",
+   "provider": "The Spectator Archive",
+   "status": "image_acquired",
+   "page_url": "https://archive.spectator.co.uk/article/18th-december-1875/1/a-crime-the-like-of-which-the-world-has-probably",
+   "newspaper": "The Spectator",
+   "issue_date": "1875-12-18",
+   "page": 1,
+   "error": null,
+   "acquired_at": "2026-11-18T00:46:28.360Z",
+   "image_url": "http://archive-images.spectator.co.uk/issues/18th-december-1875/1.jpg?size=x&token=3d35220411816122a4b4ab49e4ae2f65",
+   "full_page_asset": "assets/images/hn-233-spectator-18751218-p1-page.jpg",
+   "mosaic_method": "archive_page_rendition",
+   "source_dimensions": "939x1500",
+   "output_dimensions": "939x1500",
+   "gray_stats": {
+    "sd": 20.2,
+    "min": 58,
+    "mean": 228.3
+   }
+  }
+ }
+}

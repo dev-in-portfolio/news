@@ -1,0 +1,347 @@
+{
+ "generated_at": "2026-11-18T00:43:59.598Z",
+ "items": {
+  "HN-460|maltribune19281113-1.2.37": {
+   "hn_id": "HN-460",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/maltribune19281113-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281113-1.2.37",
+   "newspaper": "Malaya Tribune",
+   "issue_date": "1928-11-13",
+   "page": 9,
+   "article_id": "maltribune19281113-1.2.37",
+   "archive_article_title": "SHIPPING DISASTER.",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:42:55.549Z",
+   "crop_asset": "assets/images/hn-460-newspapersg-maltribune19281113-1-2-37-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x2761",
+   "area_count": 4,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x98",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281113-1.2.37.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281113-1.2.37"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x287",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281113-1.2.37.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281113-1.2.37"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x100",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281113-1.2.37.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281113-1.2.37"
+    },
+    {
+     "area": 4,
+     "dimensions": "1200x2276",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281113-1.2.37.webp?area=4&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281113-1.2.37"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x2761",
+   "output_dimensions": "1200x2761",
+   "gray_stats": {
+    "sd": 39.3,
+    "min": 0,
+    "mean": 194.5
+   },
+   "additional_cited_article": true
+  },
+  "HN-461|maltribune19281117-1.2.56": {
+   "hn_id": "HN-461",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/maltribune19281117-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56",
+   "newspaper": "Malaya Tribune",
+   "issue_date": "1928-11-17",
+   "page": 7,
+   "article_id": "maltribune19281117-1.2.56",
+   "archive_article_title": "\"VESTRIS\" DISASTER INQUIRY.",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:43:11.819Z",
+   "crop_asset": "assets/images/hn-461-newspapersg-maltribune19281117-1-2-56-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x5763",
+   "area_count": 7,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x282",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x309",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x241",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 4,
+     "dimensions": "1200x238",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=4&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 5,
+     "dimensions": "1200x92",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=5&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 6,
+     "dimensions": "1200x1182",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=6&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    },
+    {
+     "area": 7,
+     "dimensions": "1200x3419",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/maltribune19281117-1.2.56.webp?area=7&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/maltribune19281117-1.2.56"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x5763",
+   "output_dimensions": "1200x5763",
+   "gray_stats": {
+    "sd": 30,
+    "min": 37,
+    "mean": 189.2
+   },
+   "additional_cited_article": true
+  },
+  "HN-473|straitstimes19310921-1.2.68": {
+   "hn_id": "HN-473",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19310921-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19310921-1.2.68",
+   "newspaper": "The Straits Times",
+   "issue_date": "1931-09-21",
+   "page": 12,
+   "article_id": "straitstimes19310921-1.2.68",
+   "archive_article_title": "Japanese Occupying Manchuria.",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:43:20.864Z",
+   "crop_asset": "assets/images/hn-473-newspapersg-straitstimes19310921-1-2-68-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x5736",
+   "area_count": 3,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x308",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19310921-1.2.68.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19310921-1.2.68"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x2894",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19310921-1.2.68.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19310921-1.2.68"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x2534",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19310921-1.2.68.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19310921-1.2.68"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x5736",
+   "output_dimensions": "1200x5736",
+   "gray_stats": {
+    "sd": 22.7,
+    "min": 89,
+    "mean": 211
+   },
+   "additional_cited_article": true
+  },
+  "HN-475|straitstimes19311102-1.2.39": {
+   "hn_id": "HN-475",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19311102-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19311102-1.2.39",
+   "newspaper": "The Straits Times",
+   "issue_date": "1931-11-02",
+   "page": 9,
+   "article_id": "straitstimes19311102-1.2.39",
+   "archive_article_title": "WILL SOVIET RUSSIA INTERVENE IN MANCHURIA ?",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:43:37.132Z",
+   "crop_asset": "assets/images/hn-475-newspapersg-straitstimes19311102-1-2-39-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x10754",
+   "area_count": 4,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x53",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19311102-1.2.39.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19311102-1.2.39"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x270",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19311102-1.2.39.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19311102-1.2.39"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x7842",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19311102-1.2.39.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19311102-1.2.39"
+    },
+    {
+     "area": 4,
+     "dimensions": "1200x2589",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitstimes19311102-1.2.39.webp?area=4&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitstimes19311102-1.2.39"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x10754",
+   "output_dimensions": "1200x10754",
+   "gray_stats": {
+    "sd": 18.5,
+    "min": 115,
+    "mean": 208.4
+   },
+   "additional_cited_article": true
+  },
+  "HN-483|straitsbudget19330928-1.2.71.21": {
+   "hn_id": "HN-483",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitsbudget19330928-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitsbudget19330928-1.2.71.21",
+   "newspaper": "The Straits Budget",
+   "issue_date": "1933-09-28",
+   "page": 13,
+   "article_id": "straitsbudget19330928-1.2.71.21",
+   "archive_article_title": "REICHSTAG FIRE TRIAL.",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:43:45.300Z",
+   "crop_asset": "assets/images/hn-483-newspapersg-straitsbudget19330928-1-2-71-21-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x3217",
+   "area_count": 3,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x256",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitsbudget19330928-1.2.71.21.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitsbudget19330928-1.2.71.21"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x315",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitsbudget19330928-1.2.71.21.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitsbudget19330928-1.2.71.21"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x2646",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/straitsbudget19330928-1.2.71.21.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/straitsbudget19330928-1.2.71.21"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x3217",
+   "output_dimensions": "1200x3217",
+   "gray_stats": {
+    "sd": 43.2,
+    "min": 0,
+    "mean": 186.3
+   },
+   "additional_cited_article": true
+  },
+  "HN-591|freepress19530306-1.2.2": {
+   "hn_id": "HN-591",
+   "provider": "NewspaperSG (National Library Board, Singapore)",
+   "status": "image_acquired",
+   "page_url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/freepress19530306-1",
+   "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2",
+   "newspaper": "The Singapore Free Press",
+   "issue_date": "1953-03-06",
+   "page": 1,
+   "article_id": "freepress19530306-1.2.2",
+   "archive_article_title": "STALIN IS DEAD",
+   "article_title_match": "archive_issue_article_title",
+   "error": null,
+   "acquired_at": "2026-11-18T00:43:59.597Z",
+   "crop_asset": "assets/images/hn-591-newspapersg-freepress19530306-1-2-2-clipping.jpg",
+   "crop_method": "archive_clipping_image",
+   "crop_dimensions": "1200x6576",
+   "area_count": 5,
+   "areas": [
+    {
+     "area": 1,
+     "dimensions": "1200x293",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/freepress19530306-1.2.2.webp?area=1&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2"
+    },
+    {
+     "area": 2,
+     "dimensions": "1200x132",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/freepress19530306-1.2.2.webp?area=2&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2"
+    },
+    {
+     "area": 3,
+     "dimensions": "1200x1752",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/freepress19530306-1.2.2.webp?area=3&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2"
+    },
+    {
+     "area": 4,
+     "dimensions": "1200x3869",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/freepress19530306-1.2.2.webp?area=4&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2"
+    },
+    {
+     "area": 5,
+     "dimensions": "1200x530",
+     "image_url": "https://eservice.nlb.gov.sg/newspapercontent/digitised/article/freepress19530306-1.2.2.webp?area=5&width=1200&ct=ARTICLE&ns=&coord=",
+     "article_url": "https://eresources.nlb.gov.sg/newspapers/digitised/article/freepress19530306-1.2.2"
+    }
+   ],
+   "source_format": "webp",
+   "requested_width": 1200,
+   "source_dimensions": "1200x6576",
+   "output_dimensions": "1200x6576",
+   "gray_stats": {
+    "sd": 27.4,
+    "min": 50,
+    "mean": 192.1
+   },
+   "additional_cited_article": true
+  }
+ }
+}

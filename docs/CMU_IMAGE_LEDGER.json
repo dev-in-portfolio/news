@@ -1,0 +1,77 @@
+{
+ "generated_at": "2026-11-18T01:16:29.353Z",
+ "items": {
+  "HN-503|https://iiif.library.cmu.edu/file/OUT_1936_004_011_08211936/OUT_1936_004_011_08211936.pdf": {
+   "hn_id": "HN-503",
+   "provider": "Carnegie Mellon University Libraries (The American Jewish Outlook)",
+   "status": "image_acquired",
+   "page_url": "https://iiif.library.cmu.edu/file/OUT_1936_004_011_08211936/OUT_1936_004_011_08211936.pdf",
+   "newspaper": "The American Jewish Outlook",
+   "issue_date": "1936-08-21",
+   "error": null,
+   "acquired_at": "2026-11-18T01:16:23.324Z",
+   "full_page_asset": "assets/images/hn-503-american-jewish-outlook-19360821-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 1,
+   "article_note": "Vets Ask for Games Pledge (Olympic fair-treatment resolution)",
+   "source_dimensions": "1296x1728pt",
+   "output_dimensions": "1600x2133",
+   "render_scale": 1.23,
+   "gray_stats": {
+    "sd": 45.6,
+    "min": 22,
+    "mean": 216
+   },
+   "additional_cited_article": true
+  },
+  "HN-510|https://iiif.library.cmu.edu/file/OUT_1938_007_015_03181938/OUT_1938_007_015_03181938.pdf": {
+   "hn_id": "HN-510",
+   "provider": "Carnegie Mellon University Libraries (The American Jewish Outlook)",
+   "status": "image_acquired",
+   "page_url": "https://iiif.library.cmu.edu/file/OUT_1938_007_015_03181938/OUT_1938_007_015_03181938.pdf",
+   "newspaper": "The American Jewish Outlook",
+   "issue_date": "1938-03-18",
+   "error": null,
+   "acquired_at": "2026-11-18T01:16:26.464Z",
+   "full_page_asset": "assets/images/hn-510-american-jewish-outlook-19380318-p3-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 3,
+   "article_note": "And Now Austria (Anschluss report)",
+   "source_dimensions": "792x1224pt",
+   "output_dimensions": "1600x2472",
+   "render_scale": 2.02,
+   "gray_stats": {
+    "sd": 30.7,
+    "min": 60,
+    "mean": 216.1
+   },
+   "additional_cited_article": true
+  },
+  "HN-516|https://iiif.library.cmu.edu/file/OUT_1938_008_025_11251938/OUT_1938_008_025_11251938.pdf": {
+   "hn_id": "HN-516",
+   "provider": "Carnegie Mellon University Libraries (The American Jewish Outlook)",
+   "status": "image_acquired",
+   "page_url": "https://iiif.library.cmu.edu/file/OUT_1938_008_025_11251938/OUT_1938_008_025_11251938.pdf",
+   "newspaper": "The American Jewish Outlook",
+   "issue_date": "1938-11-25",
+   "error": null,
+   "acquired_at": "2026-11-18T01:16:29.353Z",
+   "full_page_asset": "assets/images/hn-516-american-jewish-outlook-19381125-p6-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 6,
+   "article_note": "Father Coughlin radio rhetoric editorial",
+   "source_dimensions": "792x1224pt",
+   "output_dimensions": "1600x2472",
+   "render_scale": 2.02,
+   "gray_stats": {
+    "sd": 29.1,
+    "min": 75,
+    "mean": 208.4
+   },
+   "additional_cited_article": true
+  }
+ }
+}

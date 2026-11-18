@@ -35,6 +35,7 @@ function normalise(e, fallbackProvider) {
     section_area: e.section_area || null,
     additional_cited_article: e.additional_cited_article || false,
     cross_reference_of: e.cross_reference_of || null,
+    distinct_asset: e.distinct_asset || false,
   };
 }
 
@@ -60,6 +61,16 @@ function buildImages() {
     { file: path.join(ROOT, 'docs', 'PORTAL_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Gateway to Oklahoma History / The Portal to Texas History' },
     { file: path.join(ROOT, 'docs', 'INDIANA_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Hoosier State Chronicles (Indiana State Library)' },
     { file: path.join(ROOT, 'docs', 'INDIANA_MOSAIC_LEDGER.json'), provider: 'Hoosier State Chronicles (Indiana State Library)' },
+    { file: path.join(ROOT, 'docs', 'VIRGINIA_CHRONICLE_MOSAIC_LEDGER.json'), provider: 'Virginia Chronicle (Library of Virginia)' },
+    { file: path.join(ROOT, 'docs', 'SUPPORTING_VERIDIAN_LEDGER.json'), provider: null },
+    { file: path.join(ROOT, 'docs', 'GEORGIA_IIIF_LEDGER.json'), provider: 'Georgia Historic Newspapers (Digital Library of Georgia)' },
+    { file: path.join(ROOT, 'docs', 'TAMU_IIIF_LEDGER.json'), provider: 'Texas A&M University Libraries (Open ONI)' },
+    { file: path.join(ROOT, 'docs', 'NEWSPAPERSG_SUPPORT_LEDGER.json'), provider: 'NewspaperSG (National Library Board, Singapore)' },
+    { file: path.join(ROOT, 'docs', 'SPECTATOR_IMAGE_LEDGER.json'), provider: 'The Spectator Archive' },
+    { file: path.join(ROOT, 'docs', 'JTA_IMAGE_LEDGER.json'), provider: 'Jewish Telegraphic Agency Archive' },
+    { file: path.join(ROOT, 'docs', 'OAKLAND_IMAGE_LEDGER.json'), provider: 'Oakland University (The Pontiac Press)' },
+    { file: path.join(ROOT, 'docs', 'CMU_IMAGE_LEDGER.json'), provider: 'Carnegie Mellon University Libraries (The American Jewish Outlook)' },
+    { file: path.join(ROOT, 'docs', 'SUPPORT_SCANS_LEDGER.json'), provider: 'Supporting newspaper scans' },
     { file: path.join(ROOT, 'docs', 'OTHER_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Other public archives' },
     { file: path.join(ROOT, 'docs', 'PAPERSPAST_IMAGE_ACQUISITION_LEDGER.json'), provider: 'Papers Past (National Library of New Zealand)' },
   ];
@@ -85,7 +96,13 @@ function buildImages() {
         }
         continue;
       }
-      const key = hn + '|' + (e.page_url || e.full_page_asset || e.crop_asset);
+      const asset = e.full_page_asset || e.crop_asset;
+      // Distinct scans published on one source page (e.g. several archive-owned
+      // clippings in a single exhibit) must not collapse to one image. Entries
+      // flagged distinct_asset include the asset in the dedupe key; all other
+      // entries keep the legacy page-level key so cross-ledger duplicates and
+      // near-duplicate renditions of the same page still dedupe.
+      const key = hn + '|' + (e.page_url || asset) + (e.distinct_asset ? '|' + asset : '');
       if (seen.has(key)) continue;
       seen.add(key);
       if (!images[hn]) images[hn] = [];

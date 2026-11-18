@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-18T00:15:31.845Z",
+ "items": {
+  "HN-597|https://www.virginiachronicle.com/?a=d&d=NVP19540316.1.1": {
+   "hn_id": "HN-597",
+   "provider": "Virginia Chronicle (Library of Virginia)",
+   "status": "page_mosaic_acquired",
+   "page_url": "https://www.virginiachronicle.com/?a=d&d=NVP19540316.1.1",
+   "newspaper": "Norfolk Virginian-Pilot 16 March 1954",
+   "issue_date": "1954-03-16",
+   "page": 1,
+   "sequence": 1,
+   "document_oid": "NVP19540316",
+   "page_key": "1.1",
+   "cited_section": "1.1",
+   "section_area": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "full_page_asset": "assets/images/hn-597-vc-NVP19540316-p1-1-page.jpg",
+   "full_page_dimensions": "1024x1280",
+   "source_dimensions": "5976x8030",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 20,
+   "error": null,
+   "acquired_at": "2026-11-18T00:15:01.160Z"
+  },
+  "HN-536|https://www.virginiachronicle.com/?a=d&d=TFL19421202.1.1": {
+   "hn_id": "HN-536",
+   "provider": "Virginia Chronicle (Library of Virginia)",
+   "status": "page_mosaic_acquired",
+   "page_url": "https://www.virginiachronicle.com/?a=d&d=TFL19421202.1.1",
+   "newspaper": "Free Lance-Star 2 December 1942",
+   "issue_date": "1942-12-02",
+   "page": 1,
+   "sequence": 1,
+   "document_oid": "TFL19421202",
+   "page_key": "1.1",
+   "cited_section": "1.1",
+   "section_area": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "full_page_asset": "assets/images/hn-536-vc-TFL19421202-p1-1-page.jpg",
+   "full_page_dimensions": "1024x1464",
+   "source_dimensions": "5101x7268",
+   "mosaic_method": "openseadragon_tiles_256",
+   "tile_count": 24,
+   "error": null,
+   "acquired_at": "2026-11-18T00:15:31.845Z"
+  }
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "generated_at": "2026-11-18T01:06:58.961Z",
+ "items": {
+  "HN-598|https://our.oakland.edu/items/b1f5e586-5d24-429c-ac7d-dd40659d7b91": {
+   "hn_id": "HN-598",
+   "provider": "Oakland University (The Pontiac Press)",
+   "status": "image_acquired",
+   "page_url": "https://our.oakland.edu/items/b1f5e586-5d24-429c-ac7d-dd40659d7b91",
+   "newspaper": "The Pontiac Press",
+   "issue_date": "1954-04-22",
+   "error": null,
+   "acquired_at": "2026-11-18T01:06:04.070Z",
+   "pdf_pages": 55,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 81,
+     "hits": [
+      "mundtx1",
+      "mccarthyx14",
+      "subcommitteex4",
+      "hearingsx2",
+      "senatorx2",
+      "armyx12"
+     ],
+     "chars": 17042
+    },
+    {
+     "page": 2,
+     "score": 64,
+     "hits": [
+      "mundtx2",
+      "mccarthyx10",
+      "subcommitteex1",
+      "hearingsx1",
+      "senatorx3",
+      "armyx15"
+     ],
+     "chars": 19076
+    },
+    {
+     "page": 54,
+     "score": 24,
+     "hits": [
+      "mccarthyx3",
+      "subcommitteex1",
+      "hearingsx2",
+      "senatorx2",
+      "armyx5"
+     ],
+     "chars": 13220
+    },
+    {
+     "page": 12,
+     "score": 12,
+     "hits": [
+      "mccarthyx2",
+      "senatorx1",
+      "armyx5"
+     ],
+     "chars": 5995
+    },
+    {
+     "page": 45,
+     "score": 8,
+     "hits": [
+      "mccarthyx2",
+      "senatorx1",
+      "armyx1"
+     ],
+     "chars": 10667
+    }
+   ],
+   "full_page_asset": "assets/images/hn-598-pontiac-press-19540422-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 1,
+   "best_score": 81,
+   "source_dimensions": "976x1393pt",
+   "output_dimensions": "1600x2284",
+   "render_scale": 1.64,
+   "gray_stats": {
+    "sd": 67.6,
+    "min": 0,
+    "mean": 157.6
+   },
+   "additional_cited_article": true
+  },
+  "HN-600|https://our.oakland.edu/items/c5a14c7c-42dd-4c05-a76c-7cab5f40ae68": {
+   "hn_id": "HN-600",
+   "provider": "Oakland University (The Pontiac Press)",
+   "status": "image_acquired",
+   "page_url": "https://our.oakland.edu/items/c5a14c7c-42dd-4c05-a76c-7cab5f40ae68",
+   "newspaper": "The Pontiac Press",
+   "issue_date": "1954-06-10",
+   "error": null,
+   "acquired_at": "2026-11-18T01:06:25.730Z",
+   "pdf_pages": 60,
+   "page_scores": [
+    {
+     "page": 2,
+     "score": 130,
+     "hits": [
+      "welchx14",
+      "cruelx1",
+      "chargex1",
+      "mccarthyx22",
+      "lawyerx1",
+      "applausex2",
+      "hearingx2"
+     ],
+     "chars": 21497
+    },
+    {
+     "page": 1,
+     "score": 32,
+     "hits": [
+      "welchx2",
+      "mccarthyx11"
+     ],
+     "chars": 10938
+    },
+    {
+     "page": 6,
+     "score": 23,
+     "hits": [
+      "welchx3",
+      "cruelx1",
+      "lawyerx1",
+      "hearingx1"
+     ],
+     "chars": 16487
+    },
+    {
+     "page": 53,
+     "score": 9,
+     "hits": [
+      "welchx1",
+      "hearingx4"
+     ],
+     "chars": 30647
+    },
+    {
+     "page": 14,
+     "score": 4,
+     "hits": [
+      "cruelx1"
+     ],
+     "chars": 9032
+    }
+   ],
+   "full_page_asset": "assets/images/hn-600-pontiac-press-19540610-p2-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 2,
+   "best_score": 130,
+   "source_dimensions": "988x1386pt",
+   "output_dimensions": "1600x2244",
+   "render_scale": 1.62,
+   "gray_stats": {
+    "sd": 38.8,
+    "min": 2,
+    "mean": 194.8
+   },
+   "additional_cited_article": true
+  },
+  "HN-601|https://our.oakland.edu/items/5fed8e59-d8eb-4447-986a-08b817265a81": {
+   "hn_id": "HN-601",
+   "provider": "Oakland University (The Pontiac Press)",
+   "status": "image_acquired",
+   "page_url": "https://our.oakland.edu/items/5fed8e59-d8eb-4447-986a-08b817265a81",
+   "newspaper": "The Pontiac Press",
+   "issue_date": "1954-09-23",
+   "error": null,
+   "acquired_at": "2026-11-18T01:06:43.227Z",
+   "pdf_pages": 64,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 48,
+     "hits": [
+      "fishermanx3",
+      "radiox1",
+      "ashx1",
+      "kuboyamax3",
+      "japanesex4",
+      "dragonx1",
+      "hydrogenx2",
+      "bikinix2"
+     ],
+     "chars": 11090
+    },
+    {
+     "page": 62,
+     "score": 42,
+     "hits": [
+      "radiox42"
+     ],
+     "chars": 15085
+    },
+    {
+     "page": 16,
+     "score": 6,
+     "hits": [
+      "japanesex3"
+     ],
+     "chars": 6713
+    },
+    {
+     "page": 63,
+     "score": 3,
+     "hits": [
+      "radiox3"
+     ],
+     "chars": 14447
+    },
+    {
+     "page": 3,
+     "score": 2,
+     "hits": [
+      "ashx2"
+     ],
+     "chars": 6368
+    }
+   ],
+   "full_page_asset": "assets/images/hn-601-pontiac-press-19540923-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 1,
+   "best_score": 48,
+   "source_dimensions": "920x1321pt",
+   "output_dimensions": "1600x2297",
+   "render_scale": 1.74,
+   "gray_stats": {
+    "sd": 61.6,
+    "min": 0,
+    "mean": 170.2
+   },
+   "additional_cited_article": true
+  },
+  "HN-602|https://our.oakland.edu/items/a1f38b29-cf20-4e65-b872-464104198e14": {
+   "hn_id": "HN-602",
+   "provider": "Oakland University (The Pontiac Press)",
+   "status": "image_acquired",
+   "page_url": "https://our.oakland.edu/items/a1f38b29-cf20-4e65-b872-464104198e14",
+   "newspaper": "The Pontiac Press",
+   "issue_date": "1955-04-12",
+   "error": null,
+   "acquired_at": "2026-11-18T01:06:58.959Z",
+   "pdf_pages": 30,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 452,
+     "hits": [
+      "salkx25",
+      "poliox30",
+      "vaccinex45",
+      "successx1",
+      "paralyticx1"
+     ],
+     "chars": 19064
+    },
+    {
+     "page": 2,
+     "score": 271,
+     "hits": [
+      "salkx14",
+      "poliox19",
+      "vaccinex27",
+      "paralyticx3"
+     ],
+     "chars": 21204
+    },
+    {
+     "page": 29,
+     "score": 28,
+     "hits": [
+      "salkx2",
+      "poliox1",
+      "vaccinex3"
+     ],
+     "chars": 18241
+    },
+    {
+     "page": 17,
+     "score": 12,
+     "hits": [
+      "poliox1",
+      "vaccinex2"
+     ],
+     "chars": 15609
+    },
+    {
+     "page": 23,
+     "score": 10,
+     "hits": [
+      "salkx1",
+      "vaccinex1"
+     ],
+     "chars": 27864
+    }
+   ],
+   "full_page_asset": "assets/images/hn-602-pontiac-press-19550412-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "text_match",
+   "pdf_page": 1,
+   "best_score": 452,
+   "source_dimensions": "990x1372pt",
+   "output_dimensions": "1600x2216",
+   "render_scale": 1.62,
+   "gray_stats": {
+    "sd": 63.3,
+    "min": 0,
+    "mean": 187.7
+   },
+   "additional_cited_article": true
+  }
+ }
+}

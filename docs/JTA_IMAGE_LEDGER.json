@@ -1,0 +1,462 @@
+{
+ "generated_at": "2026-11-18T00:57:14.870Z",
+ "items": {
+  "HN-503|https://www.jta.org/archive/nazis-prepare-renewed-anti-jewish-drive-after-olympics": {
+   "hn_id": "HN-503",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/nazis-prepare-renewed-anti-jewish-drive-after-olympics",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1936-07-10",
+   "error": null,
+   "acquired_at": "2026-11-18T00:53:08.486Z",
+   "archive_article_title": "Nazis Prepare Renewed Anti-jewish Drive After Olympics",
+   "article_summary": "Two significant orders issued by high Government officials gave indication today that elaborate preparations have been completed for an intensified...",
+   "pdf_url": "http://pdfs.jta.org/1936/1936-07-10_277.pdf",
+   "pdf_pages": 6,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 0.385,
+     "ocr_chars": 1931
+    },
+    {
+     "page": 5,
+     "score": 0.304,
+     "ocr_chars": 2529
+    },
+    {
+     "page": 4,
+     "score": 0.302,
+     "ocr_chars": 2470
+    },
+    {
+     "page": 6,
+     "score": 0.281,
+     "ocr_chars": 1329
+    },
+    {
+     "page": 2,
+     "score": 0.276,
+     "ocr_chars": 2513
+    },
+    {
+     "page": 3,
+     "score": 0.27,
+     "ocr_chars": 2357
+    }
+   ],
+   "full_page_asset": "assets/images/hn-503-jta-1936-07-10-277-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.385,
+   "pdf_page": 1,
+   "source_dimensions": "771x1064",
+   "output_dimensions": "771x1064",
+   "gray_stats": {
+    "sd": 16.8,
+    "min": 52,
+    "mean": 109.1
+   },
+   "additional_cited_article": true
+  },
+  "HN-503|https://www.jta.org/archive/reich-jews-fear-nazi-land-seizure-united-press-reports": {
+   "hn_id": "HN-503",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/reich-jews-fear-nazi-land-seizure-united-press-reports",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1936-08-21",
+   "error": null,
+   "acquired_at": "2026-11-18T00:53:41.034Z",
+   "archive_article_title": "Reich Jews Fear Nazi Land Seizure, United Press Reports",
+   "article_summary": "The United Press reports from Berlin today that German Jews fear a new drive against them to be climaxed by...",
+   "pdf_url": "http://pdfs.jta.org/1936/1936-08-21_018.pdf",
+   "pdf_pages": 5,
+   "page_scores": [
+    {
+     "page": 3,
+     "score": 0.329,
+     "ocr_chars": 2320
+    },
+    {
+     "page": 4,
+     "score": 0.253,
+     "ocr_chars": 2284
+    },
+    {
+     "page": 5,
+     "score": 0.245,
+     "ocr_chars": 2117
+    },
+    {
+     "page": 1,
+     "score": 0.23,
+     "ocr_chars": 1802
+    },
+    {
+     "page": 2,
+     "score": 0.208,
+     "ocr_chars": 2170
+    }
+   ],
+   "full_page_asset": "assets/images/hn-503-jta-1936-08-21-018-p3-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.329,
+   "pdf_page": 3,
+   "source_dimensions": "771x1063",
+   "output_dimensions": "771x1063",
+   "gray_stats": {
+    "sd": 15.6,
+    "min": 75,
+    "mean": 119.6
+   },
+   "additional_cited_article": true
+  },
+  "HN-510|https://www.jta.org/archive/suicides-mount-austrian-jews-besiege-consulates-as-terrorism-sacking-of-shops-rises": {
+   "hn_id": "HN-510",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/suicides-mount-austrian-jews-besiege-consulates-as-terrorism-sacking-of-shops-rises",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1938-03-18",
+   "error": null,
+   "acquired_at": "2026-11-18T00:54:03.643Z",
+   "archive_article_title": "Suicides Mount, Austrian Jews Besiege Consulates As Terrorism, Sacking of Shops Rises",
+   "article_summary": "Suicides mounted and desperate Jews besieged foreign consulates to find a way to leave the country as Purim, traditional Hebrew...",
+   "pdf_url": "http://pdfs.jta.org/1938/1938-03-18_190.pdf",
+   "pdf_pages": 4,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 0.368,
+     "ocr_chars": 1642
+    },
+    {
+     "page": 2,
+     "score": 0.248,
+     "ocr_chars": 2522
+    },
+    {
+     "page": 4,
+     "score": 0.245,
+     "ocr_chars": 2513
+    },
+    {
+     "page": 3,
+     "score": 0.229,
+     "ocr_chars": 2266
+    }
+   ],
+   "full_page_asset": "assets/images/hn-510-jta-1938-03-18-190-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.368,
+   "pdf_page": 1,
+   "source_dimensions": "1032x1329",
+   "output_dimensions": "1032x1329",
+   "gray_stats": {
+    "sd": 36.2,
+    "min": 24,
+    "mean": 101.5
+   },
+   "additional_cited_article": true
+  },
+  "HN-516|https://www.jta.org/archive/coughlin-charges-jews-do-not-aid-protests-on-persecution-of-christians": {
+   "hn_id": "HN-516",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/coughlin-charges-jews-do-not-aid-protests-on-persecution-of-christians",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1938-12-02",
+   "error": null,
+   "acquired_at": "2026-11-18T00:54:20.829Z",
+   "archive_article_title": "Coughlin Charges Jews Do Not Aid Protests on Persecution of Christians",
+   "article_summary": "Father Charles E. Coughlin, whose charges of Jewish influence in the Russian revolution have aroused widespread controversy, today defended his...",
+   "pdf_url": "http://pdfs.jta.org/1938/1938-12-02_001.pdf",
+   "pdf_pages": 5,
+   "page_scores": [
+    {
+     "page": 5,
+     "score": 0.342,
+     "ocr_chars": 3248
+    },
+    {
+     "page": 4,
+     "score": 0.268,
+     "ocr_chars": 2621
+    },
+    {
+     "page": 1,
+     "score": 0.257,
+     "ocr_chars": 1999
+    },
+    {
+     "page": 2,
+     "score": 0.256,
+     "ocr_chars": 3009
+    },
+    {
+     "page": 3,
+     "score": 0.239,
+     "ocr_chars": 2837
+    }
+   ],
+   "full_page_asset": "assets/images/hn-516-jta-1938-12-02-001-p5-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.342,
+   "pdf_page": 5,
+   "source_dimensions": "1056x1314",
+   "output_dimensions": "1056x1314",
+   "gray_stats": {
+    "sd": 15.1,
+    "min": 51,
+    "mean": 136.1
+   },
+   "additional_cited_article": true
+  },
+  "HN-516|https://www.jta.org/archive/ymca-bars-coughlin-broadcasts-condemns-inciting-speech": {
+   "hn_id": "HN-516",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/ymca-bars-coughlin-broadcasts-condemns-inciting-speech",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1938-11-28",
+   "error": null,
+   "acquired_at": "2026-11-18T00:54:37.562Z",
+   "archive_article_title": "Ymca Bars Coughlin Broadcasts, Condemns Inciting Speech",
+   "article_summary": "Station YMCA today cancelled the weekly radio addresses of Father Charles E. Coughlin from Royal Oak, Mich., for failing to...",
+   "pdf_url": "http://pdfs.jta.org/1938/1938-11-28_197.pdf",
+   "pdf_pages": 5,
+   "page_scores": [
+    {
+     "page": 4,
+     "score": 0.311,
+     "ocr_chars": 2646
+    },
+    {
+     "page": 3,
+     "score": 0.242,
+     "ocr_chars": 2765
+    },
+    {
+     "page": 2,
+     "score": 0.22,
+     "ocr_chars": 2976
+    },
+    {
+     "page": 1,
+     "score": 0.219,
+     "ocr_chars": 2482
+    },
+    {
+     "page": 5,
+     "score": 0.206,
+     "ocr_chars": 2118
+    }
+   ],
+   "full_page_asset": "assets/images/hn-516-jta-1938-11-28-197-p4-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.311,
+   "pdf_page": 4,
+   "source_dimensions": "1042x1303",
+   "output_dimensions": "1042x1303",
+   "gray_stats": {
+    "sd": 14.7,
+    "min": 95,
+    "mean": 143.9
+   },
+   "additional_cited_article": true
+  },
+  "HN-559|https://www.jta.org/archive/nuremberg-verdict-will-protect-jews-only-in-time-of-war-and-in-conquered-lands-allie": {
+   "hn_id": "HN-559",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/nuremberg-verdict-will-protect-jews-only-in-time-of-war-and-in-conquered-lands-allie",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1946-10-02",
+   "error": null,
+   "acquired_at": "2026-11-18T00:54:56.238Z",
+   "archive_article_title": "Nuremberg Verdict Will Protect Jews Only in Time of War and in Conquered Lands Allie",
+   "article_summary": "The verdict issued here today by the Allied Military Tribunal against the members of the Nazi Government is considered as...",
+   "pdf_url": "http://pdfs.jta.org/1946/1946-10-02_226.pdf",
+   "pdf_pages": 5,
+   "page_scores": [
+    {
+     "page": 2,
+     "score": 0.29,
+     "ocr_chars": 3455
+    },
+    {
+     "page": 4,
+     "score": 0.243,
+     "ocr_chars": 3320
+    },
+    {
+     "page": 1,
+     "score": 0.234,
+     "ocr_chars": 2736
+    },
+    {
+     "page": 5,
+     "score": 0.227,
+     "ocr_chars": 2503
+    },
+    {
+     "page": 3,
+     "score": 0.226,
+     "ocr_chars": 2938
+    }
+   ],
+   "full_page_asset": "assets/images/hn-559-jta-1946-10-02-226-p2-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.29,
+   "pdf_page": 2,
+   "source_dimensions": "967x1411",
+   "output_dimensions": "967x1411",
+   "gray_stats": {
+    "sd": 27.2,
+    "min": 157,
+    "mean": 215.2
+   },
+   "additional_cited_article": true
+  },
+  "HN-711|https://www.jta.org/archive/among-the-nearly-250-dutch-victims-of-the": {
+   "hn_id": "HN-711",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/among-the-nearly-250-dutch-victims-of-the",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1977-04-05",
+   "error": null,
+   "acquired_at": "2026-11-18T00:55:16.174Z",
+   "archive_article_title": "News Brief",
+   "article_summary": "Among the nearly 250 Dutch victims of the air disaster at Tenerife Airport last week where a Dutch KLM jumbo...",
+   "pdf_url": "http://pdfs.jta.org/1977/1977-04-05_065.pdf",
+   "pdf_pages": 4,
+   "page_scores": [
+    {
+     "page": 2,
+     "score": 0.224,
+     "ocr_chars": 6095
+    },
+    {
+     "page": 1,
+     "score": 0.187,
+     "ocr_chars": 5017
+    },
+    {
+     "page": 4,
+     "score": 0.18,
+     "ocr_chars": 5335
+    },
+    {
+     "page": 3,
+     "score": 0.173,
+     "ocr_chars": 6014
+    }
+   ],
+   "full_page_asset": "assets/images/hn-711-jta-1977-04-05-065-p2-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.224,
+   "pdf_page": 2,
+   "source_dimensions": "983x1488",
+   "output_dimensions": "983x1488",
+   "gray_stats": {
+    "sd": 28.1,
+    "min": 141,
+    "mean": 198.9
+   },
+   "additional_cited_article": true
+  },
+  "HN-809|https://www.jta.org/archive/mandela-visits-cape-town-shul-and-reassures-jews-on-their-future": {
+   "hn_id": "HN-809",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "image_acquired",
+   "page_url": "https://www.jta.org/archive/mandela-visits-cape-town-shul-and-reassures-jews-on-their-future",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1994-05-10",
+   "error": null,
+   "acquired_at": "2026-11-18T00:55:30.970Z",
+   "archive_article_title": "Mandela Visits Cape Town Shul and Reassures Jews on Their Future",
+   "article_summary": "The largest synagogue in the Southern hemisphere — Cape Town’s Green and Sea Point Hebrew Congregation — was packed to...",
+   "pdf_url": "http://pdfs.jta.org/1994/1994_05_10-086.pdf",
+   "pdf_pages": 4,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 0.317,
+     "ocr_chars": 5629
+    },
+    {
+     "page": 2,
+     "score": 0.283,
+     "ocr_chars": 5853
+    },
+    {
+     "page": 3,
+     "score": 0.273,
+     "ocr_chars": 6184
+    },
+    {
+     "page": 4,
+     "score": 0.227,
+     "ocr_chars": 5903
+    }
+   ],
+   "full_page_asset": "assets/images/hn-809-jta-1994-05-10-086-p1-page.jpg",
+   "mosaic_method": "archive_pdf_page_rendition",
+   "page_selection": "ocr_locator",
+   "ocr_match_score": 0.317,
+   "pdf_page": 1,
+   "source_dimensions": "1806x3111",
+   "output_dimensions": "1806x3111",
+   "gray_stats": {
+    "sd": 30.1,
+    "min": 0,
+    "mean": 217.4
+   },
+   "additional_cited_article": true
+  },
+  "HN-813|https://www.jta.org/archive/jews-of-oklahoma-city-volunteer-in-relief-effort-help-raise-funds": {
+   "hn_id": "HN-813",
+   "provider": "Jewish Telegraphic Agency Archive",
+   "status": "no_confident_match",
+   "page_url": "https://www.jta.org/archive/jews-of-oklahoma-city-volunteer-in-relief-effort-help-raise-funds",
+   "newspaper": "Jewish Telegraphic Agency Bulletin",
+   "issue_date": "1995-04-25",
+   "error": "cited article not present in the linked bulletin PDF (OCR of all 4 pages); closest page was a different story",
+   "archive_article_title": "Jews of Oklahoma City Volunteer in Relief Effort, Help Raise Funds",
+   "article_summary": "The small Jewish community of Oklahoma City, although physically intact, was left devastated by last week’s bombing of a federal...",
+   "pdf_url": "http://pdfs.jta.org/1995/1995_04_25.pdf",
+   "pdf_pages": 4,
+   "page_scores": [
+    {
+     "page": 1,
+     "score": 0.268,
+     "ocr_chars": 6034
+    },
+    {
+     "page": 2,
+     "score": 0.266,
+     "ocr_chars": 6708
+    },
+    {
+     "page": 4,
+     "score": 0.258,
+     "ocr_chars": 6879
+    },
+    {
+     "page": 3,
+     "score": 0.257,
+     "ocr_chars": 6844
+    }
+   ]
+  }
+ }
+}

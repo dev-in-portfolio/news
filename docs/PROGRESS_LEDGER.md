@@ -20,11 +20,12 @@
 
 ## Current state
 
-- **Last successful verification:** Milestones 0–8 complete; `verify_milestone7.js` 40/40, `verify_images.js` 0 broken assets.
-- **Working tree:** Phase-2 image acquisition is uncommitted as of this checkpoint (checkpointed together with this ledger).
+- **Last successful verification:** Milestones 0–8 complete; `verify_milestone7.js` 40/40, `verify_images.js` 1,812 distinct assets / 0 missing / 0 broken, `audit_mosaics.js` 0 bad.
+- **Working tree:** Final image-acquisition checkpoint is committed together with this ledger (see commit history on `main`).
 - **Original source files:** Unchanged and read-only (hash-verified against `SOURCE_CHECKSUMS.sha256`).
 - **Generated data:** All under `site/data/` and `docs/`; none mixed with original source data.
 - **HTML pages:** 1,065 (1,056 detail pages + 6 section pages + 3 reference stories).
+- **Acquisition status:** Exhaustive. Every archive-scan-capable cited host has been probed; all 98 remaining records are blocked by copyright policy (96 modern web articles) or page-image paywall (2 British Library OCR-only). No obtainable archive-owned article image remains unlocated.
 
 ## Counts checkpoint (deterministic, from generated data)
 
@@ -41,21 +42,21 @@
 | Source-acquisition manifest rows | 1,056 | one per seed URL |
 | Manifest rows with live test results | 9 | 4 blocked_access, 3 verified, 2 link_checked |
 | Records with ≥1 resolved source URL | 1,056 | `scripts/hn_urls.json` (record `url` ∪ batch reports ∪ record text) |
-| Distinct resolved source URLs | 3,240 | `scripts/hn_urls.json` |
+| Distinct resolved source URLs | 3,240 unique (3,500 entries) | `scripts/hn_urls.json` — 475 hosts |
 | Records with no source URL at all | 0 | every record has a cited URL |
 | Records with ≥1 stored image | 958 | `site/data/images.json` |
-| Stored image renditions (entries) | 1,375 | 1,144 full-page + 316 crops/clips (85 entries have both) |
-| Full-page scans | 1,144 | Indiana 510, Oregon 420, LOC 86, OK 53, TX 25, SC 20, SCVHistory 16, other 14 |
-| Word-coordinate-verified article crops (`crop`) | 85 | score ≥ 0.6 against a quoted headline: Oregon 76, SC 6, LOC 3 |
-| Archive article clips (`archive_article_blocks_native`) | 227 | archive-supplied block geometry: Indiana 177, Papers Past 49, NLI 1 |
-| Archive clipping images (`archive_clipping_image`) | 4 | archive's own clipping: Birmingham 3, NewspaperSG 1 |
-| Records with ≥1 article crop/clip | 244 | `site/data/images.json` |
-| Records with page scan only (no crop) | 714 | all 714 have a full-page rendition |
-| Indiana tile mosaics | 510 pages / 463 documents | `docs/INDIANA_MOSAIC_LEDGER.json` (1 residual superseded by HN-704 issue PDF) |
-| PDF-rendered page images | 11 | 9 records, `archive_pdf_page_rendition` |
-| Other-archive page renditions | 19 | Quartex / CONTENTdm / SCVHistory / LOC guide page |
-| Distinct image assets referenced | 1,455 | `scripts/verify_images.js` |
-| Image files on disk | 1,462 | 975.6 MB under `site/assets/images/` |
+| Stored image renditions (entries) | 1,732 | 1,494 full-page + 323 crops/clips |
+| Full-page scans | 1,494 | Indiana 749, Oregon 420, LOC 85, OK 53, TX 25, SC 22, SCVHistory 18, other 122 |
+| Word-coordinate-verified article crops (`crop`) | 85 | score ≥ 0.6 against a quoted headline |
+| Archive article clips (`archive_article_blocks_native`) | 228 | archive-supplied block geometry (Indiana, Papers Past, NLI, etc.) |
+| Archive clipping images (`archive_clipping_image`) | 10 | archive's own clipping: Birmingham 3, NewspaperSG 7 |
+| Records with ≥1 article crop/clip | 251 | `site/data/images.json` |
+| Records with page scan only (no crop) | 707 | all 707 have a full-page rendition |
+| Indiana tile mosaics | 756 pages acquired | `docs/INDIANA_MOSAIC_LEDGER.json` (136 cited pages absent from the viewer; all 136 records have images from other sources) |
+| PDF-rendered page images | 58 | `archive_pdf_page_rendition` |
+| Other-archive page renditions | 25 | `archive_page_image` |
+| Distinct image assets referenced | 1,812 | `scripts/verify_images.js` — 0 missing, 0 broken |
+| Image files on disk | 1,821 | 1,200.2 MB under `site/assets/images/` |
 | Records still without an image | 98 | 96 modern copyrighted web articles + 2 British Library OCR-only |
 
 ## Milestone 3 feasibility results (summary)
@@ -411,10 +412,19 @@ at least one pixel at luma ≤ 191, so none is a blank white or black tile.
 ### Blocked, with the reason established
 
 - **British Library IRO** (`bl.iro.bl.uk`): the product page for *The Statesman*
-  exposes two ZIP bitstreams (0.55 MB and 207 MB). Both contain only
-  ALTO/METS **XML**, no page images. The page images are on the British
-  Newspaper Archive, which is subscription-gated. HN-054/HN-055 stay without an
-  image.
+  exposes 15 ZIP bitstreams, one per year 1806–1824. Re-verified 2026-11-17 via
+  the DSpace bundles API and a ZIP central-directory read:
+  - the 1806 ZIP (554,589 B) contains **5 XML entries, 0 image entries**
+    (four ALTO page files + one METS);
+  - the 1810 ZIP (207,489,956 B) exposes **1,553 central-directory entries,
+    0 image entries** — every entry is an ALTO/METS `.xml`;
+  - the METS does list JP2 *preservation masters* (`…_0001.jp2`–`…_0004.jp2`),
+    but they are referenced by relative `xlink:href` only and are **not** part of
+    any IRO bitstream. The ALTO `sourceImageInformation` points at an internal
+    preservation path (`//NP1-STOR2/…`), not a public URL.
+  The page images are on the British Newspaper Archive, which is
+  subscription-gated. HN-054/HN-055 stay without an image; this is an honest
+  OCR-only gap, not an unsearched archive.
 - **California Digital Newspaper Collection** (`cdnc.ucr.edu`): same Veridian
   platform as Indiana but behind a Cloudflare "Just a moment…" challenge with no
   public tile token path; 403 to plain HTTP. One record affected.
@@ -532,6 +542,147 @@ extract.
 - **Indiana page-level / Virginia Chronicle / HRVH / CDNC:** no article blocks
   (see above); covered by page mosaics/scans.
 
+### Additional archive-owned scans (2026-11-17, continued)
+
+Beyond the first article-level sweep, these archive-owned renditions were located
+and stored. Each is the archive's own scan or clipping; no generated or retouched
+images are used.
+
+- **Virginia Chronicle (Library of Virginia)** — 2/2 page mosaics via the
+  Veridian viewer: HN-597 `NVP19540316.1.1` (1024×1280 from 5976×8030) and
+  HN-536 `TFL19421202.1.1` (1024×1464 from 5101×7268). Ledger:
+  `docs/VIRGINIA_CHRONICLE_MOSAIC_LEDGER.json`.
+- **Supporting Veridian citations** — 3/3: HN-412 HRVH
+  `jaaggbbf19181223.1.8` (1024×1536), HN-529 HRVH `ieadbehj19411211.1.1`
+  (1024×1280), HN-453 CDNC `DNLA19270520.1.3` (1024×1536; the CDNC token field
+  is `grrh`, not `crth`). Ledger: `docs/SUPPORTING_VERIDIAN_LEDGER.json`.
+- **Georgia Historic Newspapers** — HN-546 `sn83009936/1944-07-20/seq-1`
+  (1200×1511) via Open ONI IIIF. Ledger: `docs/GEORGIA_IIIF_LEDGER.json`.
+- **Texas A&M (Open ONI)** — HN-582 `sn86088544/1951-01-12/seq-1` (1200×1632).
+  Ledger: `docs/TAMU_IIIF_LEDGER.json`.
+- **Utah Digital Newspapers** — HN-320 *Deseret Evening News*, 1899-12-30, p1/1
+  (1500×2389), text match 6/7.
+- **Southwest Collection (Texas Tech)** — 8/8 issue PDFs for 6 records, plus
+  HN-756 *The University Daily*, 1985-11-15, p1/12 (1542×2545,
+  `first_page_fallback`, 3/8 words). All PDF renderings are recorded in
+  `docs/OTHER_IMAGE_ACQUISITION_LEDGER.json`.
+- **South Carolina supporting pages** — HN-380 `sn84026925/1912-02-16/seq-2`
+  (7547×10363) and HN-381 `sn84026925/1912-03-29/seq-1` (7540×10435), in
+  `docs/SC_IMAGE_ACQUISITION_LEDGER.json`.
+- **SCVHistory** — HN-457 `al3038a.htm`/`al3038b.htm` → *Los Angeles Examiner*
+  pages 800×989 and 800×995.
+- **NewspaperSG supporting article clips** — 6/6. The archive's own clipping
+  endpoint returns the article in numbered areas; real areas are stacked in
+  archive order with white padding only, and a `Referer` for the article page is
+  required or the endpoint returns a 512×68 placeholder. HN-460 (1200×2761,
+  4 areas), HN-461 (1200×5763, 7), HN-473 (1200×5736, 3), HN-475 (1200×10754, 4),
+  HN-483 (1200×3217, 3; *The Straits Budget*), HN-591 (1200×6576, 5). Ledger:
+  `docs/NEWSPAPERSG_SUPPORT_LEDGER.json`.
+- **The Spectator Archive** — 2/2 page scans from the article page's `fullImages`
+  map: HN-208 14 Dec 1867 p1 (918×1500), HN-233 18 Dec 1875 p1 (939×1500).
+  Ledger: `docs/SPECTATOR_IMAGE_LEDGER.json`.
+- **Jewish Telegraphic Agency archive** — 8 of 9 cited scanned bulletins located
+  by OCR page-locator (Windows OCR is used only to find the page; the stored
+  image is the archive's own scanned PDF page, and no OCR text is stored):
+  HN-503 (two bulletins, p1/6 and p3/5), HN-510 p1/4, HN-516 p5/5 and p4/5,
+  HN-559 p2/5, HN-711 p2/4, HN-809 p1/4. HN-813's cited article is absent from
+  its linked bulletin (all four pages checked), so it remains an honest
+  no-match; HN-839 links no scanned PDF. Ledger: `docs/JTA_IMAGE_LEDGER.json`.
+- **Oakland University — *The Pontiac Press*** — 4/4 cited issues scanned from
+  microfilm, page located by the PDF's own text layer: HN-598 1954-04-22 p1/55,
+  HN-600 1954-06-10 p2/60, HN-601 1954-09-23 p1/64, HN-602 1955-04-12 p1/30.
+  Ledger: `docs/OAKLAND_IMAGE_LEDGER.json`.
+- **Carnegie Mellon University — *The American Jewish Outlook*** — 3/3 cited
+  issue PDFs, page located by the PDF's own text layer: HN-503 1936-08-21 p1/12
+  (Olympic fair-treatment resolution), HN-510 1938-03-18 p3/16 ("And Now
+  Austria"), HN-516 1938-11-25 p6/16 (Father Coughlin editorial). Ledger:
+  `docs/CMU_IMAGE_LEDGER.json`.
+- **Supporting newspaper PDFs** — 15/15, page located by the PDF's own text
+  layer (or, where the PDF has no text layer, by a Windows OCR page-locator used
+  only to find the page): HN-672 *Orange Coast Pilot* 1968-12-28 p5/72, HN-657
+  *Michigan State News* 1966-08-02 p1/6, HN-704 *The Daily Iowan* 1975-03-31
+  p1/10, HN-731 *The Observer* 1982-01-15 p4, HN-208 *Morning Courier*
+  1867-12-25 p2, HN-707 *Americké listy* 1976-07-16 p1, HN-841 *Rhode Island
+  Jewish Herald* 1999-01-21 p8, HN-708 *The Militant* 1976-09-17 p16, HN-451
+  *The Daily Worker* 1927-04-18 p3, HN-480 *The Daily Worker* 1933-03-06 p1,
+  HN-635 *National Guardian* 1961-05-29 p4, HN-622 *The Florence Herald*
+  1958-03-13 p1, HN-224 *The New York Herald* 1873-06-10 p6, HN-401 *The Daily
+  Home News* 1916-07-13 p1, and HN-935 *The Criterion* 2013-11-22 p5 (retrieved
+  from the Internet Archive snapshot of the cited file). Ledger:
+  `docs/SUPPORT_SCANS_LEDGER.json`.
+- **Internet Archive — *The Glendale Evening News*** — HN-416 1919-08-01 front
+  page (4456×6569; "Subsidence of Race Riots … total of 34") and HN-442
+  1925-04-18 p17 (2566×3382; Madge Oberholtzer / D.C. Stephenson trial report).
+  Page identity comes from each item's own `_djvu.xml` page objects; the cited
+  Wikimedia PDFs are renditions of the same items. Ledger:
+  `docs/OTHER_IMAGE_ACQUISITION_LEDGER.json`.
+- **Internet Archive — *China Mail* (Hong Kong)** — HN-460 1928-11-13 front page
+  (3585×4678) carrying the *Vestris* sinking report; page located in the item's
+  own DjVu XML. Ledger: `docs/OTHER_IMAGE_ACQUISITION_LEDGER.json`.
+- **Broward County Library — *Hollywood Sun-Tattler*** — HN-741 1983-11-01
+  front page (924×1575) via the collection's IIIF service, carrying the
+  Grenada invasion / hospital-bombing coverage cited alongside the
+  *Banner-Graphic* page. Ledger: `docs/OTHER_IMAGE_ACQUISITION_LEDGER.json`.
+
+### Final acquisitions (2026-11-18) and dedupe fix
+
+Four last archive-owned scans were located and added as `additional_cited_article`
+renditions (each is the archive's own scan, OCR-confirmed as a locator only; no
+OCR text is stored and no image is generated or retouched):
+
+- **HN-677** — *The Argus* (Melbourne), 18 Apr 1970 p1, from the cited Flickr
+  archive item (`49786877458`), 4745×7016. `hn-677-flickr-melbourne-herald-19700418-p1-page.jpg`.
+- **HN-602** — Post-Gazette Archives polio clippings from the cited
+  `newsinteractive.post-gazette.com/polio/` feature. Four distinct archive-owned
+  clippings credited "Post-Gazette Archives" were collapsed by the old dedupe
+  logic; after the fix all four are present (HN-602 now has 7 images). Images
+  credited `newspapers.com` or AP were excluded.
+- **HN-709** — *The Philadelphia Inquirer*, 3 Aug 1976 page scan carrying
+  "Mysterious Disease Kills 16", 3000×2000.
+  `hn-709-inquirer-legionnaires-19760803-page.jpg`.
+- **HN-645** — *The Dallas Morning News*, 23 Nov 1963 p1, from the Shapell
+  Manuscript Library item, 1000×1534; OCR confirmed the dateline and
+  "KENNEDY SLAIN ON DALLAS STREET".
+  `hn-645-shapell-dallas-morning-news-19631123-p1-page.jpg`.
+
+**Dedupe fix.** `scripts/lib_image_merge.js` now honours an explicit
+`distinct_asset: true` flag so that multiple archive-owned scans from one source
+page coexist rather than being collapsed as duplicates. The flag is set on the
+12 older `docs/OTHER_IMAGE_ACQUISITION_LEDGER.json` entries that legitimately
+share a source page and on the HN-709 and HN-645 acquisitions. This is what
+restored the four HN-602 Post-Gazette clippings.
+
+### Final host probe and rejection log (2026-11-18)
+
+A record-by-record cross-check of every cited URL against stored image hosts,
+plus direct probes of every remaining archive-scan-capable citation, confirmed
+there is no further obtainable scan. Resolved as already-covered or not a scan:
+
+- **HN-224** LOC `sn83030313/1873-09-21/seq-5` — already stored under the
+  `www.loc.gov/resource/...?sp=5` host form.
+- **HN-399** Papers Past — citation is a search-results URL (0 images) with no
+  article clip; the record has an Indiana page scan.
+- **HN-465** Texas A&M — cited PDF is the *Legacies Fall 2013* alumni magazine,
+  excluded as a non-newspaper publication.
+- **HN-813 / HN-839** JTA — cited pages expose only a `waiting-for-61-seats-72.png`
+  podcast promo; no scanned bulletin for those articles.
+- **HN-930** Inquirer 2012 — a modern web article with photos, not a scan.
+- **HN-412 / HN-529** HRVH Veridian — bot-protected (HTTP 202) to automation,
+  but both records already have their Veridian page renders.
+- **HN-531** Densho (403), **HN-546** Georgia Historic Newspapers (403) — already
+  have their primary scans; no additional on-topic scan exposed.
+- **HN-683 / HN-701 / HN-731** Notre Dame *Observer* PDFs — genuine archive
+  scans but already stored as additional cited articles.
+- **WV Culture** *Silver Bridge* page — only a 500×100 site logo; **Times Leader**
+  and **Vindy Archives** — modern opinion articles, no scans.
+- All 136 Indiana `page_unavailable` entries are "page absent from archive
+  viewer" (a genuine archive state, not a transient failure), and all 136 of
+  those records have images from other sources.
+
+All acquisition ledgers report 0 `failed`/`pending`/`error` entries. The final
+`_check_cited_scan_locators.js` check found only HN-224 (false positive, already
+stored) and HN-465 (excluded magazine).
+
 ### Final honest gap split
 
 `scripts/gap_report.js` reports **98 records without an image**:
@@ -549,9 +700,10 @@ archive** — every record whose citation is a historical scan has an image.
 ### Structural audit (all stored assets)
 
 `scripts/audit_mosaics.js` samples every referenced asset at 64×64 gray and checks
-variance and darkest pixel. Current run: **1,455 distinct assets, 0
-missing/blank/degenerate**; sd min/median 6.1/37.6; darkest-pixel max 197. Per
-method, 0 bad: `page_scan` 518, `openseadragon_tiles_256` 510,
-`archive_article_blocks_native` 222, `crop` 170, `archive_page_rendition` 19,
-`archive_pdf_page_rendition` 11, `archive_clipping_image` 4,
-`archive_page_preview` 1.
+variance and darkest pixel. Final run: **1,812 distinct assets, 0
+missing/blank/degenerate**; sd min/median 6.1/38.5; darkest-pixel max 197. Per
+method, 0 bad: `openseadragon_tiles_256` 755, `page_scan` 520,
+`archive_article_blocks_native` 223, `crop` 170,
+`archive_pdf_page_rendition` 58, `archive_page_rendition` 23,
+`archive_clipping_image` 32, `archive_iiif_image` 4,
+`archive_page_image` 25, `iiif_image_api` 2.

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T23:05:14.780Z",
+ "generated_at": "2026-11-18T03:20:12.342Z",
  "provider": "Papers Past (National Library of New Zealand)",
  "items": {
   "HN-350|https://paperspast.natlib.govt.nz/newspapers/WDT19051116.2.14.1": {
@@ -1165,6 +1165,33 @@
    "sequence": 1,
    "crop_method": "archive_article_blocks_native",
    "source_kind": "audit_link_report"
+  },
+  "HN-547|https://paperspast.natlib.govt.nz/newspapers/BOPT19441221.2.28": {
+   "hn_id": "HN-547",
+   "provider": "Papers Past (National Library of New Zealand)",
+   "status": "article_clip_acquired",
+   "page_url": "https://paperspast.natlib.govt.nz/newspapers/BOPT19441221.2.28",
+   "newspaper": "Bay of Plenty Times",
+   "headline": "MASSACRE OF PRISONERS",
+   "issue_date": "1944-12-21",
+   "page": 28,
+   "edition": 2,
+   "article": null,
+   "cited_section": "2.28",
+   "page_key": "2.28",
+   "block_count": 2,
+   "crop_asset": "assets/images/hn-547-pp-bopt19441221-2-28-article.jpg",
+   "crop_dimensions": "677x1672",
+   "source_dimensions": "677x1672",
+   "crop_coordinates": null,
+   "error": null,
+   "acquired_at": "2026-11-18T03:20:11.337Z",
+   "sequence": 900,
+   "crop_method": "archive_article_blocks_native",
+   "source_kind": "cited_issue_page_article",
+   "additional_cited_article": true,
+   "article_note": "The record cites the 21 Dec 1944 issue page; the archive exposes this article (\"MASSACRE OF PRISONERS\", Malmedy prisoner killings) within that cited issue.",
+   "cited_issue_url": "https://paperspast.natlib.govt.nz/newspapers/bay-of-plenty-times/1944/12/21"
   }
  }
 }

@@ -35,6 +35,51 @@ const RETRY = args.includes('--retry-failed');
 // several issues may be cited by one record.
 const JOBS = [
   {
+    hn: 'HN-557', url: 'https://newspapers.swco.ttu.edu/bitstreams/5ccc80c6-7f67-46cd-8173-d633fa1a12f8/download',
+    newspaper: 'Big Spring Daily Herald', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1946-07-01',
+  },
+  {
+    hn: 'HN-557', url: 'https://newspapers.swco.ttu.edu/bitstreams/b7f06215-2479-41f0-a9f3-25427bfc0757/download',
+    newspaper: 'Midland Reporter-Telegram', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1946-07-01',
+  },
+  {
+    hn: 'HN-562', url: 'https://newspapers.swco.ttu.edu/server/api/core/bitstreams/f999ec82-dbe2-41bf-8e29-4865dbc0e7b3/content',
+    newspaper: 'Pampa Daily News', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1947-04-17',
+  },
+  {
+    hn: 'HN-574', url: 'https://newspapers.swco.ttu.edu/bitstreams/4d373d73-44af-40ce-8af3-ca456eff5090/download',
+    newspaper: 'Big Spring Daily Herald', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1949-04-11',
+  },
+  {
+    hn: 'HN-719', url: 'https://newspapers.swco.ttu.edu/server/api/core/bitstreams/fab313c1-c86d-401a-b4f8-191eaa1adcea/content',
+    newspaper: 'Big Spring Herald', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1979-07-11',
+  },
+  {
+    hn: 'HN-728', url: 'https://newspapers.swco.ttu.edu/bitstreams/063e3f73-2166-4433-9e48-310922b44f32/download',
+    newspaper: 'Big Spring Herald', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1981-07-20',
+  },
+  {
+    hn: 'HN-757', url: 'https://newspapers.swco.ttu.edu/server/api/core/bitstreams/3c98b421-46f8-4216-8ca3-402316dce8bc/content',
+    newspaper: 'Midland Reporter-Telegram', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1985-11-21',
+  },
+  {
+    hn: 'HN-756', url: 'https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/190501/UD_1985_11_15.pdf?isAllowed=y&sequence=1',
+    newspaper: 'The University Daily (Texas Tech University)', provider: 'Southwest Collection (Texas Tech University)',
+    issue_date: '1985-11-15',
+  },
+  {
+    hn: 'HN-320', url: 'https://newspapers.lib.utah.edu/udn_files/8d/5a/8d5ac13c343eaac8a6832568538f728e9def5ded.pdf',
+    newspaper: 'Deseret Evening News', provider: 'Utah Digital Newspapers (University of Utah)',
+    issue_date: '1899-12-30',
+  },
+  {
     hn: 'HN-472', url: 'https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n166-NY-jul-11-1931-DW-LOC.pdf',
     newspaper: 'Daily Worker', provider: 'Marxists Internet Archive (Daily Worker, Library of Congress scan)',
     issue_date: '1931-07-11',
