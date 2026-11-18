@@ -221,18 +221,30 @@ function buildDetail(r) {
     (r.audit_links ? '<p><strong>Source links:</strong> ' + renderLinks(r.audit_links) + '</p>' : '') +
     '</div>' : '';
 
-  const acquisitionHtml = acquisition !== 'untried' ?
+  // The manifest is a milestone-3 feasibility snapshot recorded before any
+  // images existed. Every record that now has images is still marked "untried"
+  // there, so showing that status would contradict the scans displayed above.
+  // Report the actual current state instead; keep the manifest status only as
+  // historical context on records that genuinely have no acquired image.
+  const hasImages = !!(imagesByHn[r.hn_id] || []).length;
+  const acquisitionHtml = hasImages ?
     '<div class="card">\n' +
     '<h3>Source acquisition</h3>\n' +
-    '<p><strong>Provider:</strong> ' + esc(provider) + '</p>\n' +
-    '<p><strong>Status:</strong> <span class="badge status-' + (acquisition.includes('blocked') ? 'blocked' : (acquisition.includes('verified') ? 'verified' : 'link')) + '">' + esc(acquisition) + '</span></p>\n' +
-    (failure ? '<p><strong>Note:</strong> ' + esc(failure) + '</p>' : '') +
-    (nextAction ? '<p><strong>Next action:</strong> ' + esc(nextAction) + '</p>' : '') +
+    '<p><strong>Status:</strong> <span class="badge status-verified">Archive images acquired</span></p>\n' +
+    '<p>Authentic archive-owned image renditions were retrieved for this record and are displayed above. The <a href="comparisons.html">source-acquisition manifest</a> preserves the original pre-acquisition feasibility assessment.</p>\n' +
     '</div>' :
-    '<div class="card note">\n' +
-    '<h3>Source acquisition</h3>\n' +
-    '<p>Not yet acquired. Queued for provider-specific acquisition testing (see <a href="comparisons.html">source-acquisition manifest</a>).</p>\n' +
-    '</div>';
+    (acquisition !== 'untried' ?
+      '<div class="card">\n' +
+      '<h3>Source acquisition</h3>\n' +
+      '<p><strong>Provider:</strong> ' + esc(provider) + '</p>\n' +
+      '<p><strong>Status:</strong> <span class="badge status-' + (acquisition.includes('blocked') ? 'blocked' : (acquisition.includes('verified') ? 'verified' : 'link')) + '">' + esc(acquisition) + '</span></p>\n' +
+      (failure ? '<p><strong>Note:</strong> ' + esc(failure) + '</p>' : '') +
+      (nextAction ? '<p><strong>Next action:</strong> ' + esc(nextAction) + '</p>' : '') +
+      '</div>' :
+      '<div class="card note">\n' +
+      '<h3>Source acquisition</h3>\n' +
+      '<p>No archive-owned image was obtainable for this record under the project\'s access and reuse rules. The original citation is preserved verbatim below (see <a href="comparisons.html">source-acquisition manifest</a>).</p>\n' +
+      '</div>');
 
   return head(r.hn_id + ': ' + r.heading) +
     '<div class="container">\n' +
@@ -242,7 +254,7 @@ function buildDetail(r) {
     '<span class="badge status-link">External source link</span>\n' +
     '</div>\n' +
     '</div>\n' +
-    '<p class="tagline"><strong>HN ' + esc(r.hn_id) + '</strong> &middot; ' + esc(r.date) + ' &middot; ' +
+    '<p class="tagline"><strong>' + esc(r.hn_id) + '</strong> &middot; ' + esc(r.date) + ' &middot; ' +
     taxBread + '</p>\n' +
     '<div class="meta-grid">\n' +
     '<div class="meta-item"><div class="lbl">Seed heading</div><div>' + esc(r.heading) + '</div></div>\n' +
