@@ -3,34 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#15130f">
 <title>All Stories — Searchable Catalog — Historical Newspaper Archives</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">Historical Newspaper Archives<em></em></a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <a href="/">Home</a>
-      <a href="search.html">All Stories</a>
-      <a href="taxonomy.html">Categories</a>
-      <a href="timeline.html">Timeline</a>
-      <a href="comparisons.html">Comparisons</a>
-      <a href="about.html">Methodology</a>
+      <a href="/search.html">All Stories</a>
+      <a href="/taxonomy.html">Categories</a>
+      <a href="/timeline.html">Timeline</a>
+      <a href="/comparisons.html">Comparisons</a>
+      <a href="/about.html">Methodology</a>
     </nav>
   </div>
 </header>
-<div class="container">
-<h1>All Stories</h1>
-<p class="lead">Full searchable and filterable catalog of all <strong id="count">1056</strong> imported HN research records. Show research status for incomplete entries.</p>
-<input type="search" id="search-input" placeholder="Search by event, newspaper, person, place, year, claim, headline, or HN ID&hellip;" autofocus>
-<div id="count-label">records match</div>
-<div id="results"></div>
+<main id="main" class="container">
+<section class="page-intro">
+<p class="eyebrow">The complete catalog</p>
+<h1>All stories</h1>
+<p class="lead">Search and filter all <strong>1056</strong> research records by event, newspaper, person, place, year, claim, headline, or HN number. Newspaper reports record what publications printed; they do not establish claims as fact.</p>
+<form class="catalog-search" action="/search.html" method="get" role="search">
+<label class="visually-hidden" for="search-input">Search the archive</label>
+<input type="search" id="search-input" class="js-search-input" name="q" placeholder="Search a person, place, year, newspaper or headline&hellip;" autocomplete="off" autofocus>
+<button type="submit">Search</button>
+</form>
+<div class="search-status"><span id="count-label">records in index</span> <strong id="result-count">1056</strong></div>
+</section>
+<div id="results" class="results-list"></div>
+</main>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand-col">
+<div class="footer-brand">Historical Newspaper Archives</div>
+<p>An evidence-aware archive of what newspapers actually printed, 1777&ndash;2026. Reports are presented as historical claims, not established fact.</p>
 </div>
-<div class="site-footer">
-  Historical Newspaper Archives &middot; Evidence-aware historical newspaper research.
-  <br><small>Source URLs preserved verbatim from the HN seed queue. No original source files modified.</small>
+<div class="footer-col"><h4>Explore</h4>
+<a href="/search.html">All stories</a>
+<a href="/taxonomy.html">Categories</a>
+<a href="/timeline.html">Timeline</a>
+<a href="/comparisons.html">Comparisons</a>
 </div>
+<div class="footer-col"><h4>About</h4>
+<a href="/about.html">Methodology</a>
+<a href="/about.html#media">Image standards</a>
+<a href="/about.html#evidence">Evidence notes</a>
+</div>
+</div>
+<div class="footer-base"><span>Source URLs preserved verbatim from the HN seed queue.</span><span>No original source files modified.</span></div>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>

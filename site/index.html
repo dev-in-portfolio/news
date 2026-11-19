@@ -3,67 +3,140 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#15130f">
 <title>Home — Historical Newspaper Archives</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">Historical Newspaper Archives<em></em></a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <a href="/">Home</a>
-      <a href="search.html">All Stories</a>
-      <a href="taxonomy.html">Categories</a>
-      <a href="timeline.html">Timeline</a>
-      <a href="comparisons.html">Comparisons</a>
-      <a href="about.html">Methodology</a>
+      <a href="/search.html">All Stories</a>
+      <a href="/taxonomy.html">Categories</a>
+      <a href="/timeline.html">Timeline</a>
+      <a href="/comparisons.html">Comparisons</a>
+      <a href="/about.html">Methodology</a>
     </nav>
   </div>
 </header>
-<div class="container">
-<h1>Historical Newspaper Archives</h1>
-<p class="lead">An evidence-aware research and discovery archive of unusual, forgotten, consequential, and sometimes disputed newspaper reporting covering 1777&ndash;2026. Newspaper reports record what publications printed &mdash; they do not establish claims as fact.</p>
-<div class="stat-grid">
-  <div class="stat"><div class="val">1056</div><div class="lbl">HN research records indexed</div></div>
-  <div class="stat"><div class="val">84</div><div class="lbl">Curated inconsistency/revision flags</div></div>
-  <div class="stat"><div class="val">105</div><div class="lbl">Heuristic keyword leads</div></div>
-  <div class="stat"><div class="val">867</div><div class="lbl">Indexed records (no discrepancy asserted)</div></div>
+<main id="main" class="home">
+<section class="home-hero">
+<div class="hero-copy">
+<p class="eyebrow">Independent newspaper archive <span aria-hidden="true">/</span> 1777&ndash;2026</p>
+<h1>What the papers<br><em>actually printed.</em></h1>
+<p class="hero-dek">Unusual, forgotten, consequential and disputed reporting, preserved with its original citation and paired with authentic archive scans. A newspaper report records what a publication printed &mdash; not proof that its claim was true.</p>
+<form class="hero-search" action="/search.html" method="get" role="search">
+<label class="visually-hidden" for="search-input">Search the archive</label>
+<input type="search" id="search-input" class="js-search-input" name="q" placeholder="Search a person, place or year&hellip;" autocomplete="off">
+<button type="submit">Search</button>
+</form>
+<div class="hero-actions"><a href="/search.html">Browse all 1,056 records</a><a href="/about.html">How the archive works</a></div>
 </div>
-<h2 class="section-title">Featured reference stories</h2>
-<p>End-to-end local pages with authentic sources and honest media-availability records. These are technical/editorial integration tests, not a sample standing in for the full archive.</p>
-<div class="card">
-<h2><a href="stories/hn-403-black-tom.html">HN-403: Black Tom ammunition depot explodes near New York Harbor</a></h2>
-<div class="meta">July 31, 1916 &middot; Disasters, Accidents &amp; Emergencies</div>
-<span class="badge tier-a">Evidence tier A-direct</span><span class="badge cls-v">Curated flag: Printed differences</span>
-<p>Black Tom 31 July 1916: Morning Oregonian THREE known dead and at least FIVE missing versus Eugene Daily Guard FOUR killed and ELEVEN–TWENTY missing.</p>
-<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=EVRP19160731.2.7" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=EVRP19160731.2.7</a></p>
+<figure class="hero-visual">
+<div class="hero-sheet"><img src="/assets/images/hn-645-shapell-dallas-morning-news-19631123-p1-page.jpg" alt="Archive page scan of The Dallas Morning News, 1963-11-23"></div>
+<figcaption><span>The Dallas Morning News, 1963-11-23 — page scan</span><span class="hero-record">HN-645</span></figcaption>
+</figure>
+</section>
+<div class="hero-ledger stat-grid">
+<div class="ledger-item"><strong>1,056</strong><span>research records</span></div>
+<div class="ledger-item"><strong>84</strong><span>curated revision flags</span></div>
+<div class="ledger-item"><strong>105</strong><span>heuristic keyword leads</span></div>
+<div class="ledger-item"><strong>867</strong><span>indexed only</span></div>
 </div>
-<div class="card">
-<h2><a href="stories/hn-753-mexico-city.html">HN-753: Mexico City earthquake initially reported as 7.8, with 230 confirmed dead</a></h2>
-<div class="meta">September 20, 1985 &middot; Disasters, Accidents &amp; Emergencies</div>
-<span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span>
-<p>Mexico City quake 20 Sept 1985: Lawton Morning Press police count at least 170; seed ~230; Muskogee Daily Phoenix TV estimate at least 250.</p>
-<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=BG19850920.1.2" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=BG19850920.1.2</a></p>
+<section class="home-section">
+<div class="section-head"><div><p class="eyebrow">Selected records</p><h2>Featured stories</h2></div><a class="section-link" href="/search.html">All stories <span aria-hidden="true">&rarr;</span></a></div>
+<p class="section-dek">Three records with full editorial treatment: source comparison, reporting chronology, and the original scans side by side.</p>
+<div class="story-grid"><article class="story-card">
+<a class="story-media" href="stories/hn-403-black-tom.html" tabindex="-1" aria-hidden="true"><img src="/assets/images/hn-403-sn96088115-1916-07-30-seq4-page.jpg" alt="" loading="lazy" decoding="async"><span class="story-media-tag">Morning Register</span></a><div class="story-body">
+<p class="story-kicker">July 31, 1916 <span aria-hidden="true">/</span> Disasters, Accidents &amp; Emergencies</p>
+<h3><a href="stories/hn-403-black-tom.html">HN-403: Black Tom ammunition depot explodes near New York Harbor</a></h3>
+<div class="story-badges"><span class="badge tier-a">Evidence tier A-direct</span><span class="badge cls-v">Curated flag: Printed differences</span></div>
+<div class="story-dek">Black Tom 31 July 1916: Morning Oregonian THREE known dead and at least FIVE missing versus Eugene Daily Guard FOUR killed and ELEVEN–TWENTY missing.</div>
+<a class="story-link" href="stories/hn-403-black-tom.html">Read the record <span aria-hidden="true">&rarr;</span></a>
 </div>
-<div class="card">
-<h2><a href="stories/hn-894-sago-mine.html">HN-894: Sago families receive a false announcement of survival</a></h2>
-<div class="meta">February 28, 2006 &middot; Disasters, Accidents &amp; Emergencies</div>
-<span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span>
-<p>Sago mine January 2006: announcement that 12 miners were alive was false; papers corrected to 12 dead/one survivor. LA Times printed survivor's name 'Ronald McCloy'; Washington Post gives Randal McCloy.</p>
-<p class="note"><strong>Source status:</strong> Curated flag (Printed differences). Original seed URL: <a href="https://newspapers.library.in.gov/?a=d&amp;d=JFBSTR20060228.1.2" target="_blank" rel="noopener noreferrer" class="external">https://newspapers.library.in.gov/?a=d&amp;d=JFBSTR20060228.1.2</a></p>
-</div><h2 class="section-title">Browse by category</h2>
-<p>Explore the locked taxonomy &mdash; 13 main categories, 100 subcategories, 361 third-level labels.</p>
-<a href="taxonomy.html" class="btn">Open category explorer &rarr;</a>
-<h2 class="section-title">Search the catalog</h2>
-<p>Search by event, newspaper, person, place, year, claim, headline, or HN ID.</p>
-<input type="search" id="search-input" placeholder="Search 1,056 records&hellip;" autofocus>
-<div id="count"><span id="count-label">records in index</span>: <span id="count">1056</span></div>
-<div id="results"></div>
+</article>
+<article class="story-card">
+<a class="story-media" href="stories/hn-753-mexico-city.html" tabindex="-1" aria-hidden="true"><img src="/assets/images/hn-753-ok-metadc2568378-m1p1-page.jpg" alt="" loading="lazy" decoding="async"><span class="story-media-tag">[A] Lawton Morning Press — Lawton, Oklahoma — September 20, 1985, p. 1.</span></a><div class="story-body">
+<p class="story-kicker">September 20, 1985 <span aria-hidden="true">/</span> Disasters, Accidents &amp; Emergencies</p>
+<h3><a href="stories/hn-753-mexico-city.html">HN-753: Mexico City earthquake initially reported as 7.8, with 230 confirmed dead</a></h3>
+<div class="story-badges"><span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span></div>
+<div class="story-dek">Mexico City quake 20 Sept 1985: Lawton Morning Press police count at least 170; seed ~230; Muskogee Daily Phoenix TV estimate at least 250.</div>
+<a class="story-link" href="stories/hn-753-mexico-city.html">Read the record <span aria-hidden="true">&rarr;</span></a>
 </div>
-<div class="site-footer">
-  Historical Newspaper Archives &middot; Evidence-aware historical newspaper research.
-  <br><small>Source URLs preserved verbatim from the HN seed queue. No original source files modified.</small>
+</article>
+<article class="story-card">
+<a class="story-media" href="stories/hn-894-sago-mine.html" tabindex="-1" aria-hidden="true"><img src="/assets/images/hn-894-in-JFBSTR20060228-p1-2-page.jpg" alt="" loading="lazy" decoding="async"><span class="story-media-tag">Jefferson Booster</span></a><div class="story-body">
+<p class="story-kicker">February 28, 2006 <span aria-hidden="true">/</span> Disasters, Accidents &amp; Emergencies</p>
+<h3><a href="stories/hn-894-sago-mine.html">HN-894: Sago families receive a false announcement of survival</a></h3>
+<div class="story-badges"><span class="badge tier-a">Evidence tier A</span><span class="badge cls-v">Curated flag: Printed differences</span></div>
+<div class="story-dek">Sago mine January 2006: announcement that 12 miners were alive was false; papers corrected to 12 dead/one survivor. LA Times printed survivor's name 'Ronald McCloy'; Washington Post gives Randal McCloy.</div>
+<a class="story-link" href="stories/hn-894-sago-mine.html">Read the record <span aria-hidden="true">&rarr;</span></a>
 </div>
+</article></div>
+</section>
+<section class="home-section">
+<div class="section-head"><div><p class="eyebrow">1777&ndash;2026</p><h2>Across the decades</h2></div><a class="section-link" href="/timeline.html">Open timeline <span aria-hidden="true">&rarr;</span></a></div>
+<p class="section-dek">958 of the 1,056 records carry at least one authentic archive scan &mdash; 1,812 image assets in all. One page from each decade below; open a scan to see the record it belongs to.</p>
+<div class="mosaic"><a class="mosaic-item mosaic-item-1" href="stories/HN-001.html"><img src="/assets/images/hn-001-loc-sn83021126-1777-07-22-seq2-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>July 22, 1777</strong> Crime, Law &amp; Justice</span></a>
+<a class="mosaic-item mosaic-item-2" href="stories/HN-106.html"><img src="/assets/images/hn-106-in-IP18300529-p1-2-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>May 29, 1830</strong> Civil Rights &amp; Social Change</span></a>
+<a class="mosaic-item mosaic-item-3" href="stories/HN-283.html"><img src="/assets/images/hn-283-tx-metapth467761-m1p1-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>July 18, 1890</strong> Disasters, Accidents &amp; Emergencies</span></a>
+<a class="mosaic-item mosaic-item-4" href="stories/HN-378.html"><img src="/assets/images/hn-378-2006260039-1911-12-01-seq1-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>December 6, 1911</strong> War, Conflict &amp; Security</span></a>
+<a class="mosaic-item mosaic-item-5" href="stories/HN-466.html"><img src="/assets/images/hn-466-sn97071090-1930-04-22-seq1-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>April 22, 1930</strong> Disasters, Accidents &amp; Emergencies</span></a>
+<a class="mosaic-item mosaic-item-6" href="stories/HN-577.html"><img src="/assets/images/hn-577-sn85042470-1950-01-28-seq4-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>January 29, 1950</strong> Politics, Government &amp; Diplomacy</span></a>
+<a class="mosaic-item mosaic-item-7" href="stories/HN-677.html"><img src="/assets/images/hn-677-flickr-melbourne-herald-19700418-p1-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>April 29, 1970</strong> Science, Invention &amp; Technology</span></a>
+<a class="mosaic-item mosaic-item-8" href="stories/HN-849.html"><img src="/assets/images/hn-849-in-BALLMT20000420-01-p1-2-page.jpg" alt="" loading="lazy" decoding="async"><span><strong>April 20, 2000</strong> Civil Rights &amp; Social Change</span></a></div>
+</section>
+<section class="home-section">
+<div class="section-head"><div><p class="eyebrow">13 categories</p><h2>Browse the archive</h2></div><a class="section-link" href="/taxonomy.html">Full taxonomy <span aria-hidden="true">&rarr;</span></a></div>
+<div class="category-grid"><a class="category-tile" href="search.html?q=Crime%2C%20Law%20%26%20Justice"><span class="category-count">208</span><span class="category-name">Crime, Law &amp; Justice</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=War%2C%20Conflict%20%26%20Security"><span class="category-count">173</span><span class="category-name">War, Conflict &amp; Security</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Paranormal%2C%20Folklore%20%26%20Curiosities"><span class="category-count">27</span><span class="category-name">Paranormal, Folklore &amp; Curiosities</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Economy%2C%20Labor%20%26%20Industry"><span class="category-count">32</span><span class="category-name">Economy, Labor &amp; Industry</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Disasters%2C%20Accidents%20%26%20Emergencies"><span class="category-count">192</span><span class="category-name">Disasters, Accidents &amp; Emergencies</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Medicine%20%26%20Public%20Health"><span class="category-count">48</span><span class="category-name">Medicine &amp; Public Health</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Civil%20Rights%20%26%20Social%20Change"><span class="category-count">112</span><span class="category-name">Civil Rights &amp; Social Change</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Politics%2C%20Government%20%26%20Diplomacy"><span class="category-count">83</span><span class="category-name">Politics, Government &amp; Diplomacy</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Archaeology%2C%20History%20%26%20Exploration"><span class="category-count">12</span><span class="category-name">Archaeology, History &amp; Exploration</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Transportation%20%26%20Maritime"><span class="category-count">64</span><span class="category-name">Transportation &amp; Maritime</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Culture%2C%20Religion%20%26%20Media"><span class="category-count">41</span><span class="category-name">Culture, Religion &amp; Media</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Science%2C%20Invention%20%26%20Technology"><span class="category-count">54</span><span class="category-name">Science, Invention &amp; Technology</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a>
+<a class="category-tile" href="search.html?q=Nature%2C%20Wildlife%20%26%20Environment"><span class="category-count">10</span><span class="category-name">Nature, Wildlife &amp; Environment</span><span class="category-arrow" aria-hidden="true">&rarr;</span></a></div>
+</section>
+<section class="home-section home-search-section" id="search">
+<div class="section-head"><div><p class="eyebrow">The catalog</p><h2>Search 1,056 records</h2></div></div>
+<form class="catalog-search" action="/search.html" method="get" role="search">
+<label class="visually-hidden" for="search-input-bottom">Search the catalog</label>
+<input type="search" id="search-input-bottom" class="js-search-input" name="q" placeholder="Try a newspaper, a year, a person, or an HN number&hellip;" autocomplete="off">
+<button type="submit">Search</button>
+</form>
+<div class="search-status"><span id="count-label">records in index</span> <strong id="result-count">1056</strong></div>
+<div id="results" class="results-list"></div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand-col">
+<div class="footer-brand">Historical Newspaper Archives</div>
+<p>An evidence-aware archive of what newspapers actually printed, 1777&ndash;2026. Reports are presented as historical claims, not established fact.</p>
+</div>
+<div class="footer-col"><h4>Explore</h4>
+<a href="/search.html">All stories</a>
+<a href="/taxonomy.html">Categories</a>
+<a href="/timeline.html">Timeline</a>
+<a href="/comparisons.html">Comparisons</a>
+</div>
+<div class="footer-col"><h4>About</h4>
+<a href="/about.html">Methodology</a>
+<a href="/about.html#media">Image standards</a>
+<a href="/about.html#evidence">Evidence notes</a>
+</div>
+</div>
+<div class="footer-base"><span>Source URLs preserved verbatim from the HN seed queue.</span><span>No original source files modified.</span></div>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>

@@ -20,19 +20,46 @@ function readJsonBom(p) {
   return JSON.parse(raw);
 }
 // Repair common UTF-8-as-Latin-1 mojibake in display text only (not identifiers/urls).
-const MOJI = [
-  [/â€”/g, '\u2014'], [/â€“/g, '\u2013'], [/â€”/g, '\u2014'],
-  [/â€œ/g, '\u201C'], [/â€\u201D/g, '\u201D'], [/â€\u0093/g, '\u201C'], [/â€\u0094/g, '\u201D'],
-  [/â€™/g, '\u2019'], [/â€˜/g, '\u2018'], [/â€\u0099/g, '\u2019'], [/â€\u0098/g, '\u2018'],
-  [/â€¢/g, '\u2022'], [/â€¦/g, '\u2026'], [/â€\u00A2/g, '\u2022'], [/â€\u00A6/g, '\u2026'],
-  [/Ã©/g, '\u00E9'], [/Ã¨/g, '\u00E8'], [/Ãº/g, '\u00FA'], [/Ã±/g, '\u00F1'],
-  [/Ã§/g, '\u00E7'], [/Ã¶/g, '\u00F6'], [/Ã¤/g, '\u00E4'], [/Ã¼/g, '\u00FC'],
-  [/Ã±/g, '\u00F1'], [/Ã/g, '\u00C1'], [/Ã‰/g, '\u00C9']
-];
+const CP1252_BYTE = {
+  0x20AC: 0x80, 0x201A: 0x82, 0x0192: 0x83, 0x201E: 0x84, 0x2026: 0x85,
+  0x2020: 0x86, 0x2021: 0x87, 0x02C6: 0x88, 0x2030: 0x89, 0x0160: 0x8A,
+  0x2039: 0x8B, 0x0152: 0x8C, 0x017D: 0x8E, 0x2018: 0x91, 0x2019: 0x92,
+  0x201C: 0x93, 0x201D: 0x94, 0x2022: 0x95, 0x2013: 0x96, 0x2014: 0x97,
+  0x02DC: 0x98, 0x2122: 0x99, 0x0161: 0x9A, 0x203A: 0x9B, 0x0153: 0x9C,
+  0x017E: 0x9E, 0x0178: 0x9F
+};
+function cp1252Byte(ch) {
+  const cp = ch.codePointAt(0);
+  if (cp === undefined) return undefined;
+  if (cp <= 0x7F) return cp;
+  if (cp >= 0x80 && cp <= 0xFF) return cp;
+  return CP1252_BYTE[cp];
+}
+function decodeMojibakeRun(chars) {
+  const bytes = [];
+  for (const ch of chars) {
+    const b = cp1252Byte(ch);
+    if (b === undefined) return null;
+    bytes.push(b);
+  }
+  const decoded = Buffer.from(bytes).toString('utf8');
+  return decoded.indexOf('\uFFFD') === -1 ? decoded : null;
+}
 function fixMoji(s) {
   if (typeof s !== 'string') return s;
-  let out = s;
-  MOJI.forEach(([re, ch]) => { out = out.replace(re, ch); });
+  let out = '';
+  for (let i = 0; i < s.length;) {
+    if (s[i] === '\u00E2' && s[i + 1] === '\u20AC' && i + 2 < s.length) {
+      const dec = decodeMojibakeRun(s.slice(i, i + 3));
+      if (dec) { out += dec; i += 3; continue; }
+    }
+    if ((s[i] === '\u00C3' || s[i] === '\u00C2') && i + 1 < s.length) {
+      const dec = decodeMojibakeRun(s.slice(i, i + 2));
+      if (dec) { out += dec; i += 2; continue; }
+    }
+    out += s[i];
+    i += 1;
+  }
   return out;
 }
 
@@ -84,6 +111,19 @@ fs.mkdirSync(OUT, { recursive: true });
 // records.json
 fs.writeFileSync(path.join(OUT, 'records.json'), JSON.stringify(records, null, 2));
 
+// Strip markdown/HTML noise so search-result snippets read as prose.
+function plainText(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/https?:\/\/\S+/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/[*_`#>]+/g, '')
+    .replace(/\\+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 // search.json — lean index for client-side search
 const searchIndex = records.map(r => ({
   id: r.hn_id,
@@ -95,7 +135,7 @@ const searchIndex = records.map(r => ({
   tier: r.evidence_tier,
   cls: r.curated_class,
   url: r.url,
-  s: (r.recorded_finding || r.discovery_body || r.discovery_title || '').slice(0, 300)
+  s: plainText(r.recorded_finding || r.discovery_body || r.discovery_title || '').slice(0, 300)
 }));
 fs.writeFileSync(path.join(OUT, 'search.json'), JSON.stringify(searchIndex, null, 2));
 

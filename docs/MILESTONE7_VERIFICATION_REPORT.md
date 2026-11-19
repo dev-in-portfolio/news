@@ -46,7 +46,7 @@
 | Timeline page links to detail pages | PASS |  |
 | About page has evidence language | PASS |  |
 | About page has inconsistency classes | PASS |  |
-| No broken internal page links | PASS | 0 broken (6834 total links checked) |
+| No broken internal page links | PASS | 0 broken (12177 total links checked) |
 | Re-import idempotent (records.json unchanged) | PASS |  |
 | No private research notes in public pages | PASS | 0 pages with potential leaks |
 
@@ -54,7 +54,7 @@
 
 - Checks passed: 40
 - Checks failed: 0
-- Total internal links checked: 6834
+- Total internal links checked: 12177
 - Story pages: 1059 (1,056 HN + 3 reference)
 - Data files: records.json, search.json, taxonomy.json, comparisons.json, stats.json
 

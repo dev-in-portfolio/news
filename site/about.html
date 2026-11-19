@@ -3,24 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#15130f">
 <title>About the Archive — Methodology — Historical Newspaper Archives</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">Historical Newspaper Archives<em></em></a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <a href="/">Home</a>
-      <a href="search.html">All Stories</a>
-      <a href="taxonomy.html">Categories</a>
-      <a href="timeline.html">Timeline</a>
-      <a href="comparisons.html">Comparisons</a>
-      <a href="about.html">Methodology</a>
+      <a href="/search.html">All Stories</a>
+      <a href="/taxonomy.html">Categories</a>
+      <a href="/timeline.html">Timeline</a>
+      <a href="/comparisons.html">Comparisons</a>
+      <a href="/about.html">Methodology</a>
     </nav>
   </div>
 </header>
-<div class="container">
+<main id="main" class="container">
 <h1>About the Archive / Methodology</h1>
 <p class="lead">What this collection is, how sources are gathered, the A/B/C evidence language, limitations, corrections, and contact information.</p>
 <div class="card">
@@ -39,7 +42,7 @@
 <li>Original scanned articles are the primary visual artifact wherever legitimately available.</li>
 </ul>
 </div>
-<div class="card">
+<div class="card" id="evidence">
 <h2>Evidence language (A / B / C)</h2>
 <ul>
 <li><strong>A:</strong> Accessible/inspected original article or primary page, as justified by the underlying source report.</li>
@@ -60,7 +63,7 @@
 </ul>
 <p class="note">Curated flags (84) and heuristic keyword leads (105) are tracked separately and never summed into a "confirmed contradiction" count.</p>
 </div>
-<div class="card">
+<div class="card" id="media">
 <h2>Source-first media policy</h2>
 <p>Authentic article scans/crops are displayed only where acquisition and permitted reuse allow. Where permissions or access are unclear, an external source link is used instead of an unauthorized copied image. No AI-generated images, fabricated archive photos, or altered newspaper typography are used as historical evidence.</p>
 </div>
@@ -69,11 +72,27 @@
 <p>Story pages show the most recent reviewed date and distinguish newly added evidence from corrections to prior interpretations. A visible correction/contact route is provided. Historical record and earlier published interpretations are preserved for audit without silently changing source evidence. Private research notes are never exposed in public builds.</p>
 <p><strong>No live deployment has been authorized.</strong> A later possible path is darkstarconsultinggroup.com/newspaper-archives, but it is not an established deployment target.</p>
 </div>
+</main>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand-col">
+<div class="footer-brand">Historical Newspaper Archives</div>
+<p>An evidence-aware archive of what newspapers actually printed, 1777&ndash;2026. Reports are presented as historical claims, not established fact.</p>
 </div>
-<div class="site-footer">
-  Historical Newspaper Archives &middot; Evidence-aware historical newspaper research.
-  <br><small>Source URLs preserved verbatim from the HN seed queue. No original source files modified.</small>
+<div class="footer-col"><h4>Explore</h4>
+<a href="/search.html">All stories</a>
+<a href="/taxonomy.html">Categories</a>
+<a href="/timeline.html">Timeline</a>
+<a href="/comparisons.html">Comparisons</a>
 </div>
+<div class="footer-col"><h4>About</h4>
+<a href="/about.html">Methodology</a>
+<a href="/about.html#media">Image standards</a>
+<a href="/about.html#evidence">Evidence notes</a>
+</div>
+</div>
+<div class="footer-base"><span>Source URLs preserved verbatim from the HN seed queue.</span><span>No original source files modified.</span></div>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>

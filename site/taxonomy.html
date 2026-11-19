@@ -3,24 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#15130f">
 <title>Categories — Locked Taxonomy — Historical Newspaper Archives</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="/">Historical Newspaper Archives<em></em></a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <a href="/">Home</a>
-      <a href="search.html">All Stories</a>
-      <a href="taxonomy.html">Categories</a>
-      <a href="timeline.html">Timeline</a>
-      <a href="comparisons.html">Comparisons</a>
-      <a href="about.html">Methodology</a>
+      <a href="/search.html">All Stories</a>
+      <a href="/taxonomy.html">Categories</a>
+      <a href="/timeline.html">Timeline</a>
+      <a href="/comparisons.html">Comparisons</a>
+      <a href="/about.html">Methodology</a>
     </nav>
   </div>
 </header>
-<div class="container">
+<main id="main" class="container">
 <h1>Categories</h1>
 <p class="lead">The locked taxonomy: <strong>13 main categories</strong>, <strong>100 subcategories</strong>, and <strong>361 third-level labels</strong>. Populated leaves are shown; empty leaves are retained in the schema but not displayed as destinations.</p>
 <div class="tax-root">
@@ -392,7 +395,7 @@
 <div class="tax-sub"><span class="sub-name">Climate &amp; Long-Term Environmental Change</span> <span class="tax-count">(1)</span></div>
 <div class="tax-leaf"><a href="search.html?q=Environmental change">Environmental change</a> <span class="tax-count">(1)</span></div>
 </div>
-</div>
+</main>
 <script>
 function toggleTax(el) {
   const parent = el.parentElement;
@@ -404,10 +407,26 @@ function toggleTax(el) {
 // Collapse all by default
 document.querySelectorAll('.tax-root').forEach(r => { r.setAttribute('data-expanded','false'); r.querySelectorAll('.tax-sub,.tax-leaf').forEach(s=>s.style.display='none'); });
 </script>
-<div class="site-footer">
-  Historical Newspaper Archives &middot; Evidence-aware historical newspaper research.
-  <br><small>Source URLs preserved verbatim from the HN seed queue. No original source files modified.</small>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand-col">
+<div class="footer-brand">Historical Newspaper Archives</div>
+<p>An evidence-aware archive of what newspapers actually printed, 1777&ndash;2026. Reports are presented as historical claims, not established fact.</p>
 </div>
+<div class="footer-col"><h4>Explore</h4>
+<a href="/search.html">All stories</a>
+<a href="/taxonomy.html">Categories</a>
+<a href="/timeline.html">Timeline</a>
+<a href="/comparisons.html">Comparisons</a>
+</div>
+<div class="footer-col"><h4>About</h4>
+<a href="/about.html">Methodology</a>
+<a href="/about.html#media">Image standards</a>
+<a href="/about.html#evidence">Evidence notes</a>
+</div>
+</div>
+<div class="footer-base"><span>Source URLs preserved verbatim from the HN seed queue.</span><span>No original source files modified.</span></div>
+</footer>
 <script src="../assets/app.js"></script>
 </body>
 </html>
