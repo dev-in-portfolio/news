@@ -209,5 +209,61 @@
       if (!a.target) a.target = '_blank';
       if (!a.rel) a.rel = 'noopener noreferrer';
     });
+
+    // ------------------------------------------------------------ Typewriter
+    (function typewriter() {
+      var heads = document.querySelectorAll('.typewriter-headline');
+      heads.forEach(function (head) {
+        var text = head.textContent;
+        head.textContent = '';
+        var cursor = document.createElement('span');
+        cursor.className = 'type-cursor';
+        head.appendChild(cursor);
+        var i = 0;
+        var interval = setInterval(function () {
+          if (i < text.length) {
+            cursor.insertAdjacentText('beforebegin', text[i]);
+            i += 1;
+          } else {
+            clearInterval(interval);
+          }
+        }, 28);
+      });
+    })();
+
+    // ------------------------------------------------------------ Parallax
+    (function parallax() {
+      var items = document.querySelectorAll('.desk-item');
+      if (!items.length) return;
+      var move = function (e) {
+        var x = (e.clientX / window.innerWidth - 0.5) * 2;
+        var y = (e.clientY / window.innerHeight - 0.5) * 2;
+        items.forEach(function (item, idx) {
+          var strength = (idx + 1) * 4;
+          var tx = x * strength;
+          var ty = y * strength;
+          item.style.transform = 'rotate(' + ((idx % 2 === 0 ? -2.2 : 1.8) + tx * 0.15) + 'deg) translate(' + tx + 'px,' + ty + 'px)';
+        });
+      };
+      document.addEventListener('mousemove', move);
+    })();
+
+    // ----------------------------------------------------------- Scroll reveal
+    (function reveal() {
+      var els = document.querySelectorAll('.reveal');
+      if (!els.length || !window.IntersectionObserver) {
+        els.forEach(function (el) { el.classList.add('revealed'); });
+        return;
+      }
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (el) { obs.observe(el); });
+    })();
   });
 })();

@@ -274,7 +274,23 @@ function buildHomepage() {
     const count = root.subs.reduce(function (sum, sub) {
       return sum + sub.leaves.reduce(function (n, leaf) { return n + leaf.count; }, 0);
     }, 0);
-    return '<a class="category-tile" href="search.html?q=' + encodeURIComponent(root.root) + '">' +
+    const evMap = {
+      'Crime, Law & Justice': 'evidence-v',
+      'War, Conflict & Security': 'evidence-r',
+      'Disasters, Accidents & Emergencies': 'evidence-p',
+      'Civil Rights & Social Change': 'evidence-m',
+      'Politics, Government & Diplomacy': 'evidence-f',
+      'Medicine & Public Health': 'evidence-m',
+      'Economy, Labor & Industry': 'evidence-p',
+      'Transportation & Maritime': 'evidence-m',
+      'Culture, Religion & Media': 'evidence-q',
+      'Science, Invention & Technology': 'evidence-q',
+      'Archaeology, History & Exploration': 'evidence-a',
+      'Paranormal, Folklore & Curiosities': 'evidence-q',
+      'Nature, Wildlife & Environment': 'evidence-a'
+    };
+    const evClass = evMap[root.root] || 'evidence-default';
+    return '<a class="category-tile ' + evClass + '" href="search.html?q=' + encodeURIComponent(root.root) + '">' +
       '<span class="category-count">' + count + '</span>' +
       '<span class="category-name">' + esc(root.root) + '</span>' +
       '<span class="category-arrow" aria-hidden="true">&rarr;</span></a>';
@@ -285,10 +301,10 @@ function buildHomepage() {
 
   return head('Home') +
     '<main id="main" class="home">\n' +
-    '<section class="home-hero">\n' +
+    '<section class="home-hero reveal d-1">\n' +
     '<div class="hero-copy">\n' +
-    '<p class="eyebrow">Independent newspaper archive <span aria-hidden="true">/</span> 1777&ndash;2026</p>\n' +
-    '<h1>What the papers<br><em>actually printed.</em></h1>\n' +
+    '<p class="eyebrow"><span class="breaking-tag">BREAKING<dot></dot></span> Independent newspaper archive <span aria-hidden="true">/</span> 1777&ndash;2026</p>\n' +
+    '<h1 class="typewriter-headline">What the papers<br><em>actually printed.</em></h1>\n' +
     '<p class="hero-dek">Unusual, forgotten, consequential and disputed reporting, preserved with its original citation and paired with authentic archive scans. A newspaper report records what a publication printed &mdash; not proof that its claim was true.</p>\n' +
     '<form class="hero-search" action="/search.html" method="get" role="search">\n' +
     '<label class="visually-hidden" for="search-input">Search the archive</label>\n' +
@@ -317,21 +333,21 @@ function buildHomepage() {
     '<div class="ledger-item"><strong>' + stats.heuristic.toLocaleString('en-US') + '</strong><span>heuristic keyword leads</span></div>\n' +
     '<div class="ledger-item"><strong>' + stats.indexedOnly.toLocaleString('en-US') + '</strong><span>indexed only</span></div>\n' +
     '</div>\n' +
-    '<section class="home-section">\n' +
+    '<section class="home-section reveal d-2">\n' +
     '<div class="section-head"><div><p class="eyebrow">Selected records</p><h2>Featured stories</h2></div><a class="section-link" href="/search.html">All stories <span aria-hidden="true">&rarr;</span></a></div>\n' +
     '<p class="section-dek">Three records with full editorial treatment: source comparison, reporting chronology, and the original scans side by side.</p>\n' +
     '<div class="story-grid">' + featuredHtml + '</div>\n' +
     '</section>\n' +
-    '<section class="home-section">\n' +
+    '<section class="home-section reveal d-3">\n' +
     '<div class="section-head"><div><p class="eyebrow">1777&ndash;2026</p><h2>Across the decades</h2></div><a class="section-link" href="/timeline.html">Open timeline <span aria-hidden="true">&rarr;</span></a></div>\n' +
     '<p class="section-dek">' + illustrated.toLocaleString('en-US') + ' of the ' + stats.total.toLocaleString('en-US') + ' records carry at least one authentic archive scan &mdash; ' + assets.toLocaleString('en-US') + ' image assets in all. One page from each decade below; open a scan to see the record it belongs to.</p>\n' +
     '<div class="mosaic">' + mosaicHtml + '</div>\n' +
     '</section>\n' +
-    '<section class="home-section">\n' +
+    '<section class="home-section reveal d-4">\n' +
     '<div class="section-head"><div><p class="eyebrow">13 categories</p><h2>Browse the archive</h2></div><a class="section-link" href="/taxonomy.html">Full taxonomy <span aria-hidden="true">&rarr;</span></a></div>\n' +
     '<div class="category-grid">' + categoryHtml + '</div>\n' +
     '</section>\n' +
-    '<section class="home-section home-search-section" id="search">\n' +
+    '<section class="home-section home-search-section reveal d-5" id="search">\n' +
     '<div class="section-head"><div><p class="eyebrow">The catalog</p><h2>Search 1,056 records</h2></div></div>\n' +
     '<form class="catalog-search" action="/search.html" method="get" role="search">\n' +
     '<label class="visually-hidden" for="search-input-bottom">Search the catalog</label>\n' +
