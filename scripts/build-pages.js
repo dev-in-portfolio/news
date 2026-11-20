@@ -154,6 +154,15 @@ function heroAlt(im) {
   if (!im) return 'Archive newspaper page scan';
   return 'Archive page scan of ' + displayName(im) + (im.issue_date ? ', ' + im.issue_date : '');
 }
+function collageItem(im, hnLabel, deskClass) {
+  if (!im) return '';
+  const src = pickSrc(im, true);
+  if (!src) return '';
+  return '<div class="desk-item ' + deskClass + '">\n' +
+    '<img src="/' + esc(src) + '" alt="' + esc(heroAlt(im)) + '">\n' +
+    '<span class="desk-tag">' + esc(hnLabel) + '</span>\n' +
+    '</div>\n';
+}
 function assetCount() {
   const seen = new Set();
   Object.keys(imagesByHn).forEach(function (hn) {
@@ -289,8 +298,17 @@ function buildHomepage() {
     '<div class="hero-actions"><a href="/search.html">Browse all 1,056 records</a><a href="/about.html">How the archive works</a></div>\n' +
     '</div>\n' +
     (heroSrc ? '<figure class="hero-visual">\n' +
-      '<div class="hero-sheet"><img src="/' + esc(heroSrc) + '" alt="' + esc(heroAlt(heroIm)) + '"></div>\n' +
-      '<figcaption><span>' + esc(heroCaption) + '</span><span class="hero-record">HN-645</span></figcaption>\n' +
+      '<div class="hero-collage">\n' +
+      collageItem(heroIm, 'HN-645', 'desk-1') +
+      collageItem(pickImage('HN-403', { prefer: 'full' }), 'HN-403', 'desk-2') +
+      collageItem(pickImage('HN-753', { prefer: 'full' }), 'HN-753', 'desk-3') +
+      collageItem(pickImage('HN-894', { prefer: 'full' }), 'HN-894', 'desk-4') +
+      '</div>\n' +
+      '<div class="ink-blot ink-1"></div>\n' +
+      '<div class="ink-blot ink-2"></div>\n' +
+      '<div class="ink-blot ink-3"></div>\n' +
+      '<div class="press-stamp" aria-hidden="true">PRESS</div>\n' +
+      '<figcaption>Four records, four scans &mdash; authentic archive pages, not screenshots. Open a record to see the full scan.</figcaption>\n' +
       '</figure>\n' : '') +
     '</section>\n' +
     '<div class="hero-ledger stat-grid">\n' +
